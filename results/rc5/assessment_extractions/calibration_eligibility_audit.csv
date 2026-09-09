@@ -1,0 +1,9 @@
+substrate,roster_n,evaluation_n,minimum_calibration_receptions,mapped_receivers_below10,messages_with_changed_selected_set,messages_below3_after_calibration_filter,population_hash_verified
+official26_common_minus71,26,2494,69,,0,0,True
+official27_common,27,2498,58,,0,0,True
+official32_minus71,32,2498,46,,0,0,True
+official33_published,33,2495,46,,0,0,True
+official33_repaired71,33,2495,46,,0,0,True
+recovered26_common_minus71,26,2494,69,,0,0,True
+recovered27_common,27,2498,58,,0,0,True
+recovered29,29,2498,30,,0,0,True

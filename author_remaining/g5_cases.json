@@ -1,0 +1,5582 @@
+[
+  {
+    "case_id": "g5__recovered29__n3p5__ref",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      584.3011457663958,
+      660.8163328599535,
+      965.3007810524468,
+      489.8414146431944
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__ref.npz",
+    "spec": {
+      "kind": "reference"
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__one__d0",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      584.8520703455465,
+      662.2525802449322,
+      976.4497788351072,
+      489.8414146431944
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__one__d0.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 0,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__all__d0",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      4798.161152991143,
+      3071.9747724964454,
+      3423.747271281034,
+      2861.6335016323264
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__all__d0.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 0,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top6__d0",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      861.4410859617992,
+      1024.2308790048073,
+      1303.802277988563,
+      940.2230235129375
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top6__d0.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 0,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top7__d0",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      2239.721173922185,
+      1227.0754426128628,
+      1580.0395122491423,
+      1901.9803643649525
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top7__d0.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 0,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__legacy_iso__d0",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      688.6594290736765,
+      757.0872092111149,
+      1167.2820601696712,
+      540.7835269488893
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__legacy_iso__d0.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4750
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__op_iso__d0",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      610.1039863935133,
+      639.707176305671,
+      1012.8029978295549,
+      498.17104551187106
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__op_iso__d0.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7750
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__one__d1",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      584.3011457663958,
+      662.2525802449322,
+      957.4847009413229,
+      490.51926282842044
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__one__d1.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 1,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__all__d1",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      4968.426416120805,
+      2970.3568913970894,
+      3161.451456142261,
+      2760.5807628431266
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__all__d1.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 1,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top6__d1",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      838.37357582445,
+      897.6571720524958,
+      1229.2359871809258,
+      1102.187531621786
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top6__d1.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 1,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top7__d1",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      2067.9312580197284,
+      1158.7787217310388,
+      1667.9775533956245,
+      2179.7157684986173
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top7__d1.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 1,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__legacy_iso__d1",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      714.2005822964163,
+      715.5732681291637,
+      1222.9355251166608,
+      536.772387891945
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__legacy_iso__d1.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4763
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__op_iso__d1",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      596.0302316888371,
+      656.9147210253518,
+      928.3073175983127,
+      489.1604128407598
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__op_iso__d1.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7763
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__one__d2",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      603.801495107418,
+      662.9139749196231,
+      910.0554434293867,
+      572.0494339348543
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__one__d2.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 2,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__all__d2",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      7052.956812689819,
+      4043.158451422909,
+      4580.7970489035415,
+      4938.786283206915
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__all__d2.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 2,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top6__d2",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      875.9342612993457,
+      983.1396879160379,
+      1176.1912290930452,
+      1035.7831951111496
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top6__d2.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 2,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top7__d2",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      1804.1710891724688,
+      1176.8758610143896,
+      1391.0348075601005,
+      1618.6379031435108
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top7__d2.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 2,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__legacy_iso__d2",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      804.645345835131,
+      827.7100684729771,
+      1186.6305987222863,
+      608.6396140676679
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__legacy_iso__d2.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4776
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__op_iso__d2",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      632.3968547350388,
+      676.0988498935199,
+      1071.0226071434668,
+      504.2803845498248
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__op_iso__d2.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7776
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__one__d3",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      598.0788538021349,
+      688.4351593878607,
+      949.0923454791377,
+      528.1115902468333
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__one__d3.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 3,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__all__d3",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      5732.966954578589,
+      3528.0558916823875,
+      3940.5950382721094,
+      3523.556785672562
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__all__d3.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 3,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top6__d3",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      869.6713854825259,
+      931.8791787019147,
+      1135.6144878542686,
+      897.9221839585506
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top6__d3.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 3,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top7__d3",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      1812.6748909838816,
+      1256.568513281406,
+      1603.2790117461664,
+      1639.2818170514993
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top7__d3.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 3,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__legacy_iso__d3",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      559.03836462195,
+      543.0172848791983,
+      849.8614441593213,
+      466.0931055309061
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__legacy_iso__d3.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4789
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__op_iso__d3",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      645.928855272155,
+      681.0987703783193,
+      1126.2930744718756,
+      526.2111905799629
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__op_iso__d3.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7789
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__one__d4",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      586.2801006898306,
+      662.6592170352183,
+      966.6494075603443,
+      491.34499724625516
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__one__d4.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 4,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__all__d4",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      6998.258836170322,
+      3688.686472386228,
+      4209.635981434415,
+      4624.497204130019
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__all__d4.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 4,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top6__d4",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      875.3488150130155,
+      971.4470347478706,
+      1186.235048168347,
+      992.8676891776911
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top6__d4.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 4,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top7__d4",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      2106.017646973991,
+      1183.7367636911285,
+      1620.0247650157658,
+      1904.7032401313159
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top7__d4.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 4,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__legacy_iso__d4",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      623.5702111891513,
+      669.2481757825813,
+      937.1191826189262,
+      484.3964235157798
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__legacy_iso__d4.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4802
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__op_iso__d4",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      531.3814817488325,
+      650.6763074948683,
+      880.8219798487821,
+      461.0063957691501
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__op_iso__d4.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7802
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__one__d5",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      584.3011457663958,
+      661.5707313072942,
+      963.9420407526018,
+      489.8414146431944
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__one__d5.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 5,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__all__d5",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      5279.536236089608,
+      3161.3315660481867,
+      3441.4904866895495,
+      3435.3427479440234
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__all__d5.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 5,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top6__d5",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      874.3777634069315,
+      1010.361167703319,
+      1184.6386742320992,
+      1164.6546656128644
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top6__d5.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 5,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top7__d5",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      2298.463832614062,
+      1114.9993961020868,
+      1726.267023071184,
+      1895.9578531370216
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top7__d5.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 5,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__legacy_iso__d5",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      726.8223637619606,
+      666.2409437285542,
+      1240.426021922179,
+      530.8363357414628
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__legacy_iso__d5.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4815
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__op_iso__d5",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      586.0537885183544,
+      695.4676726575326,
+      997.1672396514612,
+      500.36427585473984
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__op_iso__d5.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7815
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__one__d6",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      612.7354048302859,
+      683.326538496337,
+      1013.8289875199974,
+      530.8493077450844
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__one__d6.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 6,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__all__d6",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      4862.267432704748,
+      2900.5808661782276,
+      3218.3427179168634,
+      2629.658401904976
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__all__d6.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 6,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top6__d6",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      855.3555393950375,
+      1011.9605735796147,
+      1174.7183827789468,
+      1044.8740786883443
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top6__d6.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 6,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top7__d6",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      1837.287362478305,
+      1255.6860975625798,
+      1546.9841316368315,
+      1589.1051593130783
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top7__d6.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 6,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__legacy_iso__d6",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      540.5043607535465,
+      632.4396486754163,
+      901.3890352446508,
+      536.8587154030752
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__legacy_iso__d6.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4828
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__op_iso__d6",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      584.6882156453303,
+      676.5977602063908,
+      942.5733327572941,
+      487.3498215446158
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__op_iso__d6.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7828
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__one__d7",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      588.6166702618372,
+      673.0785405096163,
+      954.8893650168802,
+      490.7149671705691
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__one__d7.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 7,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__all__d7",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      7152.107725746593,
+      4104.0194872190195,
+      4842.854097538371,
+      4759.623080615096
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__all__d7.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 7,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top6__d7",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      810.2850034794434,
+      938.5887208493111,
+      1219.2084646914907,
+      1030.5873635935134
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top6__d7.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 7,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__top7__d7",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      1941.609485709553,
+      1304.5920265817463,
+      1741.887192367231,
+      1774.0055647560825
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__top7__d7.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 7,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__legacy_iso__d7",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      677.6659062785194,
+      772.3554338505058,
+      1269.574168687728,
+      549.6890131310197
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__legacy_iso__d7.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4841
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__op_iso__d7",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      654.0877044645013,
+      680.0761984310835,
+      1084.3497826766293,
+      510.5050231936225
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__op_iso__d7.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7841
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__legacy_rot",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      843.4125161574818,
+      845.5349286986873,
+      1118.1955478619125,
+      627.3902534009301
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__legacy_rot.npz",
+    "spec": {
+      "kind": "legacy_rotation",
+      "deg": 5.0
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n3p5__op_rot",
+    "substrate": "recovered29",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      639.6528625495563,
+      715.8423040012437,
+      1059.8751555689269,
+      520.1437571877594
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n3p5__op_rot.npz",
+    "spec": {
+      "kind": "opcenter_rotation",
+      "deg": 5.0
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__ref",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      597.6726773737064,
+      641.0128583786435,
+      963.9527294587203,
+      466.00552668865595
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__ref.npz",
+    "spec": {
+      "kind": "reference"
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__one__d0",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      598.0697212291991,
+      642.1876095379059,
+      967.3707123823274,
+      465.0196168693852
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__one__d0.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 0,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__all__d0",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      4922.797740548312,
+      2545.533967453858,
+      2859.4021025751445,
+      2600.518174908928
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__all__d0.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 0,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top6__d0",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      894.1543137283526,
+      933.1546395462574,
+      1183.8347700823442,
+      852.5788406151577
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top6__d0.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 0,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top7__d0",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      2246.493035481026,
+      1061.6967997925653,
+      1453.9259604721947,
+      1706.2752433667374
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top7__d0.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 0,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__legacy_iso__d0",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      712.351457811405,
+      721.2207594628246,
+      1187.3933084229357,
+      512.8794033339544
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__legacy_iso__d0.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4750
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__op_iso__d0",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      628.8691099556595,
+      641.0615891562517,
+      1051.074151982647,
+      472.7863386871235
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__op_iso__d0.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7750
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__one__d1",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      597.6726773737064,
+      641.7706106380856,
+      957.3334703996286,
+      465.0196168693852
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__one__d1.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 1,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__all__d1",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      5148.161271707766,
+      2604.1318061487386,
+      2880.2912874908166,
+      2523.1882340354923
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__all__d1.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 1,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top6__d1",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      860.871638577581,
+      775.6701428713543,
+      1129.4854381748032,
+      967.4029074056938
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top6__d1.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 1,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top7__d1",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      2026.1492762343494,
+      1004.929591752693,
+      1555.4803559348468,
+      2020.580732182809
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top7__d1.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 1,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__legacy_iso__d1",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      754.0801830972682,
+      690.6827310463187,
+      1243.8237066928389,
+      500.4963303644787
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__legacy_iso__d1.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4763
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__op_iso__d1",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      608.0458814913634,
+      642.6904882778774,
+      893.3367526945985,
+      463.86455012092034
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__op_iso__d1.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7763
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__one__d2",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      619.2784453453232,
+      654.6099269140997,
+      887.2810976558823,
+      551.6854909913313
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__one__d2.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 2,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__all__d2",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      7082.076707515611,
+      3720.911338082078,
+      4256.658176192374,
+      4548.278240263933
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__all__d2.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 2,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top6__d2",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      898.5500357418762,
+      885.4137178278984,
+      1091.8780215639486,
+      935.6402033243977
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top6__d2.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 2,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top7__d2",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      1857.7931933461964,
+      1023.8598640587672,
+      1174.4860117508406,
+      1474.366439805643
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top7__d2.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 2,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__legacy_iso__d2",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      895.592152921157,
+      769.7312239386872,
+      1219.2455792823343,
+      589.8502619524751
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__legacy_iso__d2.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4776
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__op_iso__d2",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      664.1897492748056,
+      671.2851211037355,
+      1071.753968307742,
+      485.2537078725735
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__op_iso__d2.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7776
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__one__d3",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      599.2892837805819,
+      662.9777124844286,
+      949.2816281038355,
+      503.57462141937447
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__one__d3.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 3,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__all__d3",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      5845.52673229774,
+      3261.3661469734843,
+      3642.5282086239404,
+      3222.6978843497036
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__all__d3.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 3,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top6__d3",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      905.133189426802,
+      841.4169032881745,
+      1029.4296899875224,
+      824.6387629162575
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top6__d3.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 3,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top7__d3",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      1868.4404445100322,
+      1101.020026080857,
+      1415.1337810505756,
+      1508.4152943711517
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top7__d3.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 3,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__legacy_iso__d3",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      569.5931579560745,
+      530.632610427266,
+      825.219994024028,
+      451.2370954538461
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__legacy_iso__d3.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4789
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__op_iso__d3",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      681.6599657888592,
+      670.9284129072496,
+      1096.2836499840093,
+      501.6491248639036
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__op_iso__d3.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7789
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__one__d4",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      598.0697212291991,
+      640.3581513361585,
+      956.5777724882319,
+      468.26761427412043
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__one__d4.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 4,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__all__d4",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      6882.284939570321,
+      3347.039081052605,
+      3699.19423368597,
+      4114.558023100997
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__all__d4.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 4,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top6__d4",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      910.0074922518237,
+      899.8025349881673,
+      1094.4188696137026,
+      877.3462737755456
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top6__d4.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 4,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top7__d4",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      2139.1258487256496,
+      1053.8125421680397,
+      1411.0274044066023,
+      1694.8609640988202
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top7__d4.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 4,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__legacy_iso__d4",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      649.7085288080767,
+      639.626275972218,
+      925.2071117386128,
+      465.23633652019987
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__legacy_iso__d4.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4802
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__op_iso__d4",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      553.9545324891658,
+      644.6212381994001,
+      888.0569307584649,
+      452.493456984988
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__op_iso__d4.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7802
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__one__d5",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      597.6726773737064,
+      641.3707224668769,
+      956.5777724882319,
+      465.0196168693852
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__one__d5.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 5,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__all__d5",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      5453.073085907203,
+      2761.863624255804,
+      2968.1459813881856,
+      3141.973839537238
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__all__d5.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 5,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top6__d5",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      893.1428477281456,
+      920.5795780428393,
+      1062.2153233654208,
+      1006.190071389911
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top6__d5.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 5,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top7__d5",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      2322.363291393027,
+      964.9047260262149,
+      1557.3720117055052,
+      1649.4341735775015
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top7__d5.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 5,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__legacy_iso__d5",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      762.9946653798829,
+      646.945982383553,
+      1279.3140601977584,
+      504.20464885556044
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__legacy_iso__d5.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4815
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__op_iso__d5",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      609.793227720799,
+      689.800449446587,
+      964.8643973714304,
+      487.52744706677674
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__op_iso__d5.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7815
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__one__d6",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      640.4138829130085,
+      659.4172102188072,
+      987.030493730763,
+      520.9360268846114
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__one__d6.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 6,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__all__d6",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      4933.248514112623,
+      2460.075222887917,
+      2751.037604805122,
+      2353.6033682095176
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__all__d6.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 6,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top6__d6",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      884.16567281588,
+      884.0125388125809,
+      1090.4554236314184,
+      945.1790749327154
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top6__d6.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 6,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top7__d6",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      1851.1973735652819,
+      1095.6639473164892,
+      1374.4763096107683,
+      1416.276383484672
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top7__d6.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 6,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__legacy_iso__d6",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      537.8959340414359,
+      600.7757542650479,
+      889.6828553695284,
+      504.9427384980553
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__legacy_iso__d6.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4828
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__op_iso__d6",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      610.4824610081596,
+      659.8031659116367,
+      902.4014856364408,
+      474.88421118381643
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__op_iso__d6.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7828
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__one__d7",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      597.4978956563131,
+      647.544416037863,
+      940.7358293857917,
+      463.904082676714
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__one__d7.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 7,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__all__d7",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      7095.337721639871,
+      3802.4168751428824,
+      4380.401773331624,
+      4492.338749642115
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__all__d7.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 7,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top6__d7",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      854.1401918439121,
+      885.9948598510763,
+      1156.4889368706322,
+      909.5243269902098
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top6__d7.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 7,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__top7__d7",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      1958.8523692478332,
+      1187.0315927191527,
+      1536.04458244525,
+      1550.4646063789255
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__top7__d7.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 7,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__legacy_iso__d7",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      720.6679737385655,
+      730.7948611543109,
+      1282.9929975529444,
+      532.4285545744765
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__legacy_iso__d7.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4841
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__op_iso__d7",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      692.6182750267762,
+      663.5029366630574,
+      1059.3797654481393,
+      492.0246747905562
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__op_iso__d7.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7841
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__legacy_rot",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      895.2634410290896,
+      811.6151073791002,
+      1077.964347092804,
+      623.2348961292362
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__legacy_rot.npz",
+    "spec": {
+      "kind": "legacy_rotation",
+      "deg": 5.0
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n4p7__op_rot",
+    "substrate": "recovered29",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      671.560814219227,
+      693.9341492061328,
+      1077.808608727102,
+      496.3337377813088
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n4p7__op_rot.npz",
+    "spec": {
+      "kind": "opcenter_rotation",
+      "deg": 5.0
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__ref",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      611.0230442357513,
+      640.8406079156141,
+      939.4577557679286,
+      462.1034699722252
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__ref.npz",
+    "spec": {
+      "kind": "reference"
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__one__d0",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      612.857518443847,
+      641.5563676267374,
+      943.5063514214205,
+      458.668571527332
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__one__d0.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 0,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__all__d0",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      5197.608594079864,
+      2397.173450395414,
+      2771.817161264959,
+      2474.38899250052
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__all__d0.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 0,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top6__d0",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      913.3079255097871,
+      858.6830374317724,
+      1098.8640197891032,
+      785.0703235933429
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top6__d0.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 0,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top7__d0",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      2286.7746976707076,
+      941.8712790182656,
+      1295.735048629112,
+      1597.193604016998
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top7__d0.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 0,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__legacy_iso__d0",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      736.8460988518988,
+      695.7099095375902,
+      1176.5664158334132,
+      502.99071336947
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__legacy_iso__d0.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4750
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__op_iso__d0",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      652.2396974316946,
+      643.4319607096996,
+      1016.5005480759596,
+      466.0995747179435
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__op_iso__d0.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7750
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__one__d1",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      611.0230442357513,
+      640.8405390848396,
+      936.7590280286781,
+      458.668571527332
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__one__d1.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 1,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__all__d1",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      5273.882714136304,
+      2399.858754287907,
+      2612.8731348711776,
+      2355.3742713837373
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__all__d1.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 1,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top6__d1",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      884.9024869075977,
+      709.0601779379759,
+      1073.1690845500052,
+      894.4690339355212
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top6__d1.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 1,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top7__d1",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      2075.5708075584976,
+      921.3969131865488,
+      1395.3968428472963,
+      1947.6626815499515
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top7__d1.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 1,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__legacy_iso__d1",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      775.9630920000836,
+      666.9695124124335,
+      1321.5110621899482,
+      492.40873702752754
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__legacy_iso__d1.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4763
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__op_iso__d1",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      618.9897292837322,
+      620.8005083738822,
+      914.7239519300845,
+      467.6884751714486
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__op_iso__d1.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7763
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__one__d2",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      637.0643793954389,
+      649.112290456086,
+      864.2988617080282,
+      540.5884455267151
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__one__d2.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 2,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__all__d2",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      7118.5656482265695,
+      3641.104057811537,
+      4061.186488426115,
+      4331.815328287773
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__all__d2.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 2,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top6__d2",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      910.0945823715379,
+      808.1895632336807,
+      1037.9112125429267,
+      866.4942582720905
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top6__d2.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 2,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top7__d2",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      1941.2308445274707,
+      891.4043787881784,
+      1051.9561164480278,
+      1389.3050698680213
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top7__d2.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 2,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__legacy_iso__d2",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      934.9438231264523,
+      752.0627440513344,
+      1174.9824925079934,
+      597.1377499876198
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__legacy_iso__d2.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4776
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__op_iso__d2",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      679.8383422006143,
+      658.7000966517282,
+      1013.4278968823343,
+      478.1648205379737
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__op_iso__d2.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7776
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__one__d3",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      619.4023836218211,
+      658.3588727495318,
+      914.3634881590507,
+      504.85168801974214
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__one__d3.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 3,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__all__d3",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      6007.518461564863,
+      3248.5681654213486,
+      3654.7023810659666,
+      2995.935617283877
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__all__d3.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 3,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top6__d3",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      921.2825263453574,
+      755.6221709035631,
+      958.927252875728,
+      794.2950800114922
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top6__d3.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 3,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top7__d3",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      2003.2238717169737,
+      1010.92055401536,
+      1276.3197803954326,
+      1441.6993288637161
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top7__d3.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 3,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__legacy_iso__d3",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      577.3915658309968,
+      533.5738174867431,
+      862.5935658000931,
+      446.5446171617542
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__legacy_iso__d3.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4789
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__op_iso__d3",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      712.3477873611237,
+      657.8383067879861,
+      1124.3482057372762,
+      494.8493221120334
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__op_iso__d3.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7789
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__one__d4",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      611.0230442357513,
+      640.2931797153428,
+      937.0919801739449,
+      463.77690871508423
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__one__d4.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 4,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__all__d4",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      6845.75095771746,
+      3175.0771938611015,
+      3490.3503357391046,
+      3781.6923194054534
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__all__d4.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 4,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top6__d4",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      918.0423603619352,
+      828.5560644396849,
+      1025.7135249432572,
+      811.1207659351719
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top6__d4.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 4,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top7__d4",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      2226.32970278813,
+      926.8846651632679,
+      1281.8601481622331,
+      1585.5701544278563
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top7__d4.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 4,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__legacy_iso__d4",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      666.2117410451096,
+      622.2347299081681,
+      937.8502959640277,
+      463.5578968682054
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__legacy_iso__d4.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4802
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__op_iso__d4",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      569.9917852250564,
+      633.9322052770356,
+      895.9637489893046,
+      453.7920884483581
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__op_iso__d4.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7802
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__one__d5",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      611.0230442357513,
+      640.8406079156141,
+      939.1308330865527,
+      460.7065442783693
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__one__d5.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 5,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__all__d5",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      5688.211800147359,
+      2565.315687733714,
+      2736.2553225474326,
+      2936.884225157416
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__all__d5.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 5,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top6__d5",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      915.8285145025175,
+      856.8404781580275,
+      1008.5476471440272,
+      911.9532189646195
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top6__d5.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 5,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top7__d5",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      2344.0517439430005,
+      844.7076696875617,
+      1416.5699881451487,
+      1521.9368516564475
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top7__d5.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 5,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__legacy_iso__d5",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      791.9772565183391,
+      613.8428726106049,
+      1323.5850296834637,
+      479.6532390476332
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__legacy_iso__d5.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4815
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__op_iso__d5",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      631.300186535384,
+      665.9971478295823,
+      925.1915679708843,
+      486.38456673843643
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__op_iso__d5.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7815
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__one__d6",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      676.0292388770904,
+      667.400720907249,
+      983.860297580175,
+      527.0401251232213
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__one__d6.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 6,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__all__d6",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      5137.143208409165,
+      2207.3225616710174,
+      2547.2628658871868,
+      2229.758288606794
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__all__d6.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 6,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top6__d6",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      903.1386991786858,
+      827.0831519595508,
+      1007.4382875251843,
+      872.3628761293157
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top6__d6.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 6,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top7__d6",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      1965.0881533740076,
+      979.6969423924783,
+      1240.5469820598328,
+      1312.9320425214114
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top7__d6.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 6,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__legacy_iso__d6",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      540.7419106667172,
+      564.6393444236036,
+      881.5441569277127,
+      491.9920506495864
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__legacy_iso__d6.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4828
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__op_iso__d6",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      640.4858880648014,
+      653.8967313603557,
+      889.5256384043464,
+      472.24336585489607
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__op_iso__d6.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7828
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__one__d7",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      612.147024681859,
+      647.5318984431553,
+      935.1131610080904,
+      459.2131018780125
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__one__d7.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 7,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__all__d7",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      7095.320409580323,
+      3631.3317556537086,
+      4201.853019218421,
+      4342.549850252244
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__all__d7.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 29,
+      "draw": 7,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top6__d7",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      884.6824018270964,
+      827.3548386988261,
+      1151.7445848549487,
+      832.5390854218499
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top6__d7.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 7,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__top7__d7",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      2078.685521487075,
+      1099.5802742011338,
+      1434.8668079330234,
+      1441.6859748883994
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__top7__d7.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 7,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__legacy_iso__d7",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      755.411914916422,
+      713.0226820762846,
+      1266.5611010581533,
+      525.6434139886735
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__legacy_iso__d7.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4841
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__op_iso__d7",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      712.8568587958771,
+      651.032433621006,
+      1055.683668387082,
+      485.59497848061915
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__op_iso__d7.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7841
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__legacy_rot",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      903.8424105221263,
+      801.6569447391124,
+      1079.0961033552596,
+      621.4790227415092
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__legacy_rot.npz",
+    "spec": {
+      "kind": "legacy_rotation",
+      "deg": 5.0
+    }
+  },
+  {
+    "case_id": "g5__recovered29__n6p0__op_rot",
+    "substrate": "recovered29",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      692.083060286274,
+      686.2539406094631,
+      1085.3179510145264,
+      498.90032857584015
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__recovered29__n6p0__op_rot.npz",
+    "spec": {
+      "kind": "opcenter_rotation",
+      "deg": 5.0
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__ref",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      561.0381783582943,
+      545.5232282055754,
+      982.866888309844,
+      471.3808250223458
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__ref.npz",
+    "spec": {
+      "kind": "reference"
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__one__d0",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      578.2477415431833,
+      571.5252451090057,
+      829.4030005442922,
+      500.64006736394344
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__one__d0.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 0,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__all__d0",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      5381.390568970957,
+      3350.9256349249436,
+      3698.3131928185308,
+      3527.0262171693057
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__all__d0.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 0,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top6__d0",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      694.2216528089964,
+      671.6435379666262,
+      897.2084696520058,
+      810.7834020549137
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top6__d0.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 0,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top7__d0",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      1311.7643819724237,
+      1047.5625610789095,
+      1429.513100420906,
+      1231.5615658518343
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top7__d0.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 0,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__legacy_iso__d0",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      602.6066262826364,
+      615.7545695958846,
+      1185.3371304399798,
+      497.5325412584797
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__legacy_iso__d0.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4750
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__op_iso__d0",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      563.364047144625,
+      570.9235937983982,
+      1063.969147312118,
+      472.1864082442645
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__op_iso__d0.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7750
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__one__d1",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      577.6348341524675,
+      561.889981941026,
+      922.5603795197464,
+      507.1375801966859
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__one__d1.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 1,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__all__d1",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      5941.017115264732,
+      3102.774260809598,
+      3636.9076332241593,
+      3432.4439970906124
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__all__d1.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 1,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top6__d1",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      673.7239312447501,
+      599.7280946481703,
+      911.1162768602026,
+      891.2053751662771
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top6__d1.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 1,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top7__d1",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      1224.5146048116376,
+      995.7163110676497,
+      1508.7801352986794,
+      1289.9031978636765
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top7__d1.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 1,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__legacy_iso__d1",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      612.2348285715839,
+      643.1273475979824,
+      1112.6907012519441,
+      499.65349008745545
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__legacy_iso__d1.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4763
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__op_iso__d1",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      527.2511445113541,
+      524.7463956797708,
+      951.5130680335619,
+      449.3439424120475
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__op_iso__d1.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7763
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__one__d2",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      595.5414523751542,
+      543.92385574623,
+      838.3431649330475,
+      535.324936790333
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__one__d2.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 2,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__all__d2",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      5924.926954902221,
+      3258.49945473891,
+      3560.7950827715417,
+      3618.5211639792024
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__all__d2.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 2,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top6__d2",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      690.2003059061133,
+      670.5020949142677,
+      899.4290057812564,
+      820.0614422983767
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top6__d2.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 2,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top7__d2",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      1245.8019200152205,
+      929.3861040703075,
+      1216.7375421664644,
+      1226.1599912927265
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top7__d2.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 2,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__legacy_iso__d2",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      629.3428223553835,
+      606.1050116939828,
+      1220.28588717604,
+      512.8586865505113
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__legacy_iso__d2.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4776
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__op_iso__d2",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      575.7146429274712,
+      552.423302659605,
+      1034.0596319724698,
+      474.59812815563055
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__op_iso__d2.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7776
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__one__d3",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      561.0381783582943,
+      548.1407059298841,
+      974.3084013870318,
+      471.1115814645169
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__one__d3.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 3,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__all__d3",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      5932.13512304796,
+      3166.9292112000157,
+      3658.8278431090885,
+      3715.7604991900716
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__all__d3.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 3,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top6__d3",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      693.5046465344628,
+      628.7568429125768,
+      915.2853800317264,
+      772.5854794463323
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top6__d3.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 3,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top7__d3",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      1264.5320113333285,
+      989.5111551447392,
+      1232.9233343326482,
+      1191.5993402744864
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top7__d3.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 3,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__legacy_iso__d3",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      700.8515996426612,
+      657.0414566905721,
+      1210.3208721688204,
+      573.0162309163026
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__legacy_iso__d3.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4789
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__op_iso__d3",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      566.0596653314446,
+      535.6792739812254,
+      1011.0688846253454,
+      470.51399988041624
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__op_iso__d3.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7789
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__one__d4",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      591.3272686770551,
+      555.1802349374925,
+      865.6402510038154,
+      540.7742469118564
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__one__d4.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 4,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__all__d4",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      5971.7080410047565,
+      3157.680868311445,
+      3473.222766808998,
+      3467.8733368259764
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__all__d4.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 4,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top6__d4",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      706.9909857314179,
+      654.1601866404895,
+      892.0605593171299,
+      800.4312262017818
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top6__d4.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 4,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top7__d4",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      1352.0288120478817,
+      966.5042517343818,
+      1296.1551833427088,
+      1312.578854501624
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top7__d4.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 4,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__legacy_iso__d4",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      645.7176400356246,
+      692.7234162446465,
+      1250.4682873162815,
+      535.0067522171544
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__legacy_iso__d4.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4802
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__op_iso__d4",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      540.7202025797197,
+      534.7414567990094,
+      999.4014347283428,
+      464.1337847672747
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__op_iso__d4.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7802
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__one__d5",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      561.0381783582943,
+      546.3855442533246,
+      973.554004176927,
+      471.3808250223458
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__one__d5.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 5,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__all__d5",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      5810.0695262113895,
+      3023.4481248444117,
+      3496.0010428099554,
+      3869.516620793012
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__all__d5.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 5,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top6__d5",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      710.4565023864918,
+      643.4267364938734,
+      881.5574027620039,
+      900.4173229697743
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top6__d5.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 5,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top7__d5",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      1399.2110541608267,
+      934.9645948997209,
+      1463.8364037934411,
+      1273.1850135086986
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top7__d5.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 5,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__legacy_iso__d5",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      655.4752974508843,
+      652.8355437455023,
+      1218.9726740782557,
+      532.7779674930039
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__legacy_iso__d5.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4815
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__op_iso__d5",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      571.410444735978,
+      526.9957838574016,
+      1027.3553799019294,
+      465.55611832395937
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__op_iso__d5.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7815
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__one__d6",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      564.4511456783991,
+      544.4927104306394,
+      961.5573736447895,
+      473.9437292365127
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__one__d6.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 6,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__all__d6",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      5165.144197039481,
+      3045.009726254501,
+      3493.164243876819,
+      3291.152645356734
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__all__d6.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 6,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top6__d6",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      704.3131032362975,
+      667.8127188458946,
+      856.8542193340106,
+      812.3633775062062
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top6__d6.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 6,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top7__d6",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      1302.6516571934353,
+      988.609399239851,
+      1312.7477234593707,
+      1273.2886508664756
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top7__d6.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 6,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__legacy_iso__d6",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      590.5259060531399,
+      653.3541153266893,
+      1334.1036788884126,
+      481.78863887006287
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__legacy_iso__d6.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4828
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__op_iso__d6",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      551.5395380808234,
+      565.0177079484081,
+      978.451585336149,
+      467.63616611951727
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__op_iso__d6.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7828
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__one__d7",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      562.2309991333136,
+      548.1407059298841,
+      981.817773446722,
+      552.3461683872004
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__one__d7.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 7,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__all__d7",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      5328.4250793532765,
+      2781.2595744946975,
+      3361.2199545563103,
+      2928.042166360753
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__all__d7.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 7,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top6__d7",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      692.3330571582874,
+      632.2005425740541,
+      930.3559001469293,
+      821.1072802964127
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top6__d7.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 7,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__top7__d7",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      1345.1364594555062,
+      989.1913555913902,
+      1425.6501296516544,
+      1363.9094380950191
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__top7__d7.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 7,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__legacy_iso__d7",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      571.1213153356309,
+      689.2989523502465,
+      1160.3295384832888,
+      498.1385335494964
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__legacy_iso__d7.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4841
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__op_iso__d7",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      533.8799271917325,
+      565.9001309441389,
+      997.7892733588101,
+      467.2854263380166
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__op_iso__d7.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7841
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__legacy_rot",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      611.7762019842171,
+      605.2850869591828,
+      1111.5532337807945,
+      510.6417793161535
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__legacy_rot.npz",
+    "spec": {
+      "kind": "legacy_rotation",
+      "deg": 5.0
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n3p5__op_rot",
+    "substrate": "official32_minus71",
+    "n": 3.5,
+    "N": 2498,
+    "median_error_m": [
+      602.5533015299243,
+      583.9735764576592,
+      1057.088080837645,
+      507.58898853462995
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n3p5__op_rot.npz",
+    "spec": {
+      "kind": "opcenter_rotation",
+      "deg": 5.0
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__ref",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      593.7425223082155,
+      555.6165186830742,
+      1082.7111969409727,
+      478.88143519512585
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__ref.npz",
+    "spec": {
+      "kind": "reference"
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__one__d0",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      608.9325692807076,
+      573.3661697158805,
+      878.8598163014236,
+      503.8593449960093
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__one__d0.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 0,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__all__d0",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      5495.311178816741,
+      3075.844567918061,
+      3328.422807046719,
+      3332.4156762902294
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__all__d0.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 0,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top6__d0",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      749.1018751650984,
+      623.0522922660109,
+      878.1479536564466,
+      747.7767646501281
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top6__d0.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 0,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top7__d0",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      1412.8242268146628,
+      977.7380974123794,
+      1327.7617913557942,
+      1172.504198369737
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top7__d0.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 0,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__legacy_iso__d0",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      667.837174711357,
+      613.3321859889923,
+      1282.6786499390114,
+      497.97115343379204
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__legacy_iso__d0.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4750
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__op_iso__d0",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      596.1344783733093,
+      563.3803419155452,
+      1123.4213775488383,
+      479.7429293295671
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__op_iso__d0.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7750
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__one__d1",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      598.0558922090312,
+      571.0698430629745,
+      1024.5473134422318,
+      512.2551425467066
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__one__d1.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 1,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__all__d1",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      5932.3981234245875,
+      2789.1222286610805,
+      3196.587060381339,
+      3084.632403095316
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__all__d1.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 1,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top6__d1",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      737.9451316796869,
+      543.3873150879504,
+      884.1972510643535,
+      845.8076415964538
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top6__d1.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 1,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top7__d1",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      1322.403129092181,
+      922.1678285543437,
+      1418.7350075134207,
+      1206.1372631245795
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top7__d1.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 1,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__legacy_iso__d1",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      665.2492538491158,
+      637.5818047321027,
+      1228.2495460870045,
+      505.4357693360054
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__legacy_iso__d1.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4763
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__op_iso__d1",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      548.690452131812,
+      539.3860055052728,
+      1069.2244138099354,
+      447.4608547961052
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__op_iso__d1.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7763
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__one__d2",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      623.4608510429018,
+      547.6864304866533,
+      844.0628565605857,
+      529.283574435982
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__one__d2.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 2,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__all__d2",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      5961.220699290416,
+      2903.9872154507093,
+      3212.252667472765,
+      3316.7452344403546
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__all__d2.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 2,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top6__d2",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      747.8223869768623,
+      628.1154358655081,
+      884.2043036947066,
+      735.8552074116828
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top6__d2.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 2,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top7__d2",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      1327.589305838691,
+      872.8327310733437,
+      1093.3097736745462,
+      1149.9969823292545
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top7__d2.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 2,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__legacy_iso__d2",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      704.7626844309723,
+      590.9326360255686,
+      1320.856948270623,
+      526.6641356988237
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__legacy_iso__d2.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4776
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__op_iso__d2",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      612.2037532550485,
+      531.8754585442541,
+      1101.5313567757605,
+      483.7849026560813
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__op_iso__d2.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7776
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__one__d3",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      593.7425223082155,
+      555.8723930291872,
+      1081.1476122403903,
+      478.88143519512585
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__one__d3.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 3,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__all__d3",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      6049.4994507680485,
+      2916.423980417554,
+      3236.4106760871,
+      3444.7474734966627
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__all__d3.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 3,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top6__d3",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      757.3439541288309,
+      585.5136298761092,
+      861.5942186041519,
+      699.493126946793
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top6__d3.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 3,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top7__d3",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      1354.8236396339753,
+      896.2948806341292,
+      1138.1802799713323,
+      1134.3149045240034
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top7__d3.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 3,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__legacy_iso__d3",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      776.6598325046654,
+      649.8551003428233,
+      1281.0162956702377,
+      576.0991575615203
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__legacy_iso__d3.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4789
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__op_iso__d3",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      591.8693159896873,
+      543.5742221679509,
+      1143.2936369369065,
+      469.85005484915047
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__op_iso__d3.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7789
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__one__d4",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      614.6998656060034,
+      565.7257072992685,
+      910.1641862837928,
+      547.6995932022244
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__one__d4.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 4,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__all__d4",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      6064.077144747305,
+      2760.3999981662146,
+      3046.6768381923166,
+      3210.6159301679827
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__all__d4.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 4,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top6__d4",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      755.0648464120112,
+      610.8963286685862,
+      805.885299885284,
+      747.4657525799628
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top6__d4.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 4,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top7__d4",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      1432.7005703173409,
+      878.9119474773056,
+      1163.8717214097346,
+      1248.8470601473427
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top7__d4.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 4,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__legacy_iso__d4",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      697.046308991419,
+      683.7500564772258,
+      1406.5484427343044,
+      546.4162958975633
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__legacy_iso__d4.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4802
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__op_iso__d4",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      558.2790285968331,
+      525.7451086745806,
+      1074.7000869384153,
+      471.1390324828229
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__op_iso__d4.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7802
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__one__d5",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      593.7425223082155,
+      554.60602435254,
+      1082.2816169505356,
+      478.88143519512585
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__one__d5.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 5,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__all__d5",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      5887.2191529233605,
+      2689.2687499904187,
+      3015.4155543234447,
+      3714.2997502123912
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__all__d5.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 5,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top6__d5",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      762.901128840321,
+      600.587316136837,
+      793.8968100978013,
+      814.9555346975988
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top6__d5.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 5,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top7__d5",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      1447.3206314912227,
+      862.3785663116141,
+      1370.7667349353983,
+      1193.0921695889724
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top7__d5.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 5,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__legacy_iso__d5",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      716.5631711735144,
+      635.0469936029248,
+      1375.39216339405,
+      537.2568259505349
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__legacy_iso__d5.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4815
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__op_iso__d5",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      606.9877571585557,
+      528.1271202001878,
+      1120.4526705996248,
+      473.739074910439
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__op_iso__d5.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7815
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__one__d6",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      595.1995994484478,
+      552.0145624760942,
+      1067.8736276998507,
+      479.31086257413546
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__one__d6.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 6,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__all__d6",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      5262.762573965798,
+      2585.9420806534927,
+      3046.149791308825,
+      2960.380008644964
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__all__d6.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 6,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top6__d6",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      753.0944062298104,
+      616.1753617923579,
+      770.715495383212,
+      764.938937484158
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top6__d6.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 6,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top7__d6",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      1410.802180372349,
+      914.7751298469032,
+      1206.778038830293,
+      1195.620518152186
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top7__d6.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 6,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__legacy_iso__d6",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      622.232934392895,
+      620.9272312273727,
+      1403.5348655622677,
+      487.64112818937576
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__legacy_iso__d6.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4828
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__op_iso__d6",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      563.8382807141885,
+      574.541544400575,
+      1058.9805292176347,
+      476.9479989525387
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__op_iso__d6.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7828
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__one__d7",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      595.6261815722378,
+      549.4245663556162,
+      1080.1519005150344,
+      539.1740986689831
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__one__d7.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 7,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__all__d7",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      5352.423446511657,
+      2375.2449775822915,
+      2760.9332838269092,
+      2689.1339545393835
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__all__d7.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 7,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top6__d7",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      743.1199070902469,
+      569.6468450944399,
+      873.8325579098898,
+      745.1324762360409
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top6__d7.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 7,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__top7__d7",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      1418.9962903199917,
+      907.9704145139749,
+      1329.8120255184156,
+      1284.8680065511091
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__top7__d7.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 7,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__legacy_iso__d7",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      605.0273108422084,
+      683.7836995969052,
+      1229.97266874103,
+      495.5888706190541
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__legacy_iso__d7.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4841
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__op_iso__d7",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      554.2881011945594,
+      567.7911532569514,
+      1023.9145049257766,
+      475.7956319986181
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__op_iso__d7.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7841
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__legacy_rot",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      659.1088231627432,
+      588.1894106415334,
+      1155.0877612638792,
+      515.0336723378
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__legacy_rot.npz",
+    "spec": {
+      "kind": "legacy_rotation",
+      "deg": 5.0
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n4p7__op_rot",
+    "substrate": "official32_minus71",
+    "n": 4.7,
+    "N": 2498,
+    "median_error_m": [
+      627.0782278378335,
+      578.666923362213,
+      1106.3175574072834,
+      514.1482872973793
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n4p7__op_rot.npz",
+    "spec": {
+      "kind": "opcenter_rotation",
+      "deg": 5.0
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__ref",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      614.3080908923412,
+      572.844311267402,
+      1133.8410048162195,
+      488.9340602284119
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__ref.npz",
+    "spec": {
+      "kind": "reference"
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__one__d0",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      629.7682663241544,
+      579.6602337925294,
+      905.257506768242,
+      509.8623803813702
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__one__d0.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 0,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__all__d0",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      5572.361389484666,
+      2918.2622513650394,
+      3213.4226898607967,
+      3259.27613486679
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__all__d0.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 0,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top6__d0",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      768.5292113201032,
+      594.8213797721307,
+      886.7275804059726,
+      698.8616827691271
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top6__d0.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 0,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top7__d0",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      1501.6396056259864,
+      943.1594319497714,
+      1297.181330399217,
+      1139.3821996975666
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top7__d0.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 0,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__legacy_iso__d0",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      739.3979942498798,
+      613.7544498487038,
+      1378.603598690312,
+      508.9508211611575
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__legacy_iso__d0.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4750
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__op_iso__d0",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      637.4344996364073,
+      564.7778706073518,
+      1164.241327019652,
+      484.01751963981417
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__op_iso__d0.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7750
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__one__d1",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      619.4133664527124,
+      590.0358487569899,
+      1078.1376517749864,
+      512.5816546506796
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__one__d1.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 1,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__all__d1",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      6020.651208288778,
+      2636.734124411834,
+      2972.4713880444674,
+      2836.9956479271577
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__all__d1.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 1,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top6__d1",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      766.8534830264284,
+      527.0912666722627,
+      849.6502948327438,
+      798.0007524152904
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top6__d1.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 1,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top7__d1",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      1471.3815506773276,
+      856.8778436228001,
+      1340.8791195013594,
+      1160.3667012804972
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top7__d1.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 1,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__legacy_iso__d1",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      721.570234703451,
+      635.7644856126976,
+      1304.4939473830245,
+      515.3602083226392
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__legacy_iso__d1.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4763
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__op_iso__d1",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      566.2364307962215,
+      549.1716438521584,
+      1129.5156318300988,
+      454.4587134467689
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__op_iso__d1.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7763
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__one__d2",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      648.5416189930555,
+      555.060237629863,
+      847.9407375416195,
+      518.7880709788386
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__one__d2.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 2,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__all__d2",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      6057.482574435015,
+      2668.9105822492857,
+      3042.9149924654375,
+      3136.058866318606
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__all__d2.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 2,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top6__d2",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      760.3335031015496,
+      606.1593033943345,
+      867.8337315214014,
+      682.2238370387402
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top6__d2.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 2,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top7__d2",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      1464.6213204553774,
+      823.3875037327732,
+      1019.2386300814505,
+      1107.8903735448869
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top7__d2.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 2,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__legacy_iso__d2",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      747.9134179221186,
+      593.4443431017314,
+      1376.8873915355184,
+      534.3870832355454
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__legacy_iso__d2.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4776
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__op_iso__d2",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      644.825217678085,
+      547.359137587549,
+      1180.6064151985206,
+      493.3714436315088
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__op_iso__d2.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7776
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__one__d3",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      614.3080908923412,
+      572.7056385516569,
+      1132.9266432307568,
+      488.9340602284119
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__one__d3.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 3,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__all__d3",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      6249.439178975233,
+      2814.2301472195204,
+      3083.2092307781445,
+      3274.041250321879
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__all__d3.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 3,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top6__d3",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      770.0850581528377,
+      563.2321189052353,
+      826.7207064896144,
+      673.6697995588477
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top6__d3.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 3,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top7__d3",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      1464.553256468434,
+      851.9353337673433,
+      1084.1456966556918,
+      1107.8107395327386
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top7__d3.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 3,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__legacy_iso__d3",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      857.4519247090514,
+      647.0753380277982,
+      1290.1358834910216,
+      572.6044759801537
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__legacy_iso__d3.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4789
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__op_iso__d3",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      613.1826494339095,
+      552.0795953468387,
+      1229.0442844627519,
+      478.562602519081
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__op_iso__d3.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7789
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__one__d4",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      634.0535751459853,
+      577.9547774441551,
+      890.9334947867135,
+      550.0145379427936
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__one__d4.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 4,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__all__d4",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      6157.928729747886,
+      2551.492511512344,
+      2753.2816432974882,
+      3005.645651247608
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__all__d4.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 4,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top6__d4",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      768.5587483041572,
+      579.5787061539293,
+      792.0474086690494,
+      707.748592766651
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top6__d4.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 4,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top7__d4",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      1520.1739115145192,
+      827.4370794971913,
+      1082.4847941435132,
+      1205.5076676040796
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top7__d4.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 4,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__legacy_iso__d4",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      736.1064938166298,
+      683.667846681243,
+      1429.538188123822,
+      558.0129719906619
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__legacy_iso__d4.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4802
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__op_iso__d4",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      568.4684859148288,
+      526.9870776505161,
+      1109.6998231559537,
+      476.2293039101859
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__op_iso__d4.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7802
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__one__d5",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      614.3080908923412,
+      572.844311267402,
+      1121.7038706240771,
+      488.3211134457598
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__one__d5.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 5,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__all__d5",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      5989.785710582425,
+      2537.6492307396784,
+      2754.0899787214607,
+      3647.6071644364247
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__all__d5.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 5,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top6__d5",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      768.5706390986403,
+      579.8185102490572,
+      777.6402500818215,
+      755.850550726493
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top6__d5.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 5,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top7__d5",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      1506.4323414790729,
+      786.8003583461082,
+      1256.2619928944316,
+      1152.107998519361
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top7__d5.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 5,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__legacy_iso__d5",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      771.572945579316,
+      641.9967820672407,
+      1449.4730106571465,
+      540.566378488001
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__legacy_iso__d5.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4815
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__op_iso__d5",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      639.0570977771525,
+      541.3122229830548,
+      1186.0464314960655,
+      483.55989840289925
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__op_iso__d5.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7815
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__one__d6",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      615.9883831788825,
+      572.7056385516569,
+      1109.414031740398,
+      489.254493138439
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__one__d6.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 6,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__all__d6",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      5450.105487155308,
+      2427.1702039860666,
+      2764.830479220698,
+      2765.374568697059
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__all__d6.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 6,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top6__d6",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      762.0343167184717,
+      596.6888912804101,
+      748.2659272385287,
+      738.8297679767309
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top6__d6.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 6,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top7__d6",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      1522.0763708155462,
+      850.7282477142062,
+      1123.8607857600505,
+      1166.1362750501416
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top7__d6.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 6,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__legacy_iso__d6",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      669.4121007812385,
+      614.7697676492426,
+      1441.5017347365638,
+      504.14843274732135
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__legacy_iso__d6.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4828
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__op_iso__d6",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      587.9862714055978,
+      575.2700069060377,
+      1103.0572000035313,
+      481.53885193943825
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__op_iso__d6.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7828
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__one__d7",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      612.8814467727171,
+      569.4692241721802,
+      1130.3113260440437,
+      515.7446299759476
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__one__d7.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 1,
+      "draw": 7,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__all__d7",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      5436.475304535024,
+      2168.646739120546,
+      2498.668787527049,
+      2563.1868517477596
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__all__d7.npz",
+    "spec": {
+      "kind": "fraction",
+      "f": 32,
+      "draw": 7,
+      "D": 10000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top6__d7",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      767.8579213904513,
+      552.5043325435407,
+      870.3281680780157,
+      694.8809802926887
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top6__d7.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 6,
+      "draw": 7,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__top7__d7",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      1493.6019550494893,
+      870.8353659161309,
+      1278.1647860748537,
+      1235.2805134261198
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__top7__d7.npz",
+    "spec": {
+      "kind": "topk",
+      "k": 7,
+      "draw": 7,
+      "D": 5000
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__legacy_iso__d7",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      629.1355659822723,
+      672.600053383899,
+      1290.7357022387123,
+      500.7321196194781
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__legacy_iso__d7.npz",
+    "spec": {
+      "kind": "legacy_iso",
+      "seed": 4841
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__op_iso__d7",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      576.783423536692,
+      577.2049262934297,
+      1089.458155135708,
+      480.3477619612464
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__op_iso__d7.npz",
+    "spec": {
+      "kind": "opcenter_exact_iso",
+      "seed": 7841
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__legacy_rot",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      691.637288887169,
+      592.2270307588242,
+      1208.1313958427745,
+      522.2524954753881
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__legacy_rot.npz",
+    "spec": {
+      "kind": "legacy_rotation",
+      "deg": 5.0
+    }
+  },
+  {
+    "case_id": "g5__official32_minus71__n6p0__op_rot",
+    "substrate": "official32_minus71",
+    "n": 6.0,
+    "N": 2498,
+    "median_error_m": [
+      651.4793370096061,
+      575.5918334358958,
+      1177.8058945174882,
+      520.6540675796928
+    ],
+    "raw_npz": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/raw/g5/g5__official32_minus71__n6p0__op_rot.npz",
+    "spec": {
+      "kind": "opcenter_rotation",
+      "deg": 5.0
+    }
+  }
+]

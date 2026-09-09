@@ -1,0 +1,7 @@
+comparison,spearman,top7_overlap,jaccard,source_file,source_line
+evaluation vs calibration,0.997,7/7,1.0,results/b9c_summary/paperb_exposure_rank_stability_w5.txt,3
+evaluation vs cal_half_A,0.9946,7/7,1.0,results/b9c_summary/paperb_exposure_rank_stability_w5.txt,4
+evaluation vs cal_half_B,0.9966,7/7,1.0,results/b9c_summary/paperb_exposure_rank_stability_w5.txt,5
+calibration vs cal_half_A,0.9975,7/7,1.0,results/b9c_summary/paperb_exposure_rank_stability_w5.txt,6
+calibration vs cal_half_B,0.9995,7/7,1.0,results/b9c_summary/paperb_exposure_rank_stability_w5.txt,7
+cal_half_A vs cal_half_B,0.997,7/7,1.0,results/b9c_summary/paperb_exposure_rank_stability_w5.txt,8

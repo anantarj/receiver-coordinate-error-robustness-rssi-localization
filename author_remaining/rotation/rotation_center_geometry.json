@@ -1,0 +1,74 @@
+{
+  "recovered29": {
+    "meta_plus5": {
+      "unweighted_centroid": [
+        600693.5827586207,
+        5676943.889655172
+      ],
+      "operational_centroid": [
+        598729.5175872805,
+        5674218.746703741
+      ],
+      "translation_vector": [
+        244.98571896992976,
+        -160.80956713962016
+      ],
+      "translation_magnitude": 293.0490050876225,
+      "translation_angle_deg": 326.71895133137355,
+      "coordinate_identity_max_abs_m": 9.385703304198744e-10
+    },
+    "meta_minus5": {
+      "unweighted_centroid": [
+        600693.5827586207,
+        5676943.889655172
+      ],
+      "operational_centroid": [
+        598729.5175872805,
+        5674218.746703741
+      ],
+      "translation_vector": [
+        -230.03799708105547,
+        181.5495504863114
+      ],
+      "translation_magnitude": 293.04900508762256,
+      "translation_angle_deg": 141.71895133137355,
+      "coordinate_identity_max_abs_m": 9.313225746154785e-10
+    }
+  },
+  "official32_minus71": {
+    "meta_plus5": {
+      "unweighted_centroid": [
+        598189.3999999999,
+        5675684.775
+      ],
+      "operational_centroid": [
+        598729.3346437259,
+        5674203.961180669
+      ],
+      "translation_vector": [
+        127.00681396469682,
+        52.69334856160033
+      ],
+      "translation_magnitude": 137.50389003987274,
+      "translation_angle_deg": 22.532877570841663,
+      "coordinate_identity_max_abs_m": 9.313225746154785e-10
+    },
+    "meta_minus5": {
+      "unweighted_centroid": [
+        598189.3999999999,
+        5675684.775
+      ],
+      "operational_centroid": [
+        598729.3346437259,
+        5674203.961180669
+      ],
+      "translation_vector": [
+        -131.11604262490314,
+        -41.42346125665979
+      ],
+      "translation_magnitude": 137.50389003987274,
+      "translation_angle_deg": 197.5328775708417,
+      "coordinate_identity_max_abs_m": 9.313225746154785e-10
+    }
+  }
+}

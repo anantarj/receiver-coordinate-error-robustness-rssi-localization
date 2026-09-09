@@ -1,0 +1,82 @@
+[
+  {
+    "path": "results/base_logs/PAPERB-CLAIM-TO-ARTIFACT-MANIFEST-001_040926.csv",
+    "sha256": "a4f8d93c2bf35d0a7356845d017b62e8502b8fae1b1a85c8ae620bb38165c71b",
+    "bytes": 2432
+  },
+  {
+    "path": "results/base_logs/diffrepair_e1_d1000.txt",
+    "sha256": "9e1ac0b1b5c604c2e76849ab3f5e4b159c8a2ecedcb42906f314626cd5d4580e",
+    "bytes": 8418
+  },
+  {
+    "path": "results/base_logs/diffrepair_e1_d10000.txt",
+    "sha256": "ecc35abf2b7f79dbcb3c57407f89062be070c7dc659db40091a6dcc460e5a8f8",
+    "bytes": 8431
+  },
+  {
+    "path": "results/base_logs/diffrepair_e1_d250.txt",
+    "sha256": "1fbdcb2d694de1888c388d5c402c41bdc52edac6dcc3eef019e7b619261323bf",
+    "bytes": 8410
+  },
+  {
+    "path": "results/base_logs/diffrepair_e1_d2500.txt",
+    "sha256": "1a5df48f68ccc647b7f326836b9a1af2d61f8aa5e1a571ba9f8d63044b9f8a76",
+    "bytes": 8425
+  },
+  {
+    "path": "results/base_logs/diffrepair_e1_d500_dr32.txt",
+    "sha256": "dece784ef29709c3254ad2991720daecffe562fad0912da1650572ce1cecf6b1",
+    "bytes": 8414
+  },
+  {
+    "path": "results/base_logs/diffrepair_e2b_k14_dir8.txt",
+    "sha256": "16f8f5d7eefc73913350abcc929db63996437341c194cee50fdf476b057fe385",
+    "bytes": 16187
+  },
+  {
+    "path": "results/base_logs/diffrepair_e2d_d1000.txt",
+    "sha256": "d999c08035cf58da32e6a1f669c762da0977d493540721a87142fb5e3c6f56cb",
+    "bytes": 12396
+  },
+  {
+    "path": "results/base_logs/diffrepair_e2e_win5.txt",
+    "sha256": "ed731f51344e9c8d7f0659d279ca84271b9d758588d85126efb7838e5dc8d4b6",
+    "bytes": 12411
+  },
+  {
+    "path": "results/base_logs/diffrepair_e3b_angles.txt",
+    "sha256": "57a46939b46521ae3e90f1960a8901b512b15c44c88ed1a27da6d7cc8642dba8",
+    "bytes": 15158
+  },
+  {
+    "path": "results/base_logs/diffrepair_e5_affine.txt",
+    "sha256": "9ba02315d633a22c7d5118ba7c5ce80e6237087540be2675aa88a194030aa2f0",
+    "bytes": 10202
+  },
+  {
+    "path": "results/base_logs/diffrepair_e6_twopop.txt",
+    "sha256": "ae2c60a8b0b7dddd940021fb9cce692098c2603da6aeecd07eae333c206f7aff",
+    "bytes": 8867
+  },
+  {
+    "path": "results/base_logs/e1b_d500.txt",
+    "sha256": "a02bce0f2bfd25dbcc77fbe107f637f6a798674573e5cbaa52faef5b26e75c1d",
+    "bytes": 8412
+  },
+  {
+    "path": "results/base_logs/e2f_a0truth.txt",
+    "sha256": "1d06932e83b923651ef35a318dd6e0d79ea5cc941b8dc69d84ee59c7663762ef",
+    "bytes": 8544
+  },
+  {
+    "path": "results/base_logs/e7_tails.txt",
+    "sha256": "13ee0d44e43a0440dcb514c54ce76ba584e7ce2cf6a15b12d6da85dd8cfe2112",
+    "bytes": 8584
+  },
+  {
+    "path": "results/base_logs/paperb_coverage_all.txt",
+    "sha256": "fd8223d7e581c27e5bd166126995860669b29e0ea8a7eba80a7abc5b70648468",
+    "bytes": 7715
+  }
+]

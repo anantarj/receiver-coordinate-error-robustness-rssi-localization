@@ -1,0 +1,14 @@
+{
+  "purpose": "Reporting recovery of existing 40 configurations; no new hypothesis test",
+  "execution": "assistant-runtime derivative, not author-machine rerun",
+  "data_sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+  "population_sha256": "ebda5a2d559d0ae1102fc8b151937bed02dfc274f2a2b4d1d587531de10aabbf",
+  "configuration_count": 40,
+  "draws_per_subset": 1,
+  "code_hashes": {
+    "baseline_001_e123_pairfallback_040926.py": "6e8881f3a83b70c49ee2b1f3892b9a2cf65e5491717c336b3e1cbace01943b2f",
+    "deltamesh_antwerp_eval_v10_fixed_080826.py": "b14b35b5748e447971e5b22da7c39ededc8277aa04e5690eeff672bf1311cac5",
+    "data": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+    "map": "cfddca4fc5a0ad51fb4d8717be807454c891ba3c4872ff1a4e6b9aec3f5ae2da"
+  }
+}

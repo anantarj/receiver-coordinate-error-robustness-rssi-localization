@@ -1,0 +1,72 @@
+[
+  {
+    "file": "Fig1_Corruption_Load_Surface.pdf",
+    "pages": 1,
+    "embedded_fonts": true,
+    "out_of_bounds_words": [],
+    "sha256": "ebddb14440663ded43ee4aa5bc7ff784a0231701d76746387a2ed9471a82de74"
+  },
+  {
+    "file": "Fig2_Exposure_Topology.pdf",
+    "pages": 1,
+    "embedded_fonts": true,
+    "out_of_bounds_words": [],
+    "sha256": "86cfee42ece9dcda154c4a6b2e201252beb098a29763624305bf2b82f884584b"
+  },
+  {
+    "file": "Fig3_Selection_Set_Exhaustion.pdf",
+    "pages": 1,
+    "embedded_fonts": true,
+    "out_of_bounds_words": [],
+    "sha256": "19028272e2c5939931248bdc436ca66cd8c46c90093dd87491577848b2416d7e"
+  },
+  {
+    "file": "Fig4_A0_Refit_Ablation.pdf",
+    "pages": 1,
+    "embedded_fonts": true,
+    "out_of_bounds_words": [],
+    "sha256": "a0d552c178aad9a2bb346eaba8e0a60d2d52cbb50af5e439d84781f28c2f82ea"
+  },
+  {
+    "file": "Fig5_Spatial_Error_Structure.pdf",
+    "pages": 1,
+    "embedded_fonts": true,
+    "out_of_bounds_words": [],
+    "sha256": "e3c2b4439ab58b6f9932a8a3d5e15c99f74dd42a46da99779a417b86ea706cf1"
+  },
+  {
+    "file": "Fig6_Directional_and_Affine_Structure.pdf",
+    "pages": 1,
+    "embedded_fonts": true,
+    "out_of_bounds_words": [],
+    "sha256": "0e8430ce70def6d62b9d4075136f788b4287f7f556f33fbbe865d78a65d82fcd"
+  },
+  {
+    "file": "Fig7_Reliability_Profile.pdf",
+    "pages": 1,
+    "embedded_fonts": true,
+    "out_of_bounds_words": [],
+    "sha256": "1fe689c604b321e426e2c6435c30efd2863702986944c4601091a2710e1eda05"
+  },
+  {
+    "file": "FigS1_Matched_Exposure.pdf",
+    "pages": 1,
+    "embedded_fonts": true,
+    "out_of_bounds_words": [],
+    "sha256": "bb3361c0d330aa24d7745fe7679f7be09bd29e7e3d5c045fe779ff424b3a754b"
+  },
+  {
+    "file": "FigS2_Scale_Control.pdf",
+    "pages": 1,
+    "embedded_fonts": true,
+    "out_of_bounds_words": [],
+    "sha256": "10264e614e3e8db863b12fb9090b332f78ea16c3796e1bcbb389d5aaa5b46c77"
+  },
+  {
+    "file": "FigS3_Two_Population.pdf",
+    "pages": 1,
+    "embedded_fonts": true,
+    "out_of_bounds_words": [],
+    "sha256": "886a871189ba869908b552d195ecc8d4368d1600345fa3ffb97fbd70e04319a4"
+  }
+]

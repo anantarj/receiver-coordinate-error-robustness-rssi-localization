@@ -1,0 +1,1294 @@
+[
+  {
+    "substrate": "recovered29",
+    "arm": "reference",
+    "seed": null,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      597.6726773737064,
+      641.0128583786435,
+      963.9527294587203,
+      466.00552668865595
+    ],
+    "source_npz": "recovered29__reference.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "rot_plus5",
+    "seed": null,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      895.2634410290896,
+      811.6151073791002,
+      1077.964347092804,
+      623.2348961292362
+    ],
+    "source_npz": "recovered29__rot_plus5.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "rot_minus5",
+    "seed": null,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      548.1128436611066,
+      535.2857562323925,
+      842.1046940964611,
+      453.18231826121416
+    ],
+    "source_npz": "recovered29__rot_minus5.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "legacy_iso",
+    "seed": 4750,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      712.351457811405,
+      721.2207594628246,
+      1187.3933084229357,
+      512.8794033339544
+    ],
+    "source_npz": "recovered29__legacy_iso__4750.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "legacy_iso",
+    "seed": 4763,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      754.0801830972682,
+      690.6827310463187,
+      1243.8237066928389,
+      500.4963303644787
+    ],
+    "source_npz": "recovered29__legacy_iso__4763.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "legacy_iso",
+    "seed": 4776,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      895.592152921157,
+      769.7312239386872,
+      1219.2455792823343,
+      589.8502619524751
+    ],
+    "source_npz": "recovered29__legacy_iso__4776.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "legacy_iso",
+    "seed": 4789,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      569.5931579560745,
+      530.632610427266,
+      825.219994024028,
+      451.2370954538461
+    ],
+    "source_npz": "recovered29__legacy_iso__4789.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "legacy_iso",
+    "seed": 4802,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      649.7085288080767,
+      639.626275972218,
+      925.2071117386128,
+      465.23633652019987
+    ],
+    "source_npz": "recovered29__legacy_iso__4802.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "legacy_iso",
+    "seed": 4815,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      762.9946653798829,
+      646.945982383553,
+      1279.3140601977584,
+      504.20464885556044
+    ],
+    "source_npz": "recovered29__legacy_iso__4815.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "legacy_iso",
+    "seed": 4828,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      537.8959340414359,
+      600.7757542650479,
+      889.6828553695284,
+      504.9427384980553
+    ],
+    "source_npz": "recovered29__legacy_iso__4828.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "legacy_iso",
+    "seed": 4841,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      720.6679737385655,
+      730.7948611543109,
+      1282.9929975529444,
+      532.4285545744765
+    ],
+    "source_npz": "recovered29__legacy_iso__4841.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_mag_iso",
+    "seed": 5750,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      727.1387092073021,
+      638.9546472062539,
+      1226.4920059313436,
+      506.88430519318445
+    ],
+    "source_npz": "recovered29__exact_mag_iso__5750.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_mag_iso",
+    "seed": 5763,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      579.6442643062264,
+      606.6795932319768,
+      856.5160772645094,
+      460.62538473491827
+    ],
+    "source_npz": "recovered29__exact_mag_iso__5763.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_mag_iso",
+    "seed": 5776,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      611.9564534018477,
+      687.2722711626213,
+      1154.0198260043135,
+      513.343042764156
+    ],
+    "source_npz": "recovered29__exact_mag_iso__5776.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_mag_iso",
+    "seed": 5789,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      617.2065343071226,
+      692.5112987718956,
+      954.269168416065,
+      472.59352403429193
+    ],
+    "source_npz": "recovered29__exact_mag_iso__5789.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_mag_iso",
+    "seed": 5802,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      669.1796582671648,
+      677.5493543666145,
+      1240.7318577966732,
+      527.9313267470762
+    ],
+    "source_npz": "recovered29__exact_mag_iso__5802.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_mag_iso",
+    "seed": 5815,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      642.0697314606691,
+      627.5068165521632,
+      979.202529729909,
+      486.07489976691096
+    ],
+    "source_npz": "recovered29__exact_mag_iso__5815.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_mag_iso",
+    "seed": 5828,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      632.8456103934323,
+      712.6919511076479,
+      1157.8619323426112,
+      523.7368575213661
+    ],
+    "source_npz": "recovered29__exact_mag_iso__5828.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_mag_iso",
+    "seed": 5841,
+    "N": 2498,
+    "map_n": 29,
+    "median_rotation_displacement_m": 429.37951532109946,
+    "rms_rotation_displacement_m": 1157.3132880986118,
+    "max_rotation_displacement_m": 3263.772855914626,
+    "median_error_m": [
+      758.0051221266816,
+      755.7395950415166,
+      1275.4838336535618,
+      546.5432381654903
+    ],
+    "source_npz": "recovered29__exact_mag_iso__5841.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "reference",
+    "seed": null,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      593.7425223082155,
+      555.6165186830742,
+      1082.7111969409727,
+      478.88143519512585
+    ],
+    "source_npz": "official32_minus71__reference.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "rot_plus5",
+    "seed": null,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      659.1088231627432,
+      588.1894106415334,
+      1155.0877612638792,
+      515.0336723378
+    ],
+    "source_npz": "official32_minus71__rot_plus5.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "rot_minus5",
+    "seed": null,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      598.9552925979203,
+      573.409123630365,
+      1052.1037103557458,
+      488.5079145385529
+    ],
+    "source_npz": "official32_minus71__rot_minus5.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "legacy_iso",
+    "seed": 4750,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      667.837174711357,
+      613.3321859889923,
+      1282.6786499390114,
+      497.97115343379204
+    ],
+    "source_npz": "official32_minus71__legacy_iso__4750.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "legacy_iso",
+    "seed": 4763,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      665.2492538491158,
+      637.5818047321027,
+      1228.2495460870045,
+      505.4357693360054
+    ],
+    "source_npz": "official32_minus71__legacy_iso__4763.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "legacy_iso",
+    "seed": 4776,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      704.7626844309723,
+      590.9326360255686,
+      1320.856948270623,
+      526.6641356988237
+    ],
+    "source_npz": "official32_minus71__legacy_iso__4776.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "legacy_iso",
+    "seed": 4789,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      776.6598325046654,
+      649.8551003428233,
+      1281.0162956702377,
+      576.0991575615203
+    ],
+    "source_npz": "official32_minus71__legacy_iso__4789.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "legacy_iso",
+    "seed": 4802,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      697.046308991419,
+      683.7500564772258,
+      1406.5484427343044,
+      546.4162958975633
+    ],
+    "source_npz": "official32_minus71__legacy_iso__4802.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "legacy_iso",
+    "seed": 4815,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      716.5631711735144,
+      635.0469936029248,
+      1375.39216339405,
+      537.2568259505349
+    ],
+    "source_npz": "official32_minus71__legacy_iso__4815.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "legacy_iso",
+    "seed": 4828,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      622.232934392895,
+      620.9272312273727,
+      1403.5348655622677,
+      487.64112818937576
+    ],
+    "source_npz": "official32_minus71__legacy_iso__4828.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "legacy_iso",
+    "seed": 4841,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      605.0273108422084,
+      683.7836995969052,
+      1229.97266874103,
+      495.5888706190541
+    ],
+    "source_npz": "official32_minus71__legacy_iso__4841.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_mag_iso",
+    "seed": 5750,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      612.9529957603784,
+      573.8678045930567,
+      1062.883615267359,
+      478.3060632639189
+    ],
+    "source_npz": "official32_minus71__exact_mag_iso__5750.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_mag_iso",
+    "seed": 5763,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      583.354488130286,
+      567.7061256747544,
+      1084.1254999165294,
+      493.49360384118347
+    ],
+    "source_npz": "official32_minus71__exact_mag_iso__5763.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_mag_iso",
+    "seed": 5776,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      623.0631089591736,
+      574.0819339580569,
+      1174.7217690619036,
+      503.54736436523854
+    ],
+    "source_npz": "official32_minus71__exact_mag_iso__5776.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_mag_iso",
+    "seed": 5789,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      634.5618381426823,
+      611.8439235974392,
+      1148.9651633921667,
+      500.25142079437387
+    ],
+    "source_npz": "official32_minus71__exact_mag_iso__5789.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_mag_iso",
+    "seed": 5802,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      594.3946253824004,
+      627.7467114550066,
+      1205.3556590996618,
+      474.6250043001338
+    ],
+    "source_npz": "official32_minus71__exact_mag_iso__5802.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_mag_iso",
+    "seed": 5815,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      681.3087615508014,
+      584.6380685006241,
+      1265.0347719596466,
+      514.1919823083192
+    ],
+    "source_npz": "official32_minus71__exact_mag_iso__5815.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_mag_iso",
+    "seed": 5828,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      650.5881949822985,
+      552.5028836189138,
+      1089.925608854488,
+      520.8332163268499
+    ],
+    "source_npz": "official32_minus71__exact_mag_iso__5828.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_mag_iso",
+    "seed": 5841,
+    "N": 2498,
+    "map_n": 32,
+    "median_rotation_displacement_m": 327.98968175640096,
+    "rms_rotation_displacement_m": 426.7637544264815,
+    "max_rotation_displacement_m": 1100.2501189851637,
+    "median_error_m": [
+      652.0218767783288,
+      647.3860656211598,
+      1164.6355860527797,
+      514.2828951554327
+    ],
+    "source_npz": "official32_minus71__exact_mag_iso__5841.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "reference",
+    "seed": null,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      593.2183143536402,
+      639.9899678146855,
+      989.6227832833138,
+      469.8231520356294
+    ],
+    "source_npz": "recovered27_common__reference.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "rot_plus5",
+    "seed": null,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      836.9971020929033,
+      779.4707164175447,
+      1092.909210387032,
+      582.5910374555161
+    ],
+    "source_npz": "recovered27_common__rot_plus5.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "rot_minus5",
+    "seed": null,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      518.7011634245152,
+      513.8252622876453,
+      818.8104942043842,
+      427.3440183582961
+    ],
+    "source_npz": "recovered27_common__rot_minus5.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "legacy_iso",
+    "seed": 4750,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      692.8732528647165,
+      691.0070291866222,
+      1111.7064563522526,
+      463.7242643420968
+    ],
+    "source_npz": "recovered27_common__legacy_iso__4750.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "legacy_iso",
+    "seed": 4763,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      681.8510513854026,
+      663.7966978681345,
+      1354.1634196829002,
+      484.2438049097052
+    ],
+    "source_npz": "recovered27_common__legacy_iso__4763.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "legacy_iso",
+    "seed": 4776,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      753.9485881623729,
+      724.0172490235336,
+      1212.354635185701,
+      534.0127222692831
+    ],
+    "source_npz": "recovered27_common__legacy_iso__4776.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "legacy_iso",
+    "seed": 4789,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      542.7334172269493,
+      524.9939914560896,
+      828.8039766582299,
+      442.5265151591394
+    ],
+    "source_npz": "recovered27_common__legacy_iso__4789.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "legacy_iso",
+    "seed": 4802,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      591.771374730489,
+      623.2376659864954,
+      906.9622131767861,
+      449.6229645596887
+    ],
+    "source_npz": "recovered27_common__legacy_iso__4802.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "legacy_iso",
+    "seed": 4815,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      729.7726527633151,
+      620.3057729772681,
+      1285.2254137347581,
+      478.7040143111901
+    ],
+    "source_npz": "recovered27_common__legacy_iso__4815.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "legacy_iso",
+    "seed": 4828,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      534.2066801034534,
+      595.490969898565,
+      884.069899747134,
+      467.6508379161737
+    ],
+    "source_npz": "recovered27_common__legacy_iso__4828.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "legacy_iso",
+    "seed": 4841,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      727.4032933226201,
+      658.050084572066,
+      1212.4167654271914,
+      470.43817439900386
+    ],
+    "source_npz": "recovered27_common__legacy_iso__4841.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5750,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      690.1662953775349,
+      638.0938231839439,
+      1199.252375494086,
+      506.85565170575563
+    ],
+    "source_npz": "recovered27_common__exact_mag_iso__5750.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5763,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      604.9201379562746,
+      590.8389670193983,
+      868.2866440974917,
+      462.7859711424062
+    ],
+    "source_npz": "recovered27_common__exact_mag_iso__5763.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5776,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      607.7195305739208,
+      681.3788860622519,
+      1088.0763921696475,
+      492.3801103773192
+    ],
+    "source_npz": "recovered27_common__exact_mag_iso__5776.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5789,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      602.8806276114901,
+      656.5101099632029,
+      947.1179243687482,
+      488.93754642681404
+    ],
+    "source_npz": "recovered27_common__exact_mag_iso__5789.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5802,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      634.3730790331977,
+      683.1783629260646,
+      1181.4928733617708,
+      489.3512982156492
+    ],
+    "source_npz": "recovered27_common__exact_mag_iso__5802.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5815,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      644.0055995721875,
+      629.9381688292922,
+      980.0624607746126,
+      494.1961564251805
+    ],
+    "source_npz": "recovered27_common__exact_mag_iso__5815.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5828,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      719.6449024830288,
+      737.5729082230527,
+      1107.0526653031152,
+      519.0137103849071
+    ],
+    "source_npz": "recovered27_common__exact_mag_iso__5828.npz"
+  },
+  {
+    "substrate": "recovered27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5841,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 365.33166310450633,
+    "rms_rotation_displacement_m": 1130.4146103188132,
+    "max_rotation_displacement_m": 3303.4618787020395,
+    "median_error_m": [
+      724.9177768894382,
+      727.7734417827548,
+      1195.9068370542052,
+      502.41576922884974
+    ],
+    "source_npz": "recovered27_common__exact_mag_iso__5841.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "reference",
+    "seed": null,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      550.147955381421,
+      560.2566653454028,
+      1104.02759665123,
+      442.6550881089566
+    ],
+    "source_npz": "official27_common__reference.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "rot_plus5",
+    "seed": null,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      573.8078021336272,
+      552.018737350088,
+      1123.4623235755794,
+      464.1208688096126
+    ],
+    "source_npz": "official27_common__rot_plus5.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "rot_minus5",
+    "seed": null,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      575.1320001650577,
+      586.935020634985,
+      1078.8397415258605,
+      451.9730528091088
+    ],
+    "source_npz": "official27_common__rot_minus5.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "legacy_iso",
+    "seed": 4750,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      529.5477743822523,
+      534.2434878313907,
+      1214.0800243800968,
+      436.85266799333687
+    ],
+    "source_npz": "official27_common__legacy_iso__4750.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "legacy_iso",
+    "seed": 4763,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      534.3731129164463,
+      565.7296608987115,
+      1266.860833287681,
+      433.9643806905576
+    ],
+    "source_npz": "official27_common__legacy_iso__4763.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "legacy_iso",
+    "seed": 4776,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      569.4015430815023,
+      593.611577179055,
+      1257.4786903182744,
+      477.1905809346366
+    ],
+    "source_npz": "official27_common__legacy_iso__4776.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "legacy_iso",
+    "seed": 4789,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      513.1687255437887,
+      519.8481330055959,
+      1110.5723589051513,
+      437.15706025534143
+    ],
+    "source_npz": "official27_common__legacy_iso__4789.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "legacy_iso",
+    "seed": 4802,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      523.9153706698262,
+      538.3383314536052,
+      1125.7429444541835,
+      428.6148485996415
+    ],
+    "source_npz": "official27_common__legacy_iso__4802.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "legacy_iso",
+    "seed": 4815,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      538.8039391424771,
+      489.51667465824085,
+      1271.581071510561,
+      427.7166235655259
+    ],
+    "source_npz": "official27_common__legacy_iso__4815.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "legacy_iso",
+    "seed": 4828,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      502.26163336970455,
+      534.0313156712353,
+      987.1654326784328,
+      428.0613092246524
+    ],
+    "source_npz": "official27_common__legacy_iso__4828.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "legacy_iso",
+    "seed": 4841,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      530.6503821311419,
+      529.8265329137371,
+      1162.4832835470074,
+      428.1115893537279
+    ],
+    "source_npz": "official27_common__legacy_iso__4841.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5750,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      582.2252031414957,
+      558.6705555270806,
+      1159.286671858319,
+      468.4024845316076
+    ],
+    "source_npz": "official27_common__exact_mag_iso__5750.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5763,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      560.9982891518739,
+      554.531671513831,
+      1135.6751114344702,
+      460.0564834373939
+    ],
+    "source_npz": "official27_common__exact_mag_iso__5763.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5776,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      541.101827574809,
+      610.3028200913611,
+      1146.9996143514136,
+      441.72499427649734
+    ],
+    "source_npz": "official27_common__exact_mag_iso__5776.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5789,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      535.3863326210048,
+      549.6335774867954,
+      1025.1186336578612,
+      438.4540768339685
+    ],
+    "source_npz": "official27_common__exact_mag_iso__5789.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5802,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      525.852361968985,
+      603.9207461886672,
+      1079.2015471828167,
+      423.4709277178382
+    ],
+    "source_npz": "official27_common__exact_mag_iso__5802.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5815,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      600.9676299652043,
+      572.2257190201292,
+      1101.455556380164,
+      465.2285774600913
+    ],
+    "source_npz": "official27_common__exact_mag_iso__5815.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5828,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      587.0342751782567,
+      655.2240247988071,
+      1145.6458259285964,
+      479.5625475738697
+    ],
+    "source_npz": "official27_common__exact_mag_iso__5828.npz"
+  },
+  {
+    "substrate": "official27_common",
+    "arm": "exact_mag_iso",
+    "seed": 5841,
+    "N": 2498,
+    "map_n": 27,
+    "median_rotation_displacement_m": 276.2255979623542,
+    "rms_rotation_displacement_m": 345.7556134428647,
+    "max_rotation_displacement_m": 723.5399773446815,
+    "median_error_m": [
+      544.5373539156751,
+      603.5602465121046,
+      1160.2299570135096,
+      452.6592069625631
+    ],
+    "source_npz": "official27_common__exact_mag_iso__5841.npz"
+  }
+]

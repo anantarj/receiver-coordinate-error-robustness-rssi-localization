@@ -1,0 +1,5 @@
+# Compatible ranges, not a retrospective freeze of the author's run environment.
+numpy>=1.24,<3
+scipy>=1.10,<2
+pandas>=1.5,<3
+pyproj>=3.5,<4

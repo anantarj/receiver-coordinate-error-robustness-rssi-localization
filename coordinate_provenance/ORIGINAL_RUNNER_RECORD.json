@@ -1,0 +1,6 @@
+{
+  "source": "Original run_paperb_b9c_official33_core_050926.sh from the author-run workflow",
+  "copy": "coordinate_provenance/source_records/original_official33_runner.sh",
+  "sha256": "cf47b2bce1596e48c73a954afb6aea47e073066e00af60b70787579834e75d12",
+  "scope": "Historical runner source copied byte-identical; not executed or rewritten in this revision. Confirms official27 is restricted from official33_repaired71. Absolute historical input paths in this record are not a new command to run."
+}

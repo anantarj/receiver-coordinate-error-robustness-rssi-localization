@@ -1,0 +1,458 @@
+[
+  [
+    "recovered29",
+    "reference",
+    null,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "rot_plus5",
+    null,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "rot_minus5",
+    null,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "legacy_iso",
+    4750,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "legacy_iso",
+    4763,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "legacy_iso",
+    4776,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "legacy_iso",
+    4789,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "legacy_iso",
+    4802,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "legacy_iso",
+    4815,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "legacy_iso",
+    4828,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "legacy_iso",
+    4841,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "exact_mag_iso",
+    5750,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "exact_mag_iso",
+    5763,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "exact_mag_iso",
+    5776,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "exact_mag_iso",
+    5789,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "exact_mag_iso",
+    5802,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "exact_mag_iso",
+    5815,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "exact_mag_iso",
+    5828,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered29",
+    "exact_mag_iso",
+    5841,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "reference",
+    null,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "rot_plus5",
+    null,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "rot_minus5",
+    null,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "legacy_iso",
+    4750,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "legacy_iso",
+    4763,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "legacy_iso",
+    4776,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "legacy_iso",
+    4789,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "legacy_iso",
+    4802,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "legacy_iso",
+    4815,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "legacy_iso",
+    4828,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "legacy_iso",
+    4841,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "exact_mag_iso",
+    5750,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "exact_mag_iso",
+    5763,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "exact_mag_iso",
+    5776,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "exact_mag_iso",
+    5789,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "exact_mag_iso",
+    5802,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "exact_mag_iso",
+    5815,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "exact_mag_iso",
+    5828,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official32_minus71",
+    "exact_mag_iso",
+    5841,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "reference",
+    null,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "rot_plus5",
+    null,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "rot_minus5",
+    null,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "legacy_iso",
+    4750,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "legacy_iso",
+    4763,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "legacy_iso",
+    4776,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "legacy_iso",
+    4789,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "legacy_iso",
+    4802,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "legacy_iso",
+    4815,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "legacy_iso",
+    4828,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "legacy_iso",
+    4841,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "exact_mag_iso",
+    5750,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "exact_mag_iso",
+    5763,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "exact_mag_iso",
+    5776,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "exact_mag_iso",
+    5789,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "exact_mag_iso",
+    5802,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "exact_mag_iso",
+    5815,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "exact_mag_iso",
+    5828,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "recovered27_common",
+    "exact_mag_iso",
+    5841,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "reference",
+    null,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "rot_plus5",
+    null,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "rot_minus5",
+    null,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "legacy_iso",
+    4750,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "legacy_iso",
+    4763,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "legacy_iso",
+    4776,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "legacy_iso",
+    4789,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "legacy_iso",
+    4802,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "legacy_iso",
+    4815,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "legacy_iso",
+    4828,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "legacy_iso",
+    4841,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "exact_mag_iso",
+    5750,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "exact_mag_iso",
+    5763,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "exact_mag_iso",
+    5776,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "exact_mag_iso",
+    5789,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "exact_mag_iso",
+    5802,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "exact_mag_iso",
+    5815,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "exact_mag_iso",
+    5828,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ],
+  [
+    "official27_common",
+    "exact_mag_iso",
+    5841,
+    "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_REMAINING_AUTHOR_RUN_050926/rotation/raw"
+  ]
+]

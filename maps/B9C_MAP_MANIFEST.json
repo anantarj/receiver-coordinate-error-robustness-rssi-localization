@@ -1,0 +1,68 @@
+{
+  "recovered29_n": 29,
+  "official33_repaired71_n": 33,
+  "shared_n": 27,
+  "shared_ids": [
+    "1",
+    "2",
+    "4",
+    "5",
+    "6",
+    "7",
+    "9",
+    "10",
+    "11",
+    "12",
+    "14",
+    "15",
+    "17",
+    "18",
+    "19",
+    "20",
+    "23",
+    "25",
+    "27",
+    "32",
+    "33",
+    "34",
+    "37",
+    "50",
+    "69",
+    "70",
+    "71"
+  ],
+  "recovered_only": [
+    "35",
+    "41"
+  ],
+  "official_only": [
+    "3",
+    "16",
+    "22",
+    "31",
+    "44",
+    "48"
+  ],
+  "generated": {
+    "official32_minus71.json": {
+      "n": 32,
+      "sha256": "445ec184e1ba7f46208896e88ed6ca79fcb59d7cc4a45a93ae420c5c8baeb854"
+    },
+    "official27_common.json": {
+      "n": 27,
+      "sha256": "02180f358ddc840872f5ceb38f837c706bef1830bdb2503c176028527f84ff9b"
+    },
+    "recovered27_common.json": {
+      "n": 27,
+      "sha256": "00d9ad189b5d01d475ba261edaa0556e02eadad8aee06104f3feb3f8ad998170"
+    },
+    "official26_common_minus71.json": {
+      "n": 26,
+      "sha256": "d569191d4becd8733edc7b54e6a7cf4c3715ef657f8d5b8624ebfe8053c959a6"
+    },
+    "recovered26_common_minus71.json": {
+      "n": 26,
+      "sha256": "9f0c6ec568d72d2b3249ea7e365bd9b37645cb94195fdc8d642021f71e53fd9c"
+    }
+  }
+}

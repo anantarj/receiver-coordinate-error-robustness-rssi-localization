@@ -1,0 +1,21 @@
+{
+  "csv": {
+    "archive": "PAPERB_B9C_INPUT_BATCH_20260905_055353.zip",
+    "member": "PAPERB_B9C_INPUT_BATCH_20260905_055353/copied/lorawan_antwerp_2019_dataset.csv",
+    "payload_sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446"
+  },
+  "population": {
+    "path": "results/rc5/populations/recovered29_ordered_source_rows.json",
+    "sha256": "c1993e187ad59bdd4af27386890811a273f63b3d59a58f5109a4ef96e5110025"
+  },
+  "map": {
+    "path": "maps/recovered29.json",
+    "sha256": "cfddca4fc5a0ad51fb4d8717be807454c891ba3c4872ff1a4e6b9aec3f5ae2da"
+  },
+  "centroid_E_N": [
+    598682.3572337967,
+    5674492.246613089
+  ],
+  "scope": "Geometry from fixed map, pinned CSV and supplied ordered row IDs. No localization, calibration fit or resampling executed. The saved population construction itself is not reexecuted.",
+  "rotation_scope": "Six summary pairs agree with 16 saved case records; percentages rederived. Producer source inspected. No fresh frozen-arm per-message calculation; the original producer exported only scalar summaries for these cases."
+}

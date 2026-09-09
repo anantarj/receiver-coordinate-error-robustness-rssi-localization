@@ -1,0 +1,14 @@
+{
+  "dataset": {
+    "name": "lorawan_antwerp_2019_dataset.csv",
+    "sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+    "source_doi": "10.5281/zenodo.3904158",
+    "redistributed": false
+  },
+  "gateway_catalogue": {
+    "name": "lorawan_antwerp_gateway_locations.json",
+    "sha256": "507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d",
+    "source_doi": "10.5281/zenodo.3904158",
+    "redistributed": false
+  }
+}

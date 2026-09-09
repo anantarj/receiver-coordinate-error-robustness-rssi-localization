@@ -1,0 +1,3 @@
+# RC5 figure review
+
+All ten figures were inspected in the supplied-template PDFs. Figure 1 retains the exact numeric cells and adds signed annotations. Figure 2 shows the retained top/bottom ranges; historical random-k ranges remain unavailable. Figure 6 shows all eight controls, median/range and rotation with consistent visual roles, including the R29 within-range comparison. Figure S1 displays exact exposure for all forty same-design reporting-recovery configurations. Six other figure PDFs are unchanged from RC4. Figure 7 numerical content is unchanged; its caption is narrowed to the observed quantile increments. A range is not a confidence interval.

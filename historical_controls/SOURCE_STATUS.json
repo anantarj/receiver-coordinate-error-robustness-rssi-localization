@@ -1,0 +1,10 @@
+{
+  "saved_log": "results/base_logs/diffrepair_e2b_k14_dir8.txt",
+  "log_sha256": "16f8f5d7eefc73913350abcc929db63996437341c194cee50fdf476b057fe385",
+  "fraction_block": "Block21 variant1; D5000, eight draws",
+  "high_low_block": "Block21 variant3; same D and population; one field each, eight random subsets",
+  "fitted_field_block": "Block21 variant2; retained legacy log only, not upgraded to new primary evidence or regenerated from A R5.1 fitted map",
+  "lineage": "Exploratory records were described in earlier benchmark drafts including manuscript034. Current A R5.1 has a distinct resource/audit scope; it is not asserted to re-report these curves. Retain source attribution/history; do not claim new execution or independent discovery.",
+  "directions_from_numeric_PHYS_order": true,
+  "raw_measurement_file_redistributed": false
+}

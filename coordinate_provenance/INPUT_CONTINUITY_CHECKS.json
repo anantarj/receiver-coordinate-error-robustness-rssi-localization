@@ -1,0 +1,303 @@
+{
+  "scope": "Saved identity/source validation, catalogue projection, frozen map algebra, and CSV-only BS71 description; no localization or raw CSV-JSON join rerun.",
+  "source_archive_sha256": "6f4a036f631143407750882195fabbf47aab0720b51ea877e1d438d2d6317d0a",
+  "used_receiver_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "9",
+    "10",
+    "11",
+    "12",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "22",
+    "23",
+    "25",
+    "27",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "37",
+    "41",
+    "44",
+    "48",
+    "50",
+    "69",
+    "70",
+    "71"
+  ],
+  "union_receiver_count": 35,
+  "checks": [
+    {
+      "bs": "1",
+      "gateway_id": "FF010714",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "2",
+      "gateway_id": "FF01072B",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "3",
+      "gateway_id": "FF010877",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "4",
+      "gateway_id": "080E0149",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "5",
+      "gateway_id": "FF010560",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "6",
+      "gateway_id": "FF010721",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "7",
+      "gateway_id": "080605EE",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "9",
+      "gateway_id": "FF01085B",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "10",
+      "gateway_id": "080E00B9",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "11",
+      "gateway_id": "FF01052A",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "12",
+      "gateway_id": "08060622",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "14",
+      "gateway_id": "FF0107C9",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "15",
+      "gateway_id": "FF01099B",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "16",
+      "gateway_id": "FF010581",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "17",
+      "gateway_id": "FF010739",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "18",
+      "gateway_id": "FF0178DF",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "19",
+      "gateway_id": "FF010667",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "20",
+      "gateway_id": "FF010595",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "22",
+      "gateway_id": "FF010628",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "23",
+      "gateway_id": "FF0105CB",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "25",
+      "gateway_id": "080E0116",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "27",
+      "gateway_id": "08060716",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "31",
+      "gateway_id": "FF010EFE",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "32",
+      "gateway_id": "FF0108A3",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "33",
+      "gateway_id": "FF01060B",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "34",
+      "gateway_id": "FF010719",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "35",
+      "gateway_id": "004A05D4",
+      "calibration_identity_matches": true,
+      "catalogue_backed": false,
+      "official_pair_matches_projection": null
+    },
+    {
+      "bs": "37",
+      "gateway_id": "FF010639",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "41",
+      "gateway_id": "004A0DA4",
+      "calibration_identity_matches": true,
+      "catalogue_backed": false,
+      "official_pair_matches_projection": null
+    },
+    {
+      "bs": "44",
+      "gateway_id": "FF0105C2",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "48",
+      "gateway_id": "FF010605",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "50",
+      "gateway_id": "FF010957",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "69",
+      "gateway_id": "FF01753E",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "70",
+      "gateway_id": "FF017649",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    },
+    {
+      "bs": "71",
+      "gateway_id": "004A026B",
+      "calibration_identity_matches": true,
+      "catalogue_backed": true,
+      "official_pair_matches_projection": true
+    }
+  ],
+  "official33_values_match_A_source": true,
+  "r29_values_match_A_historical_source": true,
+  "derived_map_constructions_match": [
+    "official32_minus71",
+    "official33_repaired71",
+    "recovered27_common",
+    "recovered26_common_minus71",
+    "official27_common",
+    "official26_common_minus71"
+  ],
+  "r29_catalogue_coordinate_matches": 29,
+  "r29_nonmatching_catalogue_ids": [],
+  "raw_join_reexecuted_this_stage": false,
+  "raw_join_execution_note": "Source and saved execution record supplied. Raw message JSON was not mounted; public download attempts failed. No fresh raw-join claim is made."
+}

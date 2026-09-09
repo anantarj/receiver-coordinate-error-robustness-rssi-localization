@@ -1,0 +1,18 @@
+{
+  "csv_sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+  "calibration_rows": 16612,
+  "calibration_manifest_sha256": "95df9fe7784ed2088c1483aaf36a8cfd9a8cd4c37e1133292d3cf4430536bc86",
+  "catalogue_xy_m": [
+    579736.5,
+    5633188.3
+  ],
+  "gateway_id": "004A026B",
+  "received_calibration_count": 58,
+  "received_calibration_min_m": 46640.63118738428,
+  "received_calibration_median_m": 46994.710662577636,
+  "received_calibration_max_m": 47134.35710404253,
+  "all_valid_received_count": 509,
+  "all_valid_received_median_m": 46973.14255371191,
+  "nearest_calibration_transmitter_m": 42397.960939595585,
+  "interpretation": "Present input-only check of frozen coordinates and source-defined populations; not historical flagging rationale or proof of physical coordinate error."
+}

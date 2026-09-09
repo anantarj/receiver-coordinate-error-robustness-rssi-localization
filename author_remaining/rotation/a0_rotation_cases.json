@@ -1,0 +1,114 @@
+[
+  {
+    "substrate": "recovered29",
+    "arm": "reference",
+    "a0_mode": "refit",
+    "N": 2498,
+    "median_error_m": 597.6726773737064
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "reference",
+    "a0_mode": "frozen",
+    "N": 2498,
+    "median_error_m": 597.6726773737064
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "legacy_plus5",
+    "a0_mode": "refit",
+    "N": 2498,
+    "median_error_m": 895.2634410290896
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "legacy_plus5",
+    "a0_mode": "frozen",
+    "N": 2498,
+    "median_error_m": 866.3879624669551
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "legacy_minus5",
+    "a0_mode": "refit",
+    "N": 2498,
+    "median_error_m": 548.1128436611066
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "legacy_minus5",
+    "a0_mode": "frozen",
+    "N": 2498,
+    "median_error_m": 609.3599236644513
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "operational_plus5",
+    "a0_mode": "refit",
+    "N": 2498,
+    "median_error_m": 671.560814219227
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "operational_plus5",
+    "a0_mode": "frozen",
+    "N": 2498,
+    "median_error_m": 679.9166809314647
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "reference",
+    "a0_mode": "refit",
+    "N": 2498,
+    "median_error_m": 593.7425223082155
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "reference",
+    "a0_mode": "frozen",
+    "N": 2498,
+    "median_error_m": 593.7425223082155
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "legacy_plus5",
+    "a0_mode": "refit",
+    "N": 2498,
+    "median_error_m": 659.1088231627432
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "legacy_plus5",
+    "a0_mode": "frozen",
+    "N": 2498,
+    "median_error_m": 616.2920052588395
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "legacy_minus5",
+    "a0_mode": "refit",
+    "N": 2498,
+    "median_error_m": 598.9552925979203
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "legacy_minus5",
+    "a0_mode": "frozen",
+    "N": 2498,
+    "median_error_m": 606.3488434189727
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "operational_plus5",
+    "a0_mode": "refit",
+    "N": 2498,
+    "median_error_m": 627.0782278378335
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "operational_plus5",
+    "a0_mode": "frozen",
+    "N": 2498,
+    "median_error_m": 607.31154611036
+  }
+]

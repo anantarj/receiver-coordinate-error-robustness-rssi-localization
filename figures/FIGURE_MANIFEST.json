@@ -1,0 +1,147 @@
+{
+  "Fig1_Corruption_Load_Surface.pdf": {
+    "sources": [
+      "results/figure_data/paperb_load_surface.csv"
+    ],
+    "panels": [
+      "figures/panels/Fig1_WCL.pdf",
+      "figures/panels/Fig1_ABS.pdf",
+      "figures/panels/Fig1_DIFF.pdf",
+      "figures/panels/Fig1_MinMax.pdf"
+    ],
+    "note": "Same numerical cells; signed annotations expose near-zero effects. Range -2% to 846%; five expansion magnitudes; 500m has32 draws, others8.",
+    "sha256": "ebddb14440663ded43ee4aa5bc7ff784a0231701d76746387a2ed9471a82de74",
+    "source_hashes": {
+      "results/figure_data/paperb_load_surface.csv": "c51cf7cc1e889568269cc7365d3f7765f6dcf286ae1743ca5ac0d66f861580d6"
+    }
+  },
+  "Fig2_Exposure_Topology.pdf": {
+    "sources": [
+      "results/rc5/primary_exposure_ranges.csv"
+    ],
+    "panels": [
+      "figures/panels/Fig2_WCL.pdf",
+      "figures/panels/Fig2_ABS.pdf",
+      "figures/panels/Fig2_DIFF.pdf",
+      "figures/panels/Fig2_MinMax.pdf"
+    ],
+    "note": "Top/bottom whole-metre ranges across eight fields; random central curve only, historical ranges unavailable. Ranges not CIs.",
+    "sha256": "86cfee42ece9dcda154c4a6b2e201252beb098a29763624305bf2b82f884584b",
+    "source_hashes": {
+      "results/rc5/primary_exposure_ranges.csv": "dc2a6a6d08c95587eaf367512731ac6982963587d0c39aa3a00c4f9d81865826"
+    }
+  },
+  "Fig3_Selection_Set_Exhaustion.pdf": {
+    "sources": [
+      "results/figure_data/paperb_coverage.csv"
+    ],
+    "panels": [
+      "figures/panels/Fig3_0.pdf",
+      "figures/panels/Fig3_1.pdf"
+    ],
+    "note": "Historical R29 and coordinate-free Sigfox topology; not spatially independent localization replications.",
+    "sha256": "19028272e2c5939931248bdc436ca66cd8c46c90093dd87491577848b2416d7e",
+    "source_hashes": {
+      "results/figure_data/paperb_coverage.csv": "a512f76500bbdbbcb58a21bcb7c746e63d28d775c5d749785bb3732d900a65a3"
+    }
+  },
+  "Fig4_A0_Refit_Ablation.pdf": {
+    "sources": [
+      "results/figure_data/paperb_a0_ablation.csv"
+    ],
+    "panels": [
+      "figures/panels/Fig4.pdf"
+    ],
+    "note": "WCL-specific implemented intervention; does not independently manipulate exhaustion.",
+    "sha256": "a0d552c178aad9a2bb346eaba8e0a60d2d52cbb50af5e439d84781f28c2f82ea",
+    "source_hashes": {
+      "results/figure_data/paperb_a0_ablation.csv": "c0d858707530add73d496455638d77caca72373a8fd6385a84cd060b09780f03"
+    }
+  },
+  "Fig5_Spatial_Error_Structure.pdf": {
+    "sources": [
+      "results/figure_data/paperb_spatial_families.csv"
+    ],
+    "panels": [
+      "figures/panels/Fig5_WCL.pdf",
+      "figures/panels/Fig5_ABS.pdf",
+      "figures/panels/Fig5_DIFF.pdf",
+      "figures/panels/Fig5_MinMax.pdf"
+    ],
+    "note": "R29; logarithmic x and symmetric-log y with linear region +/-10%. Isotropic: 8 directions; structured curves: registered constructions.",
+    "sha256": "e3c2b4439ab58b6f9932a8a3d5e15c99f74dd42a46da99779a417b86ea706cf1",
+    "source_hashes": {
+      "results/figure_data/paperb_spatial_families.csv": "a603de7a3f835dd4549bfee76a0151624fe463cc5c45e6d00f836b281c9bf363"
+    }
+  },
+  "Fig6_Directional_and_Affine_Structure.pdf": {
+    "sources": [
+      "results/figure_data/paperb_coherent_angles.csv",
+      "results/rc5/rotation_dispersion.csv"
+    ],
+    "panels": [
+      "figures/panels/Fig6_angle.pdf",
+      "figures/panels/Fig6_transfer.pdf"
+    ],
+    "note": "All8 outcomes and descriptive ranges visible; R29 controlled rotation inside sampled range; official above8. G4 remainsFAIL.",
+    "sha256": "0e8430ce70def6d62b9d4075136f788b4287f7f556f33fbbe865d78a65d82fcd",
+    "source_hashes": {
+      "results/figure_data/paperb_coherent_angles.csv": "af0f7e9b37e24e0772e999f044a95a986c6b2034bbf17d24b05f98b557b208a5",
+      "results/rc5/rotation_dispersion.csv": "9543d93daf2c0eedd0800e48967cfef77406d7b9de7ec37af6baee36e009cb99"
+    }
+  },
+  "Fig7_Reliability_Profile.pdf": {
+    "sources": [
+      "results/figure_data/paperb_tails.csv"
+    ],
+    "panels": [
+      "figures/panels/Fig7.pdf"
+    ],
+    "note": "Perturbed rows pool 4 evaluations of each of 2,498 messages; 9,992 evaluations are not independent messages.",
+    "sha256": "1fe689c604b321e426e2c6435c30efd2863702986944c4601091a2710e1eda05",
+    "source_hashes": {
+      "results/figure_data/paperb_tails.csv": "0f078fcc3389314ef92d8be5ea970731f9a925f4de6e6ea64491944f6a463ca5"
+    }
+  },
+  "FigS1_Matched_Exposure.pdf": {
+    "sources": [
+      "results/rc5/matched_exposure/subset_results.csv",
+      "results/figure_data/paperb_matched_exposure.csv"
+    ],
+    "panels": [
+      "figures/panels/FigS1.pdf"
+    ],
+    "note": "ExactS displayed. Tolerance0.025; one directionfield/subset. Co-occurrence not independently isolated.",
+    "sha256": "bb3361c0d330aa24d7745fe7679f7be09bd29e7e3d5c045fe779ff424b3a754b",
+    "source_hashes": {
+      "results/rc5/matched_exposure/subset_results.csv": "f3d3aeeeccdddf3fab21314721b0a3976d20e6a792308e2be973c5e456c37f30",
+      "results/figure_data/paperb_matched_exposure.csv": "6b3a76159ec189023478a0d58fee212fce5414efd5289ebc4cf125894fef25d6"
+    }
+  },
+  "FigS2_Scale_Control.pdf": {
+    "sources": [
+      "results/figure_data/paperb_affine.csv"
+    ],
+    "panels": [
+      "figures/panels/FigS2.pdf"
+    ],
+    "note": "Legacy four-direction isotropic comparator; small tested scales only.",
+    "sha256": "10264e614e3e8db863b12fb9090b332f78ea16c3796e1bcbb389d5aaa5b46c77",
+    "source_hashes": {
+      "results/figure_data/paperb_affine.csv": "f8366b67fe3a8226961b083b3ef2c817f9b385e092625b07cb6bed0fe982a897"
+    }
+  },
+  "FigS3_Two_Population.pdf": {
+    "sources": [
+      "results/figure_data/paperb_twopop.csv"
+    ],
+    "panels": [
+      "figures/panels/FigS3.pdf"
+    ],
+    "note": "20-m background jitter + top-k 5-km corruption; 4 registered direction realizations. No general additivity theorem.",
+    "sha256": "886a871189ba869908b552d195ecc8d4368d1600345fa3ffb97fbd70e04319a4",
+    "source_hashes": {
+      "results/figure_data/paperb_twopop.csv": "ca21bc828dc31bfc43c248e2b05a0a35d220feb3a4e51a1588c0bd7b6f407c4b"
+    }
+  }
+}

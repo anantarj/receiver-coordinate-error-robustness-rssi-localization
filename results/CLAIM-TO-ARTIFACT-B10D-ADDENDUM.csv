@@ -1,0 +1,4 @@
+item,manuscript_location,source,locator,status
+G6 statistic and resampling definition,Main IV.E; Supplement S13.1 and S13.3,results/archives/PAPERB_B9C_REMAINING_REPLAY_050926.zip :: scripts/b9c_remaining_replay.py,cluster_bootstrap / stage_g6; top-k seed 8800+k+101*r,Description corrected to executed statistic; no output changed
+Operational centroid definition,Main VII.D; Supplement S12.6,results/archives/PAPERB_B9C_REMAINING_REPLAY_050926.zip :: scripts/b9c_remaining_replay.py,operational_center,"Reference-map corrected-WCL weights; explanatory pivot, not physical survey centre"
+Eight-row common27 rotation comparison,Supplement S12.6,results/b9c_author_remaining/rotation_cause_results.csv,"R27/O27; WCL, ABS, DIFF, Min-Max; +5/-5 and eight median-matched isotropic directions",Existing author-reproduced outputs newly displayed; not a new experiment or restored G4 pass

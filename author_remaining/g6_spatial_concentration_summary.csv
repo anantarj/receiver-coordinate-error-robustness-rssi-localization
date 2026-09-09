@@ -1,0 +1,7 @@
+substrate,width_m,cells,active_exhaustion_cells,newly_exhausted_n,top1_cell_share_of_new,top3_cell_share_of_new
+recovered29,500,106,2,355,0.9971830985915493,1.0
+recovered29,1000,39,2,355,0.9971830985915493,1.0
+recovered29,2000,12,1,355,1.0,1.0
+official32_minus71,500,106,2,327,0.9969418960244648,1.0
+official32_minus71,1000,41,2,327,0.9969418960244648,1.0
+official32_minus71,2000,14,1,327,1.0,1.0

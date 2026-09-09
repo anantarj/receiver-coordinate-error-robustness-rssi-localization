@@ -1,0 +1,171 @@
+================================================================================================
+BASELINE-001 -- RE-BASELINE ON VERIFIED GATEWAY GEOMETRY
+================================================================================================
+CAVEAT CARRIED ON EVERY MAP-DEPENDENT NUMBER BELOW:
+  the 27-gateway map is correlation-recovered and outcome-validated.
+  Its generator (strict27) is ABSENT. It is not independently confirmed.
+
+RSSI column family selection: use_bs=True (score_bs=0.039, score_rssi=-1.000) | n_cols=72 | rssi_range=[-150.0,-20.0]
+RSSI sample stats (filtered): count=13916 | min=-123.0 | p01=-120.0 | median=-112.0 | p99=-87.0 | max=-74.0
+[GATE B] verified map: 32 entries, 32 join the dataset's labels
+[GATE E] map geometry: 32 receivers span 20639 m
+         span OK, exponent n=4.7 OK   PASS
+         common to verified and RSSFIT: 32 gateways -- used everywhere below
+[GATE A] content-duplicate evaluation messages: 2 (0.08% of eval)
+         these are duplicate RECORDS in the dataset, not a split error
+         action: DROPPED from evaluation | eval set now 2498 messages   PASS
+[GATE C] evaluation set FIXED at 2498 messages, after GATE A's drop. Every block below is asserted against this count.
+
+================================================================================================
+BLOCK 0 -- MAP VALIDATION. The run below depends on this map; validate it first. [C4]
+================================================================================================
+  rank-among-249 check: for each assigned position, its RSSI-distance
+  correlation rank among ALL published candidates. Rank 1 = best of 249.
+    gateways checked      : 32
+    rank 1                : 7/32
+    rank <= 3             : 17/32
+    min correlation       : -0.181
+    *** WARN: some assignments are not top-3 or fall below corr 0.15 ***
+    strong subset (rank<=3 AND corr>=0.15): 16/32 gateways
+
+================================================================================================
+BLOCK 1 -- NOISE FLOORS, MEASURED HERE. Every later effect is read against these.
+================================================================================================
+  EVALUATION-DRAW floor (which messages you evaluate; coords + A0 fixed)
+    n=40 draws | values 539 552 545 542 561 531 535 562 532 561 571 552 553 566 549 551 565 558 554 555 557 576 566 540 531 547 560 573 561 542 536 542 573 553 545 534 566 549 532 553 m
+    AUTHORITATIVE  2*sd/mean = 4.6%   (sd alone 2.3%)
+    superseded     (max-min)/mean = 8.1%  <- the statistic used
+                   in every run before 16 Aug; retained for readability
+  calibration-draw floor (A0 subset redrawn, coords fixed)
+    n=40 draws | values 563 568 561 568 568 565 561 559 568 566 575 572 567 575 561 569 566 568 575 574 555 566 557 557 565 562 570 568 566 563 566 566 562 567 577 569 562 572 573 568 m
+    AUTHORITATIVE  2*sd/mean = 1.9%   (sd alone 0.9%)
+    superseded     (max-min)/mean = 4.0%
+
+  ANY EFFECT BELOW 4.6% (eval draw) OR 1.9% (calibration draw) IS NOT RESOLVABLE.
+  The pipeline is otherwise DETERMINISTIC: given coordinates and A0 there
+  is no seed dependence. These two draws are the only stochastic inputs.
+
+================================================================================================
+BLOCK 21 -- THE ABSORPTION CURVE: how does damage scale with the NUMBER
+            of wrong anchors, and does DIRECTION matter as well as SIZE?
+================================================================================================
+  [floor, 2*sd/mean] eval-draw 4.6% | calibration-draw 1.9% | (superseded range stat 8.1%)
+  Two facts sit far apart and the shape between them is unmeasured:
+    a MINORITY of receivers displaced is LARGELY ABSORBED by the
+      intercept fit. HOW MUCH depends on WHICH receivers, and the
+      table below measures exactly that. An earlier version of this
+      header quoted a single figure from a side measurement; the
+      f=7 row below supersedes it and they disagree.
+    ALL receivers wrong by the estimator own median error: about +464%
+  If the curve is LINEAR, coordinate error is additive. If it has a KNEE,
+  C1 is a COLLAPSE phenomenon and a practitioner who gets most gateways
+  roughly right is safe while one who gets them all wrong is not.
+  NOTE: this block NEVER mutates PHYS or RSSF. Every corrupted map is a
+  new dict, and A0 is refitted on it so each map is self-consistent.
+
+  reference (true map): WCL_bc 601 m | ABS+mean 563 m | DIFF 1160 m | MinMax 471 m | n=2498
+
+  (0) APPARATUS CONTROL -- corrupt NOTHING and corrupt EVERYTHING by 0 m.
+      Both must return EXACTLY the reference. A control that cannot fail
+      is decoration; this one fails loudly if build/refit is not neutral.
+      empty target set   : 601.2 m  (reference 601.2)   PASS
+      all targets, 0 m   : 601.2 m  (reference 601.2)   PASS
+
+  (1) CORRUPTION-FRACTION SWEEP. f gateways displaced 5000.0 m
+      in a RANDOM DIRECTION, 8 random choices of WHICH,
+      A0 refitted each time. Everything else identical.
+         f % of map   WCL_bc  vs true  ABS+mean  vs true    DIFF  vs true   MinMax  vs true   spread
+         1       3%     609m     1.4%      564m     0.2%   1136m    -2.1%     485m     2.9%     5.8%
+           min-max across draws: WCL 601-637 | ABS 555-585 | DIFF 900-1170 | MinMax 471-521 m
+         4      12%     626m     4.1%      587m     4.3%   1130m    -2.6%     498m     5.8%     5.4%
+           min-max across draws: WCL 614-648 | ABS 558-620 | DIFF 947-1266 | MinMax 481-557 m
+         8      25%     651m     8.3%      590m     4.9%    936m   -19.3%     548m    16.3%    50.3%
+           min-max across draws: WCL 582-909 | ABS 572-768 | DIFF 768-1239 | MinMax 492-910 m
+        16      50%     912m    51.7%      718m    27.6%   1027m   -11.5%     803m    70.6%    67.1%
+           min-max across draws: WCL 654-1267 | ABS 686-887 | DIFF 863-1310 | MinMax 678-974 m
+        24      75%    1798m   199.1%     1070m    90.2%   1459m    25.8%    1233m   161.8%   129.7%
+           min-max across draws: WCL 961-3293 | ABS 766-1541 | DIFF 921-1857 | MinMax 815-2146 m
+        32     100%    2912m   384.3%     1504m   167.3%   1908m    64.5%    1756m   273.0%    22.4%
+           min-max across draws: WCL 2571-3224 | ABS 1341-1703 | DIFF 1608-2095 | MinMax 1550-2048 m
+      spread = across the 8 choices of WHICH gateways.
+      META-CHECK, same sweep at ZERO displacement: max deviation 0.00%
+      PASS — a flat line when nothing is corrupted, so the curve above is real
+
+  (2) SYSTEMATIC vs RANDOM AT EQUAL MAGNITUDE. Three maps, all wrong by
+      the same amount; only the STRUCTURE of the error differs.
+      per-gateway displacement: RSSFIT median 5191 m (min 726, max 11618)
+      map                                         WCL_bc   vs true   ABS+mean
+      RSSFIT (actual, systematic)                  3335m     5.55x      1364m
+      same magnitudes, RANDOM directions           2062m     3.43x      1168m
+      isotropic random at 5191 m                   2790m     4.64x      1602m
+      CONTROL: magnitudes AND true directions      3335m     5.55x      1364m
+      META-CHECK: the control must REPRODUCE RSSFIT (it is RSSFIT, rebuilt
+      from magnitude+direction). 0.0 m apart -> PASS — the reconstruction is sound
+      META-CHECK: do the three arms SEPARATE? spread 1273 m -> YES — error STRUCTURE matters, not only size
+      -> if RSSFIT is WORSE than its own magnitudes in random directions,
+         the harm is in the DIRECTION (systematic inward bias), not the
+         size. That ties C1 to the survey-footprint argument.
+
+  (3) SELECTION-WEIGHTED ARM. Does it matter WHICH gateways are wrong?
+      f = 8 gateways displaced 5000.0 m, A0 refitted
+      which gateways                      total selections    WCL_bc   vs true
+      MOST-selected                                   5680     1599m    166.0%
+      LEAST-selected                                   213      605m      0.7%
+      RANDOM choice (median of draws)                   --      668m     11.0%
+      META-CHECK at ZERO displacement: MOST +0.00% | LEAST +0.00%  -> PASS — no separation when nothing is corrupted
+      -> if MOST and LEAST differ materially, damage depends on SELECTION
+         FREQUENCY, not on the count of wrong anchors.
+
+  (4) EXPOSURE-RANK SWEEP [E2]. top-k / bottom-k / random-k displaced 5000.0 m, k = 1..8, A0 refitted, 8 random draws.
+      S = cumulative selection share of the displaced set (of 9762).
+        karm            S   WCL_bc      vs     ABS      vs    DIFF      vs  MinMax      vs
+        1top        0.108     628m    4.5%    581m    3.3%    901m  -22.3%    550m   16.7%
+           direction min-max (4 draws): WCL 628-629 | ABS 579-601 | DIFF 851-931 | MinMax 537-579 m
+        1bottom     0.000     601m    0.0%    563m    0.0%   1161m    0.0%    471m    0.0%
+           direction min-max (4 draws): WCL 601-601 | ABS 563-563 | DIFF 1160-1162 | MinMax 471-471 m
+        1random     0.048     619m    2.9%    564m    0.3%   1149m   -1.0%    478m    1.5%   (median of 8 which-draws)
+        2top        0.200     591m   -1.8%    572m    1.6%    838m  -27.8%    566m   20.2%
+           direction min-max (4 draws): WCL 589-591 | ABS 564-581 | DIFF 771-930 | MinMax 513-619 m
+        2bottom     0.001     601m    0.0%    564m    0.1%   1160m   -0.0%    471m   -0.0%
+           direction min-max (4 draws): WCL 601-603 | ABS 563-564 | DIFF 1157-1161 | MinMax 471-471 m
+        2random     0.035     615m    2.3%    577m    2.5%   1134m   -2.2%    487m    3.3%   (median of 8 which-draws)
+        3top        0.275     643m    7.0%    594m    5.6%    801m  -31.0%    596m   26.5%
+           direction min-max (4 draws): WCL 643-644 | ABS 577-605 | DIFF 771-827 | MinMax 577-639 m
+        3bottom     0.002     601m    0.0%    563m    0.1%   1161m    0.0%    471m    0.0%
+           direction min-max (4 draws): WCL 601-603 | ABS 563-564 | DIFF 1159-1161 | MinMax 471-472 m
+        3random     0.085     618m    2.8%    577m    2.6%   1076m   -7.3%    505m    7.1%   (median of 8 which-draws)
+        4top        0.343     678m   12.7%    611m    8.6%    888m  -23.4%    662m   40.6%
+           direction min-max (4 draws): WCL 669-681 | ABS 606-635 | DIFF 849-927 | MinMax 630-712 m
+        4bottom     0.003     605m    0.6%    565m    0.4%   1170m    0.8%    471m    0.0%
+           direction min-max (4 draws): WCL 603-605 | ABS 565-566 | DIFF 1169-1172 | MinMax 471-471 m
+        4random     0.084     621m    3.3%    593m    5.3%   1118m   -3.7%    496m    5.4%   (median of 8 which-draws)
+        5top        0.407     688m   14.4%    640m   13.7%    925m  -20.3%    723m   53.6%
+           direction min-max (4 draws): WCL 686-691 | ABS 615-648 | DIFF 833-1029 | MinMax 693-740 m
+        5bottom     0.007     603m    0.2%    566m    0.6%   1168m    0.7%    471m    0.0%
+           direction min-max (4 draws): WCL 603-605 | ABS 566-566 | DIFF 1165-1180 | MinMax 470-472 m
+        5random     0.103     613m    1.9%    577m    2.6%   1065m   -8.2%    511m    8.6%   (median of 8 which-draws)
+        6top        0.471     805m   33.9%    635m   12.9%    938m  -19.2%    778m   65.1%
+           direction min-max (4 draws): WCL 797-812 | ABS 563-651 | DIFF 929-944 | MinMax 749-922 m
+        6bottom     0.012     604m    0.5%    568m    1.0%   1168m    0.6%    468m   -0.7%
+           direction min-max (4 draws): WCL 594-605 | ABS 564-569 | DIFF 1164-1179 | MinMax 459-472 m
+        6random     0.209     643m    7.0%    585m    3.9%    954m  -17.8%    576m   22.3%   (median of 8 which-draws)
+        7top        0.529    1525m  153.7%    930m   65.2%   1285m   10.7%   1237m  162.6%
+           direction min-max (4 draws): WCL 1492-1633 | ABS 902-999 | DIFF 1160-1486 | MinMax 1220-1328 m
+        7bottom     0.017     603m    0.2%    565m    0.4%   1167m    0.5%    471m    0.1%
+           direction min-max (4 draws): WCL 599-606 | ABS 563-568 | DIFF 1162-1188 | MinMax 461-472 m
+        7random     0.233     672m   11.8%    634m   12.6%    966m  -16.7%    559m   18.6%   (median of 8 which-draws)
+        8top        0.582    1534m  155.2%    974m   73.2%   1243m    7.1%   1062m  125.5%
+           direction min-max (4 draws): WCL 1429-1640 | ABS 875-1001 | DIFF 1214-1253 | MinMax 935-1175 m
+        8bottom     0.022     606m    0.8%    566m    0.6%   1159m   -0.1%    474m    0.6%
+           direction min-max (4 draws): WCL 605-607 | ABS 566-568 | DIFF 1152-1170 | MinMax 464-477 m
+        8random     0.240     659m    9.6%    590m    4.8%    963m  -17.0%    560m   19.0%   (median of 8 which-draws)
+      META-CHECK at ZERO displacement, k=8: top +0.00% | bottom +0.00%  -> PASS
+      -> KILL CONDITION (pre-registered): if top-k and bottom-k at matched S
+         differ by less than the floor, exposure share is NOT the sufficient statistic.
+
+================================================================================================
+END. Every number above: substrate = verified-27 or RSSFIT, as labelled.
+Floors measured in BLOCK 1: seed 4.6% | draw 1.9%
+================================================================================================
+
+-> /Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_OFFICIAL33_CORE_050926/results/O32M71_N4P7_D5000_W5.txt

@@ -1,0 +1,48 @@
+{
+  "active_csv_columns": 44,
+  "calibration_identified_holdout_mismatches": 0,
+  "calibration_rows": 16612,
+  "construction_inputs_exclude_legacy_map_and_coordinates": true,
+  "csv_count_distribution": {
+    "1": 40063,
+    "2": 34991,
+    "3": 24117,
+    "4": 12260,
+    "5": 6540,
+    "6": 3862,
+    "7": 2603,
+    "8": 1926,
+    "9": 1358,
+    "10": 2709
+  },
+  "csv_rows": 130429,
+  "csv_working_ge3": 55375,
+  "distinct_gateway_ids": 44,
+  "duplicate_key_group_sizes": {
+    "1": 130136,
+    "2": 147
+  },
+  "inputs": {
+    "csv_sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+    "json_sha256": "f2f1fbd478cdef2b76fb8e3aae33751d332b50fc8546684d8e73fdb1505451cb"
+  },
+  "json_count_distribution": {
+    "1": 40063,
+    "2": 34991,
+    "3": 24117,
+    "4": 12261,
+    "5": 6540,
+    "6": 3862,
+    "7": 2603,
+    "8": 1926,
+    "9": 1358,
+    "10": 2709
+  },
+  "json_ge3": 55376,
+  "json_rows": 130430,
+  "map_sha256": "037c50d6f6947de0e3738cad2b9a6e666dc75b65de72d39f98dd699d7ddc5104",
+  "matched_csv_rows": 130429,
+  "surplus_json_count": 1,
+  "unambiguous_calibration_identities": 41,
+  "unambiguous_full_identities": 44
+}

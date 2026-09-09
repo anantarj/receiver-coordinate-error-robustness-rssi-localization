@@ -1,0 +1,73 @@
+{
+  "bs": "71",
+  "gateway_id": "004A026B",
+  "catalogue_latitude": 50.844898,
+  "catalogue_longitude": 4.132583,
+  "metadata_rounded_xy_m": [
+    579736.5,
+    5633188.3
+  ],
+  "projected_unrounded_xy_m": [
+    579736.5173575466,
+    5633188.34069748
+  ],
+  "CRS": "EPSG:32631",
+  "populations": [
+    {
+      "population": "all_calibration",
+      "n": 16612,
+      "minimum_m": 42397.960939595585,
+      "median_m": 45673.78811486377,
+      "p90_m": 47560.990055755574,
+      "maximum_m": 48827.401334772316,
+      "distance_to_mean_position_m": 45496.47269121998,
+      "start_timestamp": "2018-11-16T12:31:35.384+01:00",
+      "end_timestamp": "2019-02-11T21:36:31.872384208+01:00"
+    },
+    {
+      "population": "BS71_calibration_received",
+      "n": 58,
+      "minimum_m": 46640.63118738428,
+      "median_m": 46994.710662577636,
+      "p90_m": 47090.25829651501,
+      "maximum_m": 47134.35710404253,
+      "distance_to_mean_position_m": 46944.110942681764,
+      "start_timestamp": "2018-12-31T09:43:49.153+01:00",
+      "end_timestamp": "2019-02-04T13:18:11.287291317+01:00"
+    },
+    {
+      "population": "BS71_working_received",
+      "n": 217,
+      "minimum_m": 46640.63118738428,
+      "median_m": 46969.381915045706,
+      "p90_m": 47097.78508012305,
+      "maximum_m": 47258.46295812162,
+      "distance_to_mean_position_m": 46944.08563646681,
+      "start_timestamp": "2018-11-20T10:30:08.598088819+01:00",
+      "end_timestamp": "2019-02-05T17:19:47.789111325+01:00"
+    },
+    {
+      "population": "BS71_all_CSV_received",
+      "n": 509,
+      "minimum_m": 46586.36630664151,
+      "median_m": 46973.14255371191,
+      "p90_m": 47100.77640640204,
+      "maximum_m": 47272.44836884506,
+      "distance_to_mean_position_m": 46941.77151696161,
+      "start_timestamp": "2018-11-20T10:30:08.598088819+01:00",
+      "end_timestamp": "2019-02-05T17:39:49.926+01:00"
+    }
+  ],
+  "calibration_bounding_rectangle": {
+    "xmin_m": 592559.2238088003,
+    "xmax_m": 601828.8447644523,
+    "ymin_m": 5671393.25164725,
+    "ymax_m": 5677034.892108071,
+    "minimum_signed_margin_m": -38204.95164724998,
+    "distance_to_closed_box_m": 40299.386797387924,
+    "outside": true,
+    "on_boundary": false,
+    "within_60m_of_boundary": false
+  },
+  "interpretation": "Retrospective geometric description, not recovered historical flagging or proof of physical coordinate error. No coordinate repaired."
+}

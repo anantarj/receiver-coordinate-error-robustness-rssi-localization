@@ -1,0 +1,362 @@
+[
+  {
+    "substrate": "recovered29",
+    "arm": "rot",
+    "seed": null,
+    "N": 2498,
+    "opcenter": [
+      598729.5175872805,
+      5674218.746703741
+    ],
+    "disp_median": 371.9362922874227,
+    "disp_rms": 1193.8390872275882,
+    "disp_max": 3403.1310533271326,
+    "median_error_m": [
+      671.560814219227,
+      693.9341492061328,
+      1077.808608727102,
+      496.3337377813088
+    ],
+    "source_npz": "recovered29__opcenter_rot.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_iso",
+    "seed": 7750,
+    "N": 2498,
+    "opcenter": [
+      598729.5175872805,
+      5674218.746703741
+    ],
+    "disp_median": 371.9362922874227,
+    "disp_rms": 1193.8390872275882,
+    "disp_max": 3403.1310533271326,
+    "median_error_m": [
+      628.8691099556595,
+      641.0615891562517,
+      1051.074151982647,
+      472.7863386871235
+    ],
+    "source_npz": "recovered29__opcenter_exact_iso_7750.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_iso",
+    "seed": 7763,
+    "N": 2498,
+    "opcenter": [
+      598729.5175872805,
+      5674218.746703741
+    ],
+    "disp_median": 371.9362922874227,
+    "disp_rms": 1193.8390872275882,
+    "disp_max": 3403.1310533271326,
+    "median_error_m": [
+      608.0458814913634,
+      642.6904882778774,
+      893.3367526945985,
+      463.86455012092034
+    ],
+    "source_npz": "recovered29__opcenter_exact_iso_7763.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_iso",
+    "seed": 7776,
+    "N": 2498,
+    "opcenter": [
+      598729.5175872805,
+      5674218.746703741
+    ],
+    "disp_median": 371.9362922874227,
+    "disp_rms": 1193.8390872275882,
+    "disp_max": 3403.1310533271326,
+    "median_error_m": [
+      664.1897492748056,
+      671.2851211037355,
+      1071.753968307742,
+      485.2537078725735
+    ],
+    "source_npz": "recovered29__opcenter_exact_iso_7776.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_iso",
+    "seed": 7789,
+    "N": 2498,
+    "opcenter": [
+      598729.5175872805,
+      5674218.746703741
+    ],
+    "disp_median": 371.9362922874227,
+    "disp_rms": 1193.8390872275882,
+    "disp_max": 3403.1310533271326,
+    "median_error_m": [
+      681.6599657888592,
+      670.9284129072496,
+      1096.2836499840093,
+      501.6491248639036
+    ],
+    "source_npz": "recovered29__opcenter_exact_iso_7789.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_iso",
+    "seed": 7802,
+    "N": 2498,
+    "opcenter": [
+      598729.5175872805,
+      5674218.746703741
+    ],
+    "disp_median": 371.9362922874227,
+    "disp_rms": 1193.8390872275882,
+    "disp_max": 3403.1310533271326,
+    "median_error_m": [
+      553.9545324891658,
+      644.6212381994001,
+      888.0569307584649,
+      452.493456984988
+    ],
+    "source_npz": "recovered29__opcenter_exact_iso_7802.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_iso",
+    "seed": 7815,
+    "N": 2498,
+    "opcenter": [
+      598729.5175872805,
+      5674218.746703741
+    ],
+    "disp_median": 371.9362922874227,
+    "disp_rms": 1193.8390872275882,
+    "disp_max": 3403.1310533271326,
+    "median_error_m": [
+      609.793227720799,
+      689.800449446587,
+      964.8643973714304,
+      487.52744706677674
+    ],
+    "source_npz": "recovered29__opcenter_exact_iso_7815.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_iso",
+    "seed": 7828,
+    "N": 2498,
+    "opcenter": [
+      598729.5175872805,
+      5674218.746703741
+    ],
+    "disp_median": 371.9362922874227,
+    "disp_rms": 1193.8390872275882,
+    "disp_max": 3403.1310533271326,
+    "median_error_m": [
+      610.4824610081596,
+      659.8031659116367,
+      902.4014856364408,
+      474.88421118381643
+    ],
+    "source_npz": "recovered29__opcenter_exact_iso_7828.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "exact_iso",
+    "seed": 7841,
+    "N": 2498,
+    "opcenter": [
+      598729.5175872805,
+      5674218.746703741
+    ],
+    "disp_median": 371.9362922874227,
+    "disp_rms": 1193.8390872275882,
+    "disp_max": 3403.1310533271326,
+    "median_error_m": [
+      692.6182750267762,
+      663.5029366630574,
+      1059.3797654481393,
+      492.0246747905562
+    ],
+    "source_npz": "recovered29__opcenter_exact_iso_7841.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "rot",
+    "seed": null,
+    "N": 2498,
+    "opcenter": [
+      598729.3346437259,
+      5674203.961180669
+    ],
+    "disp_median": 354.57257876202897,
+    "disp_rms": 448.3688457823545,
+    "disp_max": 1235.4692167750177,
+    "median_error_m": [
+      627.0782278378335,
+      578.666923362213,
+      1106.3175574072834,
+      514.1482872973793
+    ],
+    "source_npz": "official32_minus71__opcenter_rot.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_iso",
+    "seed": 7750,
+    "N": 2498,
+    "opcenter": [
+      598729.3346437259,
+      5674203.961180669
+    ],
+    "disp_median": 354.57257876202897,
+    "disp_rms": 448.3688457823545,
+    "disp_max": 1235.4692167750177,
+    "median_error_m": [
+      596.1344783733093,
+      563.3803419155452,
+      1123.4213775488383,
+      479.7429293295671
+    ],
+    "source_npz": "official32_minus71__opcenter_exact_iso_7750.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_iso",
+    "seed": 7763,
+    "N": 2498,
+    "opcenter": [
+      598729.3346437259,
+      5674203.961180669
+    ],
+    "disp_median": 354.57257876202897,
+    "disp_rms": 448.3688457823545,
+    "disp_max": 1235.4692167750177,
+    "median_error_m": [
+      548.690452131812,
+      539.3860055052728,
+      1069.2244138099354,
+      447.4608547961052
+    ],
+    "source_npz": "official32_minus71__opcenter_exact_iso_7763.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_iso",
+    "seed": 7776,
+    "N": 2498,
+    "opcenter": [
+      598729.3346437259,
+      5674203.961180669
+    ],
+    "disp_median": 354.57257876202897,
+    "disp_rms": 448.3688457823545,
+    "disp_max": 1235.4692167750177,
+    "median_error_m": [
+      612.2037532550485,
+      531.8754585442541,
+      1101.5313567757605,
+      483.7849026560813
+    ],
+    "source_npz": "official32_minus71__opcenter_exact_iso_7776.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_iso",
+    "seed": 7789,
+    "N": 2498,
+    "opcenter": [
+      598729.3346437259,
+      5674203.961180669
+    ],
+    "disp_median": 354.57257876202897,
+    "disp_rms": 448.3688457823545,
+    "disp_max": 1235.4692167750177,
+    "median_error_m": [
+      591.8693159896873,
+      543.5742221679509,
+      1143.2936369369065,
+      469.85005484915047
+    ],
+    "source_npz": "official32_minus71__opcenter_exact_iso_7789.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_iso",
+    "seed": 7802,
+    "N": 2498,
+    "opcenter": [
+      598729.3346437259,
+      5674203.961180669
+    ],
+    "disp_median": 354.57257876202897,
+    "disp_rms": 448.3688457823545,
+    "disp_max": 1235.4692167750177,
+    "median_error_m": [
+      558.2790285968331,
+      525.7451086745806,
+      1074.7000869384153,
+      471.1390324828229
+    ],
+    "source_npz": "official32_minus71__opcenter_exact_iso_7802.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_iso",
+    "seed": 7815,
+    "N": 2498,
+    "opcenter": [
+      598729.3346437259,
+      5674203.961180669
+    ],
+    "disp_median": 354.57257876202897,
+    "disp_rms": 448.3688457823545,
+    "disp_max": 1235.4692167750177,
+    "median_error_m": [
+      606.9877571585557,
+      528.1271202001878,
+      1120.4526705996248,
+      473.739074910439
+    ],
+    "source_npz": "official32_minus71__opcenter_exact_iso_7815.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_iso",
+    "seed": 7828,
+    "N": 2498,
+    "opcenter": [
+      598729.3346437259,
+      5674203.961180669
+    ],
+    "disp_median": 354.57257876202897,
+    "disp_rms": 448.3688457823545,
+    "disp_max": 1235.4692167750177,
+    "median_error_m": [
+      563.8382807141885,
+      574.541544400575,
+      1058.9805292176347,
+      476.9479989525387
+    ],
+    "source_npz": "official32_minus71__opcenter_exact_iso_7828.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "exact_iso",
+    "seed": 7841,
+    "N": 2498,
+    "opcenter": [
+      598729.3346437259,
+      5674203.961180669
+    ],
+    "disp_median": 354.57257876202897,
+    "disp_rms": 448.3688457823545,
+    "disp_max": 1235.4692167750177,
+    "median_error_m": [
+      554.2881011945594,
+      567.7911532569514,
+      1023.9145049257766,
+      475.7956319986181
+    ],
+    "source_npz": "official32_minus71__opcenter_exact_iso_7841.npz"
+  }
+]

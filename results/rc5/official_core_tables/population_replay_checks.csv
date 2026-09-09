@@ -1,0 +1,153 @@
+run,check,pass_check
+O26M71_N4P7_D5000_W10,N replay,True
+O26M71_N4P7_D5000_W10,selection share k=1,True
+O26M71_N4P7_D5000_W10,selection share k=2,True
+O26M71_N4P7_D5000_W10,selection share k=3,True
+O26M71_N4P7_D5000_W10,selection share k=4,True
+O26M71_N4P7_D5000_W10,selection share k=5,True
+O26M71_N4P7_D5000_W10,selection share k=6,True
+O26M71_N4P7_D5000_W10,selection share k=7,True
+O26M71_N4P7_D5000_W10,selection share k=8,True
+O27_N4P7_D10000_W10,N replay,True
+O27_N4P7_D1000_W10,N replay,True
+O27_N4P7_D1000_W10,selection share k=1,True
+O27_N4P7_D1000_W10,selection share k=2,True
+O27_N4P7_D1000_W10,selection share k=3,True
+O27_N4P7_D1000_W10,selection share k=4,True
+O27_N4P7_D1000_W10,selection share k=5,True
+O27_N4P7_D1000_W10,selection share k=6,True
+O27_N4P7_D1000_W10,selection share k=7,True
+O27_N4P7_D1000_W10,selection share k=8,True
+O27_N4P7_D5000_W10,N replay,True
+O27_N4P7_D5000_W10,selection share k=1,True
+O27_N4P7_D5000_W10,selection share k=2,True
+O27_N4P7_D5000_W10,selection share k=3,True
+O27_N4P7_D5000_W10,selection share k=4,True
+O27_N4P7_D5000_W10,selection share k=5,True
+O27_N4P7_D5000_W10,selection share k=6,True
+O27_N4P7_D5000_W10,selection share k=7,True
+O27_N4P7_D5000_W10,selection share k=8,True
+O27_N4P7_D5000_W10,selection share k=9,True
+O27_N4P7_D5000_W10,selection share k=10,True
+O27_N4P7_D5000_W10,selection share k=11,True
+O27_N4P7_D5000_W10,selection share k=12,True
+O27_N4P7_D5000_W10,selection share k=13,True
+O27_N4P7_D5000_W10,selection share k=14,True
+O32M71_N4P7_D10000_W10,N replay,True
+O32M71_N4P7_D1000_W10,N replay,True
+O32M71_N4P7_D1000_W10,selection share k=1,True
+O32M71_N4P7_D1000_W10,selection share k=2,True
+O32M71_N4P7_D1000_W10,selection share k=3,True
+O32M71_N4P7_D1000_W10,selection share k=4,True
+O32M71_N4P7_D1000_W10,selection share k=5,True
+O32M71_N4P7_D1000_W10,selection share k=6,True
+O32M71_N4P7_D1000_W10,selection share k=7,True
+O32M71_N4P7_D1000_W10,selection share k=8,True
+O32M71_N4P7_D5000_W10,N replay,True
+O32M71_N4P7_D5000_W10,selection share k=1,True
+O32M71_N4P7_D5000_W10,selection share k=2,True
+O32M71_N4P7_D5000_W10,selection share k=3,True
+O32M71_N4P7_D5000_W10,selection share k=4,True
+O32M71_N4P7_D5000_W10,selection share k=5,True
+O32M71_N4P7_D5000_W10,selection share k=6,True
+O32M71_N4P7_D5000_W10,selection share k=7,True
+O32M71_N4P7_D5000_W10,selection share k=8,True
+O32M71_N4P7_D5000_W10,selection share k=9,True
+O32M71_N4P7_D5000_W10,selection share k=10,True
+O32M71_N4P7_D5000_W10,selection share k=11,True
+O32M71_N4P7_D5000_W10,selection share k=12,True
+O32M71_N4P7_D5000_W10,selection share k=13,True
+O32M71_N4P7_D5000_W10,selection share k=14,True
+O32M71_N4P7_D5000_W5,N replay,True
+O32M71_N4P7_D5000_W5,selection share k=1,True
+O32M71_N4P7_D5000_W5,selection share k=2,True
+O32M71_N4P7_D5000_W5,selection share k=3,True
+O32M71_N4P7_D5000_W5,selection share k=4,True
+O32M71_N4P7_D5000_W5,selection share k=5,True
+O32M71_N4P7_D5000_W5,selection share k=6,True
+O32M71_N4P7_D5000_W5,selection share k=7,True
+O32M71_N4P7_D5000_W5,selection share k=8,True
+O33PUBLISHED_N4P7_D10000_W10,N replay,True
+O33PUBLISHED_N4P7_D5000_W10,N replay,True
+O33PUBLISHED_N4P7_D5000_W10,selection share k=1,True
+O33PUBLISHED_N4P7_D5000_W10,selection share k=2,True
+O33PUBLISHED_N4P7_D5000_W10,selection share k=3,True
+O33PUBLISHED_N4P7_D5000_W10,selection share k=4,True
+O33PUBLISHED_N4P7_D5000_W10,selection share k=5,True
+O33PUBLISHED_N4P7_D5000_W10,selection share k=6,True
+O33PUBLISHED_N4P7_D5000_W10,selection share k=7,True
+O33PUBLISHED_N4P7_D5000_W10,selection share k=8,True
+O33PUBLISHED_N4P7_D5000_W10,selection share k=9,True
+O33PUBLISHED_N4P7_D5000_W10,selection share k=10,True
+O33PUBLISHED_N4P7_D5000_W10,selection share k=11,True
+O33PUBLISHED_N4P7_D5000_W10,selection share k=12,True
+O33PUBLISHED_N4P7_D5000_W10,selection share k=13,True
+O33PUBLISHED_N4P7_D5000_W10,selection share k=14,True
+O33R71_N4P7_D10000_W10,N replay,True
+O33R71_N4P7_D1000_W10,N replay,True
+O33R71_N4P7_D1000_W10,selection share k=1,True
+O33R71_N4P7_D1000_W10,selection share k=2,True
+O33R71_N4P7_D1000_W10,selection share k=3,True
+O33R71_N4P7_D1000_W10,selection share k=4,True
+O33R71_N4P7_D1000_W10,selection share k=5,True
+O33R71_N4P7_D1000_W10,selection share k=6,True
+O33R71_N4P7_D1000_W10,selection share k=7,True
+O33R71_N4P7_D1000_W10,selection share k=8,True
+O33R71_N4P7_D5000_W10,N replay,True
+O33R71_N4P7_D5000_W10,selection share k=1,True
+O33R71_N4P7_D5000_W10,selection share k=2,True
+O33R71_N4P7_D5000_W10,selection share k=3,True
+O33R71_N4P7_D5000_W10,selection share k=4,True
+O33R71_N4P7_D5000_W10,selection share k=5,True
+O33R71_N4P7_D5000_W10,selection share k=6,True
+O33R71_N4P7_D5000_W10,selection share k=7,True
+O33R71_N4P7_D5000_W10,selection share k=8,True
+O33R71_N4P7_D5000_W10,selection share k=9,True
+O33R71_N4P7_D5000_W10,selection share k=10,True
+O33R71_N4P7_D5000_W10,selection share k=11,True
+O33R71_N4P7_D5000_W10,selection share k=12,True
+O33R71_N4P7_D5000_W10,selection share k=13,True
+O33R71_N4P7_D5000_W10,selection share k=14,True
+O33R71_N4P7_D5000_W5,N replay,True
+O33R71_N4P7_D5000_W5,selection share k=1,True
+O33R71_N4P7_D5000_W5,selection share k=2,True
+O33R71_N4P7_D5000_W5,selection share k=3,True
+O33R71_N4P7_D5000_W5,selection share k=4,True
+O33R71_N4P7_D5000_W5,selection share k=5,True
+O33R71_N4P7_D5000_W5,selection share k=6,True
+O33R71_N4P7_D5000_W5,selection share k=7,True
+O33R71_N4P7_D5000_W5,selection share k=8,True
+R26M71_N4P7_D5000_W10,N replay,True
+R26M71_N4P7_D5000_W10,selection share k=1,True
+R26M71_N4P7_D5000_W10,selection share k=2,True
+R26M71_N4P7_D5000_W10,selection share k=3,True
+R26M71_N4P7_D5000_W10,selection share k=4,True
+R26M71_N4P7_D5000_W10,selection share k=5,True
+R26M71_N4P7_D5000_W10,selection share k=6,True
+R26M71_N4P7_D5000_W10,selection share k=7,True
+R26M71_N4P7_D5000_W10,selection share k=8,True
+R27_N4P7_D10000_W10,N replay,True
+R27_N4P7_D1000_W10,N replay,True
+R27_N4P7_D1000_W10,selection share k=1,True
+R27_N4P7_D1000_W10,selection share k=2,True
+R27_N4P7_D1000_W10,selection share k=3,True
+R27_N4P7_D1000_W10,selection share k=4,True
+R27_N4P7_D1000_W10,selection share k=5,True
+R27_N4P7_D1000_W10,selection share k=6,True
+R27_N4P7_D1000_W10,selection share k=7,True
+R27_N4P7_D1000_W10,selection share k=8,True
+R27_N4P7_D5000_W10,N replay,True
+R27_N4P7_D5000_W10,selection share k=1,True
+R27_N4P7_D5000_W10,selection share k=2,True
+R27_N4P7_D5000_W10,selection share k=3,True
+R27_N4P7_D5000_W10,selection share k=4,True
+R27_N4P7_D5000_W10,selection share k=5,True
+R27_N4P7_D5000_W10,selection share k=6,True
+R27_N4P7_D5000_W10,selection share k=7,True
+R27_N4P7_D5000_W10,selection share k=8,True
+R27_N4P7_D5000_W10,selection share k=9,True
+R27_N4P7_D5000_W10,selection share k=10,True
+R27_N4P7_D5000_W10,selection share k=11,True
+R27_N4P7_D5000_W10,selection share k=12,True
+R27_N4P7_D5000_W10,selection share k=13,True
+R27_N4P7_D5000_W10,selection share k=14,True

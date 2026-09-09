@@ -1,0 +1,6 @@
+condition,P50_m,P75_m,P90_m,P95_m,pooled_evaluations,unique_messages,source_file,source_line
+reference,598,1070,1652,2012,2498,2498,results/base_logs/e7_tails.txt,113
+f=24% @D,775,1249,1751,2237,9992,2498,results/base_logs/e7_tails.txt,114
+f=100% @D,2730,3893,4795,5091,9992,2498,results/base_logs/e7_tails.txt,115
+top-6 @D,887,2287,3520,4097,9992,2498,results/base_logs/e7_tails.txt,116
+top-7 @D,1960,3122,4048,4409,9992,2498,results/base_logs/e7_tails.txt,117

@@ -1,0 +1,68 @@
+{
+  "source_archive": "Paper_A_R5.1_Complete_Review_Package_2026-09-06.zip",
+  "source_archive_sha256": "6f4a036f631143407750882195fabbf47aab0720b51ea877e1d438d2d6317d0a",
+  "source_author": "Ananta Ranjan",
+  "source_reference": "Main reference 15; examined unsubmitted R5.1. These artifacts are supplied locally so no other manuscript or submission ID is required for execution.",
+  "copies": [
+    {
+      "source_member": "Paper_A_R5.1_2026-09-06/computational/src/join_and_continuity/rebuild_join.py",
+      "destination": "coordinate_provenance/sources/rebuild_join.py",
+      "sha256": "670260ec149ef2bc6ac64b73b794bb1698f3a6db3eac283670eb24372779b4d4",
+      "treatment": "byte-identical attributed source copy; not a new perturbation result"
+    },
+    {
+      "source_member": "Paper_A_R5.1_2026-09-06/computational/src/join_and_continuity/project_rebuilt_maps.py",
+      "destination": "coordinate_provenance/sources/project_rebuilt_maps.py",
+      "sha256": "0b2f171319ad2e8b5210bed151709eea57f87082cfeb4567cc22a6ae776264d3",
+      "treatment": "byte-identical attributed source copy; not a new perturbation result"
+    },
+    {
+      "source_member": "Paper_A_R5.1_2026-09-06/computational/results/join/construction_summary.json",
+      "destination": "coordinate_provenance/source_records/construction_summary.json",
+      "sha256": "546ebe5213291404b5b4a85d948aac29d4ac04bbd5ecf37418f6dbc7253d8955",
+      "treatment": "byte-identical attributed source copy; not a new perturbation result"
+    },
+    {
+      "source_member": "Paper_A_R5.1_2026-09-06/computational/results/join/column_evidence.csv",
+      "destination": "coordinate_provenance/source_records/column_evidence.csv",
+      "sha256": "bc8a051d4acb9d4f0f30c381a0a99e17a37b49f4f9f9debf09049e2268d408d6",
+      "treatment": "byte-identical attributed source copy; not a new perturbation result"
+    },
+    {
+      "source_member": "Paper_A_R5.1_2026-09-06/computational/results/join/rebuilt_full_identities.json",
+      "destination": "coordinate_provenance/source_records/rebuilt_full_identities.json",
+      "sha256": "037c50d6f6947de0e3738cad2b9a6e666dc75b65de72d39f98dd699d7ddc5104",
+      "treatment": "byte-identical attributed source copy; not a new perturbation result"
+    },
+    {
+      "source_member": "Paper_A_R5.1_2026-09-06/computational/results/join/rebuilt_calibration_identities.json",
+      "destination": "coordinate_provenance/source_records/rebuilt_calibration_identities.json",
+      "sha256": "301985030013d0a2d66e520434e2b6fee8171565d38cb968566f8efffab7e9bd",
+      "treatment": "byte-identical attributed source copy; not a new perturbation result"
+    },
+    {
+      "source_member": "Paper_A_R5.1_2026-09-06/computational/results/join/rebuilt_reference_same_legacy33.json",
+      "destination": "coordinate_provenance/source_records/rebuilt_reference_same_legacy33.json",
+      "sha256": "4addbd3c9073501ecd46b80f2351b508d56aee378b6dde115ca71c5395ebbc93",
+      "treatment": "byte-identical attributed source copy; not a new perturbation result"
+    },
+    {
+      "source_member": "Paper_A_R5.1_2026-09-06/computational/results/join/surplus_json_records.json",
+      "destination": "coordinate_provenance/source_records/surplus_json_records.json",
+      "sha256": "db4ae3235287c7a6486923aad08b031ab9c47a534cf7dbaee39d7e8b5ad27cb6",
+      "treatment": "byte-identical attributed source copy; not a new perturbation result"
+    },
+    {
+      "source_member": "Paper_A_R5.1_2026-09-06/geometry/results/frozen_geometry/BS71_description.json",
+      "destination": "coordinate_provenance/source_records/BS71_description.json",
+      "sha256": "bfe8924bd9b28d308c21043d3537f696c149a12f03cc0dfda5a6954ddef266fb",
+      "treatment": "byte-identical attributed source copy; not a new perturbation result"
+    },
+    {
+      "source_member": "Paper_A_R5.1_2026-09-06/geometry/results/frozen_geometry/BS71_source_rows_and_distances.csv.gz",
+      "destination": "coordinate_provenance/source_records/BS71_source_rows_and_distances.csv.gz",
+      "sha256": "75e7cdf3abcc2fda3e1a1a82a3412e3be5e8bb05d78d5320b7313462936b9898",
+      "treatment": "byte-identical attributed source copy; not a new perturbation result"
+    }
+  ]
+}

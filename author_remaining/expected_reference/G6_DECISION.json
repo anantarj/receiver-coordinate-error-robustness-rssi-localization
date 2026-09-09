@@ -1,0 +1,26 @@
+{
+  "gate": "G6",
+  "status": "FAIL",
+  "substrates": {
+    "recovered29": {
+      "pass": false,
+      "wcl_1km_ci_excludes_zero": false,
+      "positive_method_point_estimates_by_width": {
+        "500": 4,
+        "1000": 4,
+        "2000": 4
+      },
+      "exhaustion_positive_all_widths": true
+    },
+    "official32_minus71": {
+      "pass": false,
+      "wcl_1km_ci_excludes_zero": false,
+      "positive_method_point_estimates_by_width": {
+        "500": 4,
+        "1000": 4,
+        "2000": 4
+      },
+      "exhaustion_positive_all_widths": true
+    }
+  }
+}

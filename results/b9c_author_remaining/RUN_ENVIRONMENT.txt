@@ -1,0 +1,6 @@
+completed_utc=2026-09-05T08:57:17Z
+root=/Users/anik/TriMesh/DeltaMesh All Files
+python=Python 3.11.13
+workers=8
+core_archive_author_run=PAPERB_B9C_OFFICIAL33_CORE_050926 (not rerun)
+replay_scope=exact7,G5,G6,G4-eight-direction,post-failure-rotation-diagnostics,E3-population-replay

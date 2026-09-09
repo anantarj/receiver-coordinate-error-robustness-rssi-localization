@@ -1,0 +1,287 @@
+{
+  "gate": "G5",
+  "status": "PASS",
+  "rule": "Each frozen contrast retains sign across n for >=3/4 methods on both substrates",
+  "substrates": {
+    "recovered29": {
+      "dense_minus_sparse": {
+        "stable_methods": 4,
+        "pass": true,
+        "methods": [
+          {
+            "substrate": "recovered29",
+            "contrast": "dense_minus_sparse",
+            "method": "WCL",
+            "n3p5": 841.826726765582,
+            "n4p7": 845.1499255522425,
+            "n6p0": 856.8192163425907,
+            "signs": "1,1,1",
+            "stable": true
+          },
+          {
+            "substrate": "recovered29",
+            "contrast": "dense_minus_sparse",
+            "method": "ABS",
+            "n3p5": 405.8475857096865,
+            "n4p7": 369.22018675483935,
+            "n6p0": 347.3020093092731,
+            "signs": "1,1,1",
+            "stable": true
+          },
+          {
+            "substrate": "recovered29",
+            "contrast": "dense_minus_sparse",
+            "method": "DIFF",
+            "n3p5": 282.847527447146,
+            "n4p7": 243.65918065691557,
+            "n6p0": 233.55581780317104,
+            "signs": "1,1,1",
+            "stable": true
+          },
+          {
+            "substrate": "recovered29",
+            "contrast": "dense_minus_sparse",
+            "method": "Min-Max",
+            "n3p5": 610.0790368607142,
+            "n4p7": 582.7596650342524,
+            "n6p0": 541.9063818921258,
+            "signs": "1,1,1",
+            "stable": true
+          }
+        ]
+      },
+      "top7_minus_top6": {
+        "stable_methods": 4,
+        "pass": true,
+        "methods": [
+          {
+            "substrate": "recovered29",
+            "contrast": "top7_minus_top6",
+            "method": "WCL",
+            "n3p5": 194.97037519036007,
+            "n4p7": 183.85519091157005,
+            "n6p0": 190.73370825808948,
+            "signs": "1,1,1",
+            "stable": true
+          },
+          {
+            "substrate": "recovered29",
+            "contrast": "top7_minus_top6",
+            "method": "ABS",
+            "n3p5": 34.51984015479377,
+            "n4p7": 26.840394836434683,
+            "n6p0": 16.721627100014917,
+            "signs": "1,1,1",
+            "stable": true
+          },
+          {
+            "substrate": "recovered29",
+            "contrast": "top7_minus_top6",
+            "method": "DIFF",
+            "n3p5": 44.153598085402585,
+            "n4p7": 35.414747501610314,
+            "n6p0": 27.35463389115295,
+            "signs": "1,1,1",
+            "stable": true
+          },
+          {
+            "substrate": "recovered29",
+            "contrast": "top7_minus_top6",
+            "method": "Min-Max",
+            "n3p5": 163.6848999748629,
+            "n4p7": 145.3560282072226,
+            "n6p0": 136.83113404260737,
+            "signs": "1,1,1",
+            "stable": true
+          }
+        ]
+      },
+      "legacy_rotation_minus_iso": {
+        "stable_methods": 4,
+        "pass": true,
+        "methods": [
+          {
+            "substrate": "recovered29",
+            "contrast": "legacy_rotation_minus_iso",
+            "method": "WCL",
+            "n3p5": 27.425900093148062,
+            "n4p7": 29.908297973218,
+            "n6p0": 25.81136752948151,
+            "signs": "1,1,1",
+            "stable": true
+          },
+          {
+            "substrate": "recovered29",
+            "contrast": "legacy_rotation_minus_iso",
+            "method": "ABS",
+            "n3p5": 23.1719767094842,
+            "n4p7": 22.277361334839664,
+            "n6p0": 24.50762664518821,
+            "signs": "1,1,1",
+            "stable": true
+          },
+          {
+            "substrate": "recovered29",
+            "contrast": "legacy_rotation_minus_iso",
+            "method": "DIFF",
+            "n3p5": -6.087302811475531,
+            "n4p7": -13.004278418326573,
+            "n6p0": -10.290867281884028,
+            "signs": "-1,-1,-1",
+            "stable": true
+          },
+          {
+            "substrate": "recovered29",
+            "contrast": "legacy_rotation_minus_iso",
+            "method": "Min-Max",
+            "n3p5": 18.490617380575422,
+            "n4p7": 25.463475357400416,
+            "n6p0": 27.976121648938214,
+            "signs": "1,1,1",
+            "stable": true
+          }
+        ]
+      }
+    },
+    "official32_minus71": {
+      "dense_minus_sparse": {
+        "stable_methods": 4,
+        "pass": true,
+        "methods": [
+          {
+            "substrate": "official32_minus71",
+            "contrast": "dense_minus_sparse",
+            "method": "WCL",
+            "n3p5": 944.0454241711883,
+            "n4p7": 894.8268654603825,
+            "n6p0": 877.005799613121,
+            "signs": "1,1,1",
+            "stable": true
+          },
+          {
+            "substrate": "official32_minus71",
+            "contrast": "dense_minus_sparse",
+            "method": "ABS",
+            "n3p5": 473.32299068578385,
+            "n4p7": 399.470107545488,
+            "n6p0": 352.85998364529723,
+            "signs": "1,1,1",
+            "stable": true
+          },
+          {
+            "substrate": "official32_minus71",
+            "contrast": "dense_minus_sparse",
+            "method": "DIFF",
+            "n3p5": 263.1423661708403,
+            "n4p7": 191.68744948604763,
+            "n6p0": 156.536505941795,
+            "signs": "1,1,1",
+            "stable": true
+          },
+          {
+            "substrate": "official32_minus71",
+            "contrast": "dense_minus_sparse",
+            "method": "Min-Max",
+            "n3p5": 635.0620972067327,
+            "n4p7": 575.4291430008561,
+            "n6p0": 523.5123607612578,
+            "signs": "1,1,1",
+            "stable": true
+          }
+        ]
+      },
+      "top7_minus_top6": {
+        "stable_methods": 4,
+        "pass": true,
+        "methods": [
+          {
+            "substrate": "official32_minus71",
+            "contrast": "top7_minus_top6",
+            "method": "WCL",
+            "n3p5": 109.32319645459168,
+            "n4p7": 111.27972783996877,
+            "n6p0": 118.73963973397295,
+            "signs": "1,1,1",
+            "stable": true
+          },
+          {
+            "substrate": "official32_minus71",
+            "contrast": "top7_minus_top6",
+            "method": "ABS",
+            "n3p5": 62.34508418029448,
+            "n4p7": 53.34449484592839,
+            "n6p0": 47.4183259214668,
+            "signs": "1,1,1",
+            "stable": true
+          },
+          {
+            "substrate": "official32_minus71",
+            "contrast": "top7_minus_top6",
+            "method": "DIFF",
+            "n3p5": 47.90884650194444,
+            "n4p7": 36.90333377586205,
+            "n6p0": 31.033971003975733,
+            "signs": "1,1,1",
+            "stable": true
+          },
+          {
+            "substrate": "official32_minus71",
+            "contrast": "top7_minus_top6",
+            "method": "Min-Max",
+            "n3p5": 96.95439398996159,
+            "n4p7": 93.28720063524437,
+            "n6p0": 92.63666595868665,
+            "signs": "1,1,1",
+            "stable": true
+          }
+        ]
+      },
+      "legacy_rotation_minus_iso": {
+        "stable_methods": 3,
+        "pass": true,
+        "methods": [
+          {
+            "substrate": "official32_minus71",
+            "contrast": "legacy_rotation_minus_iso",
+            "method": "WCL",
+            "n3p5": -1.6064189259973762,
+            "n4p7": -3.929804218447515,
+            "n6p0": -7.506812270587757,
+            "signs": "-1,-1,-1",
+            "stable": true
+          },
+          {
+            "substrate": "official32_minus71",
+            "contrast": "legacy_rotation_minus_iso",
+            "method": "ABS",
+            "n3p5": -8.764015921848273,
+            "n4p7": -8.661547471853854,
+            "n6p0": -8.14420291233904,
+            "signs": "-1,-1,-1",
+            "stable": true
+          },
+          {
+            "substrate": "official32_minus71",
+            "contrast": "legacy_rotation_minus_iso",
+            "method": "DIFF",
+            "n3p5": -10.489064243482568,
+            "n4p7": -13.547475841722623,
+            "n6p0": -14.959249008439258,
+            "signs": "-1,-1,-1",
+            "stable": true
+          },
+          {
+            "substrate": "official32_minus71",
+            "contrast": "legacy_rotation_minus_iso",
+            "method": "Min-Max",
+            "n3p5": 0.9303923206982159,
+            "n4p7": -0.2122195819051811,
+            "n6p0": -0.5360948473611682,
+            "signs": "1,-1,-1",
+            "stable": false
+          }
+        ]
+      }
+    }
+  }
+}

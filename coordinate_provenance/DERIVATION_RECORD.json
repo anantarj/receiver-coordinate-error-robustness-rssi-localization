@@ -1,0 +1,10 @@
+{
+  "source_crosswalk_archive_member": "Paper_A_R5.1_2026-09-06/computational/data_products/receiver_crosswalk.csv",
+  "source_crosswalk_sha256": "6d618e7bcffdf8f2113d3bce4c55fe251bbcc415f50fcf9821981226e944c4fd",
+  "output": "used_receiver_crosswalk.csv",
+  "rule": "Rows restricted to union of eight frozen B rosters; exclude A localization predictions, RSSFIT coordinates, primary-selection counts and unrelated receiver products. Added membership flags calculated from B maps.",
+  "output_sha256": "ea70be58b7305635940fc3edc58f83e7b879ae011d36efeb8e47f7d5d20203e0",
+  "catalogue_source_sha256": "507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d",
+  "catalogue_doi": "10.5281/zenodo.3904158",
+  "not_new_B_resource_claim": true
+}

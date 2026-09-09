@@ -1,0 +1,170 @@
+[
+  {
+    "substrate": "recovered29",
+    "arm": "reference",
+    "N": 2498,
+    "median_error_m": [
+      597.6726773737064,
+      641.0128583786435,
+      963.9527294587203,
+      466.00552668865595
+    ],
+    "source_npz": "recovered29__reference.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "rot_unweighted_plus5",
+    "N": 2498,
+    "median_error_m": [
+      895.2634410290896,
+      811.6151073791002,
+      1077.964347092804,
+      623.2348961292362
+    ],
+    "source_npz": "recovered29__rot_unweighted_plus5.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "rot_operational_plus5",
+    "N": 2498,
+    "median_error_m": [
+      671.560814219227,
+      693.9341492061328,
+      1077.808608727102,
+      496.3337377813088
+    ],
+    "source_npz": "recovered29__rot_operational_plus5.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "translation_component_plus5",
+    "N": 2498,
+    "median_error_m": [
+      822.1918301756086,
+      782.9896180262418,
+      1118.8921182879103,
+      609.2708751700322
+    ],
+    "source_npz": "recovered29__translation_component_plus5.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "rot_unweighted_minus5",
+    "N": 2498,
+    "median_error_m": [
+      548.1128436611066,
+      535.2857562323925,
+      842.1046940964611,
+      453.18231826121416
+    ],
+    "source_npz": "recovered29__rot_unweighted_minus5.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "rot_operational_minus5",
+    "N": 2498,
+    "median_error_m": [
+      559.8800999064922,
+      613.9101017830704,
+      883.1250800702886,
+      453.2819736388964
+    ],
+    "source_npz": "recovered29__rot_operational_minus5.npz"
+  },
+  {
+    "substrate": "recovered29",
+    "arm": "translation_component_minus5",
+    "N": 2498,
+    "median_error_m": [
+      547.3844622202885,
+      567.6902823428652,
+      910.1469714132368,
+      447.15934551130795
+    ],
+    "source_npz": "recovered29__translation_component_minus5.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "reference",
+    "N": 2498,
+    "median_error_m": [
+      593.7425223082155,
+      555.6165186830742,
+      1082.7111969409727,
+      478.88143519512585
+    ],
+    "source_npz": "official32_minus71__reference.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "rot_unweighted_plus5",
+    "N": 2498,
+    "median_error_m": [
+      659.1088231627432,
+      588.1894106415334,
+      1155.0877612638792,
+      515.0336723378
+    ],
+    "source_npz": "official32_minus71__rot_unweighted_plus5.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "rot_operational_plus5",
+    "N": 2498,
+    "median_error_m": [
+      627.0782278378335,
+      578.666923362213,
+      1106.3175574072834,
+      514.1482872973793
+    ],
+    "source_npz": "official32_minus71__rot_operational_plus5.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "translation_component_plus5",
+    "N": 2498,
+    "median_error_m": [
+      610.9931616791489,
+      555.6345976345367,
+      1101.003633137765,
+      488.9335871503342
+    ],
+    "source_npz": "official32_minus71__translation_component_plus5.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "rot_unweighted_minus5",
+    "N": 2498,
+    "median_error_m": [
+      598.9552925979203,
+      573.409123630365,
+      1052.1037103557458,
+      488.5079145385529
+    ],
+    "source_npz": "official32_minus71__rot_unweighted_minus5.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "rot_operational_minus5",
+    "N": 2498,
+    "median_error_m": [
+      580.8287903028274,
+      569.6284773316906,
+      1061.3709289495916,
+      475.61674946380344
+    ],
+    "source_npz": "official32_minus71__rot_operational_minus5.npz"
+  },
+  {
+    "substrate": "official32_minus71",
+    "arm": "translation_component_minus5",
+    "N": 2498,
+    "median_error_m": [
+      605.5668270790607,
+      563.9917371863506,
+      1115.84108318265,
+      494.9981679960329
+    ],
+    "source_npz": "official32_minus71__translation_component_minus5.npz"
+  }
+]

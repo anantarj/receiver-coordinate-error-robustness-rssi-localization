@@ -1,0 +1,7 @@
+         substrate               arm  reference_m  refit_median_m  refit_pct  frozen_median_m  frozen_pct  frozen_minus_refit_pp
+       recovered29      legacy_plus5      597.673         895.263     49.792          866.388      44.960                 -4.831
+       recovered29     legacy_minus5      597.673         548.113     -8.292          609.360       1.955                 10.248
+       recovered29 operational_plus5      597.673         671.561     12.363          679.917      13.761                  1.398
+official32_minus71      legacy_plus5      593.743         659.109     11.009          616.292       3.798                 -7.211
+official32_minus71     legacy_minus5      593.743         598.955      0.878          606.349       2.123                  1.245
+official32_minus71 operational_plus5      593.743         627.078      5.615          607.312       2.285                 -3.329

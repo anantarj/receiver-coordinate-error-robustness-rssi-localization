@@ -1,0 +1,8 @@
+id,question,status,scientific_ruling,execution_evidence,author_execution_status,replay_status,criterion_status
+G1,Load-regime transfer,PASS,Sparse--dense ordering transfers to O32-BS71.,author core archive + remaining replay,VERIFIED,PASS,PASS
+G2,Participation-boundary transfer,PASS,All four methods retain positive standard-window boundary on O32-BS71 and O27.,author core archive + remaining replay,VERIFIED,PASS,PASS
+G3,BS-71 non-dominance,PASS-QUALIFIED,"Primary load/exposure signs agree under exclusion, published, and substituted controls; native five-window rank shifts with receiver identity.",author core archive + remaining replay,VERIFIED,PASS,PASS_WITH_SCOPE_QUALIFICATION
+G4,Legacy rotation-ordering transfer,FAIL-EXPLAINED,Positive R29 ordering reverses on O32-BS71; pivot/directional decomposition explains the substrate interaction; failed status retained.,author core archive + remaining replay,VERIFIED,PASS,FAIL
+G5,Propagation-exponent stability,PASS,"Frozen contrast directions stable for at least 3/4 methods across n=3.5,4.7,6.0 on both substrates.",author core archive + remaining replay,VERIFIED,PASS,PASS
+G6,Spatial dependence criterion,FAIL-EXPLAINED,1-km WCL spatial-cell intervals include zero; ~99.7% of newly exhausted messages occupy one dominant route cell; temporal blocks remain positive.,author core archive + remaining replay,VERIFIED,PASS,FAIL
+E1-exact7,Exact seven-receiver completion,COMPLETE,64 summary rows; architecture- and roster-conditioned non-monotonicity retained.,author core archive + remaining replay,VERIFIED,PASS,COMPLETED_NOT_A_PASS_FAIL_CRITERION

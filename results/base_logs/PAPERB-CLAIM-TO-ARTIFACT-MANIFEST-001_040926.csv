@@ -1,0 +1,20 @@
+claim_id,manuscript_location,claim,authoritative_artifact,locator,ownership
+C1-L1,Abstract; I; V.1,One-of-29 at 10 km changes -0.8% to +0.6%,diffrepair_e1_d10000.txt,fraction sweep f=1,primary B
+C1-L2,Abstract; I; V.1,Full 10-km corruption changes +242.9% to +845.2%,diffrepair_e1_d10000.txt,fraction sweep f=29,primary B
+C1-L3,V.3,WCL spread reaches 385.6% at 72%/10 km,diffrepair_e1_d10000.txt,fraction sweep f=21 and min-max line,primary B
+C2-E1,I; VI.1,Direction-averaged top-seven approaches all-29 random at 1 km,diffrepair_e2d_d1000.txt; diffrepair_e1_d1000.txt,top7 and f=29,primary B
+C2-E2,VI.2,Exposure share is not sufficient,diffrepair_e2b_k14_dir8.txt,matched-exposure table,primary B
+C2-E3,Abstract; VI.3,Top-six to top-seven transition across four methods,diffrepair_e2b_k14_dir8.txt,"k=6,7 top rows",primary B
+C2-E4,VI.3,Transition location persists at 1 km and max_gws=5,diffrepair_e2d_d1000.txt; diffrepair_e2e_win5.txt,"k=6,7 top rows",primary B
+C2-E5,Abstract; VI.5,Selection-set exhaustion +14.21 pp under both windows,paperb_coverage_all.txt,"Antwerp k=6,7",primary B
+C2-E6,VI.6,Rural Sigfox has early k=7 signature; urban does not,paperb_coverage_all.txt,Sigfox curves,validation B
+C2-E7,X.4,Exposure ranking stable across split sources,paperb_exposure_rank_stability_w10.csv; paperb_exposure_rank_stability_w5.csv,all six pair comparisons,validation B
+C2-A1,Abstract; VI.4,Frozen-A0 ablation,e2f_a0truth.txt,"k=1,2,6,7",primary B
+C3-S1,VII.1-3,Spatial family ordering is architecture-specific,diffrepair_e3b_angles.txt,family tables,primary B
+C3-S2,Abstract; VII.4,5-deg rotation adds 27.1 pp over matched isotropic WCL,diffrepair_e5_affine.txt,rotation 5 deg,primary B
+C3-S3,VII.5,"Clustered m=7 +115.5% vs random +8.9%, ranges overlap",diffrepair_e5_affine.txt,cluster m=7,bounded B
+V1,VIII.1,20-m jitter approximately superposes with 5-km top-k errors,diffrepair_e6_twopop.txt,"k=1,3,6,7",validation B
+V2,VIII.2,Catastrophic-tail hypothesis rejected,e7_tails.txt,top6/top7 percentiles,validation B
+P-A1,V.1 continuity,Original 5-km fraction cross-section,Paper A + diffrepair_e1_d5000.txt,not re-tabulated as B contribution,Paper A antecedent
+P-A2,IV.4 motivation,Observed vs randomized real error-field directions,Paper A + repaired logs,motivation only,Paper A antecedent
+P-A3,VI.1 continuity,Original top-seven vs bottom-seven point,Paper A + repaired logs,starting observation only,Paper A antecedent

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "matched_fields": 30,
+  "population_n": 2498,
+  "configuration_count": 40,
+  "baseline": [
+    597.6726773741443,
+    641.0128583782526,
+    963.9527294582572,
+    466.0055266886784
+  ],
+  "interpretation": "Original one-decimal aggregate parity only; historical per-subset outputs were not retained. No claim of per-subset historical bitwise parity.",
+  "new_inference": false
+}

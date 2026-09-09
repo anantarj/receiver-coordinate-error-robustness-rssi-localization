@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "item": "harness",
+      "path": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_STAGE_B5_040926/scripts/baseline_001_e123_pairfallback_040926.py",
+      "exists": true,
+      "expected_sha256": "6e8881f3a83b70c49ee2b1f3892b9a2cf65e5491717c336b3e1cbace01943b2f",
+      "actual_sha256": "6e8881f3a83b70c49ee2b1f3892b9a2cf65e5491717c336b3e1cbace01943b2f",
+      "pass": true
+    },
+    {
+      "item": "evaluator",
+      "path": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_STAGE_B5_040926/scripts/deltamesh_antwerp_eval_v10_fixed_080826.py",
+      "exists": true,
+      "expected_sha256": "b14b35b5748e447971e5b22da7c39ededc8277aa04e5690eeff672bf1311cac5",
+      "actual_sha256": "b14b35b5748e447971e5b22da7c39ededc8277aa04e5690eeff672bf1311cac5",
+      "pass": true
+    },
+    {
+      "item": "data",
+      "path": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_STAGE_B5_040926/scripts/lorawan_antwerp_2019_dataset.csv",
+      "exists": true,
+      "expected_sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+      "actual_sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+      "pass": true
+    },
+    {
+      "item": "gateway_locations",
+      "path": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_STAGE_B5_040926/scripts/lorawan_antwerp_gateway_locations.json",
+      "exists": true,
+      "expected_sha256": "507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d",
+      "actual_sha256": "507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d",
+      "pass": true
+    },
+    {
+      "item": "map:recovered29",
+      "path": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_OFFICIAL33_CORE_050926/inputs/recovered29.json",
+      "exists": true,
+      "expected_sha256": "cfddca4fc5a0ad51fb4d8717be807454c891ba3c4872ff1a4e6b9aec3f5ae2da",
+      "actual_sha256": "cfddca4fc5a0ad51fb4d8717be807454c891ba3c4872ff1a4e6b9aec3f5ae2da",
+      "pass": true
+    },
+    {
+      "item": "map:official32_minus71",
+      "path": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_OFFICIAL33_CORE_050926/inputs/official32_minus71.json",
+      "exists": true,
+      "expected_sha256": "445ec184e1ba7f46208896e88ed6ca79fcb59d7cc4a45a93ae420c5c8baeb854",
+      "actual_sha256": "445ec184e1ba7f46208896e88ed6ca79fcb59d7cc4a45a93ae420c5c8baeb854",
+      "pass": true
+    },
+    {
+      "item": "map:official33_published",
+      "path": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_OFFICIAL33_CORE_050926/inputs/official33_published.json",
+      "exists": true,
+      "expected_sha256": "99b60a463a18a061bc8bdd15971c3f4e3d54d69965dcde50d9f988a6f3e103c1",
+      "actual_sha256": "99b60a463a18a061bc8bdd15971c3f4e3d54d69965dcde50d9f988a6f3e103c1",
+      "pass": true
+    },
+    {
+      "item": "map:official33_repaired71",
+      "path": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_OFFICIAL33_CORE_050926/inputs/official33_repaired71.json",
+      "exists": true,
+      "expected_sha256": "cae3b93e19ff1df8a9a1182ab4e422707af6647ab3ab4c3c4e67d7bd378199b9",
+      "actual_sha256": "cae3b93e19ff1df8a9a1182ab4e422707af6647ab3ab4c3c4e67d7bd378199b9",
+      "pass": true
+    },
+    {
+      "item": "map:recovered27_common",
+      "path": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_OFFICIAL33_CORE_050926/inputs/recovered27_common.json",
+      "exists": true,
+      "expected_sha256": "00d9ad189b5d01d475ba261edaa0556e02eadad8aee06104f3feb3f8ad998170",
+      "actual_sha256": "00d9ad189b5d01d475ba261edaa0556e02eadad8aee06104f3feb3f8ad998170",
+      "pass": true
+    },
+    {
+      "item": "map:official27_common",
+      "path": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_OFFICIAL33_CORE_050926/inputs/official27_common.json",
+      "exists": true,
+      "expected_sha256": "02180f358ddc840872f5ceb38f837c706bef1830bdb2503c176028527f84ff9b",
+      "actual_sha256": "02180f358ddc840872f5ceb38f837c706bef1830bdb2503c176028527f84ff9b",
+      "pass": true
+    },
+    {
+      "item": "map:recovered26_common_minus71",
+      "path": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_OFFICIAL33_CORE_050926/inputs/recovered26_common_minus71.json",
+      "exists": true,
+      "expected_sha256": "9f0c6ec568d72d2b3249ea7e365bd9b37645cb94195fdc8d642021f71e53fd9c",
+      "actual_sha256": "9f0c6ec568d72d2b3249ea7e365bd9b37645cb94195fdc8d642021f71e53fd9c",
+      "pass": true
+    },
+    {
+      "item": "map:official26_common_minus71",
+      "path": "/Users/anik/TriMesh/DeltaMesh All Files/PAPERB_B9C_OFFICIAL33_CORE_050926/inputs/official26_common_minus71.json",
+      "exists": true,
+      "expected_sha256": "d569191d4becd8733edc7b54e6a7cf4c3715ef657f8d5b8624ebfe8053c959a6",
+      "actual_sha256": "d569191d4becd8733edc7b54e6a7cf4c3715ef657f8d5b8624ebfe8053c959a6",
+      "pass": true
+    }
+  ],
+  "python": "3.11.13 | packaged by conda-forge | (main, Jun  4 2025, 14:52:34) [Clang 18.1.8 ]",
+  "root": "/Users/anik/TriMesh/DeltaMesh All Files"
+}

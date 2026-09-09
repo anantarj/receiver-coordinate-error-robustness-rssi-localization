@@ -1,0 +1,19 @@
+{
+  "source_doi": "10.5281/zenodo.3904158",
+  "source_version": "1.3",
+  "files": {
+    "csv": {
+      "filename": "lorawan_antwerp_2019_dataset.csv",
+      "sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446"
+    },
+    "json": {
+      "filename": "lorawan_antwerp_2019_dataset.json",
+      "sha256": "f2f1fbd478cdef2b76fb8e3aae33751d332b50fc8546684d8e73fdb1505451cb"
+    },
+    "catalogue": {
+      "filename": "gateway_locations.json",
+      "sha256": "507f9bb266d23f59fdc2b743447cecf9c909290536e24de3f9483aaa178d374d"
+    }
+  },
+  "note": "Obtain original raw payloads from the cited source; no payload is redistributed here. Source names may have a .txt wrapper in the downloaded record; content fingerprints, not names, determine identity."
+}

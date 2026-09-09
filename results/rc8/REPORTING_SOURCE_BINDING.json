@@ -1,0 +1,13 @@
+{
+  "source_csv": {
+    "path": "author_remaining/rotation/a0_rotation_diagnostic.csv",
+    "sha256": "e0eff2342af03a8423072705213acb23441fdec85660745d6e55b1024aa3d72e"
+  },
+  "source_cases": {
+    "path": "author_remaining/rotation/a0_rotation_cases.json",
+    "sha256": "e1eb7503b46e60cd093ce838c1dc84d78449a31f9f4d995cb6b8c292c2f063db"
+  },
+  "case_records": 16,
+  "paired_comparisons": 6,
+  "scope": "Scalar consistency; original frozen-arm per-message errors were not exported and are not independently regenerated. No new experiment. Signs use refit minus frozen, opposite to the original frozen_minus_refit_pp column."
+}

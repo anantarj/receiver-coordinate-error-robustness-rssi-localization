@@ -1,0 +1,7 @@
+D_m,receivers,centroid_crossings,final_radius_exceeds_initial,centroid_coincident
+250,29,0,0,0
+500,29,0,0,0
+1000,29,2,0,0
+2500,29,10,5,0
+5000,29,16,10,0
+10000,29,22,16,0

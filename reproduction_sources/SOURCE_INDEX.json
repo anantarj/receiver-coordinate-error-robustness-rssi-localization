@@ -1,0 +1,18 @@
+{
+  "author": "Ananta Ranjan",
+  "treatment": "Recovered original source copies; no algorithm modified. Library retrieval adds missing reproduction entry points, not new experiments.",
+  "files": {
+    "paperb_coverage_audit_030926.py": {
+      "retrieved_file_id": "file_0000000015cc81fd94d56348bb6cbf6c",
+      "sha256": "ea7b0d57713d4f8d3d15b2674a157552385aae1eded6607cb3e6b7837c8f0eb7"
+    },
+    "paperb_exposure_rank_stability_audit_040926.py": {
+      "retrieved_file_id": "file_000000006b788211b299372a53991e40",
+      "sha256": "b3bdb5e739aefddc7e15db71520d39f59f53830c36548d35745dced80125a921"
+    },
+    "sigfox_header_normalise_080826.py": {
+      "retrieved_file_id": "file_00000000a6b481f78a43b67b4adbbbb6",
+      "sha256": "0208042948626841ae15b4fd79b6e6c31a9808c46d30bc31a5cad5adbaef59c1"
+    }
+  }
+}

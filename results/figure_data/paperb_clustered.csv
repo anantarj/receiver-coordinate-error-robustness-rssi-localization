@@ -1,0 +1,3 @@
+m,clustered_m,clustered_pct,clustered_lo_m,clustered_hi_m,draws,random_m,random_pct,random_lo_m,random_hi_m,source_file,source_line
+3,739.0,23.7,598.0,901.0,8,600.0,0.4,598.0,602.0,results/base_logs/diffrepair_e5_affine.txt,131
+7,1288.0,115.5,598.0,1687.0,8,651.0,8.9,602.0,905.0,results/base_logs/diffrepair_e5_affine.txt,132
