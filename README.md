@@ -74,7 +74,7 @@ Author-created derived data needed to inspect the manuscript's reported experime
 
 This repository is being prepared for **v1.0.0**, aligned to manuscript revision **RC8 (9 September 2026)**.
 
-**Zenodo DOI:** to be inserted after DOI reservation and before the v1.0.0 release is frozen.
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.22680802
 
 ## Licensing
 

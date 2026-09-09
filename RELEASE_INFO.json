@@ -3,6 +3,6 @@
   "target_release": "v1.0.0",
   "manuscript_revision": "RC8",
   "manuscript_revision_date": "2026-09-09",
-  "zenodo_doi": null,
-  "status": "public release candidate pending Zenodo DOI reservation and final v1.0.0 tag"
+  "zenodo_doi": "10.5281/zenodo.22680802",
+  "status": "public release candidate with reserved Zenodo DOI; pending final v1.0.0 tag and Zenodo publication"
 }
