@@ -1,0 +1,37 @@
+[
+  {
+    "file": "secondary_diagnostics.csv",
+    "rows": 4,
+    "numerically_equal": true
+  },
+  {
+    "file": "recovered29_top2_intercepts.csv",
+    "rows": 64,
+    "numerically_equal": true
+  },
+  {
+    "file": "recovered29_top1_intercepts.csv",
+    "rows": 32,
+    "numerically_equal": true
+  },
+  {
+    "file": "official32_minus71_top1_intercepts.csv",
+    "rows": 32,
+    "numerically_equal": true
+  },
+  {
+    "file": "contrary_cases.csv",
+    "rows": 4,
+    "numerically_equal": true
+  },
+  {
+    "file": "cell_summary.csv",
+    "rows": 4,
+    "numerically_equal": true
+  },
+  {
+    "file": "official32_minus71_top2_intercepts.csv",
+    "rows": 64,
+    "numerically_equal": true
+  }
+]

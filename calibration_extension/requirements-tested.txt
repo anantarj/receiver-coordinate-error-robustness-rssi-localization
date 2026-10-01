@@ -1,0 +1,5 @@
+numpy==2.3.5
+pandas==2.2.3
+pyproj==3.7.2
+# Plotting only: matplotlib (version in checks/PLOTTING_ENVIRONMENT.json).
+# Tested runtime: Python 3.13.5. This is a current execution environment, not the historical freeze.

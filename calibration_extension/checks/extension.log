@@ -1,0 +1,416 @@
+RSSI column family selection: use_bs=True (score_bs=0.039, score_rssi=-1.000) | n_cols=72 | rssi_range=[-150.0,-20.0]
+RSSI sample stats (filtered): count=13916 | min=-123.0 | p01=-120.0 | median=-112.0 | p99=-87.0 | max=-74.0
+Canonical CSV load: 33.69s
+  1/128 recovered29_top1_r00 refit=618.565447 frozen=771.081573 delta=+152.516126
+  2/128 recovered29_top1_r01 refit=618.565447 frozen=774.242699 delta=+155.677253
+  3/128 recovered29_top1_r02 refit=619.160254 frozen=841.151789 delta=+221.991535
+  4/128 recovered29_top1_r03 refit=618.565447 frozen=840.086260 delta=+221.520813
+  5/128 recovered29_top1_r04 refit=619.166674 frozen=642.549566 delta=+23.382892
+  6/128 recovered29_top1_r05 refit=619.227746 frozen=625.278030 delta=+6.050284
+  7/128 recovered29_top1_r06 refit=619.278445 frozen=725.844415 delta=+106.565969
+  8/128 recovered29_top1_r07 refit=619.278445 frozen=832.507925 delta=+213.229480
+  9/128 recovered29_top1_r08 refit=618.565447 frozen=841.257784 delta=+222.692337
+ 10/128 recovered29_top1_r09 refit=619.278445 frozen=625.112428 delta=+5.833983
+ 11/128 recovered29_top1_r10 refit=619.182375 frozen=841.260288 delta=+222.077913
+ 12/128 recovered29_top1_r11 refit=619.677535 frozen=693.982062 delta=+74.304528
+ 13/128 recovered29_top1_r12 refit=619.278445 frozen=731.558616 delta=+112.280170
+ 14/128 recovered29_top1_r13 refit=618.565447 frozen=841.614910 delta=+223.049463
+ 15/128 recovered29_top1_r14 refit=619.278445 frozen=626.317709 delta=+7.039264
+ 16/128 recovered29_top1_r15 refit=618.445863 frozen=824.961767 delta=+206.515904
+ 17/128 recovered29_top1_r16 refit=618.300029 frozen=825.685219 delta=+207.385189
+ 18/128 recovered29_top1_r17 refit=618.742813 frozen=734.637742 delta=+115.894929
+ 19/128 recovered29_top1_r18 refit=618.093376 frozen=801.010055 delta=+182.916679
+ 20/128 recovered29_top1_r19 refit=619.218832 frozen=843.841991 delta=+224.623158
+ 21/128 recovered29_top1_r20 refit=618.118265 frozen=806.096676 delta=+187.978411
+ 22/128 recovered29_top1_r21 refit=619.278445 frozen=829.524836 delta=+210.246390
+ 23/128 recovered29_top1_r22 refit=619.677535 frozen=705.409709 delta=+85.732174
+ 24/128 recovered29_top1_r23 refit=619.226663 frozen=846.116572 delta=+226.889909
+ 25/128 recovered29_top1_r24 refit=619.278445 frozen=838.254772 delta=+218.976327
+ 26/128 recovered29_top1_r25 refit=618.194953 frozen=813.323365 delta=+195.128412
+ 27/128 recovered29_top1_r26 refit=618.117968 frozen=805.885874 delta=+187.767906
+ 28/128 recovered29_top1_r27 refit=617.981725 frozen=700.792755 delta=+82.811030
+ 29/128 recovered29_top1_r28 refit=618.167246 frozen=816.023904 delta=+197.856658
+ 30/128 recovered29_top1_r29 refit=618.121255 frozen=808.842723 delta=+190.721468
+ 31/128 recovered29_top1_r30 refit=618.356728 frozen=825.578941 delta=+207.222214
+ 32/128 recovered29_top1_r31 refit=618.159845 frozen=815.168121 delta=+197.008276
+ 33/128 recovered29_top2_r00 refit=605.979971 frozen=1333.597883 delta=+727.617912
+ 34/128 recovered29_top2_r01 refit=606.815397 frozen=1260.068521 delta=+653.253124
+ 35/128 recovered29_top2_r02 refit=607.186741 frozen=1314.049278 delta=+706.862537
+ 36/128 recovered29_top2_r03 refit=606.815397 frozen=1155.608854 delta=+548.793457
+ 37/128 recovered29_top2_r04 refit=606.035816 frozen=1081.257206 delta=+475.221391
+ 38/128 recovered29_top2_r05 refit=605.979859 frozen=1052.072110 delta=+446.092251
+ 39/128 recovered29_top2_r06 refit=606.648634 frozen=1310.754861 delta=+704.106227
+ 40/128 recovered29_top2_r07 refit=607.430199 frozen=1273.534213 delta=+666.104013
+ 41/128 recovered29_top2_r08 refit=606.322511 frozen=1113.866819 delta=+507.544308
+ 42/128 recovered29_top2_r09 refit=606.110456 frozen=1266.905237 delta=+660.794781
+ 43/128 recovered29_top2_r10 refit=606.815397 frozen=1088.206041 delta=+481.390644
+ 44/128 recovered29_top2_r11 refit=606.815397 frozen=1188.566081 delta=+581.750684
+ 45/128 recovered29_top2_r12 refit=606.137703 frozen=1065.249423 delta=+459.111720
+ 46/128 recovered29_top2_r13 refit=606.450368 frozen=1212.961659 delta=+606.511291
+ 47/128 recovered29_top2_r14 refit=607.286867 frozen=1044.043473 delta=+436.756606
+ 48/128 recovered29_top2_r15 refit=606.175651 frozen=1087.918232 delta=+481.742581
+ 49/128 recovered29_top2_r16 refit=606.815397 frozen=1067.735533 delta=+460.920136
+ 50/128 recovered29_top2_r17 refit=605.777574 frozen=932.843780 delta=+327.066206
+ 51/128 recovered29_top2_r18 refit=607.055457 frozen=1073.764704 delta=+466.709247
+ 52/128 recovered29_top2_r19 refit=606.801794 frozen=1192.480687 delta=+585.678893
+ 53/128 recovered29_top2_r20 refit=606.844066 frozen=1246.612685 delta=+639.768619
+ 54/128 recovered29_top2_r21 refit=608.062198 frozen=1270.888268 delta=+662.826070
+ 55/128 recovered29_top2_r22 refit=606.430557 frozen=1184.140318 delta=+577.709761
+ 56/128 recovered29_top2_r23 refit=606.815397 frozen=1190.388656 delta=+583.573259
+ 57/128 recovered29_top2_r24 refit=606.542238 frozen=1304.372373 delta=+697.830134
+ 58/128 recovered29_top2_r25 refit=606.811470 frozen=982.887883 delta=+376.076413
+ 59/128 recovered29_top2_r26 refit=606.855118 frozen=1257.442798 delta=+650.587680
+ 60/128 recovered29_top2_r27 refit=606.815397 frozen=1233.170916 delta=+626.355519
+ 61/128 recovered29_top2_r28 refit=606.669964 frozen=1343.533225 delta=+736.863261
+ 62/128 recovered29_top2_r29 refit=606.069532 frozen=1196.125473 delta=+590.055941
+ 63/128 recovered29_top2_r30 refit=606.463916 frozen=1307.264836 delta=+700.800919
+ 64/128 recovered29_top2_r31 refit=606.815397 frozen=1229.700829 delta=+622.885432
+ 65/128 official32_minus71_top1_r00 refit=613.781535 frozen=761.029575 delta=+147.248040
+ 66/128 official32_minus71_top1_r01 refit=613.796482 frozen=763.261009 delta=+149.464526
+ 67/128 official32_minus71_top1_r02 refit=613.593926 frozen=852.300858 delta=+238.706933
+ 68/128 official32_minus71_top1_r03 refit=613.459052 frozen=860.186940 delta=+246.727888
+ 69/128 official32_minus71_top1_r04 refit=613.557839 frozen=598.416522 delta=-15.141317
+ 70/128 official32_minus71_top1_r05 refit=613.859190 frozen=590.743268 delta=-23.115921
+ 71/128 official32_minus71_top1_r06 refit=613.369310 frozen=715.453400 delta=+102.084090
+ 72/128 official32_minus71_top1_r07 refit=614.077750 frozen=834.494517 delta=+220.416767
+ 73/128 official32_minus71_top1_r08 refit=613.477402 frozen=861.717705 delta=+248.240304
+ 74/128 official32_minus71_top1_r09 refit=613.901015 frozen=588.649833 delta=-25.251181
+ 75/128 official32_minus71_top1_r10 refit=613.594289 frozen=852.851299 delta=+239.257010
+ 76/128 official32_minus71_top1_r11 refit=613.331515 frozen=682.108610 delta=+68.777095
+ 77/128 official32_minus71_top1_r12 refit=613.389199 frozen=720.779593 delta=+107.390394
+ 78/128 official32_minus71_top1_r13 refit=613.485518 frozen=860.494878 delta=+247.009360
+ 79/128 official32_minus71_top1_r14 refit=613.881707 frozen=589.205222 delta=-24.676485
+ 80/128 official32_minus71_top1_r15 refit=613.570165 frozen=825.010316 delta=+211.440151
+ 81/128 official32_minus71_top1_r16 refit=613.508652 frozen=811.822725 delta=+198.314074
+ 82/128 official32_minus71_top1_r17 refit=613.421316 frozen=724.697455 delta=+111.276140
+ 83/128 official32_minus71_top1_r18 refit=613.056349 frozen=762.891385 delta=+149.835036
+ 84/128 official32_minus71_top1_r19 refit=613.591824 frozen=852.980358 delta=+239.388534
+ 85/128 official32_minus71_top1_r20 refit=613.136068 frozen=772.728824 delta=+159.592756
+ 86/128 official32_minus71_top1_r21 refit=614.077750 frozen=829.471217 delta=+215.393467
+ 87/128 official32_minus71_top1_r22 refit=613.333849 frozen=692.325591 delta=+78.991743
+ 88/128 official32_minus71_top1_r23 refit=613.590958 frozen=853.394696 delta=+239.803738
+ 89/128 official32_minus71_top1_r24 refit=613.250550 frozen=854.646310 delta=+241.395761
+ 90/128 official32_minus71_top1_r25 refit=613.407409 frozen=801.854619 delta=+188.447210
+ 91/128 official32_minus71_top1_r26 refit=613.138722 frozen=772.728824 delta=+159.590102
+ 92/128 official32_minus71_top1_r27 refit=613.607862 frozen=655.269404 delta=+41.661542
+ 93/128 official32_minus71_top1_r28 refit=613.279446 frozen=788.221592 delta=+174.942146
+ 94/128 official32_minus71_top1_r29 refit=613.169644 frozen=776.617223 delta=+163.447579
+ 95/128 official32_minus71_top1_r30 refit=613.522896 frozen=816.054041 delta=+202.531145
+ 96/128 official32_minus71_top1_r31 refit=613.268351 frozen=787.884673 delta=+174.616322
+ 97/128 official32_minus71_top2_r00 refit=582.940790 frozen=1026.125726 delta=+443.184936
+ 98/128 official32_minus71_top2_r01 refit=584.291430 frozen=998.556386 delta=+414.264956
+ 99/128 official32_minus71_top2_r02 refit=583.350222 frozen=952.856690 delta=+369.506468
+100/128 official32_minus71_top2_r03 refit=582.994739 frozen=831.836669 delta=+248.841930
+101/128 official32_minus71_top2_r04 refit=583.118962 frozen=811.350798 delta=+228.231836
+102/128 official32_minus71_top2_r05 refit=583.269921 frozen=748.890457 delta=+165.620536
+103/128 official32_minus71_top2_r06 refit=583.618346 frozen=1030.364839 delta=+446.746493
+104/128 official32_minus71_top2_r07 refit=583.190932 frozen=1014.413879 delta=+431.222947
+105/128 official32_minus71_top2_r08 refit=583.150833 frozen=781.670022 delta=+198.519189
+106/128 official32_minus71_top2_r09 refit=583.318891 frozen=1005.533131 delta=+422.214240
+107/128 official32_minus71_top2_r10 refit=583.008436 frozen=845.477890 delta=+262.469454
+108/128 official32_minus71_top2_r11 refit=583.579448 frozen=936.017276 delta=+352.437828
+109/128 official32_minus71_top2_r12 refit=582.853663 frozen=828.809669 delta=+245.956006
+110/128 official32_minus71_top2_r13 refit=583.920577 frozen=936.903215 delta=+352.982638
+111/128 official32_minus71_top2_r14 refit=583.335282 frozen=781.415576 delta=+198.080294
+112/128 official32_minus71_top2_r15 refit=582.954700 frozen=844.736789 delta=+261.782089
+113/128 official32_minus71_top2_r16 refit=584.055721 frozen=796.240082 delta=+212.184361
+114/128 official32_minus71_top2_r17 refit=583.109916 frozen=706.354179 delta=+123.244264
+115/128 official32_minus71_top2_r18 refit=583.359557 frozen=834.301708 delta=+250.942151
+116/128 official32_minus71_top2_r19 refit=583.184348 frozen=876.503919 delta=+293.319571
+117/128 official32_minus71_top2_r20 refit=582.983894 frozen=1011.068737 delta=+428.084844
+118/128 official32_minus71_top2_r21 refit=583.893788 frozen=889.062544 delta=+305.168756
+119/128 official32_minus71_top2_r22 refit=583.995024 frozen=925.490867 delta=+341.495843
+120/128 official32_minus71_top2_r23 refit=583.785681 frozen=936.421069 delta=+352.635388
+121/128 official32_minus71_top2_r24 refit=583.317447 frozen=1031.707580 delta=+448.390133
+122/128 official32_minus71_top2_r25 refit=583.171667 frozen=734.694747 delta=+151.523080
+123/128 official32_minus71_top2_r26 refit=583.332143 frozen=1008.867005 delta=+425.534863
+124/128 official32_minus71_top2_r27 refit=584.179571 frozen=894.879281 delta=+310.699710
+125/128 official32_minus71_top2_r28 refit=582.836503 frozen=1020.621066 delta=+437.784562
+126/128 official32_minus71_top2_r29 refit=582.115438 frozen=868.407636 delta=+286.292199
+127/128 official32_minus71_top2_r30 refit=583.377312 frozen=1002.238130 delta=+418.860818
+128/128 official32_minus71_top2_r31 refit=584.781633 frozen=877.432956 delta=+292.651323
+{
+  "status": "COMPLETE",
+  "phase": "extension",
+  "completed_at": "2026-09-23T04:24:01.725820+00:00",
+  "elapsed_s": 126.57547311300004,
+  "complete_pairs": 128,
+  "planned_pairs": 128,
+  "baseline_checks": [
+    {
+      "map": "recovered29",
+      "baseline_median_m": 597.6726773741443,
+      "match_at_1e_6_m": true,
+      "neutrality": [
+        "empty/refit:exact",
+        "empty/frozen:exact",
+        "all_zero/refit:exact",
+        "all_zero/frozen:exact"
+      ],
+      "calibration_n": 16612,
+      "evaluation_n": 2498
+    },
+    {
+      "map": "official32_minus71",
+      "baseline_median_m": 593.7425223089783,
+      "match_at_1e_6_m": true,
+      "neutrality": [
+        "empty/refit:exact",
+        "empty/frozen:exact",
+        "all_zero/refit:exact",
+        "all_zero/frozen:exact"
+      ],
+      "calibration_n": 16612,
+      "evaluation_n": 2498
+    }
+  ],
+  "freeze_sha256": "dbee07600d6b0036361306dbcd25dbb64efb98da975d68014b56d525b1c204e9",
+  "csv_sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+  "preserved_inputs": {
+    "harness": true,
+    "evaluator": true,
+    "calibration_rows": true,
+    "R29_map": true,
+    "O32_minus71_map": true,
+    "R29_rows": true,
+    "O32_minus71_rows": true
+  },
+  "summaries": [
+    {
+      "map": "recovered29",
+      "k": 1,
+      "n_pairs": 32,
+      "positive": 32,
+      "zero": 0,
+      "negative": 0,
+      "delta_m": {
+        "median": 192.92494024157588,
+        "q25": 110.85161993854774,
+        "q75": 214.66619185934093,
+        "minimum": 5.833982997790486,
+        "maximum": 226.88990851833546
+      },
+      "delta_pp": {
+        "median": 32.279364198006405,
+        "q25": 18.547212234223384,
+        "q75": 35.91701611699399,
+        "minimum": 0.9761167305525664,
+        "maximum": 37.96223536855808
+      },
+      "touched_delta_m": {
+        "median": 618.663324414005,
+        "q25": 479.66934912992804,
+        "q75": 862.1754891102383,
+        "minimum": 85.51589162813093,
+        "maximum": 905.5909947067594
+      },
+      "touched_n": 1026,
+      "refit_m": {
+        "median": 618.6541297730894,
+        "q25": 618.2737602364499,
+        "q75": 619.27844534578,
+        "minimum": 617.9817249379864,
+        "maximum": 619.6775347740638
+      },
+      "frozen_m": {
+        "median": 811.0830440051043,
+        "q25": 730.1300652843278,
+        "q75": 833.9446372051209,
+        "minimum": 625.1124283435705,
+        "maximum": 846.1165718217421
+      },
+      "refit_pct": {
+        "median": 3.5105256092894166,
+        "q25": 3.4468838282545877,
+        "q75": 3.614983382971415,
+        "minimum": 3.398021748805591,
+        "maximum": 3.681757295079491
+      },
+      "frozen_pct": {
+        "median": 35.70689688686649,
+        "q25": 22.162195617194804,
+        "q75": 39.53199949996541,
+        "minimum": 4.591100113523994,
+        "maximum": 41.56855480480186
+      },
+      "difference_of_arm_medians_m": 192.4289142320149
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "n_pairs": 32,
+      "positive": 32,
+      "zero": 0,
+      "negative": 0,
+      "delta_m": {
+        "median": 587.8674169039075,
+        "q25": 479.8483308998239,
+        "q75": 661.3026033183886,
+        "minimum": 327.0662059413802,
+        "maximum": 736.8632614595833
+      },
+      "delta_pp": {
+        "median": 98.35942634799437,
+        "q25": 80.28614140569753,
+        "q75": 110.64628321706127,
+        "minimum": 54.72329894321672,
+        "maximum": 123.28876479630428
+      },
+      "touched_delta_m": {
+        "median": 740.3713068552418,
+        "q25": 556.4642888371322,
+        "q75": 850.9689955184922,
+        "minimum": 338.7584358260415,
+        "maximum": 957.7434872236171
+      },
+      "touched_n": 1845,
+      "refit_m": {
+        "median": 606.8066320296895,
+        "q25": 606.2857962591974,
+        "q75": 606.815396646193,
+        "minimum": 605.7775737994863,
+        "maximum": 608.0621983283885
+      },
+      "frozen_m": {
+        "median": 1194.3030799884689,
+        "q25": 1086.2529759071472,
+        "q75": 1267.9009950891123,
+        "minimum": 932.8437797408665,
+        "maximum": 1343.5332253298286
+      },
+      "refit_pct": {
+        "median": 1.5282536748500664,
+        "q25": 1.4411096928329648,
+        "q75": 1.5297201324673049,
+        "minimum": 1.3560761152660694,
+        "maximum": 1.7383295819862754
+      },
+      "frozen_pct": {
+        "median": 99.82561110800665,
+        "q25": 81.74713635556583,
+        "q75": 112.13969503501387,
+        "minimum": 56.079375058482775,
+        "maximum": 124.79415174750814
+      },
+      "difference_of_arm_medians_m": 587.4964479587794
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "n_pairs": 32,
+      "positive": 28,
+      "zero": 0,
+      "negative": 4,
+      "delta_m": {
+        "median": 169.03195061205287,
+        "q25": 106.06381750657997,
+        "q75": 224.98930878577156,
+        "minimum": -25.251181237358423,
+        "maximum": 248.2403036668302
+      },
+      "delta_pp": {
+        "median": 28.46889758791609,
+        "q25": 17.86360476492625,
+        "q75": 37.893413446424695,
+        "minimum": -4.252884085034074,
+        "maximum": 41.80941979723126
+      },
+      "touched_delta_m": {
+        "median": 492.2133768173716,
+        "q25": 347.2343435830909,
+        "q75": 766.1289142193232,
+        "minimum": -40.82663069914952,
+        "maximum": 853.025471685639
+      },
+      "touched_n": 1059,
+      "refit_m": {
+        "median": 613.4970846943345,
+        "q25": 613.333265264087,
+        "q75": 613.5976820645517,
+        "minimum": 613.0563488806521,
+        "maximum": 614.0777499493843
+      },
+      "frozen_m": {
+        "median": 782.250947746074,
+        "q25": 719.4480445645933,
+        "q75": 838.9461026478701,
+        "minimum": 588.6498334408366,
+        "maximum": 861.7177053515916
+      },
+      "refit_pct": {
+        "median": 3.327126093063626,
+        "q25": 3.2995351046987755,
+        "q75": 3.3440690214269098,
+        "minimum": 3.2528959685361736,
+        "maximum": 3.424923578207806
+      },
+      "frozen_pct": {
+        "median": 31.749187291490223,
+        "q25": 21.171723016698273,
+        "q75": 41.29796521652696,
+        "minimum": -0.8577268221142464,
+        "maximum": 45.13323081535356
+      },
+      "difference_of_arm_medians_m": 168.75386305173947
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "n_pairs": 32,
+      "positive": 32,
+      "zero": 0,
+      "negative": 0,
+      "delta_m": {
+        "median": 307.9342329420846,
+        "q25": 248.12044888312323,
+        "q75": 419.69917338697314,
+        "minimum": 123.2442637739889,
+        "maximum": 448.3901332133619
+      },
+      "delta_pp": {
+        "median": 51.86326081961809,
+        "q25": 41.78923347416973,
+        "q75": 70.68706680377618,
+        "minimum": 20.75719005179381,
+        "maximum": 75.51928931578588
+      },
+      "touched_delta_m": {
+        "median": 463.7093424852713,
+        "q25": 321.1057519213882,
+        "q75": 655.7138894459642,
+        "minimum": 149.74807680993626,
+        "maximum": 726.113985505754
+      },
+      "touched_n": 1817,
+      "refit_m": {
+        "median": 583.3181693168456,
+        "q25": 583.084545773024,
+        "q75": 583.6601799804889,
+        "minimum": 582.1154375427254,
+        "maximum": 584.7816330282662
+      },
+      "frozen_m": {
+        "median": 891.9709124048252,
+        "q25": 831.079918719766,
+        "q75": 1003.0618803606228,
+        "minimum": 706.3541793625664,
+        "maximum": 1031.7075804336605
+      },
+      "refit_pct": {
+        "median": -1.755702615267296,
+        "q25": -1.7950502339813905,
+        "q75": -1.6981000938387725,
+        "minimum": -1.9582705178394222,
+        "maximum": -1.5092214123159753
+      },
+      "frozen_pct": {
+        "median": 50.228571963496904,
+        "q25": 39.97311755402275,
+        "q75": 68.93886536201938,
+        "minimum": 18.966412682665478,
+        "maximum": 73.7634650827264
+      },
+      "difference_of_arm_medians_m": 308.6527430879796
+    }
+  ]
+}

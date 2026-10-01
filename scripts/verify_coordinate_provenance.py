@@ -38,9 +38,10 @@ def saved_check(root:Path)->dict:
  for a,b in [('recovered27_common','official27_common'),('recovered26_common_minus71','official26_common_minus71')]:
   f=root/f'results/rc5/populations/{a}_ordered_source_rows.json';g=root/f'results/rc5/populations/{b}_ordered_source_rows.json'
   assert load(f)==load(g),f'{a}/{b} populations'
- lock=load(root/'provenance/rc7/SCOPE_LOCK.json'); map_pins={k:v for k,v in lock['numerical_and_source_pins'].items() if k.startswith('maps/')}
+ lock=load(p/'FROZEN_MAP_PINS.json'); map_pins=lock['pins']
+ assert set(map_pins)=={f'maps/{name}.json' for name in m}|{'maps/B9C_MAP_MANIFEST.json'},'Incomplete or unexpected frozen map pins'
  for rel,h in map_pins.items():assert digest(root/rel)==h,rel
- return {'source_copies_checked':len(checks),'source_copy_checks':checks,'used_identities':35,'metadata_pairs':33,'derived_map_constructions':list(expected),'common27_BS71_held_at_R29':True,'map_hashes_unchanged':True,'common_roster_population_pairing':True,'raw_join_reexecuted':False,'scope':'Saved-source identities, map algebra, exact pairs, hashes and population pairing; not historical selection reconstruction or physical validation.'}
+ return {'source_copies_checked':len(checks),'source_copy_checks':checks,'used_identities':35,'metadata_pairs':33,'derived_map_constructions':list(expected),'common27_BS71_held_at_R29':True,'map_hashes_unchanged':True,'map_pin_source_sha256':lock['source_sha256'],'common_roster_population_pairing':True,'raw_join_reexecuted':False,'scope':'Saved-source identities, map algebra, exact pairs, hashes and population pairing; not historical selection reconstruction or physical validation.'}
 def payload(path:Path,expected:str,work:Path,name:str)->Path:
  if zipfile.is_zipfile(path):
   with zipfile.ZipFile(path) as z:

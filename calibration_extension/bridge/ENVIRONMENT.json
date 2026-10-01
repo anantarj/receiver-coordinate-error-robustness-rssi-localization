@@ -1,0 +1,30 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "pyproj": "3.7.2",
+  "canonical_harness": "6e8881f3a83b70c49ee2b1f3892b9a2cf65e5491717c336b3e1cbace01943b2f",
+  "canonical_evaluator": "b14b35b5748e447971e5b22da7c39ededc8277aa04e5690eeff672bf1311cac5",
+  "source_csv": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+  "driver": "0160079ff71c64b88a930987f9c7f8c47594897e4185e5ec529bfb418535b3b7",
+  "source_function_extraction": {
+    "function": "build",
+    "first_line": 2432,
+    "last_line": 2455,
+    "source_sha256": "b26e3989f7459f69fd255212dcb114818726227b088aa7390c042b8a1aebe96b"
+  },
+  "protocol_freeze": {
+    "frozen_at_utc": "2026-09-23T04:19:16.479466+00:00",
+    "status": "PRE_OUTCOME_LOCAL_FREEZE",
+    "files": {
+      "PROTOCOL.json": "da66681a3aa4cc0202ea32dab370254e3b1f38ae232bdaadaed056bae1e412db",
+      "DIRECTION_REGISTER.json": "d57e6d3d51299a391f7e1ec62fd1096b7d610283f075d68ccd9b851360aea440",
+      "INPUT_IDENTITIES.json": "fafc741a798b04272261f765180aa882a972a99a172bd964bb55cc984c4f3228",
+      "OUTPUT_SCHEMA.json": "8aeec270a5523a91646d76ebd303fa993df9b6af78bbb4aaeae9cbfabbb32361",
+      "../run_paired_wcl_extension.py": "0160079ff71c64b88a930987f9c7f8c47594897e4185e5ec529bfb418535b3b7"
+    },
+    "remarks": "Created before bridge and extended execution; user authorized continuation. Does not authenticate historical preregistration or independent new-deployment evidence.",
+    "preexecution_change": "Disambiguated two nested score functions by original source line 2457 before any numerical execution."
+  }
+}

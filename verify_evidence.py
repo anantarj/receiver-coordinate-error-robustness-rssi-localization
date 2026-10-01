@@ -1,27 +1,45 @@
 #!/usr/bin/env python3
-"""Read-only integrity check: scientific review package or complete preparation archive."""
-from pathlib import Path
-import hashlib,re,sys
-R=Path(__file__).resolve().parent
-manifest=R/'EVIDENCE_SHA256SUMS.txt'
-if not manifest.is_file():manifest=R/'provenance/SHA256SUMS.txt'
-if not manifest.is_file():raise SystemExit('No package manifest found; extract the complete package first.')
-errors=[];listed=set();n=0
-for line in manifest.read_text().splitlines():
- expected,name=line.split('  ',1);p=Path(name)
- if not re.fullmatch(r'[0-9a-f]{64}',expected) or p.is_absolute() or '..' in p.parts:raise SystemExit('Unsafe manifest')
- if name in listed:raise SystemExit('Duplicate manifest path')
- listed.add(name)
- if not (R/p).is_file():errors.append('MISSING '+name);continue
- with (R/p).open('rb') as f:
-  h=hashlib.sha256()
-  for chunk in iter(lambda:f.read(1048576),b''):h.update(chunk)
- if h.hexdigest()!=expected:errors.append('MISMATCH '+name)
- else:n+=1
-actual={p.relative_to(R).as_posix() for p in R.rglob('*') if p.is_file() and p!=manifest and not any(x in p.parts for x in ['.git','__pycache__','.venv','venv']) and p.suffix!='.pyc' and p.name!='.DS_Store'}
-errors += ['UNLISTED '+p for p in sorted(actual-listed)]
-print('Verified: %s/%s files'%(n,len(listed)))
-for e in errors:print(e)
-print('STATUS: '+('INCOMPLETE_OR_MODIFIED' if errors else 'REVIEW_EVIDENCE_INTEGRITY_PASS'))
-if not errors:print('Integrity only: not final author approval, public publication, independent replication or all scientific criteria passing.')
-sys.exit(bool(errors))
+"""Read-only integrity verification for the released package (standard library only)."""
+from pathlib import Path, PurePosixPath
+import argparse,hashlib,sys
+
+def verify(root):
+    root=Path(root).resolve()
+    manifest=root/'PUBLIC_RELEASE_SHA256SUMS.txt'
+    if not manifest.is_file():raise ValueError('Missing PUBLIC_RELEASE_SHA256SUMS.txt')
+    expected={}
+    for number,line in enumerate(manifest.read_text(encoding='utf-8').splitlines(),1):
+        if not line.strip():continue
+        parts=line.split(None,1)
+        if len(parts)!=2 or len(parts[0])!=64 or any(c not in '0123456789abcdef' for c in parts[0]):
+            raise ValueError('Malformed manifest line '+str(number))
+        name=parts[1].lstrip('*')
+        while name.startswith('./'):name=name[2:]
+        q=PurePosixPath(name)
+        if q.is_absolute() or '..' in q.parts or not name or '\\' in name:
+            raise ValueError('Unsafe manifest path: '+name)
+        normalized=q.as_posix()
+        if normalized in expected:raise ValueError('Duplicate manifest path: '+normalized)
+        expected[normalized]=parts[0]
+    errors=[]
+    for name,wanted in expected.items():
+        p=root/name
+        if p.is_symlink():errors.append('symlink '+name);continue
+        try:p.resolve().relative_to(root)
+        except ValueError:errors.append('escape '+name);continue
+        if not p.is_file():errors.append('missing '+name);continue
+        if hashlib.sha256(p.read_bytes()).hexdigest()!=wanted:errors.append('changed '+name)
+    actual=set()
+    for p in root.rglob('*'):
+        rel=p.relative_to(root)
+        if '.git' in rel.parts or '__pycache__' in rel.parts:continue
+        if p.is_symlink():errors.append('symlink '+rel.as_posix());continue
+        if p.is_file() and rel.as_posix()!='PUBLIC_RELEASE_SHA256SUMS.txt':actual.add(rel.as_posix())
+    errors+=['unlisted '+s for s in sorted(actual-set(expected))]
+    if errors:raise ValueError('\n'.join(errors))
+    print('PASS:',len(expected),'manifested files verified; manifest unchanged.')
+    return len(expected)
+if __name__=='__main__':
+    ap=argparse.ArgumentParser();ap.add_argument('--root',default=str(Path(__file__).resolve().parent));args=ap.parse_args()
+    try:verify(args.root)
+    except (ValueError,OSError) as exc:print('FAIL:',exc,file=sys.stderr);raise SystemExit(1)

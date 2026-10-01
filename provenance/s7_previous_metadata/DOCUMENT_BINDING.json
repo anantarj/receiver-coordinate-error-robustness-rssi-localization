@@ -1,0 +1,63 @@
+{
+  "revision": "S6",
+  "manuscript_title": "Recalibration Can Mask Measured Sensitivity to Receiver-Coordinate Errors in RSSI Localization",
+  "status": "local coordinated revision; publication and final approval not inferred",
+  "documents": [
+    {
+      "document": "main",
+      "source": "document_sources/main/paper_b_sensors.tex",
+      "source_sha256": "ad5cf7c15fd15f82da83a65e93c7a2ce1d26bcb02a55cec5311e663c711c2352",
+      "delivered_pdf": "PAPERB_SENSORS_MAIN_S6_300926.pdf",
+      "pdf_sha256": "a4946d34634145a2c8b0dfce3bb5bf7806f420386f0caa510fa6caba88baed5b",
+      "source_zip": {
+        "filename": "PAPERB_SENSORS_MAIN_LATEX_S6_300926.zip",
+        "sha256": "b007f1abaf42aece104d0cbf526f5800687cdc24210492a8fc6d31737e6c9ad1"
+      }
+    },
+    {
+      "document": "supplement",
+      "source": "document_sources/supplement/paper_b_supplement_sensors.tex",
+      "source_sha256": "85a571f67f21829b6ac2a6650a77d92e5c19a1b50cc18a1fac4ed9117a9e6b18",
+      "delivered_pdf": "PAPERB_SENSORS_SUPPLEMENT_S6_300926.pdf",
+      "pdf_sha256": "9586640e90f2833572e858b97c47bb77536b5fc2c3882509545280d09f25d786",
+      "source_zip": {
+        "filename": "PAPERB_SENSORS_SUPPLEMENT_LATEX_S6_300926.zip",
+        "sha256": "96cdd9c773e4efc958270d721d01c06519c7bb3f2a75841944b744cb7379c95b"
+      }
+    }
+  ],
+  "current_source_dependencies": {
+    "document_sources/main/README_BUILD.md": "761b4a8626d3086a8a476a1933d27917d47f9e75c91b87654a6ac29343421a66",
+    "document_sources/main/build.sh": "9bec4c2927a8f5ce3eb4f534affeed12dbdb503b461dad514424235bbdd4ecee",
+    "document_sources/main/figures/Fig1_Corruption_Load_Surface.pdf": "ebddb14440663ded43ee4aa5bc7ff784a0231701d76746387a2ed9471a82de74",
+    "document_sources/main/figures/Fig2_Exposure_Topology.pdf": "86cfee42ece9dcda154c4a6b2e201252beb098a29763624305bf2b82f884584b",
+    "document_sources/main/figures/Fig3_Selection_Set_Exhaustion.pdf": "19028272e2c5939931248bdc436ca66cd8c46c90093dd87491577848b2416d7e",
+    "document_sources/main/figures/Fig3_Selection_Set_Exhaustion_R29.pdf": "0c63075d5dd6c5d8d89b6eb9ae3869ac09d86c588bf621a97c0aa749c34981ae",
+    "document_sources/main/figures/Fig5_Spatial_Error_Structure.pdf": "e3c2b4439ab58b6f9932a8a3d5e15c99f74dd42a46da99779a417b86ea706cf1",
+    "document_sources/main/figures/Fig6_Directional_and_Affine_Structure.pdf": "0e8430ce70def6d62b9d4075136f788b4287f7f556f33fbbe865d78a65d82fcd",
+    "document_sources/main/figures/paired_calibration_32_fields.pdf": "52af3bb608069aeb4e27df3bc0b5cddfd8e40af720e12c8c3e6a9ea9d0aaa7ea",
+    "document_sources/main/generated/o33_window_control.tex": "ff0114aff23d9f733c547d537361aa89178d8c6a0a0408a4fd4d1b386dc5985d",
+    "document_sources/main/generated/weight_diagnostics.tex": "e4e90e28595a4d9aa69976336824633a3d4afecfe3b42178cdb7ee06cf03d412",
+    "document_sources/main/paper_b_sensors.tex": "ad5cf7c15fd15f82da83a65e93c7a2ce1d26bcb02a55cec5311e663c711c2352",
+    "document_sources/supplement/IEEEtran.cls": "da751920a317ed318b7b5cd7fa585a6cc7d28502d457856382e9be24b10a3bd7",
+    "document_sources/supplement/README_BUILD.md": "e870905fc08c6db3eb330aa9d60e076af636a9741f3a6c6db9ae2e498d4e3bbe",
+    "document_sources/supplement/build.sh": "81ba2ba95cbb8ac3ab8781733f565f694d844eed305b155445946479148d16f7",
+    "document_sources/supplement/figures/Fig1_Corruption_Load_Surface.pdf": "ebddb14440663ded43ee4aa5bc7ff784a0231701d76746387a2ed9471a82de74",
+    "document_sources/supplement/figures/Fig2_Exposure_Topology.pdf": "86cfee42ece9dcda154c4a6b2e201252beb098a29763624305bf2b82f884584b",
+    "document_sources/supplement/figures/Fig3_Selection_Set_Exhaustion.pdf": "19028272e2c5939931248bdc436ca66cd8c46c90093dd87491577848b2416d7e",
+    "document_sources/supplement/figures/Fig3_Selection_Set_Exhaustion_R29.pdf": "0c63075d5dd6c5d8d89b6eb9ae3869ac09d86c588bf621a97c0aa749c34981ae",
+    "document_sources/supplement/figures/Fig4_A0_Refit_Ablation.pdf": "a0d552c178aad9a2bb346eaba8e0a60d2d52cbb50af5e439d84781f28c2f82ea",
+    "document_sources/supplement/figures/Fig5_Spatial_Error_Structure.pdf": "e3c2b4439ab58b6f9932a8a3d5e15c99f74dd42a46da99779a417b86ea706cf1",
+    "document_sources/supplement/figures/Fig6_Directional_and_Affine_Structure.pdf": "0e8430ce70def6d62b9d4075136f788b4287f7f556f33fbbe865d78a65d82fcd",
+    "document_sources/supplement/figures/Fig7_Reliability_Profile.pdf": "1fe689c604b321e426e2c6435c30efd2863702986944c4601091a2710e1eda05",
+    "document_sources/supplement/figures/FigS1_Matched_Exposure.pdf": "bb3361c0d330aa24d7745fe7679f7be09bd29e7e3d5c045fe779ff424b3a754b",
+    "document_sources/supplement/figures/FigS2_Scale_Control.pdf": "10264e614e3e8db863b12fb9090b332f78ea16c3796e1bcbb389d5aaa5b46c77",
+    "document_sources/supplement/figures/FigS3_Two_Population.pdf": "886a871189ba869908b552d195ecc8d4368d1600345fa3ffb97fbd70e04319a4",
+    "document_sources/supplement/figures/paired_calibration_32_fields.pdf": "52af3bb608069aeb4e27df3bc0b5cddfd8e40af720e12c8c3e6a9ea9d0aaa7ea",
+    "document_sources/supplement/generated/intercept_diagnostics.tex": "1ac99f2048a5f462f94a2270b987df75ffebf8f11f338b122c821be04d55ee77",
+    "document_sources/supplement/generated/o33_window_control.tex": "3f864b89bda3560e618269e6365feac4c633d7f8e7d65e94b9a1761316e21729",
+    "document_sources/supplement/generated/weight_diagnostics.tex": "f2e0365aad1df9f1e8b0a68d9f33c95235c6b82ffa0c78beae42ac819642ab9b",
+    "document_sources/supplement/paper_b_supplement_sensors.tex": "85a571f67f21829b6ac2a6650a77d92e5c19a1b50cc18a1fac4ed9117a9e6b18"
+  },
+  "evidence_archive": "PAPERB_SENSORS_EVIDENCE_v1.1.0_S6_300926.zip"
+}

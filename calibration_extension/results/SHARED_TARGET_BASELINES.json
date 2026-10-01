@@ -1,0 +1,37 @@
+{
+  "status": "both native maps share targeted coordinates and reference intercepts",
+  "targets": {
+    "recovered29": {
+      "14": {
+        "coordinate": [
+          598695.3,
+          5675156.5
+        ],
+        "A0": 33.59250659520822
+      },
+      "69": {
+        "coordinate": [
+          598286.3,
+          5672726.9
+        ],
+        "A0": 26.07647502752846
+      }
+    },
+    "official32_minus71": {
+      "14": {
+        "coordinate": [
+          598695.3,
+          5675156.5
+        ],
+        "A0": 33.59250659520822
+      },
+      "69": {
+        "coordinate": [
+          598286.3,
+          5672726.9
+        ],
+        "A0": 26.07647502752846
+      }
+    }
+  }
+}

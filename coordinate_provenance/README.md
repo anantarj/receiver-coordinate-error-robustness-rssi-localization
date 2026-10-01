@@ -1,6 +1,6 @@
-# Coordinate-input evidence — RC7
+# Coordinate-input evidence — inherited RC7 record, S3 verification entry point
 
-This package contains the exact inputs used by the perturbation study and the minimum source evidence needed to inspect them. Main reference 15 credits Ananta Ranjan's **unsubmitted R5.1 resource audit**; its headline 7.54-fold result is not evidence for, or a new contribution of, this manuscript.
+This package contains the exact inputs used by the perturbation study and the minimum source evidence needed to inspect them. Main reference 15 credits Ananta Ranjan's **R5.1 resource audit (the examined source version; current journal status is not asserted)**; its headline 7.54-fold result is not evidence for, or a new contribution of, this manuscript.
 
 ## Read first
 
@@ -32,3 +32,7 @@ The catalogue entry is remote relative to recorded traffic. The observed distanc
 ## Attribution and licensing
 
 Copied producer code is attributed to Ananta Ranjan with source archive/member hashes. Project code follows the approved MIT plan; author-created documentation and derived records use CC BY 4.0. Public source observations/catalogue are obtained separately under their original terms. This small used-input account does not claim the full benchmark resource as new, or certify any companion's journal status.
+
+## Portable frozen-map pins
+
+`FROZEN_MAP_PINS.json` copies the nine original `maps/` SHA-256 entries from the retained RC7 scope lock, including its source member and hash. Expected map values were not regenerated from the S3 working files. The original verification script is retained under `provenance/s3_previous_sources/`; the active script uses this explicitly scoped contract rather than depending on a missing private worktree.

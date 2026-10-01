@@ -55,13 +55,15 @@ def check(root=R,source_csv=None):
    assert np.allclose(env['build']({'0':center},{'0'},D,1,mode)['0'],center,rtol=0,atol=0)
  labels=list(csv.DictReader((d/'corrupted_count_labels.csv').open()));assert [int(x['receiver_count']) for x in labels]==[1,3,7,14,21,29]
  for x in labels:assert abs(float(x['exact_percentage'])-100*int(x['receiver_count'])/29)<1e-12
- supp=(root/'manuscript/paper_b_supplement.tex').read_text()
+ supp_path=root/'document_sources/supplement/paper_b_supplement_sensors.tex'
+ supp=supp_path.read_text(encoding='utf-8')
  for x in rows:
   for key in ['refit_median_m','frozen_median_m']:assert f'{float(x[key]):.2f}' in supp
   assert f'{float(x["refit_minus_frozen_m"]):+.2f}' in supp
   assert f'{float(x["refit_minus_frozen_pp"]):+.2f}' in supp
- return {'status':'PASS','rotation_pairs':6,'saved_scalar_cases':16,'radial_receivers':29,'radial_magnitudes':6,'actual_build_function_checked':True,'CSV_centroid_recomputed':csv_done,'new_localization':False,'new_intercept_fit':False,'new_bootstrap':False,'fresh_raw_CSV_JSON_join':False,'frozen_arm_message_errors_rederived':False}
+ return {'status':'PASS','supplement_source':supp_path.relative_to(root).as_posix(),'supplement_sha256':digest(supp_path),'document_numeric_tokens_checked':True,'rotation_pairs':6,'saved_scalar_cases':16,'radial_receivers':29,'radial_magnitudes':6,'actual_build_function_checked':True,'CSV_centroid_recomputed':csv_done,'new_localization':False,'new_intercept_fit':False,'new_bootstrap':False,'fresh_raw_CSV_JSON_join':False,'frozen_arm_message_errors_rederived':False}
 def main():
+ if not __debug__:raise ValueError('Do not disable validation assertions with Python optimization flags')
  ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--csv',type=Path);ap.add_argument('--out',type=Path);a=ap.parse_args()
  if a.out:
   p=a.out.resolve();assert not p.exists(),'Refuse existing output';assert p!=R and R not in p.parents,'Output must be outside package'

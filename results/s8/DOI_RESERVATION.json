@@ -1,0 +1,10 @@
+{
+  "version": "1.1.0",
+  "reserved_zenodo_doi": "10.5281/zenodo.23061691",
+  "preceding_version": "1.0.0",
+  "preceding_doi": "10.5281/zenodo.22680802",
+  "reserved_on": "2026-09-30",
+  "publication_status": "reserved_not_published",
+  "intended_github_tag": "v1.1.0",
+  "manuscript_revision": "Sensors S7"
+}

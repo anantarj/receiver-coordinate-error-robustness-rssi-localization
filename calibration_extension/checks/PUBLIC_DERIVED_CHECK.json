@@ -1,0 +1,11 @@
+{
+  "status": "PUBLIC_DERIVED_OUTPUT_CHECK_PASS",
+  "pairs": 128,
+  "bridge_cases_equal": 4,
+  "source_csv_supplied": false,
+  "external_source_error_values_checked": 0,
+  "external_source_weight_vectors_checked": 0,
+  "max_prediction_identity_difference_m": 3.725290298461914e-09,
+  "max_external_weight_difference": 0.0,
+  "scope": "Design, output arithmetic, weight/prediction identities and bridge equality. External CSV additionally enables error/RSSI-weight reconstruction. Does not independently refit intercepts or re-execute the producer."
+}

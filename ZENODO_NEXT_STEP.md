@@ -1,18 +1,17 @@
-# Zenodo DOI insertion step
+# Existing-record v1.1.0 release route — S8
 
-Do not create a fictitious DOI.
+Reserved DOI: **10.5281/zenodo.23061691**. Existing repository: https://github.com/anantarj/receiver-coordinate-error-robustness-rssi-localization . Baseline v1.0.0 DOI: **10.5281/zenodo.22680802**.
 
-After creating the Zenodo draft and reserving its DOI, update these two files **before** creating GitHub release `v1.0.0`:
+Preserve the baseline record, tag and files. Use the existing new-version Zenodo draft carrying the reserved DOI; do not create a duplicate record or delete the reserved draft.
 
-1. `README.md`
-   - replace the line `Zenodo DOI: to be inserted ...` with the actual DOI and preferably a DOI link.
-2. `CITATION.cff`
-   - add:
+After the exact current files are approved:
 
-```yaml
-doi: "10.5281/zenodo.XXXXXXXX"
-```
+1. Verify `PAPERB_SENSORS_EVIDENCE_v1.1.0_S8_300926.zip` and its matching PDFs/sources using the current S8 instructions.
+2. Update the existing GitHub repository with the curated archive tree, preserving Git history and without including private administrative material. Create the unused `v1.1.0` tag only at the reviewed, verified commit.
+3. Attach the exact S8 evidence ZIP to the GitHub v1.1.0 release. The automatically generated GitHub source ZIP is a different byte stream, not the checksum-identical evidence asset.
+4. Upload the identical named evidence ZIP to the existing Zenodo draft. The two S8 PDFs and both S8 LaTeX ZIPs may accompany it for convenient access.
+5. Confirm the reserved DOI, version 1.1.0, current title, unchanged approved creators, repository/release links, mixed license description and each file checksum.
+6. Publish only after final approval and release verification. Do not enable automatic GitHub-to-Zenodo archiving for this manually reserved draft route.
+7. Re-download the published assets and verify exact filenames, hashes and DOI resolution.
 
-Optionally add a `url:` field for the specific Zenodo record.
-
-Commit and push those metadata changes. Only after that commit is on `main` should the `v1.0.0` tag/release be created.
+This file records preparation instructions, not completed uploads, live draft inspection, all-author approval or remote publication.

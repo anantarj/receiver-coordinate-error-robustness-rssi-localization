@@ -1,0 +1,77 @@
+{
+  "scope": "Derived delivery export. Pair arrays and records are byte-identical; only four reference NPZ files omit raw source-measurement fields. Original local arrays remain unchanged.",
+  "transformations": [
+    {
+      "path": "bridge/official32_minus71_reference.npz",
+      "original_local_sha256": "18f6dfaf332323b7f64ee952c7a64475a1ffb0ffc7ac6c4ab45dac486a121b55",
+      "exported_sha256": "4e0f6204b4010a99bd0694109e55778f0c4d2e64bae3c77e47e4df32cee2f477",
+      "excluded_fields": [
+        "raw_rssi",
+        "truth"
+      ],
+      "retained_fields": [
+        "predictions",
+        "errors",
+        "weights",
+        "selected_ids",
+        "source_rows",
+        "calibration_source_rows"
+      ],
+      "reason": "Raw reception and transmitter-location slices are obtained from the fingerprinted external CSV, not redistributed in this export."
+    },
+    {
+      "path": "bridge/recovered29_reference.npz",
+      "original_local_sha256": "c74139ac72495f5b74ff99f6735e5bf12d147f72fd575eee060ab2a216a16aa8",
+      "exported_sha256": "3f96afeb0223251daab18d1ab27ae3bef363758d474c7cd4a185a85376aeaa85",
+      "excluded_fields": [
+        "raw_rssi",
+        "truth"
+      ],
+      "retained_fields": [
+        "predictions",
+        "errors",
+        "weights",
+        "selected_ids",
+        "source_rows",
+        "calibration_source_rows"
+      ],
+      "reason": "Raw reception and transmitter-location slices are obtained from the fingerprinted external CSV, not redistributed in this export."
+    },
+    {
+      "path": "extension/official32_minus71_reference.npz",
+      "original_local_sha256": "18f6dfaf332323b7f64ee952c7a64475a1ffb0ffc7ac6c4ab45dac486a121b55",
+      "exported_sha256": "4e0f6204b4010a99bd0694109e55778f0c4d2e64bae3c77e47e4df32cee2f477",
+      "excluded_fields": [
+        "raw_rssi",
+        "truth"
+      ],
+      "retained_fields": [
+        "predictions",
+        "errors",
+        "weights",
+        "selected_ids",
+        "source_rows",
+        "calibration_source_rows"
+      ],
+      "reason": "Raw reception and transmitter-location slices are obtained from the fingerprinted external CSV, not redistributed in this export."
+    },
+    {
+      "path": "extension/recovered29_reference.npz",
+      "original_local_sha256": "c74139ac72495f5b74ff99f6735e5bf12d147f72fd575eee060ab2a216a16aa8",
+      "exported_sha256": "3f96afeb0223251daab18d1ab27ae3bef363758d474c7cd4a185a85376aeaa85",
+      "excluded_fields": [
+        "raw_rssi",
+        "truth"
+      ],
+      "retained_fields": [
+        "predictions",
+        "errors",
+        "weights",
+        "selected_ids",
+        "source_rows",
+        "calibration_source_rows"
+      ],
+      "reason": "Raw reception and transmitter-location slices are obtained from the fingerprinted external CSV, not redistributed in this export."
+    }
+  ]
+}

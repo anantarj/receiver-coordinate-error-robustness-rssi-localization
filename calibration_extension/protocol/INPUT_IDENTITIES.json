@@ -1,0 +1,62 @@
+{
+  "main_RC8": {
+    "name": "PAPERB_IEEE_ACCESS_RC8_090926.pdf",
+    "bytes": 467792,
+    "sha256": "9cadc20b629aad6d17efbaad88dd5cf1a769d3da7a3d3d06f10cd58a4fa707f3"
+  },
+  "supplement_RC8": {
+    "name": "PAPERB_SUPPLEMENT_RC8_090926.pdf",
+    "bytes": 356742,
+    "sha256": "e0bc440eb228a9b4dda54868ba0e3eeb78326b808138ed68b79a3ef671941f67"
+  },
+  "main_source_RC8": {
+    "name": "PAPERB_MAIN_MANUSCRIPT_LATEX_RC8_090926.zip",
+    "bytes": 177859,
+    "sha256": "f522a5fa85151176810aaccde53454ef32ce29f516bb2663c6d78aadc5ba813e"
+  },
+  "supplement_source_RC8": {
+    "name": "PAPERB_SUPPLEMENT_LATEX_RC8_090926.zip",
+    "bytes": 136135,
+    "sha256": "6d8275e782eb3fe5368df463b220c0c70ff9b815e6836d825c77956a45c47c7c"
+  },
+  "public_starter_RC8": {
+    "name": "PAPERB_GITHUB_PUBLIC_RC8_090926.zip",
+    "bytes": 51156743,
+    "sha256": "7a5842a57b335342fb0a81b00a76685ee8cc197b4c5957cd5de9867ee0a98f20"
+  },
+  "harness": {
+    "name": "baseline_001_e123_pairfallback_040926.py",
+    "bytes": 242251,
+    "sha256": "6e8881f3a83b70c49ee2b1f3892b9a2cf65e5491717c336b3e1cbace01943b2f"
+  },
+  "evaluator": {
+    "name": "deltamesh_antwerp_eval_v10_fixed_080826.py",
+    "bytes": 75003,
+    "sha256": "b14b35b5748e447971e5b22da7c39ededc8277aa04e5690eeff672bf1311cac5"
+  },
+  "calibration_rows": {
+    "name": "calibration_ordered_source_rows.json",
+    "bytes": 102194,
+    "sha256": "95df9fe7784ed2088c1483aaf36a8cfd9a8cd4c37e1133292d3cf4430536bc86"
+  },
+  "R29_map": {
+    "name": "recovered29.json",
+    "bytes": 1242,
+    "sha256": "cfddca4fc5a0ad51fb4d8717be807454c891ba3c4872ff1a4e6b9aec3f5ae2da"
+  },
+  "O32_minus71_map": {
+    "name": "official32_minus71.json",
+    "bytes": 1179,
+    "sha256": "445ec184e1ba7f46208896e88ed6ca79fcb59d7cc4a45a93ae420c5c8baeb854"
+  },
+  "R29_rows": {
+    "name": "recovered29_ordered_source_rows.json",
+    "bytes": 15324,
+    "sha256": "c1993e187ad59bdd4af27386890811a273f63b3d59a58f5109a4ef96e5110025"
+  },
+  "O32_minus71_rows": {
+    "name": "official32_minus71_ordered_source_rows.json",
+    "bytes": 15365,
+    "sha256": "680adb5f0d70e1cd1251e1533cf2ba7837fdf1eb509f69cf7d478973d21c6b70"
+  }
+}

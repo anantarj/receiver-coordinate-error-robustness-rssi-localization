@@ -1,0 +1,9 @@
+{
+  "status": "RENDER_INSPECTED",
+  "figure": "results/figures/paired_calibration_32_fields.pdf",
+  "points": 128,
+  "groups": 4,
+  "sign_convention": "frozen median minus refit median; positive=benefit from refitting",
+  "summary": "Median/IQR and full range; no confidence intervals.",
+  "note": "Initial output-directory permission error occurred before figure creation, then corrected. The sign note was moved to unused upper-right space; final PNG/PDF inspected."
+}

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this research software or its archived results, please cite the software release and the associated article."
+type: software
+title: "Receiver-coordinate error robustness in RSSI localization"
+version: "1.0.0"
+authors:
+  - family-names: "Ranjan"
+    given-names: "Ananta"
+    orcid: "https://orcid.org/0000-0002-1105-0666"
+    affiliation: "Birla Institute of Technology, Mesra"
+  - family-names: "Jha"
+    given-names: "Vijay Kumar"
+    orcid: "https://orcid.org/0000-0001-7310-1177"
+    affiliation: "Birla Institute of Technology, Mesra"
+repository-code: "https://github.com/anantarj/receiver-coordinate-error-robustness-rssi-localization"
+keywords:
+  - RSSI localization
+  - receiver-coordinate uncertainty
+  - anchor position uncertainty
+  - LoRaWAN
+  - LPWAN
+  - reproducible research
+license: MIT
+# DOI will be added after Zenodo reservation and before the v1.0.0 release is frozen.

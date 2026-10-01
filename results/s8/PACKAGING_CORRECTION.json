@@ -1,0 +1,33 @@
+{
+  "revision": "S8",
+  "preceding_revision": "S7",
+  "scope": "Packaging and documentary verification only",
+  "findings": [
+    {
+      "id": "S8-PKG-01",
+      "finding": "S7 README and START_HERE advertise obsolete S5/S6 standalone document checks. Both exit 1 on the changed ZENODO_NEXT_STEP.md historical pin.",
+      "disposition": "Historical scripts preserved; current entry points explicitly narrowed to S8."
+    },
+    {
+      "id": "S8-PKG-02",
+      "finding": "S7 README and START_HERE still label current documents and archive S6, and results README still names the S6 claim index.",
+      "disposition": "Current version and index labels updated; old indexes and all original metadata preserved."
+    },
+    {
+      "id": "S8-PKG-03",
+      "finding": "S7 combined checker does not invoke the S5/S6 standalone checks despite old README wording saying it does.",
+      "disposition": "Current documentation enumerates the actual route. S8 additionally verifies exact S7 scientific-source preservation, not just table tokens."
+    }
+  ],
+  "s7_active_combined_checks": {
+    "pass": 10,
+    "fail": 0
+  },
+  "s7_obsolete_advertised_checks": {
+    "pass": 0,
+    "fail": 2
+  },
+  "scientific_results_changed": false,
+  "new_experiments": false,
+  "remote_publication": false
+}

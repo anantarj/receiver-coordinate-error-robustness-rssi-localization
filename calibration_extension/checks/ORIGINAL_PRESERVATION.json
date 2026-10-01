@@ -1,0 +1,40 @@
+{
+  "original_documents": [
+    {
+      "key": "main_RC8",
+      "name": "PAPERB_IEEE_ACCESS_RC8_090926.pdf",
+      "sha256": "9cadc20b629aad6d17efbaad88dd5cf1a769d3da7a3d3d06f10cd58a4fa707f3",
+      "unchanged": true
+    },
+    {
+      "key": "supplement_RC8",
+      "name": "PAPERB_SUPPLEMENT_RC8_090926.pdf",
+      "sha256": "e0bc440eb228a9b4dda54868ba0e3eeb78326b808138ed68b79a3ef671941f67",
+      "unchanged": true
+    },
+    {
+      "key": "main_source_RC8",
+      "name": "PAPERB_MAIN_MANUSCRIPT_LATEX_RC8_090926.zip",
+      "sha256": "f522a5fa85151176810aaccde53454ef32ce29f516bb2663c6d78aadc5ba813e",
+      "unchanged": true
+    },
+    {
+      "key": "supplement_source_RC8",
+      "name": "PAPERB_SUPPLEMENT_LATEX_RC8_090926.zip",
+      "sha256": "6d8275e782eb3fe5368df463b220c0c70ff9b815e6836d825c77956a45c47c7c",
+      "unchanged": true
+    },
+    {
+      "key": "public_starter_RC8",
+      "name": "PAPERB_GITHUB_PUBLIC_RC8_090926.zip",
+      "sha256": "7a5842a57b335342fb0a81b00a76685ee8cc197b4c5957cd5de9867ee0a98f20",
+      "unchanged": true
+    }
+  ],
+  "original_public_starter": {
+    "verified": 957,
+    "entries": 957,
+    "failures": [],
+    "note": "Original starter bytes, not remote DOI-metadata commit."
+  }
+}

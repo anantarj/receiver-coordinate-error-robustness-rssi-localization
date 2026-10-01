@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "source": "RC7 SCOPE_LOCK.json extracted unchanged from retained v0.9.0-rc8 preparation archive",
+  "source_member": "receiver-coordinate-error-robustness-rssi-localization/provenance/rc7/SCOPE_LOCK.json",
+  "source_sha256": "76920f9dda480f7c98cc4ba9a0f9e65d6e86845930507f10b44bbdddb415cc3e",
+  "derivation": "Select original numerical_and_source_pins keys beginning maps/. Expected hashes are inherited, not computed from the new release.",
+  "pins": {
+    "maps/official33_published.json": "99b60a463a18a061bc8bdd15971c3f4e3d54d69965dcde50d9f988a6f3e103c1",
+    "maps/official32_minus71.json": "445ec184e1ba7f46208896e88ed6ca79fcb59d7cc4a45a93ae420c5c8baeb854",
+    "maps/recovered26_common_minus71.json": "9f0c6ec568d72d2b3249ea7e365bd9b37645cb94195fdc8d642021f71e53fd9c",
+    "maps/official27_common.json": "02180f358ddc840872f5ceb38f837c706bef1830bdb2503c176028527f84ff9b",
+    "maps/recovered27_common.json": "00d9ad189b5d01d475ba261edaa0556e02eadad8aee06104f3feb3f8ad998170",
+    "maps/official26_common_minus71.json": "d569191d4becd8733edc7b54e6a7cf4c3715ef657f8d5b8624ebfe8053c959a6",
+    "maps/official33_repaired71.json": "cae3b93e19ff1df8a9a1182ab4e422707af6647ab3ab4c3c4e67d7bd378199b9",
+    "maps/recovered29.json": "cfddca4fc5a0ad51fb4d8717be807454c891ba3c4872ff1a4e6b9aec3f5ae2da",
+    "maps/B9C_MAP_MANIFEST.json": "91e39c6b1218f7a224e822a1c55bcc1d4d0c13a5c67f1fc9eee99d4783e25d2a"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "One intentional non-scientific index README update; the original S4/S5 bytes and original expected pin are preserved. No scientific source/result can be migrated by this rule.",
+  "entries": {
+    "results/README.md": {
+      "old_sha256": "3664f0f1ab5794414373a636fbcbdeac7f694364209a21edc352237da8d58718",
+      "new_sha256": "2d444eb3a250aa636b8507802c7771a4ac0b387a7af472bff7ee524c02765e3f",
+      "previous_path": "provenance/s6_previous_metadata/results/README.md",
+      "reason": "Replace the stale active manuscript-index label and add the S6 entry point."
+    }
+  }
+}

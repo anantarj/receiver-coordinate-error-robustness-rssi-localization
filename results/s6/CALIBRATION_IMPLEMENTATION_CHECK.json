@@ -1,0 +1,61 @@
+{
+  "scope": "Static inspection of the exact hash-pinned calibration, scoring and weighting path used by the paired extension; no new fit or localization run.",
+  "source_functions": [
+    {
+      "path": "code/baseline_001_e123_pairfallback_040926.py",
+      "file_sha256": "6e8881f3a83b70c49ee2b1f3892b9a2cf65e5491717c336b3e1cbace01943b2f",
+      "function": "fit_a0",
+      "first_line": 559,
+      "last_line": 566,
+      "source_sha256": "da463bb9f7dca56e01d5638d3441dd767f3df8935028eda0bbfd32086ad2ea7c",
+      "source": "def fit_a0(cal, coords, n):\n    by = {}\n    for mm in cal:\n        for rx in mm.receptions:\n            if rx.gid in coords:\n                d = float(np.linalg.norm(coords[rx.gid] - np.array([mm.x, mm.y]))) + 1.0\n                by.setdefault(rx.gid, []).append(rx.rssi + 10 * n * math.log10(d))\n    return {g: float(np.median(v)) for g, v in by.items() if len(v) >= 10}"
+    },
+    {
+      "path": "code/baseline_001_e123_pairfallback_040926.py",
+      "file_sha256": "6e8881f3a83b70c49ee2b1f3892b9a2cf65e5491717c336b3e1cbace01943b2f",
+      "function": "wcl",
+      "first_line": 505,
+      "last_line": 506,
+      "source_sha256": "68883987c74b8f322f3c5945791e0c69264fdfa04700350ba4f050fb37f58bd9",
+      "source": "def wcl(ev, g, raw):\n    return ev.wcl_estimate(g, raw)"
+    },
+    {
+      "path": "code/deltamesh_antwerp_eval_v10_fixed_080826.py",
+      "file_sha256": "b14b35b5748e447971e5b22da7c39ededc8277aa04e5690eeff672bf1311cac5",
+      "function": "wcl_estimate",
+      "first_line": 1115,
+      "last_line": 1124,
+      "source_sha256": "5cc4fff825650a289b90385d0d63fd417c12fe529869536c911a9301672a7a90",
+      "source": "def wcl_estimate(gw_xy: np.ndarray, rssi: np.ndarray) -> np.ndarray:\n    \"\"\"\n    Weighted centroid with RSSI-based weights.\n    \"\"\"\n    # shift to positive weights: w ~ 10^(rssi/10)\n    w = np.power(10.0, rssi / 10.0)\n    s = float(np.sum(w))\n    if s <= 0:\n        return np.mean(gw_xy, axis=0)\n    return np.array([float(np.sum(w * gw_xy[:, 0]) / s), float(np.sum(w * gw_xy[:, 1]) / s)], dtype=float)"
+    },
+    {
+      "path": "calibration_extension/run_paired_wcl_extension.py",
+      "file_sha256": "0160079ff71c64b88a930987f9c7f8c47594897e4185e5ec529bfb418535b3b7",
+      "function": "score",
+      "first_line": 134,
+      "last_line": 160,
+      "source_sha256": "7aecc951c8ecec0f15c9c2240f011fa3715809197af710da264f9125c6a84711",
+      "source": "def score(h, ev, c: dict, coords: dict, a0: dict):\n    predictions = np.empty((2498, 2), float)\n    weights = np.zeros((2498, 10), float)\n    selected_ids = np.full((2498, 10), -1, np.int16)\n    raw_rssi = np.full((2498, 10), np.nan, float)\n    for q, m in enumerate(c['EV']):\n        rx = sorted([r for r in m.receptions if r.gid in coords and r.gid in a0],\n                    key=lambda r: -r.rssi)[:10]\n        require([(r.gid, r.rssi) for r in rx] == [(r.gid, r.rssi) for r in c['rxsets'][q]],\n                f'Selection mismatch, message {q}')\n        xy = np.vstack([coords[r.gid] for r in rx])\n        raw = np.array([r.rssi for r in rx], float)\n        corrected = raw - np.array([a0[r.gid] for r in rx], float)\n        predictions[q] = h.wcl(ev, xy, corrected)\n        ww = np.power(10.0, corrected / 10.0)\n        total = float(np.sum(ww))\n        require(np.isfinite(ww).all() and total > 0, 'Nonpositive/nonfinite WCL weights')\n        ww /= total\n        weights[q, :len(rx)] = ww\n        selected_ids[q, :len(rx)] = [int(r.gid) for r in rx]\n        raw_rssi[q, :len(rx)] = raw\n        independent = np.array([float(np.sum(ww * xy[:, j])) for j in range(2)])\n        require(np.allclose(independent, predictions[q], rtol=0, atol=5e-9), 'Weight identity mismatch')\n    errors = np.linalg.norm(predictions-c['truth'], axis=1)\n    require(np.isfinite(predictions).all() and np.isfinite(errors).all(), 'Nonfinite score')\n    return dict(predictions=predictions, errors=errors, weights=weights,\n                selected_ids=selected_ids, raw_rssi=raw_rssi)"
+    }
+  ],
+  "paired_driver": {
+    "path": "calibration_extension/run_paired_wcl_extension.py",
+    "sha256": "0160079ff71c64b88a930987f9c7f8c47594897e4185e5ec529bfb418535b3b7",
+    "refit_call_lines": [
+      238,
+      243
+    ],
+    "reference_frozen_call_line": 242
+  },
+  "findings": {
+    "receiver_wise_median_fit": true,
+    "exponent_fixed_in_paired_experiment": 4.7,
+    "minimum_calibration_receptions": 10,
+    "intercept_value_bounds": false,
+    "intercept_clipping": false,
+    "regularization_penalty": false,
+    "cross_receiver_intercept_parameter_sharing": false,
+    "WCL_weight_rule": "10 ** ((RSSI - A0) / 10), normalized across the selected receivers"
+  },
+  "qualification": "Fitting separately does not mean independent statistical samples. Input RSSI eligibility filtering is distinct from bounds on intercept values. The fixed maps, samples, +1 distance convention and minimum count are retained. No constrained-calibration or alternative-weighting experiment is claimed."
+}

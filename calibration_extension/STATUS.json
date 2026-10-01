@@ -1,0 +1,12 @@
+{
+  "stage": "S1",
+  "date": "2026-09-23",
+  "status": "EXPERIMENT_AND_DRAFT_COMPONENTS_COMPLETE",
+  "main_manuscript_revision": "RC8_UNCHANGED",
+  "new_complete_pairs": 128,
+  "new_sensors_pdf_created": false,
+  "public_repository_changed": false,
+  "zenodo_changed": false,
+  "author_approval_of_new_complete_manuscript": false,
+  "next": "Full manuscript/Supplement integration, reference and format checks, versioned release and author approval."
+}

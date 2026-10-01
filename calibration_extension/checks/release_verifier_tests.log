@@ -1,0 +1,20 @@
+test_absolute_path_rejected (test_release_verifier.ReleaseVerifierTests.test_absolute_path_rejected) ... ok
+test_ambiguous_manifest_rejected (test_release_verifier.ReleaseVerifierTests.test_ambiguous_manifest_rejected) ... ok
+test_dot_slash_is_normalized (test_release_verifier.ReleaseVerifierTests.test_dot_slash_is_normalized) ... ok
+test_duplicate_alias_rejected (test_release_verifier.ReleaseVerifierTests.test_duplicate_alias_rejected) ... ok
+test_empty_manifest_rejected (test_release_verifier.ReleaseVerifierTests.test_empty_manifest_rejected) ... ok
+test_explicit_builder_guard_and_dry_run (test_release_verifier.ReleaseVerifierTests.test_explicit_builder_guard_and_dry_run) ... ok
+test_failure_does_not_rewrite_manifest (test_release_verifier.ReleaseVerifierTests.test_failure_does_not_rewrite_manifest) ... ok
+test_malformed_hash_rejected (test_release_verifier.ReleaseVerifierTests.test_malformed_hash_rejected) ... ok
+test_missing_file_rejected (test_release_verifier.ReleaseVerifierTests.test_missing_file_rejected) ... ok
+test_modified_bytes_are_rejected (test_release_verifier.ReleaseVerifierTests.test_modified_bytes_are_rejected) ... ok
+test_public_manifest_autodetection (test_release_verifier.ReleaseVerifierTests.test_public_manifest_autodetection) ... ok
+test_self_hash_rejected (test_release_verifier.ReleaseVerifierTests.test_self_hash_rejected) ... ok
+test_symlink_escape_rejected (test_release_verifier.ReleaseVerifierTests.test_symlink_escape_rejected) ... ok
+test_traversal_rejected (test_release_verifier.ReleaseVerifierTests.test_traversal_rejected) ... ok
+test_unlisted_file_rejected (test_release_verifier.ReleaseVerifierTests.test_unlisted_file_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 12.785s
+
+OK

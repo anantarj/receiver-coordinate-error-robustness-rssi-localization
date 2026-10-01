@@ -1,0 +1,17 @@
+{
+  "revision": "S8",
+  "version": "1.1.0",
+  "doi": "10.5281/zenodo.23061691",
+  "baseline_doi": "10.5281/zenodo.22680802",
+  "archive": "PAPERB_SENSORS_EVIDENCE_v1.1.0_S8_300926.zip",
+  "main_pdf": "PAPERB_SENSORS_MAIN_S8_300926.pdf",
+  "supp_pdf": "PAPERB_SENSORS_SUPPLEMENT_S8_300926.pdf",
+  "main_zip": "PAPERB_SENSORS_MAIN_LATEX_S8_300926.zip",
+  "supp_zip": "PAPERB_SENSORS_SUPPLEMENT_LATEX_S8_300926.zip",
+  "title": "Recalibration Can Mask Measured Sensitivity to Receiver-Coordinate Errors in RSSI Localization",
+  "zenodo_state": "reserved_doi_unpublished",
+  "new_experiment": false,
+  "previous_archive": "PAPERB_SENSORS_EVIDENCE_v1.1.0_S7_300926.zip",
+  "previous_index": "CLAIM_TO_ARTIFACT_SENSORS_S7.csv",
+  "current_index": "CLAIM_TO_ARTIFACT_SENSORS_S8.csv"
+}

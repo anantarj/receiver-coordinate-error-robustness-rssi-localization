@@ -1,0 +1,1 @@
+Active interpretation/figure registry: CLAIM-TO-ARTIFACT-RC5.csv. CLAIM-TO-ARTIFACT-B10C.csv is an unchanged historical registry, superseded for the RC5 matched-exposure and percentile interpretations. Raw inputs/author results are not overwritten.

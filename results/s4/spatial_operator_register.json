@@ -1,0 +1,209 @@
+{
+  "coherent_angle_rad": 2.2488713858849554,
+  "coherent_angle_deg": 128.8508390789443,
+  "coherent_unit_easting": -0.6272950784423602,
+  "coherent_unit_northing": 0.7787816668116894,
+  "scale_pivot": [
+    600693.5827586207,
+    5676943.889655172
+  ],
+  "scale_factors": [
+    0.98,
+    0.99,
+    1.01,
+    1.02
+  ],
+  "cluster_centers": [
+    14,
+    18,
+    34,
+    41
+  ],
+  "clusters": [
+    {
+      "count": 3,
+      "center_id": 14,
+      "center_rank": 1,
+      "target_ids": [
+        14,
+        20,
+        71
+      ],
+      "direction_seeds": [
+        5503,
+        5604
+      ]
+    },
+    {
+      "count": 3,
+      "center_id": 18,
+      "center_rank": 10,
+      "target_ids": [
+        18,
+        27,
+        69
+      ],
+      "direction_seeds": [
+        5514,
+        5615
+      ]
+    },
+    {
+      "count": 3,
+      "center_id": 34,
+      "center_rank": 20,
+      "target_ids": [
+        34,
+        6,
+        5
+      ],
+      "direction_seeds": [
+        5525,
+        5626
+      ]
+    },
+    {
+      "count": 3,
+      "center_id": 41,
+      "center_rank": 29,
+      "target_ids": [
+        41,
+        2,
+        10
+      ],
+      "direction_seeds": [
+        5536,
+        5637
+      ]
+    },
+    {
+      "count": 7,
+      "center_id": 14,
+      "center_rank": 1,
+      "target_ids": [
+        14,
+        20,
+        71,
+        9,
+        32,
+        12,
+        27
+      ],
+      "direction_seeds": [
+        5507,
+        5608
+      ]
+    },
+    {
+      "count": 7,
+      "center_id": 18,
+      "center_rank": 10,
+      "target_ids": [
+        18,
+        27,
+        69,
+        19,
+        32,
+        10,
+        23
+      ],
+      "direction_seeds": [
+        5518,
+        5619
+      ]
+    },
+    {
+      "count": 7,
+      "center_id": 34,
+      "center_rank": 20,
+      "target_ids": [
+        34,
+        6,
+        5,
+        4,
+        19,
+        50,
+        33
+      ],
+      "direction_seeds": [
+        5529,
+        5630
+      ]
+    },
+    {
+      "count": 7,
+      "center_id": 41,
+      "center_rank": 29,
+      "target_ids": [
+        41,
+        2,
+        10,
+        17,
+        1,
+        69,
+        12
+      ],
+      "direction_seeds": [
+        5540,
+        5641
+      ]
+    }
+  ],
+  "iteration_order": "ascending numeric receiver ID; draw angles only for targeted receivers",
+  "background": "fixed 20 m per receiver, independent uniform angles, not Gaussian; seed 4400+d for d=0..3",
+  "gross_seed": "8800+k+101*d; k=1,3,6,7; d=0..3; identical vectors within each mixed/pure pair",
+  "o33_direction_seeds": {
+    "10": {
+      "5": [
+        8805,
+        8906,
+        9007,
+        9108,
+        9209,
+        9310,
+        9411,
+        9512
+      ],
+      "6": [
+        8806,
+        8907,
+        9008,
+        9109,
+        9210,
+        9311,
+        9412,
+        9513
+      ],
+      "7": [
+        8807,
+        8908,
+        9009,
+        9110,
+        9211,
+        9312,
+        9413,
+        9514
+      ]
+    },
+    "5": {
+      "5": [
+        8805,
+        8906,
+        9007,
+        9108
+      ],
+      "6": [
+        8806,
+        8907,
+        9008,
+        9109
+      ],
+      "7": [
+        8807,
+        8908,
+        9009,
+        9110
+      ]
+    }
+  }
+}

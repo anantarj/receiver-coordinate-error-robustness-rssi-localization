@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/anantarj/receiver-coordinate-error-robustness-rssi-localization",
+  "target_release": "v1.1.0",
+  "status": "local version-matched S5 package; no remote publication or final all-author approval inferred",
+  "manuscript_revision": "Sensors S5",
+  "baseline_zenodo_doi": "10.5281/zenodo.22680802",
+  "zenodo_doi": null,
+  "extension_pairs": 128,
+  "generated": "2026-09-30",
+  "integration_revision": "S5",
+  "manuscript_title": "Recalibration Can Mask Measured Sensitivity to Receiver-Coordinate Errors in RSSI Localization",
+  "new_experiments_in_S5": false
+}

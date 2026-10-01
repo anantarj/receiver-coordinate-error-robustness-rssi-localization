@@ -1,0 +1,5 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "matplotlib": "3.10.8",
+  "note": "Default Matplotlib cycle; no custom colors or style."
+}

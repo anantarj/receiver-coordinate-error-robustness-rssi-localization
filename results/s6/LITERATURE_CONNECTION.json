@@ -1,0 +1,31 @@
+{
+  "accessed": "2026-09-30",
+  "scope": "Focused paragraph using existing references 10 and 11; not a new exhaustive literature or retraction audit.",
+  "references": [
+    {
+      "manuscript_key": "ref10",
+      "doi": "10.1109/TWC.2024.3441643",
+      "title": "Experimental Validation of Cooperative RSS-Based Localization With Unknown Transmit Power, Path Loss Exponent, and Precise Anchor Location",
+      "primary_sources": [
+        "https://ieeexplore.ieee.org/document/10639317/",
+        "https://arxiv.org/html/2406.14664v1"
+      ],
+      "access": "Publisher abstract available through indexed official result; direct final publisher page requested JavaScript verification. Author preprint HTML inspected, especially Abstract, Section II and Section III.",
+      "supported_paraphrase": "CTUP includes a setting estimating target locations, transmit powers and the path-loss exponent while accounting for anchor-location uncertainty."
+    },
+    {
+      "manuscript_key": "ref11",
+      "doi": "10.1109/JIOT.2024.3494870",
+      "title": "An Impulsive Noise-Resistant Target Localization Approach With Unknown Model Parameter Learning",
+      "primary_sources": [
+        "https://ieeexplore.ieee.org/document/10752567/"
+      ],
+      "access": "Official publisher abstract available in indexed result; direct page required JavaScript verification. No full-text method or constraint claim is made.",
+      "supported_paraphrase": "Variational Bayesian model-refinement learning addresses the noise/channel model and online localization using refined noise distribution, path-loss exponent and sensor positions."
+    }
+  ],
+  "contrast_to_present_study": "The comparison here holds the coordinate field and recorded data fixed within each refit/frozen pair and changes the fitted receiver-intercept state; it is not a head-to-head accuracy comparison with either cited algorithm.",
+  "new_reference_entries": 0,
+  "first_ever_claim": false,
+  "inserted_latex": "Unknown-parameter treatment provides a closer comparison. Li et al.~\\cite{ref10} jointly estimate target locations, transmit powers and the path-loss exponent while accounting for anchor-location uncertainty. Yan et al.~\\cite{ref11} use variational Bayesian learning to refine the noise model, path-loss exponent and sensor positions for subsequent online localization. Here, the recorded observations, perturbed receiver coordinates, receiver selection, evaluation identities and exponent remain fixed within each pair; only the receiver intercepts are refitted from calibration records or retained at their reference values. This comparison quantifies the calibration-state effect within the fixed WCL implementation, rather than evaluating a new joint estimator. The direction-level reversals and weight and affected-message diagnostics characterize that effect; participation and pivot comparisons retain their separate diagnostic roles."
+}

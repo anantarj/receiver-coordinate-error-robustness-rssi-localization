@@ -1,0 +1,27 @@
+{
+  "status": "SAVED_OUTPUT_RECONSTRUCTION_PASS",
+  "complete_pairs": 128,
+  "scored_message_condition_values": 639488,
+  "cells": 4,
+  "fields_per_cell": 32,
+  "bridge_pair_arrays_equal": 4,
+  "maximum_prediction_reconstruction_difference_m": 4.6566128730773926e-09,
+  "maximum_normalized_weight_difference": 4.440892098500626e-16,
+  "checks": [
+    "exact scheduled field set",
+    "array hashes",
+    "native population identities carried in reference arrays",
+    "exact map transformations",
+    "unchanged frozen intercepts",
+    "normalized weights from RSSI and saved intercepts",
+    "predictions from saved weights/coordinates",
+    "errors from predictions and transmitter positions",
+    "whole/touched medians",
+    "signed paired differences",
+    "primary per-cell median/IQR/range/sign counts",
+    "untouched prediction equality",
+    "normalized reweighting identity",
+    "historical bridge array equality"
+  ],
+  "limit": "Independent reconstruction from saved outputs and inputs; not a second intercept-fitting run or independent physical experiment."
+}

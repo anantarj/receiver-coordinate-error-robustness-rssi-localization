@@ -1,0 +1,12 @@
+{
+  "frozen_at_utc": "2026-09-23T04:18:52.601471+00:00",
+  "status": "PRE_OUTCOME_LOCAL_FREEZE",
+  "files": {
+    "PROTOCOL.json": "da66681a3aa4cc0202ea32dab370254e3b1f38ae232bdaadaed056bae1e412db",
+    "DIRECTION_REGISTER.json": "d57e6d3d51299a391f7e1ec62fd1096b7d610283f075d68ccd9b851360aea440",
+    "INPUT_IDENTITIES.json": "fafc741a798b04272261f765180aa882a972a99a172bd964bb55cc984c4f3228",
+    "OUTPUT_SCHEMA.json": "8aeec270a5523a91646d76ebd303fa993df9b6af78bbb4aaeae9cbfabbb32361",
+    "../run_paired_wcl_extension.py": "5ad27c03ef2a48f3e110ae04e7df1e609c06a3d6b0a8e51544a6a5058d504b59"
+  },
+  "remarks": "Created before bridge and extended execution; user authorized continuation. Does not authenticate historical preregistration or independent new-deployment evidence."
+}

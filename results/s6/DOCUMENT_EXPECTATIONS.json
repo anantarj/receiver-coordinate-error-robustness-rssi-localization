@@ -1,0 +1,14 @@
+{
+  "revision": "S6",
+  "archive": "PAPERB_SENSORS_EVIDENCE_v1.1.0_S6_300926.zip",
+  "main_constraints": "With the propagation exponent $n$ held fixed, each eligible receiver's intercept is fitted separately. The implementation imposes no bounds, clipping or regularization on $A_{0,i}$, and no cross-receiver sharing of intercept parameters. The reception-count threshold controls eligibility, not the allowed intercept values.",
+  "main_literature": "Unknown-parameter treatment provides a closer comparison. Li et al.~\\cite{ref10} jointly estimate target locations, transmit powers and the path-loss exponent while accounting for anchor-location uncertainty. Yan et al.~\\cite{ref11} use variational Bayesian learning to refine the noise model, path-loss exponent and sensor positions for subsequent online localization. Here, the recorded observations, perturbed receiver coordinates, receiver selection, evaluation identities and exponent remain fixed within each pair; only the receiver intercepts are refitted from calibration records or retained at their reference values. This comparison quantifies the calibration-state effect within the fixed WCL implementation, rather than evaluating a new joint estimator. The direction-level reversals and weight and affected-message diagnostics characterize that effect; participation and pivot comparisons retain their separate diagnostic roles.",
+  "main_scope": "The measured suppression is conditional on these unconstrained receiver-wise intercept fits and the exponential WCL weighting in Equation~\\ref{eq:wcl}. It has not been established for bounded or regularized calibration, shared-intercept models, or a different weighting law. Coordinate-robustness comparisons should therefore report both the calibration constraints and the weighting rule.",
+  "supp_constraints": "\\noindent\\textit{Calibration constraints.} With $n$ fixed, each eligible receiver's intercept is the separately computed median specified in main Equation~(4). No intercept bounds, clipping, regularization or cross-receiver intercept-parameter sharing is applied. The minimum of ten calibration receptions is an eligibility rule, not a constraint on intercept values. These choices are unchanged in the refitted arm of S17.",
+  "supp_scope": "The measured suppression is specific to the unconstrained receiver-wise median fits and the stated exponential WCL weighting. It has not been established for bounded or regularized calibration, shared intercepts, or other weighting laws.",
+  "preserved_numeric_table_counts": {
+    "main": 6,
+    "supplement": 44
+  },
+  "new_experiment": false
+}

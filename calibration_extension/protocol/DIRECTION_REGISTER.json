@@ -1,0 +1,2119 @@
+{
+  "status": "proposed input geometry only; no predictions computed",
+  "generator_numpy": "2.3.5",
+  "case_count": 128,
+  "cases": [
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 0,
+      "seed": 8801,
+      "historical_R29_bridge": true,
+      "offsets": {
+        "14": {
+          "angle_radians": 3.1452943706110648,
+          "dx_m": -4999.965743266854,
+          "dy_m": -18.50854283676091
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 1,
+      "seed": 8902,
+      "historical_R29_bridge": true,
+      "offsets": {
+        "14": {
+          "angle_radians": 3.176339480885216,
+          "dx_m": -4996.981948652267,
+          "dy_m": -173.69917916727994
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 2,
+      "seed": 9003,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.301480896495726,
+          "dx_m": 2778.0311489046535,
+          "dy_m": -4157.227794542355
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 3,
+      "seed": 9104,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.770341871638098,
+          "dx_m": 289.602286031701,
+          "dy_m": -4991.6060056784545
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 4,
+      "seed": 9205,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 1.3490889036515088,
+          "dx_m": 1099.4778703008167,
+          "dy_m": 4877.617083445438
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 5,
+      "seed": 9306,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 1.6676495119504737,
+          "dx_m": -483.50916819931,
+          "dy_m": 4976.566977773655
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 6,
+      "seed": 9407,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.7317417535852497,
+          "dx_m": -4585.901226356038,
+          "dy_m": 1992.3629042185535
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 7,
+      "seed": 9508,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.087145290326479,
+          "dx_m": -2926.474396076751,
+          "dy_m": -4054.10256519334
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 8,
+      "seed": 9609,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.805949720837775,
+          "dx_m": 467.1215055558454,
+          "dy_m": -4978.1319286502685
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 9,
+      "seed": 9710,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 1.6011695886746418,
+          "dx_m": -151.8429601438782,
+          "dy_m": 4997.693839707945
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 10,
+      "seed": 9811,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.273698559877186,
+          "dx_m": 2661.476450151732,
+          "dy_m": -4232.793770701301
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 11,
+      "seed": 9912,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.3397876146383583,
+          "dx_m": -3477.053596857853,
+          "dy_m": 3593.0625216628036
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 12,
+      "seed": 10013,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.7881050377556966,
+          "dx_m": -4690.855532207988,
+          "dy_m": 1730.8594327540598
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 13,
+      "seed": 10114,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.8436018485176895,
+          "dx_m": 654.1834039926974,
+          "dy_m": -4957.019676573871
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 14,
+      "seed": 10215,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 1.6325718807506253,
+          "dx_m": -308.6813497224448,
+          "dy_m": 4990.462486016054
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 15,
+      "seed": 10316,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.743399772516417,
+          "dx_m": 4289.094629931435,
+          "dy_m": -2569.760155246658
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 16,
+      "seed": 10417,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.927091947308796,
+          "dx_m": 4686.329435451042,
+          "dy_m": -1743.076711572132
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 17,
+      "seed": 10518,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.8211751781457077,
+          "dx_m": -4745.520057762837,
+          "dy_m": 1574.814078350394
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 18,
+      "seed": 10619,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.17709489443685902,
+          "dx_m": 4921.798201133602,
+          "dy_m": 880.8532609453422
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 19,
+      "seed": 10720,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.2296849907470815,
+          "dx_m": 2472.6587507536765,
+          "dy_m": -4345.797821151056
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 20,
+      "seed": 10821,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.09846116997413887,
+          "dx_m": 4975.783068964431,
+          "dy_m": 491.51078381548524
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 21,
+      "seed": 10922,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.007832242402902,
+          "dx_m": -3238.4808620494905,
+          "dy_m": -3809.493628573119
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 22,
+      "seed": 11023,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.456657215360695,
+          "dx_m": -3872.2994598398013,
+          "dy_m": 3163.1150616637997
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 23,
+      "seed": 11124,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.220390982508999,
+          "dx_m": 2432.1626598520656,
+          "dy_m": -4368.590710517675
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 24,
+      "seed": 11225,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.392422582403257,
+          "dx_m": -1572.6733210619645,
+          "dy_m": -4746.229938089803
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 25,
+      "seed": 11326,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 6.095888378983904,
+          "dx_m": 4912.555730485524,
+          "dy_m": -931.0189014589567
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 26,
+      "seed": 11427,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.09627122381022302,
+          "dx_m": 4976.84751867443,
+          "dy_m": 480.6129168719584
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 27,
+      "seed": 11528,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.9491824440585014,
+          "dx_m": 2911.739538354176,
+          "dy_m": 4064.6983726698604
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 28,
+      "seed": 11629,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 6.228951073050073,
+          "dx_m": 4992.648421851021,
+          "dy_m": -271.038255212255
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 29,
+      "seed": 11730,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.06768230921118486,
+          "dx_m": 4988.552133673522,
+          "dy_m": 338.1532339359654
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 30,
+      "seed": 11831,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.867119803219396,
+          "dx_m": 4573.431003216269,
+          "dy_m": -2020.8238069708673
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 1,
+      "draw": 31,
+      "seed": 11932,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 6.24315048492646,
+          "dx_m": 4995.993567682256,
+          "dy_m": -200.12064280710052
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 0,
+      "seed": 8802,
+      "historical_R29_bridge": true,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.75133117476415,
+          "dx_m": 194.66176260896864,
+          "dy_m": -4996.209242833808
+        },
+        "69": {
+          "angle_radians": 6.11664506160066,
+          "dx_m": 4930.820982260009,
+          "dy_m": -828.8573103402266
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 1,
+      "seed": 8903,
+      "historical_R29_bridge": true,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.12994465539179,
+          "dx_m": -2750.3344208573153,
+          "dy_m": -4175.603019139566
+        },
+        "69": {
+          "angle_radians": 3.6720999671829597,
+          "dx_m": -4312.752477804516,
+          "dy_m": -2529.8549494370236
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 2,
+      "seed": 9004,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.410437464430588,
+          "dx_m": -1486.9199857324363,
+          "dy_m": -4773.789789677532
+        },
+        "69": {
+          "angle_radians": 0.45988186630301586,
+          "dx_m": 4480.524682520432,
+          "dy_m": 2219.2112493688346
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 3,
+      "seed": 9105,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.7764527898285865,
+          "dx_m": -4670.369138786728,
+          "dy_m": 1785.399705239282
+        },
+        "69": {
+          "angle_radians": 0.2988292194627506,
+          "dx_m": 4778.409118000847,
+          "dy_m": 1472.0075750506062
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 4,
+      "seed": 9206,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.42653768705627226,
+          "dx_m": 4552.0181790393735,
+          "dy_m": 2068.605930982281
+        },
+        "69": {
+          "angle_radians": 1.8406673469070607,
+          "dx_m": -1333.0356370420802,
+          "dy_m": 4819.02645670013
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 5,
+      "seed": 9307,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.8389318720932722,
+          "dx_m": 3341.2890951692752,
+          "dy_m": 3719.648798274225
+        },
+        "69": {
+          "angle_radians": 1.5746011121910561,
+          "dx_m": -19.023881081193718,
+          "dy_m": 4999.963809063883
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 6,
+      "seed": 9408,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.521551111136048,
+          "dx_m": -948.408098695272,
+          "dy_m": -4909.228256898351
+        },
+        "69": {
+          "angle_radians": 5.325174070578227,
+          "dx_m": 2875.740145095231,
+          "dy_m": -4090.2467673586225
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 7,
+      "seed": 9509,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.383131761374781,
+          "dx_m": -1616.7011839990096,
+          "dy_m": -4731.41387765393
+        },
+        "69": {
+          "angle_radians": 3.895791419876003,
+          "dx_m": -3644.1019287136346,
+          "dy_m": -3423.524665187264
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 8,
+      "seed": 9610,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.8332850106177055,
+          "dx_m": 3362.2400532678207,
+          "dy_m": 3700.721797731032
+        },
+        "69": {
+          "angle_radians": 0.810365081744972,
+          "dx_m": 3446.169814911762,
+          "dy_m": 3622.694246937082
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 9,
+      "seed": 9711,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.754820289355747,
+          "dx_m": 4318.162274677627,
+          "dy_m": -2520.609959821421
+        },
+        "69": {
+          "angle_radians": 4.950744436744829,
+          "dx_m": 1180.5244901117164,
+          "dy_m": -4858.63786757631
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 10,
+      "seed": 9812,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.7636726116245836,
+          "dx_m": -4647.170626126495,
+          "dy_m": 1844.9404249641996
+        },
+        "69": {
+          "angle_radians": 2.960106825690151,
+          "dx_m": -4917.88299871441,
+          "dy_m": 902.4559883760351
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 11,
+      "seed": 9913,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 3.467305622527259,
+          "dx_m": -4737.114141655994,
+          "dy_m": -1599.921750874958
+        },
+        "69": {
+          "angle_radians": 3.5397936778345898,
+          "dx_m": -4608.8002868033755,
+          "dy_m": -1938.80373332659
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 12,
+      "seed": 10014,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.7878612379127673,
+          "dx_m": 3526.814906706017,
+          "dy_m": 3544.231456019235
+        },
+        "69": {
+          "angle_radians": 5.461113655106483,
+          "dx_m": 3403.525323194337,
+          "dy_m": -3662.787923750826
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 13,
+      "seed": 10115,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 3.301483643698971,
+          "dx_m": -4936.223223851067,
+          "dy_m": -796.052940647401
+        },
+        "69": {
+          "angle_radians": 5.519878701374751,
+          "dx_m": 3612.7703034872625,
+          "dy_m": -3456.572107484603
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 14,
+      "seed": 10216,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.2741942247652736,
+          "dx_m": -3234.064094903349,
+          "dy_m": 3813.2439510287013
+        },
+        "69": {
+          "angle_radians": 5.3795019053546795,
+          "dx_m": 3093.602251003062,
+          "dy_m": -3928.056149368131
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 15,
+      "seed": 10317,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.19049221677137965,
+          "dx_m": 4909.555783234015,
+          "dy_m": 946.7111551647873
+        },
+        "69": {
+          "angle_radians": 2.778549583783878,
+          "dx_m": -4674.102484613265,
+          "dy_m": 1775.6029858423026
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 16,
+      "seed": 10418,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.595927491408124,
+          "dx_m": -4273.911347631492,
+          "dy_m": 2594.933870561398
+        },
+        "69": {
+          "angle_radians": 1.7440548269803087,
+          "dx_m": -861.9648667805535,
+          "dy_m": 4925.141273957122
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 17,
+      "seed": 10519,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 1.108207175718606,
+          "dx_m": 2231.333158072117,
+          "dy_m": 4474.500233287279
+        },
+        "69": {
+          "angle_radians": 2.3280557898442398,
+          "dx_m": -3434.6621032055787,
+          "dy_m": 3633.606505498832
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 18,
+      "seed": 10620,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.4673138674888917,
+          "dx_m": -3905.7871634077896,
+          "dy_m": 3121.6704877611496
+        },
+        "69": {
+          "angle_radians": 5.2815189847822435,
+          "dx_m": 2694.496972293045,
+          "dy_m": -4211.850669990998
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 19,
+      "seed": 10721,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 6.115740572073003,
+          "dx_m": 4930.069272649702,
+          "dy_m": -833.3168466287258
+        },
+        "69": {
+          "angle_radians": 1.5464487061224872,
+          "dx_m": 121.72607585937021,
+          "dy_m": 4998.518056629972
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 20,
+      "seed": 10822,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.394993205921863,
+          "dx_m": 3154.0793211387854,
+          "dy_m": -3879.6628250357917
+        },
+        "69": {
+          "angle_radians": 3.8266739571518946,
+          "dx_m": -3871.8380298147727,
+          "dy_m": -3163.679862261676
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 21,
+      "seed": 10923,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.262050069178328,
+          "dx_m": -2176.3534036943283,
+          "dy_m": -4501.498179742841
+        },
+        "69": {
+          "angle_radians": 1.0582861422948344,
+          "dx_m": 2451.8322815492165,
+          "dy_m": 4357.581721913332
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 22,
+      "seed": 11024,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 3.282317311071618,
+          "dx_m": -4950.573076320656,
+          "dy_m": -701.3032268634147
+        },
+        "69": {
+          "angle_radians": 4.43884342410526,
+          "dx_m": -1350.734284741971,
+          "dy_m": -4814.0956463309485
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 23,
+      "seed": 11125,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 3.3450455166200044,
+          "dx_m": -4896.873794583868,
+          "dy_m": -1010.2608771588591
+        },
+        "69": {
+          "angle_radians": 4.440074581729147,
+          "dx_m": -1344.8063519951486,
+          "dy_m": -4815.75496424325
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 24,
+      "seed": 11226,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.31711358447556,
+          "dx_m": 2842.6777049027023,
+          "dy_m": -4113.293505944975
+        },
+        "69": {
+          "angle_radians": 5.054913714283265,
+          "dx_m": 1679.3311570226822,
+          "dy_m": -4709.548477832334
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 25,
+      "seed": 11327,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 1.962077984988581,
+          "dx_m": -1906.8675990791419,
+          "dy_m": 4622.1051437177575
+        },
+        "69": {
+          "angle_radians": 5.197029430040942,
+          "dx_m": 2329.451220692944,
+          "dy_m": -4424.212586484984
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 26,
+      "seed": 11428,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.48568551195141,
+          "dx_m": 3492.490335180721,
+          "dy_m": -3578.0597058558506
+        },
+        "69": {
+          "angle_radians": 4.136731608799508,
+          "dx_m": -2721.9316715617642,
+          "dy_m": -4194.173097923949
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 27,
+      "seed": 11529,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.147750195719511,
+          "dx_m": -2675.553513670671,
+          "dy_m": -4223.909728614537
+        },
+        "69": {
+          "angle_radians": 2.045130802898058,
+          "dx_m": -2283.7325019124087,
+          "dy_m": 4447.984471612833
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 28,
+      "seed": 11630,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.248877403036669,
+          "dx_m": 2555.604587595951,
+          "dy_m": -4297.544088413582
+        },
+        "69": {
+          "angle_radians": 6.246129952668075,
+          "dx_m": 4996.567644529106,
+          "dy_m": -185.23437490075054
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 29,
+      "seed": 11731,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.48595267823468996,
+          "dx_m": 4421.152005776116,
+          "dy_m": 2335.2547916280623
+        },
+        "69": {
+          "angle_radians": 0.006789048125749987,
+          "dx_m": 4999.884772506448,
+          "dy_m": 33.94497986668292
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 30,
+      "seed": 11832,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.039914616905602,
+          "dx_m": -3114.617718885902,
+          "dy_m": -3911.4136146925166
+        },
+        "69": {
+          "angle_radians": 6.013627198864736,
+          "dx_m": 4819.443343345816,
+          "dy_m": -1331.5276415755338
+        }
+      }
+    },
+    {
+      "map": "recovered29",
+      "k": 2,
+      "draw": 31,
+      "seed": 11933,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 3.7535463412252077,
+          "dx_m": -4092.6362511453162,
+          "dy_m": -2872.338509962086
+        },
+        "69": {
+          "angle_radians": 1.7636809712399721,
+          "dx_m": -958.4541917324253,
+          "dy_m": 4907.276796997551
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 0,
+      "seed": 8801,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 3.1452943706110648,
+          "dx_m": -4999.965743266854,
+          "dy_m": -18.50854283676091
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 1,
+      "seed": 8902,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 3.176339480885216,
+          "dx_m": -4996.981948652267,
+          "dy_m": -173.69917916727994
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 2,
+      "seed": 9003,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.301480896495726,
+          "dx_m": 2778.0311489046535,
+          "dy_m": -4157.227794542355
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 3,
+      "seed": 9104,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.770341871638098,
+          "dx_m": 289.602286031701,
+          "dy_m": -4991.6060056784545
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 4,
+      "seed": 9205,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 1.3490889036515088,
+          "dx_m": 1099.4778703008167,
+          "dy_m": 4877.617083445438
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 5,
+      "seed": 9306,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 1.6676495119504737,
+          "dx_m": -483.50916819931,
+          "dy_m": 4976.566977773655
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 6,
+      "seed": 9407,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.7317417535852497,
+          "dx_m": -4585.901226356038,
+          "dy_m": 1992.3629042185535
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 7,
+      "seed": 9508,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.087145290326479,
+          "dx_m": -2926.474396076751,
+          "dy_m": -4054.10256519334
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 8,
+      "seed": 9609,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.805949720837775,
+          "dx_m": 467.1215055558454,
+          "dy_m": -4978.1319286502685
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 9,
+      "seed": 9710,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 1.6011695886746418,
+          "dx_m": -151.8429601438782,
+          "dy_m": 4997.693839707945
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 10,
+      "seed": 9811,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.273698559877186,
+          "dx_m": 2661.476450151732,
+          "dy_m": -4232.793770701301
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 11,
+      "seed": 9912,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.3397876146383583,
+          "dx_m": -3477.053596857853,
+          "dy_m": 3593.0625216628036
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 12,
+      "seed": 10013,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.7881050377556966,
+          "dx_m": -4690.855532207988,
+          "dy_m": 1730.8594327540598
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 13,
+      "seed": 10114,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.8436018485176895,
+          "dx_m": 654.1834039926974,
+          "dy_m": -4957.019676573871
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 14,
+      "seed": 10215,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 1.6325718807506253,
+          "dx_m": -308.6813497224448,
+          "dy_m": 4990.462486016054
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 15,
+      "seed": 10316,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.743399772516417,
+          "dx_m": 4289.094629931435,
+          "dy_m": -2569.760155246658
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 16,
+      "seed": 10417,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.927091947308796,
+          "dx_m": 4686.329435451042,
+          "dy_m": -1743.076711572132
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 17,
+      "seed": 10518,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.8211751781457077,
+          "dx_m": -4745.520057762837,
+          "dy_m": 1574.814078350394
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 18,
+      "seed": 10619,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.17709489443685902,
+          "dx_m": 4921.798201133602,
+          "dy_m": 880.8532609453422
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 19,
+      "seed": 10720,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.2296849907470815,
+          "dx_m": 2472.6587507536765,
+          "dy_m": -4345.797821151056
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 20,
+      "seed": 10821,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.09846116997413887,
+          "dx_m": 4975.783068964431,
+          "dy_m": 491.51078381548524
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 21,
+      "seed": 10922,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.007832242402902,
+          "dx_m": -3238.4808620494905,
+          "dy_m": -3809.493628573119
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 22,
+      "seed": 11023,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.456657215360695,
+          "dx_m": -3872.2994598398013,
+          "dy_m": 3163.1150616637997
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 23,
+      "seed": 11124,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.220390982508999,
+          "dx_m": 2432.1626598520656,
+          "dy_m": -4368.590710517675
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 24,
+      "seed": 11225,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.392422582403257,
+          "dx_m": -1572.6733210619645,
+          "dy_m": -4746.229938089803
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 25,
+      "seed": 11326,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 6.095888378983904,
+          "dx_m": 4912.555730485524,
+          "dy_m": -931.0189014589567
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 26,
+      "seed": 11427,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.09627122381022302,
+          "dx_m": 4976.84751867443,
+          "dy_m": 480.6129168719584
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 27,
+      "seed": 11528,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.9491824440585014,
+          "dx_m": 2911.739538354176,
+          "dy_m": 4064.6983726698604
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 28,
+      "seed": 11629,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 6.228951073050073,
+          "dx_m": 4992.648421851021,
+          "dy_m": -271.038255212255
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 29,
+      "seed": 11730,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.06768230921118486,
+          "dx_m": 4988.552133673522,
+          "dy_m": 338.1532339359654
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 30,
+      "seed": 11831,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.867119803219396,
+          "dx_m": 4573.431003216269,
+          "dy_m": -2020.8238069708673
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 1,
+      "draw": 31,
+      "seed": 11932,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 6.24315048492646,
+          "dx_m": 4995.993567682256,
+          "dy_m": -200.12064280710052
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 0,
+      "seed": 8802,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.75133117476415,
+          "dx_m": 194.66176260896864,
+          "dy_m": -4996.209242833808
+        },
+        "69": {
+          "angle_radians": 6.11664506160066,
+          "dx_m": 4930.820982260009,
+          "dy_m": -828.8573103402266
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 1,
+      "seed": 8903,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.12994465539179,
+          "dx_m": -2750.3344208573153,
+          "dy_m": -4175.603019139566
+        },
+        "69": {
+          "angle_radians": 3.6720999671829597,
+          "dx_m": -4312.752477804516,
+          "dy_m": -2529.8549494370236
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 2,
+      "seed": 9004,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.410437464430588,
+          "dx_m": -1486.9199857324363,
+          "dy_m": -4773.789789677532
+        },
+        "69": {
+          "angle_radians": 0.45988186630301586,
+          "dx_m": 4480.524682520432,
+          "dy_m": 2219.2112493688346
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 3,
+      "seed": 9105,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.7764527898285865,
+          "dx_m": -4670.369138786728,
+          "dy_m": 1785.399705239282
+        },
+        "69": {
+          "angle_radians": 0.2988292194627506,
+          "dx_m": 4778.409118000847,
+          "dy_m": 1472.0075750506062
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 4,
+      "seed": 9206,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.42653768705627226,
+          "dx_m": 4552.0181790393735,
+          "dy_m": 2068.605930982281
+        },
+        "69": {
+          "angle_radians": 1.8406673469070607,
+          "dx_m": -1333.0356370420802,
+          "dy_m": 4819.02645670013
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 5,
+      "seed": 9307,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.8389318720932722,
+          "dx_m": 3341.2890951692752,
+          "dy_m": 3719.648798274225
+        },
+        "69": {
+          "angle_radians": 1.5746011121910561,
+          "dx_m": -19.023881081193718,
+          "dy_m": 4999.963809063883
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 6,
+      "seed": 9408,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.521551111136048,
+          "dx_m": -948.408098695272,
+          "dy_m": -4909.228256898351
+        },
+        "69": {
+          "angle_radians": 5.325174070578227,
+          "dx_m": 2875.740145095231,
+          "dy_m": -4090.2467673586225
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 7,
+      "seed": 9509,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.383131761374781,
+          "dx_m": -1616.7011839990096,
+          "dy_m": -4731.41387765393
+        },
+        "69": {
+          "angle_radians": 3.895791419876003,
+          "dx_m": -3644.1019287136346,
+          "dy_m": -3423.524665187264
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 8,
+      "seed": 9610,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.8332850106177055,
+          "dx_m": 3362.2400532678207,
+          "dy_m": 3700.721797731032
+        },
+        "69": {
+          "angle_radians": 0.810365081744972,
+          "dx_m": 3446.169814911762,
+          "dy_m": 3622.694246937082
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 9,
+      "seed": 9711,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.754820289355747,
+          "dx_m": 4318.162274677627,
+          "dy_m": -2520.609959821421
+        },
+        "69": {
+          "angle_radians": 4.950744436744829,
+          "dx_m": 1180.5244901117164,
+          "dy_m": -4858.63786757631
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 10,
+      "seed": 9812,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.7636726116245836,
+          "dx_m": -4647.170626126495,
+          "dy_m": 1844.9404249641996
+        },
+        "69": {
+          "angle_radians": 2.960106825690151,
+          "dx_m": -4917.88299871441,
+          "dy_m": 902.4559883760351
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 11,
+      "seed": 9913,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 3.467305622527259,
+          "dx_m": -4737.114141655994,
+          "dy_m": -1599.921750874958
+        },
+        "69": {
+          "angle_radians": 3.5397936778345898,
+          "dx_m": -4608.8002868033755,
+          "dy_m": -1938.80373332659
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 12,
+      "seed": 10014,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.7878612379127673,
+          "dx_m": 3526.814906706017,
+          "dy_m": 3544.231456019235
+        },
+        "69": {
+          "angle_radians": 5.461113655106483,
+          "dx_m": 3403.525323194337,
+          "dy_m": -3662.787923750826
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 13,
+      "seed": 10115,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 3.301483643698971,
+          "dx_m": -4936.223223851067,
+          "dy_m": -796.052940647401
+        },
+        "69": {
+          "angle_radians": 5.519878701374751,
+          "dx_m": 3612.7703034872625,
+          "dy_m": -3456.572107484603
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 14,
+      "seed": 10216,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.2741942247652736,
+          "dx_m": -3234.064094903349,
+          "dy_m": 3813.2439510287013
+        },
+        "69": {
+          "angle_radians": 5.3795019053546795,
+          "dx_m": 3093.602251003062,
+          "dy_m": -3928.056149368131
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 15,
+      "seed": 10317,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.19049221677137965,
+          "dx_m": 4909.555783234015,
+          "dy_m": 946.7111551647873
+        },
+        "69": {
+          "angle_radians": 2.778549583783878,
+          "dx_m": -4674.102484613265,
+          "dy_m": 1775.6029858423026
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 16,
+      "seed": 10418,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.595927491408124,
+          "dx_m": -4273.911347631492,
+          "dy_m": 2594.933870561398
+        },
+        "69": {
+          "angle_radians": 1.7440548269803087,
+          "dx_m": -861.9648667805535,
+          "dy_m": 4925.141273957122
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 17,
+      "seed": 10519,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 1.108207175718606,
+          "dx_m": 2231.333158072117,
+          "dy_m": 4474.500233287279
+        },
+        "69": {
+          "angle_radians": 2.3280557898442398,
+          "dx_m": -3434.6621032055787,
+          "dy_m": 3633.606505498832
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 18,
+      "seed": 10620,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 2.4673138674888917,
+          "dx_m": -3905.7871634077896,
+          "dy_m": 3121.6704877611496
+        },
+        "69": {
+          "angle_radians": 5.2815189847822435,
+          "dx_m": 2694.496972293045,
+          "dy_m": -4211.850669990998
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 19,
+      "seed": 10721,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 6.115740572073003,
+          "dx_m": 4930.069272649702,
+          "dy_m": -833.3168466287258
+        },
+        "69": {
+          "angle_radians": 1.5464487061224872,
+          "dx_m": 121.72607585937021,
+          "dy_m": 4998.518056629972
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 20,
+      "seed": 10822,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.394993205921863,
+          "dx_m": 3154.0793211387854,
+          "dy_m": -3879.6628250357917
+        },
+        "69": {
+          "angle_radians": 3.8266739571518946,
+          "dx_m": -3871.8380298147727,
+          "dy_m": -3163.679862261676
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 21,
+      "seed": 10923,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.262050069178328,
+          "dx_m": -2176.3534036943283,
+          "dy_m": -4501.498179742841
+        },
+        "69": {
+          "angle_radians": 1.0582861422948344,
+          "dx_m": 2451.8322815492165,
+          "dy_m": 4357.581721913332
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 22,
+      "seed": 11024,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 3.282317311071618,
+          "dx_m": -4950.573076320656,
+          "dy_m": -701.3032268634147
+        },
+        "69": {
+          "angle_radians": 4.43884342410526,
+          "dx_m": -1350.734284741971,
+          "dy_m": -4814.0956463309485
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 23,
+      "seed": 11125,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 3.3450455166200044,
+          "dx_m": -4896.873794583868,
+          "dy_m": -1010.2608771588591
+        },
+        "69": {
+          "angle_radians": 4.440074581729147,
+          "dx_m": -1344.8063519951486,
+          "dy_m": -4815.75496424325
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 24,
+      "seed": 11226,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.31711358447556,
+          "dx_m": 2842.6777049027023,
+          "dy_m": -4113.293505944975
+        },
+        "69": {
+          "angle_radians": 5.054913714283265,
+          "dx_m": 1679.3311570226822,
+          "dy_m": -4709.548477832334
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 25,
+      "seed": 11327,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 1.962077984988581,
+          "dx_m": -1906.8675990791419,
+          "dy_m": 4622.1051437177575
+        },
+        "69": {
+          "angle_radians": 5.197029430040942,
+          "dx_m": 2329.451220692944,
+          "dy_m": -4424.212586484984
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 26,
+      "seed": 11428,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.48568551195141,
+          "dx_m": 3492.490335180721,
+          "dy_m": -3578.0597058558506
+        },
+        "69": {
+          "angle_radians": 4.136731608799508,
+          "dx_m": -2721.9316715617642,
+          "dy_m": -4194.173097923949
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 27,
+      "seed": 11529,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.147750195719511,
+          "dx_m": -2675.553513670671,
+          "dy_m": -4223.909728614537
+        },
+        "69": {
+          "angle_radians": 2.045130802898058,
+          "dx_m": -2283.7325019124087,
+          "dy_m": 4447.984471612833
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 28,
+      "seed": 11630,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 5.248877403036669,
+          "dx_m": 2555.604587595951,
+          "dy_m": -4297.544088413582
+        },
+        "69": {
+          "angle_radians": 6.246129952668075,
+          "dx_m": 4996.567644529106,
+          "dy_m": -185.23437490075054
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 29,
+      "seed": 11731,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 0.48595267823468996,
+          "dx_m": 4421.152005776116,
+          "dy_m": 2335.2547916280623
+        },
+        "69": {
+          "angle_radians": 0.006789048125749987,
+          "dx_m": 4999.884772506448,
+          "dy_m": 33.94497986668292
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 30,
+      "seed": 11832,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 4.039914616905602,
+          "dx_m": -3114.617718885902,
+          "dy_m": -3911.4136146925166
+        },
+        "69": {
+          "angle_radians": 6.013627198864736,
+          "dx_m": 4819.443343345816,
+          "dy_m": -1331.5276415755338
+        }
+      }
+    },
+    {
+      "map": "official32_minus71",
+      "k": 2,
+      "draw": 31,
+      "seed": 11933,
+      "historical_R29_bridge": false,
+      "offsets": {
+        "14": {
+          "angle_radians": 3.7535463412252077,
+          "dx_m": -4092.6362511453162,
+          "dy_m": -2872.338509962086
+        },
+        "69": {
+          "angle_radians": 1.7636809712399721,
+          "dx_m": -958.4541917324253,
+          "dy_m": 4907.276796997551
+        }
+      }
+    }
+  ]
+}

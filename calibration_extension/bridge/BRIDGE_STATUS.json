@@ -1,0 +1,63 @@
+{
+  "status": "BRIDGE_PASS",
+  "phase": "bridge",
+  "completed_at": "2026-09-23T04:21:20.152806+00:00",
+  "elapsed_s": 46.595913376,
+  "complete_pairs": 4,
+  "planned_pairs": 4,
+  "baseline_checks": [
+    {
+      "map": "recovered29",
+      "baseline_median_m": 597.6726773741443,
+      "match_at_1e_6_m": true,
+      "neutrality": [
+        "empty/refit:exact",
+        "empty/frozen:exact",
+        "all_zero/refit:exact",
+        "all_zero/frozen:exact"
+      ],
+      "calibration_n": 16612,
+      "evaluation_n": 2498
+    },
+    {
+      "map": "official32_minus71",
+      "baseline_median_m": 593.7425223089783,
+      "match_at_1e_6_m": true,
+      "neutrality": [
+        "empty/refit:exact",
+        "empty/frozen:exact",
+        "all_zero/refit:exact",
+        "all_zero/frozen:exact"
+      ],
+      "calibration_n": 16612,
+      "evaluation_n": 2498
+    }
+  ],
+  "freeze_sha256": "dbee07600d6b0036361306dbcd25dbb64efb98da975d68014b56d525b1c204e9",
+  "csv_sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+  "preserved_inputs": {
+    "harness": true,
+    "evaluator": true,
+    "calibration_rows": true,
+    "R29_map": true,
+    "O32_minus71_map": true,
+    "R29_rows": true,
+    "O32_minus71_rows": true
+  },
+  "historical_printed_parity": [
+    {
+      "k": 1,
+      "refit_pct": "3.5",
+      "frozen_pct": "29.3",
+      "expected_refit": "3.5",
+      "expected_frozen": "29.3"
+    },
+    {
+      "k": 2,
+      "refit_pct": "1.5",
+      "frozen_pct": "117.0",
+      "expected_refit": "1.5",
+      "expected_frozen": "117.0"
+    }
+  ]
+}

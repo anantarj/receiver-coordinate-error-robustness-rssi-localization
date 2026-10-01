@@ -1,8 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this research software or its archived results, please cite the software release and the associated article."
 type: software
-title: "Receiver-coordinate error robustness in RSSI localization"
-version: "1.0.0"
+title: "Recalibration Can Mask Measured Sensitivity to Receiver-Coordinate Errors in RSSI Localization: reproducibility package"
+version: "1.1.0"
+doi: "10.5281/zenodo.23061691"
 authors:
   - family-names: "Ranjan"
     given-names: "Ananta"
@@ -10,6 +11,7 @@ authors:
     affiliation: "Birla Institute of Technology, Mesra"
   - family-names: "Jha"
     given-names: "Vijay Kumar"
+    email: "vkjha@bitmesra.ac.in"
     orcid: "https://orcid.org/0000-0001-7310-1177"
     affiliation: "Birla Institute of Technology, Mesra"
 repository-code: "https://github.com/anantarj/receiver-coordinate-error-robustness-rssi-localization"
@@ -21,4 +23,5 @@ keywords:
   - LPWAN
   - reproducible research
 license: MIT
-doi: "10.5281/zenodo.22680802"
+
+# Preceding v1.0.0 DOI: 10.5281/zenodo.22680802; it does not contain the new paired extension.
