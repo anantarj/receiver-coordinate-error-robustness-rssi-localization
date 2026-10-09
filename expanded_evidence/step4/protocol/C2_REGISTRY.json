@@ -1,0 +1,284 @@
+{
+  "A_true_dbm": [
+    -30,
+    -32,
+    -29,
+    -31,
+    -33,
+    -28
+  ],
+  "D_over_L": [
+    0,
+    0.1,
+    0.5,
+    1,
+    5,
+    20
+  ],
+  "L_m": 1000.0,
+  "bounds_db": [
+    10,
+    30
+  ],
+  "bounds_scope": "diagnostic fixed caps, not validated physical constraints",
+  "cal_n": 400,
+  "d0_m": 1.0,
+  "direction_patterns": [
+    "coherent",
+    "receiverwise"
+  ],
+  "eval_n": 400,
+  "full_text_dependency": "prior-art comparison open; computational study authorized to continue without declaring novelty",
+  "inference": "descriptive conditional experiments; no pooled independence, outcome-selected thresholds or p-value screening",
+  "kappa": [
+    0.5,
+    1.0,
+    2.0,
+    4.7
+  ],
+  "knowledge_state": "Historical arrays and Step1-3 findings known; these random realizations are newly generated after this lock; local specification, not external preregistration",
+  "layouts": {
+    "clustered_holdout": {
+      "cal_bounds_m": [
+        [
+          -700,
+          -100
+        ],
+        [
+          -400,
+          400
+        ]
+      ],
+      "eval_bounds_m": [
+        [
+          100,
+          700
+        ],
+        [
+          -400,
+          400
+        ]
+      ],
+      "receivers_m": [
+        [
+          -800,
+          -250
+        ],
+        [
+          -680,
+          -180
+        ],
+        [
+          -620,
+          -320
+        ],
+        [
+          600,
+          450
+        ],
+        [
+          880,
+          650
+        ],
+        [
+          400,
+          -650
+        ]
+      ],
+      "spatial_regime": "fixed 200-m easting gap between calibration and evaluation rectangles"
+    },
+    "corridor": {
+      "cal_bounds_m": [
+        [
+          -900,
+          900
+        ],
+        [
+          -100,
+          100
+        ]
+      ],
+      "eval_bounds_m": [
+        [
+          -900,
+          900
+        ],
+        [
+          -100,
+          100
+        ]
+      ],
+      "receivers_m": [
+        [
+          -1000,
+          -80
+        ],
+        [
+          -550,
+          120
+        ],
+        [
+          -100,
+          -100
+        ],
+        [
+          250,
+          80
+        ],
+        [
+          600,
+          -120
+        ],
+        [
+          1100,
+          100
+        ]
+      ],
+      "spatial_regime": "same-area corridor positions"
+    },
+    "spread": {
+      "cal_bounds_m": [
+        [
+          -500,
+          500
+        ],
+        [
+          -500,
+          500
+        ]
+      ],
+      "eval_bounds_m": [
+        [
+          -500,
+          500
+        ],
+        [
+          -500,
+          500
+        ]
+      ],
+      "receivers_m": [
+        [
+          -800,
+          -600
+        ],
+        [
+          900,
+          -400
+        ],
+        [
+          750,
+          850
+        ],
+        [
+          -650,
+          900
+        ],
+        [
+          150,
+          -950
+        ],
+        [
+          100,
+          600
+        ]
+      ],
+      "spatial_regime": "same-area independently generated positions"
+    }
+  },
+  "n_fit": 4.7,
+  "noise_process": "independent zero-mean Gaussian link noise for each calibration/query record; same standardized draws reused across matched/mismatched noisy conditions",
+  "policies": [
+    "frozen",
+    "unrestricted",
+    "shared_update",
+    "bounded10",
+    "bounded30"
+  ],
+  "propagation_conditions": [
+    {
+      "n_true": 4.7,
+      "name": "matched_noiseless",
+      "sigma_db": 0.0
+    },
+    {
+      "n_true": 4.7,
+      "name": "matched_gaussian6",
+      "sigma_db": 6.0
+    },
+    {
+      "n_true": 3.5,
+      "name": "mismatched_gaussian6",
+      "sigma_db": 6.0
+    }
+  ],
+  "quantile_method": "linear",
+  "quantiles": [
+    0.5,
+    0.9,
+    0.95
+  ],
+  "query_support_challenge": {
+    "all_three_propagation_conditions": true,
+    "layout": "spread",
+    "pattern": "receiverwise",
+    "purpose": "fixed diagnostic signal mismatch relative to calibration; not claimed measured fading distribution",
+    "targets": [
+      0
+    ],
+    "untargeted_query_shift_db": -40.0
+  },
+  "registry_id": "PAPERB-C2-20261007-v1",
+  "resource_ceiling": {
+    "max_output_bytes": 1200000000,
+    "seconds_per_run": 420
+  },
+  "retention": "save every arm error vector; reference weights, removal predictions and generated synthetic observations; compact per-field summaries and checks. Shared-arm errors may be stored explicitly. Per-arm centroids regenerate from saved inputs, fits and registry; not all intermediates retained.",
+  "seed_key": "SeedSequence([20261007,4,layout_index,seed,stream]); streams 10 calibration positions,20 evaluation positions,30 calibration normal noise,40 evaluation normal noise,50 receiver-wise angles,60 shared coherent angle",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "selection": "all six always selected; no reception censoring or RSSI clipping; this is a controlled signal model, not a radio-network simulator",
+  "shared_update": "median of all fitted-minus-reference receiver updates, added to every original intercept",
+  "symmetry_cancellation": "Retained explicitly in completed C1; random C2 fields need not satisfy symmetry. No outcome-selected cancellation filter.",
+  "target_sets": [
+    [
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  "tolerance": {
+    "absolute_m": 1e-06,
+    "relative": 1e-12,
+    "weight": 1e-12
+  }
+}

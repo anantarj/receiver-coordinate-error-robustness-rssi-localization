@@ -1,0 +1,75 @@
+{
+  "analysis_id": "PAPERB-SAVED-EVIDENCE-STEP1-20261007",
+  "status": "LOCKED_FOR_SAVED_OUTPUT_ANALYSIS",
+  "locked_at_utc": "2026-10-07T14:04:13.923775+00:00",
+  "authorization": "User requested proceeding with next step and integrating attached writing brief.",
+  "knowledge_state": "Previously published field-level median contrasts are known. Array headers and one bridge record reviewed. This analysis is retrospective; no claim of prospective independent validation.",
+  "input_archive_sha256": "01827be8265047edcdd159ab6fc96b954171cb25c03263292dbecda2f4f24268",
+  "cases": "all 128 registered paired fields, two maps, k=1/2, r=0..31; no outcome selection",
+  "populations": [
+    "all",
+    "affected"
+  ],
+  "quantile_probabilities": [
+    0.5,
+    0.9,
+    0.95
+  ],
+  "quantile_method": "linear",
+  "field_summaries": [
+    "minimum",
+    "q25",
+    "median",
+    "q75",
+    "maximum"
+  ],
+  "message_benefit": "frozen_error-refit_error; positive favors refitting",
+  "quantile_benefit": "quantile(frozen_errors)-quantile(refit_errors) within each field/population; not quantile(message_benefit)",
+  "numerical_tie": {
+    "atol_m": 1e-06,
+    "rtol": 1e-12,
+    "definition": "abs(a-b)<=1e-6+1e-12*max(abs(a),abs(b)); not practical equivalence"
+  },
+  "weight_check_atol": 1e-12,
+  "prediction_identity_atol_m": 1e-06,
+  "required_checks": [
+    "member hashes",
+    "source row identity with preserved manifests",
+    "valid contiguous receiver slots/padding",
+    "map roster and fixed offsets",
+    "field JSON and recorded seeds",
+    "non-target coordinate and intercept invariance",
+    "normalization and exact frozen weights",
+    "reweighted normalized weights",
+    "predictions from weights/coordinates",
+    "target mass and affected mask",
+    "untouched identity",
+    "existing field/cell medians and four contrary fields",
+    "same removal estimate across field IDs",
+    "finite removal identity"
+  ],
+  "removal": "zero target weights, no refill, reference relative weights retained; same per map/k estimate across fields",
+  "coverage": "mathematical defined if positive non-target weight remains; original minimum-three eligibility reported separately",
+  "error_reconstruction": "No truth recovery from errors. Exact scoring only after obtaining and verifying original source CSV. Until then use reverse-triangle bound only.",
+  "outputs": [
+    "field quantiles and paired differences",
+    "message help/harm arrays",
+    "refit/frozen vs reference deltas separately labeled",
+    "support strata",
+    "paired tail/median discordance counts",
+    "removal prediction distance metrics and bound",
+    "historical adverse case table",
+    "complete machine-readable evidence and tests"
+  ],
+  "prohibited": [
+    "new calibration",
+    "new random fields",
+    "new synthetic results",
+    "published parent mutation",
+    "outcome-selected cutoffs",
+    "message-field repetitions treated as independent observations",
+    "manuscript/public repo edits"
+  ],
+  "new_analytical_addition": "For removal u and refit z, |e_refit-e_remove|<=||z-u||. Geometry-based squared error difference formula remains proposed until original transmitter reference obtained; not inferred from magnitudes.",
+  "parent_plan": "PAPERB-MECHANISM-BOUNDARIES-PLAN-20261007-V1"
+}

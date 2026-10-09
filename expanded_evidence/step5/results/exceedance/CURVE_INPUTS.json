@@ -1,0 +1,72 @@
+{
+  "core/official32_minus71_top1.npz": {
+    "all_errors_retained": true,
+    "array_filename": "official32_minus71_top1.npz",
+    "axis": "field,kappa,policy,message",
+    "sha256": "63f1ac9541919658410ebc713d0b6921f209fd822a6e32884c385397fffa7733",
+    "source_rows_n": 2498
+  },
+  "core/official32_minus71_top2.npz": {
+    "all_errors_retained": true,
+    "array_filename": "official32_minus71_top2.npz",
+    "axis": "field,kappa,policy,message",
+    "sha256": "440c9a48f4b18ae0c911aec51bae161f73acf14279d64868f08128409126a702",
+    "source_rows_n": 2498
+  },
+  "core/recovered29_top1.npz": {
+    "all_errors_retained": true,
+    "array_filename": "recovered29_top1.npz",
+    "axis": "field,kappa,policy,message",
+    "sha256": "42e5543a7b724775187e82bb8a42b7240e9ab3380213f23546ceb291a61f15b6",
+    "source_rows_n": 2498
+  },
+  "core/recovered29_top2.npz": {
+    "all_errors_retained": true,
+    "array_filename": "recovered29_top2.npz",
+    "axis": "field,kappa,policy,message",
+    "sha256": "268cec3ba910998a513afe0e37d0f47c42ff770eeb7adf9ae550b0b5a4082dc6",
+    "source_rows_n": 2498
+  },
+  "d3/official32_minus71_receiver10.npz": {
+    "all_errors_retained": true,
+    "array_filename": "official32_minus71_receiver10.npz",
+    "axis": "field,kappa,policy,message",
+    "sha256": "6f6b9e9203a09400dbde2a606ab543afb1f79a808125f133d8fd0bda2c8c302f",
+    "source_rows_n": 2498
+  },
+  "d3/official32_minus71_receiver32.npz": {
+    "all_errors_retained": true,
+    "array_filename": "official32_minus71_receiver32.npz",
+    "axis": "field,kappa,policy,message",
+    "sha256": "c126876ec22ce9aa5f4b049774d4c4e6a5bb03284f03b277824fca1c94f980ef",
+    "source_rows_n": 2498
+  },
+  "d3/official32_minus71_receiver37.npz": {
+    "all_errors_retained": true,
+    "array_filename": "official32_minus71_receiver37.npz",
+    "axis": "field,kappa,policy,message",
+    "sha256": "e9b80fd0330b5e87a19a2fd2524ef5ca65dab589665b5467374e39dbbbdba080",
+    "source_rows_n": 2498
+  },
+  "d3/official32_minus71_receiver48.npz": {
+    "all_errors_retained": true,
+    "array_filename": "official32_minus71_receiver48.npz",
+    "axis": "field,kappa,policy,message",
+    "sha256": "883599402f8b3ca9ccb675edbced98e3a926927ffc3413bdc2784c1630e20916",
+    "source_rows_n": 2498
+  },
+  "d3/official32_minus71_receiver6.npz": {
+    "all_errors_retained": true,
+    "array_filename": "official32_minus71_receiver6.npz",
+    "axis": "field,kappa,policy,message",
+    "sha256": "1b86e347cd72155314c1bc917440e85c96eaf9987535205efbf3e133a176a32e",
+    "source_rows_n": 2498
+  },
+  "d3/official32_minus71_receiver7.npz": {
+    "all_errors_retained": true,
+    "array_filename": "official32_minus71_receiver7.npz",
+    "axis": "field,kappa,policy,message",
+    "sha256": "b7ecfe1a4f76f167dd3f4651c0af519d3c4caab759175e418364b0f4b6b74f79",
+    "source_rows_n": 2498
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "release_version": "1.2.0",
+  "version_specific_doi": "10.5281/zenodo.23255545",
+  "previous_version": "1.1.0",
+  "previous_version_doi": "10.5281/zenodo.23061691",
+  "previous_file": "baseline_v1.1.0/PAPERB_SENSORS_EVIDENCE_v1.1.0_S8_300926.zip",
+  "previous_zip_sha256": "01827be8265047edcdd159ab6fc96b954171cb25c03263292dbecda2f4f24268",
+  "external_raw_data_doi": "10.5281/zenodo.3904158",
+  "external_csv_sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+  "raw_data_redistributed": false
+}

@@ -1,0 +1,10 @@
+{
+  "complete_draw0_curves": 352,
+  "curve_comparisons": 135168,
+  "maximum_integral_identity_residual_m": 2.7284841053187847e-12,
+  "maximum_numeric_alignment_m": 9.900694948328237e-07,
+  "positive_fields": 896,
+  "registry_sha256": "259ae6d2228f21d82cc597d1bfc52a3a33ec44302acf9d2195601cbef8688a68",
+  "scope": "Exact finite empirical curves over all finite thresholds, with roundoff-aligned pair ties and explicit availability. Not population-confidence inference or application pass/fail.",
+  "status": "PASS"
+}

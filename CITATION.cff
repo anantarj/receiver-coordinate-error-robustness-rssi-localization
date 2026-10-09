@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "If you use this research software or its archived results, please cite the software release and the associated article."
+message: "Cite this version-specific research software and results package when using its computational evidence."
 type: software
-title: "Recalibration Can Mask Measured Sensitivity to Receiver-Coordinate Errors in RSSI Localization: reproducibility package"
-version: "1.1.0"
-doi: "10.5281/zenodo.23061691"
+title: "Calibration-Induced Receiver Suppression and Its Limits in Weighted-Centroid Localization: reproducibility resources"
+version: "1.2.0"
+doi: "10.5281/zenodo.23255545"
 authors:
   - family-names: "Ranjan"
     given-names: "Ananta"
@@ -18,10 +18,8 @@ repository-code: "https://github.com/anantarj/receiver-coordinate-error-robustne
 keywords:
   - RSSI localization
   - receiver-coordinate uncertainty
-  - anchor position uncertainty
+  - weighted-centroid localization
+  - calibration
   - LoRaWAN
-  - LPWAN
   - reproducible research
 license: MIT
-
-# Preceding v1.0.0 DOI: 10.5281/zenodo.22680802; it does not contain the new paired extension.

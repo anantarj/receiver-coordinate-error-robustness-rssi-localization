@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-08T08:26:48.679280+00:00",
+  "directions": "Reuse step4 immutable all-receiver direction register, coupled across magnitude/kappa/policy; no new direction selection.",
+  "eligible": "All receivers in immutable official32_minus71 map with at least 10 valid RSSI receptions among the exact original 16612 calibration rows. No evaluation-count or error filter.",
+  "historical_information": "Previous numerical results and full core already known; new receiver selection and scores not inspected at lock.",
+  "identity_warning": "Six stratified diagnostic targets, not a random sample of networks and not evidence that participation alone causes the outcome.",
+  "order": "descending calibration count, ascending numeric receiver ID for ties",
+  "participation": "Count raw valid receptions under finite [-150,-20] dBm rule among original calibration rows; not evaluation participation or weight mass.",
+  "scientific_scope": "D3 as planned: catalogue map only; single target; D=1000,5000m; 32 directions; kappa=1,4.7; frozen, unrestricted, shared_update, bounded10, bounded30; D=0 once per target.",
+  "selection": "Within each stratum of length m>=2 use zero-based indices floor((m-1)/3) and floor(2*(m-1)/3). If equal, use indices 0 and m-1. Retain empty/undersized strata without outcome-selected replacement.",
+  "status": "RULE_LOCKED_BEFORE_TRAINING_RANK_INSPECTION_OR_NEW_TARGET_OUTCOMES",
+  "strata": "numpy.array_split ordered eligible list into 3 contiguous nearly equal sized groups: upper,middle,lower; earlier groups receive any extra entries"
+}

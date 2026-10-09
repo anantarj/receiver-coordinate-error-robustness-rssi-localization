@@ -1,0 +1,2274 @@
+{
+  "A_true_dbm": [
+    -30.0,
+    -32.0,
+    -29.0,
+    -31.0,
+    -33.0,
+    -28.0
+  ],
+  "D_over_L": [
+    0.0,
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0,
+    316.22776601683796,
+    1000.0,
+    3162.2776601683795,
+    10000.0,
+    31622.776601683792,
+    100000.0,
+    316227.7660168379,
+    1000000.0,
+    3162277.6601683795,
+    10000000.0,
+    31622776.60168379,
+    100000000.0
+  ],
+  "L_m": 1000.0,
+  "analysis": {
+    "absolute_coordinate_tolerance_m": 1e-07,
+    "do_not_select_on_pass": true,
+    "expected_rates": "unrestricted positive support and noncancelled leading term: 1-kappa; frozen/shared/saturated bounded single-target: 1; coherent all-target prediction growth: 1",
+    "rate_fit_ratios": [
+      100000.0,
+      316227.7660168379,
+      1000000.0,
+      3162277.6601683795,
+      10000000.0,
+      31622776.60168379,
+      100000000.0
+    ],
+    "rate_statistic": "least-squares log10 direct target influence versus log10 D/L; exact cancellation and zero support excluded from decay-rate fits but always reported",
+    "rate_tolerance": 0.06,
+    "relative_coordinate_tolerance": 2e-12,
+    "weight_tolerance": 2e-13
+  },
+  "calibration_policies": [
+    "frozen",
+    "unrestricted",
+    "shared_update",
+    "bounded10",
+    "bounded30"
+  ],
+  "calibration_positions_m": [
+    [
+      -400.0,
+      -350.0
+    ],
+    [
+      -200.0,
+      -350.0
+    ],
+    [
+      0.0,
+      -350.0
+    ],
+    [
+      200.0,
+      -350.0
+    ],
+    [
+      400.0,
+      -350.0
+    ],
+    [
+      -400.0,
+      -150.0
+    ],
+    [
+      -200.0,
+      -150.0
+    ],
+    [
+      0.0,
+      -150.0
+    ],
+    [
+      200.0,
+      -150.0
+    ],
+    [
+      400.0,
+      -150.0
+    ],
+    [
+      -400.0,
+      0.0
+    ],
+    [
+      -200.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      200.0,
+      0.0
+    ],
+    [
+      400.0,
+      0.0
+    ],
+    [
+      -400.0,
+      150.0
+    ],
+    [
+      -200.0,
+      150.0
+    ],
+    [
+      0.0,
+      150.0
+    ],
+    [
+      200.0,
+      150.0
+    ],
+    [
+      400.0,
+      150.0
+    ],
+    [
+      -400.0,
+      350.0
+    ],
+    [
+      -200.0,
+      350.0
+    ],
+    [
+      0.0,
+      350.0
+    ],
+    [
+      200.0,
+      350.0
+    ],
+    [
+      400.0,
+      350.0
+    ]
+  ],
+  "cases": [
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "spread_k1_coherent_weak0",
+      "layout": "spread",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "spread_k1_coherent_weak40",
+      "layout": "spread",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        -40.0,
+        -40.0,
+        -40.0,
+        -40.0,
+        -40.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "spread_k2_coherent_weak0",
+      "layout": "spread",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "spread_k2_coherent_weak40",
+      "layout": "spread",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        -40.0,
+        -40.0,
+        -40.0,
+        -40.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.6,
+          0.8
+        ],
+        [
+          -0.8,
+          0.6
+        ]
+      ],
+      "id": "spread_k2_separate_weak0",
+      "layout": "spread",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.6,
+          0.8
+        ],
+        [
+          -0.8,
+          0.6
+        ]
+      ],
+      "id": "spread_k2_separate_weak40",
+      "layout": "spread",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        -40.0,
+        -40.0,
+        -40.0,
+        -40.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "spread_k5_coherent_weak0",
+      "layout": "spread",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "spread_k5_coherent_weak40",
+      "layout": "spread",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -40.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.6,
+          0.8
+        ],
+        [
+          -0.8,
+          0.6
+        ]
+      ],
+      "id": "spread_k5_separate_weak0",
+      "layout": "spread",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.6,
+          0.8
+        ],
+        [
+          -0.8,
+          0.6
+        ]
+      ],
+      "id": "spread_k5_separate_weak40",
+      "layout": "spread",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -40.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "spread_k6_coherent_weak0",
+      "layout": "spread",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "spread_k6_coherent_weak40",
+      "layout": "spread",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.6,
+          0.8
+        ],
+        [
+          -0.8,
+          0.6
+        ]
+      ],
+      "id": "spread_k6_separate_weak0",
+      "layout": "spread",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.6,
+          0.8
+        ],
+        [
+          -0.8,
+          0.6
+        ]
+      ],
+      "id": "spread_k6_separate_weak40",
+      "layout": "spread",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "corridor_k1_coherent_weak0",
+      "layout": "corridor",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "corridor_k1_coherent_weak40",
+      "layout": "corridor",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        -40.0,
+        -40.0,
+        -40.0,
+        -40.0,
+        -40.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "corridor_k2_coherent_weak0",
+      "layout": "corridor",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "corridor_k2_coherent_weak40",
+      "layout": "corridor",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        -40.0,
+        -40.0,
+        -40.0,
+        -40.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.6,
+          0.8
+        ],
+        [
+          -0.8,
+          0.6
+        ]
+      ],
+      "id": "corridor_k2_separate_weak0",
+      "layout": "corridor",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.6,
+          0.8
+        ],
+        [
+          -0.8,
+          0.6
+        ]
+      ],
+      "id": "corridor_k2_separate_weak40",
+      "layout": "corridor",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        -40.0,
+        -40.0,
+        -40.0,
+        -40.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "corridor_k5_coherent_weak0",
+      "layout": "corridor",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "corridor_k5_coherent_weak40",
+      "layout": "corridor",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -40.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.6,
+          0.8
+        ],
+        [
+          -0.8,
+          0.6
+        ]
+      ],
+      "id": "corridor_k5_separate_weak0",
+      "layout": "corridor",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.6,
+          0.8
+        ],
+        [
+          -0.8,
+          0.6
+        ]
+      ],
+      "id": "corridor_k5_separate_weak40",
+      "layout": "corridor",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -40.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "corridor_k6_coherent_weak0",
+      "layout": "corridor",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "id": "corridor_k6_coherent_weak40",
+      "layout": "corridor",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.6,
+          0.8
+        ],
+        [
+          -0.8,
+          0.6
+        ]
+      ],
+      "id": "corridor_k6_separate_weak0",
+      "layout": "corridor",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.6,
+          0.8
+        ],
+        [
+          -0.8,
+          0.6
+        ]
+      ],
+      "id": "corridor_k6_separate_weak40",
+      "layout": "corridor",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "query_bias_interpretation": "fixed diagnostic attenuation of untargeted query RSS relative to calibration; not a campaign estimate",
+      "shared_A_true": false,
+      "targets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "directions": [
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.6,
+          0.8
+        ],
+        [
+          -0.8,
+          0.6
+        ]
+      ],
+      "id": "symmetric_two_opposite",
+      "layout": "symmetric",
+      "queries": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shared_A_true": true,
+      "targets": [
+        0,
+        1
+      ]
+    },
+    {
+      "directions": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.6,
+          0.8
+        ],
+        [
+          -0.8,
+          0.6
+        ]
+      ],
+      "id": "spread_empty",
+      "layout": "spread",
+      "queries": [
+        [
+          50.0,
+          100.0
+        ],
+        [
+          -200.0,
+          200.0
+        ],
+        [
+          350.0,
+          -250.0
+        ],
+        [
+          -300.0,
+          -100.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "query_bias_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shared_A_true": false,
+      "targets": []
+    }
+  ],
+  "created_utc": "2026-10-07T15:31:37.453586+00:00",
+  "d0_m": 1.0,
+  "fitting": "median over 25 calibration observations of RSS+10*n*log10((distance+d0)/d0)",
+  "generation": "fixed noiseless propagation plus registered query-only bias; no query noise and no RSSI clipping",
+  "kappa": [
+    0.5,
+    1.0,
+    2.0,
+    4.7
+  ],
+  "knowledge_state": "Step1/2 finite-support extremes and all historical data already known; these particular generated controls not previously run; not external preregistration",
+  "layouts_m": {
+    "corridor": [
+      [
+        -1000.0,
+        -80.0
+      ],
+      [
+        -550.0,
+        120.0
+      ],
+      [
+        -100.0,
+        -100.0
+      ],
+      [
+        250.0,
+        80.0
+      ],
+      [
+        600.0,
+        -120.0
+      ],
+      [
+        1100.0,
+        100.0
+      ]
+    ],
+    "spread": [
+      [
+        -800.0,
+        -600.0
+      ],
+      [
+        900.0,
+        -400.0
+      ],
+      [
+        750.0,
+        850.0
+      ],
+      [
+        -650.0,
+        900.0
+      ],
+      [
+        150.0,
+        -950.0
+      ],
+      [
+        100.0,
+        600.0
+      ]
+    ],
+    "symmetric": [
+      [
+        -500.0,
+        0.0
+      ],
+      [
+        500.0,
+        0.0
+      ],
+      [
+        0.0,
+        -750.0
+      ],
+      [
+        0.0,
+        750.0
+      ],
+      [
+        -800.0,
+        -800.0
+      ],
+      [
+        800.0,
+        800.0
+      ]
+    ]
+  },
+  "n_fit": 4.7,
+  "n_true": 4.7,
+  "purpose": "deterministic identity/asymptotic verification and finite counterexamples; not empirical generality or novelty certification",
+  "registry_id": "PAPERB-C1-20261007-v1",
+  "resource_ceiling": {
+    "elapsed_seconds": 180,
+    "output_bytes": 100000000
+  },
+  "selection": "all six receivers fixed, no simulated reception/eligibility filtering; removal minimum-three reported separately",
+  "shared_update_rule": "median of all receiver unrestricted-minus-reference updates; add same value to every reference intercept"
+}

@@ -1,0 +1,12 @@
+{
+  "version": "1.2.0",
+  "doi": "10.5281/zenodo.23255545",
+  "release_asset": "PAPERB_REPRODUCIBILITY_v1.2.0.zip",
+  "prior_version_doi": "10.5281/zenodo.23061691",
+  "source_archive_sha256": "abd0173283d1d5bf079e30b105af38a1e5eaf05e2c47a18a251113aef5716602",
+  "baseline_archive_sha256": "01827be8265047edcdd159ab6fc96b954171cb25c03263292dbecda2f4f24268",
+  "status": "FROZEN_EVIDENCE_READY_FOR_MANUAL_GITHUB_ZENODO_UPLOAD",
+  "public_upload_state": "NOT_YET_PUBLISHED",
+  "manuscript_working_title": "Calibration-Induced Receiver Suppression and Its Limits in Weighted-Centroid Localization",
+  "notes": "Research evidence, not a journal submission or author-approval certification. Public status requires separate verification."
+}

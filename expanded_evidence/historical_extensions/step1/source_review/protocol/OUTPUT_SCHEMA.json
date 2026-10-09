@@ -1,0 +1,36 @@
+{
+  "pair_arrays": [
+    "refit_predictions[N,2]",
+    "frozen_predictions[N,2]",
+    "refit_errors[N]",
+    "frozen_errors[N]",
+    "refit_weights[N,10]",
+    "frozen_weights[N,10]",
+    "touched[N]",
+    "selected_clean_count[N]",
+    "refit_target_weight_mass[N]",
+    "frozen_target_weight_mass[N]",
+    "map_coordinates[G,2]",
+    "map_receiver_ids[G]"
+  ],
+  "reference_arrays": [
+    "predictions[N,2]",
+    "errors[N]",
+    "weights[N,10]",
+    "selected_ids[N,10]",
+    "raw_rssi[N,10] (NaN padding only)",
+    "truth[N,2]",
+    "source_rows[N]",
+    "calibration_source_rows[16612]"
+  ],
+  "pair_metadata": [
+    "field definition",
+    "all reference/refit intercepts",
+    "array hash",
+    "historical bridge flag"
+  ],
+  "primary_summary": "per-field population medians, frozen minus refit, 32 values per map/k cell; median/IQR/range/sign counts; difference of arm medians reported separately",
+  "sign_policy": "positive delta=frozen-refit means lower median error with refitting; no p-value or superpopulation interval",
+  "secondary_summary": "same fixed touched subset, clean-support counts, target normalized weight masses; not new target selection",
+  "execution_boundary": "Outputs from assistant runtime, not author-machine execution; inputs original and hash-pinned."
+}

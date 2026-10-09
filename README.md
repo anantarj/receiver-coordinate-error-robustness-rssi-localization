@@ -1,3 +1,42 @@
+# Paper B — expanded reproducibility resources (v1.2.0)
+
+**Public software/evidence version:** `1.2.0`  
+**Version DOI:** https://doi.org/10.5281/zenodo.23255545  
+**GitHub:** https://github.com/anantarj/receiver-coordinate-error-robustness-rssi-localization  
+**Exact versioned archive:** `PAPERB_REPRODUCIBILITY_v1.2.0.zip`
+
+Associated working manuscript: **Calibration-Induced Receiver Suppression and Its Limits in Weighted-Centroid Localization**, by Ananta Ranjan and Vijay Kumar Jha. The exact final manuscript and Supplement documents may be separately revised; this release freezes the expanded computational evidence, not a journal publication decision.
+
+## What this archive contains
+
+- `baseline_v1.1.0/PAPERB_SENSORS_EVIDENCE_v1.1.0_S8_300926.zip` is the exact, unchanged previous evidence ZIP (SHA-256 `01827be8265047edcdd159ab6fc96b954171cb25c03263292dbecda2f4f24268`), available independently at https://doi.org/10.5281/zenodo.23061691. It preserves the older evidence including the original 128 matched pairs, original source tree and earlier document bindings. Its embedded historical publication-status text describes the old snapshot, not the current deposit.
+- `expanded_evidence/historical_extensions/step1` through `step3` hold curated original-pair reliability and harm calculations, raw-input reconstruction, and deterministic boundary experiments. Their numerical data, methods and hashes are preserved without private author preparation records.
+- `expanded_evidence/step4/` holds the finite/noisy generated datasets, real-data weighting/calibration/magnitude core, complete numerical arrays, locked registries and executable analysis/checking sources.
+- `expanded_evidence/step5/` holds the six-calibration-stratum-receiver validation, full empirical error-exceedance analysis, complete scored arrays and curve tables, locked registries, executables and checks.
+- `CLAIM_TO_ARTIFACT.csv` gives exact primary locators for the central study claims and necessary interpretation limits.
+- `REPRODUCE.md` provides the executable verification routes and external-input instructions.
+- `FILE_MANIFEST.json` enumerates exact bytes and SHA-256 values for every file in this archive except the manifest itself.
+
+The repository's tracked source tree contains the reproducibility sources and compact indices; the **complete output arrays are distributed in the exact ZIP asset**, attached to the GitHub `v1.2.0` release and mirrored byte-for-byte on Zenodo.
+
+## Scientific and interpretive scope
+
+One public Antwerp LoRaWAN campaign underpins the measured-data comparisons. The two coordinate configurations from that campaign are *not independent deployments*. Synthetic known-geometry experiments investigate model conditions and do not substitute for another physical field trial. Receiver-specific intercept updates, normalized coordinate influence, weighting powers, and availability are evaluated under explicitly registered rules. A proposed receiver-removal target set is supplied; the work does not detect erroneous receivers automatically.
+
+Refitting and frozen calibration are legitimate information regimes. The original receiver-removal operational failure rates enforce at least three selected receivers after removal and **do not refill slots**. Selected quantile differences, complete empirical exceedance curves and individual-message harms measure different properties. Small affected sets are not enlarged by repeated directions.
+
+## Inputs, licensing and immutable versions
+
+The **third-party raw CSV and gateway catalogue are not redistributed**. Reproduction requires the original public dataset (DOI https://doi.org/10.5281/zenodo.3904158) with input SHA-256 `870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446` for the specified CSV. Do not infer surveyed physical coordinate truth from the supplied reference positions.
+
+Author-created software is MIT licensed; author-created documentation and derived non-code artifacts are CC BY 4.0. Third-party rights remain with their owners. See `LICENSE`, `LICENSES/README.md`, and `THIRD_PARTY_NOTICES.md`.
+
+The earlier `v1.1.0` release and DOI remain unchanged. See `REPRODUCE.md` before executing resource-intensive producers. For disclosure, use the manuscript's approved statements rather than treating this archive as an author-approval or journal-submission record.
+
+---
+
+## Archived v1.1.0 README (historical context)
+
 # Receiver-coordinate error robustness in RSSI localization
 
 ## Version and associated article

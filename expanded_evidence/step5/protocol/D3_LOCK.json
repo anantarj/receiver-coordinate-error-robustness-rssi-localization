@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-08T08:27:21.353599+00:00",
+  "registry_sha256": "f31edf61aef27ab9a5c13a3317312ee6856361686af8c46c4692d21ba947a18f",
+  "scope": "Local lock after historical/core outcomes were known; not external preregistration.",
+  "selection_rule_sha256": "762aac47e6789b00823e58699a3ff93bf2a7f9f28462bc07a91742dd3ccc57b3",
+  "status": "LOCKED_BEFORE_NEW_D3_OUTCOMES",
+  "training_register_sha256": "e0a0d56ec55974cf1eb53bb2534bd96711a626ce24d81fb2d14772bfaa3fbecf"
+}

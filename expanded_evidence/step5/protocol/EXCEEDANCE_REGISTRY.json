@@ -1,0 +1,71 @@
+{
+  "availability": "No estimate has exceedance1 at every finite threshold; operational removal available iff remaining_count>=3. Each comparison shares the same predeclared population denominator.",
+  "comparisons": [
+    [
+      "frozen",
+      "unrestricted"
+    ],
+    [
+      "frozen",
+      "bounded10"
+    ],
+    [
+      "frozen",
+      "bounded30"
+    ],
+    [
+      "frozen",
+      "shared_update"
+    ],
+    [
+      "removal",
+      "unrestricted"
+    ],
+    [
+      "frozen",
+      "removal"
+    ],
+    [
+      "unrestricted",
+      "removal_operational"
+    ],
+    [
+      "reference",
+      "unrestricted"
+    ]
+  ],
+  "curve": "Right-continuous empirical Pr(error>tau); union of every finite left/right score and zero is the complete breakpoint set; no fixed application threshold and no tail truncation in the probability definition.",
+  "knowledge": "Core distributions and published step1-4 examples already observed; descriptive exact-curve synthesis locked before this computation. D3 identity selection and grid separately locked before new D3 errors. No inference of prospective blindness for earlier findings.",
+  "numerical_canonicalization": {
+    "absolute_m": 1e-06,
+    "interpretation": "Roundoff equality, not practical equivalence.",
+    "relative": 1e-12,
+    "rule": "For paired available scores only, if abs(left-right)<=1e-6+1e-12*max(left,right), align right to left for pair-curve comparisons. Original error arrays not changed. Per comparison retain count and maximum adjustment."
+  },
+  "populations": [
+    "full",
+    "affected",
+    "eligible_min3",
+    "affected_eligible_min3",
+    "ineligible_min3",
+    "affected_ineligible_min3"
+  ],
+  "registry_id": "PAPERB-E-20261008-v1",
+  "report": [
+    "all exact curve-order summaries",
+    "max benefit/harm counts",
+    "positive/negative signed areas to maximum finite breakpoint",
+    "terminal coverage gap for all larger finite thresholds",
+    "integral identity for both arms fully available",
+    "complete per-field message errors as lossless curve basis with extraction CLI",
+    "predeclared draw0 frozen/unrestricted curves for every cell,kappa,D,full/affected",
+    "operational removal comparison draw0 for every cell,kappa,D,full/affected"
+  ],
+  "resource_ceiling": {
+    "max_output_bytes": 900000000,
+    "seconds_per_run": 600
+  },
+  "scope": "All positive displacement fields in step4 real core and all newly locked D3 targets; six fixed populations; does not rerun C2 simulations.",
+  "sign": "Positive benefit = left exceedance probability minus right exceedance probability; right is better at that threshold.",
+  "statistical_scope": "Finite empirical distribution comparisons; no population stochastic-dominance inference, hypothesis tests, independent-message assumption, or outcome-selected cutoff."
+}

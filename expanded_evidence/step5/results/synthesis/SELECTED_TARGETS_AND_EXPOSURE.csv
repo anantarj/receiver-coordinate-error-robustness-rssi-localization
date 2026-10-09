@@ -1,0 +1,7 @@
+receiver_id,calibration_receptions,rank_one_based,stratum,stratum_size,within_stratum_index_zero,selected,n,removal_coverage
+32,5177,4,upper,11,3,True,757,0.76221928665786
+10,4027,7,upper,11,6,True,568,0.3257042253521127
+6,1725,15,middle,11,3,True,270,0.925925925925926
+7,1597,18,middle,11,6,True,274,0.7591240875912408
+37,366,26,lower,10,3,True,57,0.912280701754386
+48,91,29,lower,10,6,True,15,0.8666666666666667

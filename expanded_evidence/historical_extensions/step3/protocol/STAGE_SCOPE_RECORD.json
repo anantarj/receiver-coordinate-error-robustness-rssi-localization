@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-07",
+  "scope": "C1 mathematical verification allowed before full-text novelty clearance; C2/D larger new-case programmes remain unexecuted.",
+  "reason": "Identity/rate checks establish model behavior without asserting literature novelty.",
+  "lock_created_before_run": true,
+  "external_preregistration": false,
+  "knowledge_state": "Historical raw outcomes and finite-support exceptions known before these new constructed controls.",
+  "new_registry": "C1_REGISTRY.json",
+  "new_case_selection_changed_after_outcomes": false,
+  "source_access_gap_is_not_negative_prior_art_evidence": true
+}

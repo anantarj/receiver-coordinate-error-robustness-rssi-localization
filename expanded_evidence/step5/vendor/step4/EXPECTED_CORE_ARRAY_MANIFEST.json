@@ -1,0 +1,26 @@
+{
+  "arrays/official32_minus71_top1.npz": {
+    "all_errors_and_target_masses_retained": true,
+    "prediction_stream_order": "field index, kappa index, policy index, message source-row order, easting/northing little-endian float64",
+    "prediction_stream_sha256": "f5705836d649b06cb7b86dcdbc369c7585c782bdce1863d7577613e20136ead3",
+    "sha256": "63f1ac9541919658410ebc713d0b6921f209fd822a6e32884c385397fffa7733"
+  },
+  "arrays/official32_minus71_top2.npz": {
+    "all_errors_and_target_masses_retained": true,
+    "prediction_stream_order": "field index, kappa index, policy index, message source-row order, easting/northing little-endian float64",
+    "prediction_stream_sha256": "a85888d5a6157c833107004efa42db4d367fd37cfe90eb9a45f3ce7e877b75ed",
+    "sha256": "440c9a48f4b18ae0c911aec51bae161f73acf14279d64868f08128409126a702"
+  },
+  "arrays/recovered29_top1.npz": {
+    "all_errors_and_target_masses_retained": true,
+    "prediction_stream_order": "field index, kappa index, policy index, message source-row order, easting/northing little-endian float64",
+    "prediction_stream_sha256": "9e47bfa07429668f0c0371c360b9a77d61b9bef20b764218f40281521aeac98e",
+    "sha256": "42e5543a7b724775187e82bb8a42b7240e9ab3380213f23546ceb291a61f15b6"
+  },
+  "arrays/recovered29_top2.npz": {
+    "all_errors_and_target_masses_retained": true,
+    "prediction_stream_order": "field index, kappa index, policy index, message source-row order, easting/northing little-endian float64",
+    "prediction_stream_sha256": "36f0a3c0e887b846380b3aeabe1179770e31a6882f36f401c22227c6fde8ade9",
+    "sha256": "268cec3ba910998a513afe0e37d0f47c42ff770eeb7adf9ae550b0b5a4082dc6"
+  }
+}

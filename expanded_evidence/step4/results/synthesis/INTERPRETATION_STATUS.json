@@ -1,0 +1,15 @@
+{
+  "completed": [
+    "finite synthetic noisy/model-mismatch study",
+    "new matched real weighting/calibration/magnitude core",
+    "all model-pair ranking comparisons on fixed original native populations"
+  ],
+  "inference": "Illustrative examples are post-analysis selections from a complete scheduled grid, not outcome-blind validations. No algorithm recommendation, significant p-value, independent deployment or automatic novelty claim.",
+  "pending": [
+    "six receiver calibration-strata validation",
+    "full empirical error-exceedance/coverage decision synthesis",
+    "optional real spatial holdout if needed by eventual claim",
+    "three journal-method comparisons and final literature distinction",
+    "integrated manuscript/supplement rewrite and later separately versioned release"
+  ]
+}

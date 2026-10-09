@@ -1,0 +1,7 @@
+{
+  "created_utc": "2026-10-07T16:25:31.717854+00:00",
+  "definition": "Local prospective lock after historical results; not independent preregistration or novelty clearance",
+  "reference_pilot_sha256": "1b90e0730caf13f4c8868b65a17a26a8b00f5b961df53a5cd6d8043838cc4fcf",
+  "registry_sha256": "19af91502c713b937b108f8482a5249ba4c88a813330f2ca6f0a84bc4c8c21d3",
+  "status": "LOCKED_BEFORE_NEW_OUTCOMES"
+}

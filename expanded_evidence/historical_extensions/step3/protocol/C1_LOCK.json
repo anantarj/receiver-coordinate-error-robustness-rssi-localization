@@ -1,0 +1,16 @@
+{
+  "D_including_zero": 20,
+  "case_count": 30,
+  "geometric_cases": 600,
+  "kappa_count": 4,
+  "locked_utc": "2026-10-07T15:31:37.453949+00:00",
+  "new_finite_monte_carlo_grid": "NOT_EXECUTED; separate registry/readiness required",
+  "novelty_review": "PARTIAL; no new novelty assertion and no larger experiment gate cleared",
+  "policy_count": 5,
+  "policy_weighting_conditions": 12000,
+  "positive_ratio_count": 19,
+  "query_evaluations": 58400,
+  "real_grid": "NOT_EXECUTED",
+  "registry_sha256": "8a4f41d3a7eef18af56caa416d62ca690f021956e9cbbaac07f890a6a4906c23",
+  "status": "LOCKED_BEFORE_C1_RUN"
+}

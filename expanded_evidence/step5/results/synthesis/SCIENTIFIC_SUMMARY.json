@@ -1,0 +1,63 @@
+{
+  "D3_targets": [
+    32,
+    10,
+    6,
+    7,
+    37,
+    48
+  ],
+  "conditional_holdout": "Not run; no out-of-region or cross-deployment claim planned from this block.",
+  "core_all_full_curve_orders": {
+    "crossing": 1840,
+    "left_no_worse": 2,
+    "right_no_worse": 206
+  },
+  "core_original_5km_full_curve_orders": {
+    "crossing": 90,
+    "right_no_worse": 38
+  },
+  "d3_all_full_curve_orders": {
+    "crossing": 632,
+    "right_no_worse": 136
+  },
+  "example_selection": "Maximum gap across all 128 original-weighting 5km new-core fields; diagnostic selected after complete-curve analysis, not a preregistered case or typical effect.",
+  "literature": "Telles full journal methods remain unresolved; original thesis and bounded source-specific citations can support only inspected content; no purchase/contact/public action.",
+  "numerical_order": "Roundoff-aligned empirical curves; not population stochastic dominance. Exact counts and gap magnitude, not just crossing frequency, must be reported.",
+  "post_analysis_maximum_harm_example_original_weighting_5km": {
+    "D_m": 5000.0,
+    "canonicalized_pair_count": 0,
+    "cell": "recovered29_top2",
+    "curve_order": "crossing",
+    "draw": 23,
+    "event_count": 4344,
+    "finite_area_net_m": 509.0917967949287,
+    "integral_identity_residual_m": 1.7053025658242404e-13,
+    "k": 2,
+    "kappa": 4.7,
+    "left": "frozen",
+    "left_available_n": 2498,
+    "map": "recovered29",
+    "max_benefit_count": 513,
+    "max_benefit_fraction": 0.2053642914331465,
+    "max_canonicalization_m": 0.0,
+    "max_finite_threshold_m": 6204.973189934802,
+    "max_harm_count": 261,
+    "max_harm_fraction": 0.1044835868694955,
+    "mean_benefit_m_if_all_available": 509.0917967949288,
+    "n": 2498,
+    "negative_area_m": 25.691966147710996,
+    "negative_interval_length_m": 405.7975885977309,
+    "nonzero_sign_changes": 4,
+    "population": "full",
+    "positive_area_m": 534.7837629426397,
+    "positive_interval_length_m": 5766.195963061847,
+    "receiver_id": 0,
+    "right": "unrestricted",
+    "right_available_n": 2498,
+    "source": "core",
+    "stratum": "historical_targets",
+    "terminal_benefit_fraction": 0.0
+  },
+  "scope": "D3 and complete real-data empirical error/availability comparison. No new synthetic/holdout/other-estimator study."
+}

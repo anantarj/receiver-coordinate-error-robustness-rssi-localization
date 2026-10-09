@@ -1,0 +1,78 @@
+{
+  "id": "PAPERB-RAW-RECONSTRUCTION-REMOVAL-20261007-STEP2-V1",
+  "status": "LOCKED_FOR_RAW_VALIDATION_AND_COMPARATOR_SCORING",
+  "recorded_at_utc": "2026-10-07T14:51:01.502235+00:00",
+  "knowledge_state": "Step-1 reliability/removal-distance outcomes, previous medians and selected adverse cases are known. New exact removal errors have not been scored. This is a retrospective analysis and original-case numerical reconstruction, not an independent deployment.",
+  "upstream_sha256": "01827be8265047edcdd159ab6fc96b954171cb25c03263292dbecda2f4f24268",
+  "csv_sha256": "870abe60a4bd81f31ede6f269b6bc6329e05d2731343dff7015bae1a61218446",
+  "scope": [
+    "Reconstruct recorded rows and selection from exact CSV",
+    "Recompute all original reference and 128 matched-case WCL fits, weights, predictions and errors for numerical validation",
+    "Score fixed-selection zero-target-weight removal against released transmitter coordinates",
+    "Report full, affected and same-denominator minimum-three eligible/ineligible populations",
+    "Evaluate residual/movement identity and metric-specific adverse cases"
+  ],
+  "not_in_scope": [
+    "new magnitudes or random fields",
+    "alternate weighting or constrained-calibration studies",
+    "synthetic scientific cases",
+    "physical coordinate verification",
+    "raw CSV-JSON identity join",
+    "full ABS/DIFF/MinMax reproduction",
+    "full-text literature novelty determination",
+    "manuscript edits",
+    "public release"
+  ],
+  "model": {
+    "n": 4.7,
+    "kappa": 4.7,
+    "targets": [
+      [
+        14
+      ],
+      [
+        14,
+        69
+      ]
+    ],
+    "fields_per_cell": 32,
+    "displacement_m": 5000,
+    "map_names": [
+      "recovered29",
+      "official32_minus71"
+    ],
+    "receiver_cap": 10
+  },
+  "quantiles": [
+    0.5,
+    0.9,
+    0.95
+  ],
+  "quantile_interpolation": "linear",
+  "populations": [
+    "full",
+    "affected",
+    "eligible_min3",
+    "affected_eligible_min3",
+    "ineligible_min3",
+    "affected_ineligible_min3"
+  ],
+  "signs": {
+    "frozen_minus_refit": "positive favors refit",
+    "removal_minus_refit": "positive favors refit over removal",
+    "frozen_minus_removal": "positive favors removal over frozen"
+  },
+  "removal": "zero targets in reference selected set; renormalize remaining weights without refill; mathematical and operational >=3 coverage reported separately",
+  "tolerances": {
+    "position_and_error_absolute_m": 1e-06,
+    "weights_absolute": 1e-12,
+    "intercept_absolute_db": 1e-09,
+    "relative_numeric": 1e-12,
+    "squared_identity_floor_m2": 1e-06
+  },
+  "equality": "numerical only; not practical-equivalence threshold",
+  "inference": "descriptive fixed-campaign finite-field analysis; no pooled-independent-observation claims or p-value selection",
+  "failure_policy": "stop on failed correspondence before reporting comparator results; preserve failure and amendment; do not change input, seed, estimand or tolerance to obtain pass without explicit numerics rationale",
+  "raw_data_redistribution": false,
+  "inputs_assessed_before_lock": "CSV SHA256 and first header/row only; source functions/schema and known metadata read; no new error scores evaluated"
+}
