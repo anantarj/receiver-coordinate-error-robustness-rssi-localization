@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "fragment": "REVISION_FINITE_SUPPLEMENT.tex",
+  "main_fragment": "REVISION_FINITE_MAIN.tex",
+  "main_word_count_whitespace": 138,
+  "standalone_layout": "2 pages at 11pt A4,25mm margins; no overfull boxes",
+  "checked_printed_values": [
+    "0.23290",
+    "2162.9",
+    "0.03295",
+    "3626.9",
+    "0.27896",
+    "2670.0",
+    "0.02223",
+    "4525.8",
+    "533.9--871.9",
+    "45.7--57.7",
+    "178.9--215.0",
+    "564.0--871.9",
+    "34.7--53.5",
+    "181.9--207.5"
+  ],
+  "independent_removal_readback_receipt_sha256": "305b4bb9e4b1f9b96c226c6fc1157659987ca9a9ad7e27425a50fb2082a0e903",
+  "inputs": {
+    "paperb_revision_20261016/theory/FINITE_DIRECTION_SUMMARIES.csv": "ffcab908cccb4f8c038dfce0f48b09bf63ae24b1d39c225ff2d33c9d55f62edc",
+    "paperb_revision_20261016/removal/REMOVAL_DIRECTION_MEDIAN_RANGES.csv": "d68313c3557a7c5f92bf05c50782925f13104d82dc788942c160a6c513573896"
+  },
+  "outputs": {
+    "REVISION_FINITE_SUPPLEMENT.tex": "d78f591b0d7324bc1b5260a362f09177617c67ed640ccb72f2bb7be6207d5f30",
+    "REVISION_FINITE_MAIN.tex": "1585ef3e1bd5f2a43175adba16f56f631b4c282204a971607c24eafb0d278a8c"
+  },
+  "scope": "Original full incumbents, not replacement of candidate-branch audit; foundU pools not exact minimizer sets; no global eta certificate."
+}

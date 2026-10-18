@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "original_execution_lock_sha256": "4e1a047b1c3427f4455d6b96982c1c2451e99903449eff9fa2f577d3364c2ed9",
+  "bound_files_verified": 65,
+  "primary_arrays_verified": 18,
+  "original_pdf_hashes": {
+    "PAPERB_MAIN.pdf": "82419f088666a50265ebfd3ca5dd1ba6e8c83d4a823118b4c5beda10004eaccf",
+    "PAPERB_SUPPLEMENT.pdf": "38582512dc38428a35f71037451beb6bf87489acf585f59fe604d97cbd562dd5"
+  },
+  "plan_sha256": "08029096427722e416727ae25f98f71b1f0319e4a957ddcf1933ac04ae5e3050",
+  "historical_max_scope_correction": "1890.349m is primary catalogue-map Study1 maximum only; catalogue Study2_NW_all maximum2665.777m."
+}

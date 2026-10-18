@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE",
+  "arm_rows": 408,
+  "effect_rows": 1536,
+  "link_rows": 128,
+  "files": {
+    "EXTENSION_POSITION_ARMS.csv": "19b636af5e9a76a38eefdd1ce4106ff7282ed186acfe306ab0c044a8b1c09ac7",
+    "EXTENSION_POSITION_EFFECTS.csv": "37cf3584fccdacbd3fc1214333a2869e91dc695cbaf9893f92744140265e9ed0",
+    "CALIBRATION_LOCALIZATION_LINK.csv": "cbd43a1fd0c575549409bccd18493ca8964dc111d05ff0bda0f01ddd0ad7e0d1",
+    "EXTENSION_CANDIDATE_SUMMARY.csv": "8a663bf37f2fca6f71a1bcc609fb1c07f38c32b35e58a8a8707c6c96b8405b6d"
+  },
+  "producer_sha256": "9fb86f830e3eeafc58fb9e9ca75e612ac9f0a8ba8b9bba73c2101adbbb233f5b",
+  "query_run_receipt_sha256": "3fafec42734959fce425f9e2347e88899ea543a827bf60a9af1fa69264bafe7e",
+  "interpretation": "Primary unchanged finite solver on newly fit-only inputs. Candidate envelopes concern found pools only; independent per-query extremes can be conservative. Exact repeated numerical input movement is fixed to zero."
+}

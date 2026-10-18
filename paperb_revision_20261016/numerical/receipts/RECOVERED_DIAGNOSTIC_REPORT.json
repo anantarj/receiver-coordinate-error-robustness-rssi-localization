@@ -1,0 +1,136 @@
+{
+  "status": "COMPLETE",
+  "scope": "Stored-state counts include repeated inputs/messages and are not independent failure probabilities.",
+  "global_unique_inputs": 119045,
+  "stored_states": 195200,
+  "retained_candidates": 3358385,
+  "flagged_state_register_rows": 208,
+  "global_summary": [
+    {
+      "block": "ALL_STORED_CONTEXTS",
+      "band_db2": 0.01,
+      "threshold_m": 1000.0,
+      "stored_states": 62,
+      "scheduled_stored_states": 195200,
+      "distinct_source_rows": 11,
+      "distinct_numerical_inputs": 12,
+      "maximum_diameter_m": 7328.192248323353
+    },
+    {
+      "block": "ALL_STORED_CONTEXTS",
+      "band_db2": 0.01,
+      "threshold_m": 100.0,
+      "stored_states": 74,
+      "scheduled_stored_states": 195200,
+      "distinct_source_rows": 20,
+      "distinct_numerical_inputs": 21,
+      "maximum_diameter_m": 7328.192248323353
+    },
+    {
+      "block": "ALL_STORED_CONTEXTS",
+      "band_db2": 0.01,
+      "threshold_m": 10.0,
+      "stored_states": 81,
+      "scheduled_stored_states": 195200,
+      "distinct_source_rows": 26,
+      "distinct_numerical_inputs": 28,
+      "maximum_diameter_m": 7328.192248323353
+    },
+    {
+      "block": "ALL_STORED_CONTEXTS",
+      "band_db2": 0.01,
+      "threshold_m": 1.0,
+      "stored_states": 97,
+      "scheduled_stored_states": 195200,
+      "distinct_source_rows": 40,
+      "distinct_numerical_inputs": 43,
+      "maximum_diameter_m": 7328.192248323353
+    },
+    {
+      "block": "ALL_STORED_CONTEXTS",
+      "band_db2": 0.001,
+      "threshold_m": 1000.0,
+      "stored_states": 3,
+      "scheduled_stored_states": 195200,
+      "distinct_source_rows": 3,
+      "distinct_numerical_inputs": 3,
+      "maximum_diameter_m": 2665.777160623429
+    },
+    {
+      "block": "ALL_STORED_CONTEXTS",
+      "band_db2": 0.001,
+      "threshold_m": 100.0,
+      "stored_states": 7,
+      "scheduled_stored_states": 195200,
+      "distinct_source_rows": 5,
+      "distinct_numerical_inputs": 6,
+      "maximum_diameter_m": 2665.777160623429
+    },
+    {
+      "block": "ALL_STORED_CONTEXTS",
+      "band_db2": 0.001,
+      "threshold_m": 10.0,
+      "stored_states": 11,
+      "scheduled_stored_states": 195200,
+      "distinct_source_rows": 8,
+      "distinct_numerical_inputs": 10,
+      "maximum_diameter_m": 2665.777160623429
+    },
+    {
+      "block": "ALL_STORED_CONTEXTS",
+      "band_db2": 0.001,
+      "threshold_m": 1.0,
+      "stored_states": 23,
+      "scheduled_stored_states": 195200,
+      "distinct_source_rows": 18,
+      "distinct_numerical_inputs": 21,
+      "maximum_diameter_m": 2665.777160623429
+    },
+    {
+      "block": "ALL_STORED_CONTEXTS",
+      "band_db2": 0.0001,
+      "threshold_m": 1000.0,
+      "stored_states": 0,
+      "scheduled_stored_states": 195200,
+      "distinct_source_rows": 0,
+      "distinct_numerical_inputs": 0,
+      "maximum_diameter_m": 10.178779007542897
+    },
+    {
+      "block": "ALL_STORED_CONTEXTS",
+      "band_db2": 0.0001,
+      "threshold_m": 100.0,
+      "stored_states": 0,
+      "scheduled_stored_states": 195200,
+      "distinct_source_rows": 0,
+      "distinct_numerical_inputs": 0,
+      "maximum_diameter_m": 10.178779007542897
+    },
+    {
+      "block": "ALL_STORED_CONTEXTS",
+      "band_db2": 0.0001,
+      "threshold_m": 10.0,
+      "stored_states": 1,
+      "scheduled_stored_states": 195200,
+      "distinct_source_rows": 1,
+      "distinct_numerical_inputs": 1,
+      "maximum_diameter_m": 10.178779007542897
+    },
+    {
+      "block": "ALL_STORED_CONTEXTS",
+      "band_db2": 0.0001,
+      "threshold_m": 1.0,
+      "stored_states": 11,
+      "scheduled_stored_states": 195200,
+      "distinct_source_rows": 9,
+      "distinct_numerical_inputs": 10,
+      "maximum_diameter_m": 10.178779007542897
+    }
+  ],
+  "script_sha256": "3d9e2e643560e1ff9183e7a7c11651ec39ba37d30319964d5d3cee023a7485a7",
+  "outputs_sha256": {
+    "RECOVERED_DIAGNOSTIC_DISTRIBUTION.csv": "99126a7a0de6cb3235cfe687dd19374f433d437b3c3ee7ba246c1ac112959dcd",
+    "RECOVERED_POOL_DIAGNOSTICS.npz": "deb5a74b5f11d5053b759735e95bb298b006f91a4477a6d78cc53b82f32c7528"
+  },
+  "flagged_register_sha256": "3c9e01a39c8d2d35832f7a1ba3a0be451cb5c5a9184b32f8b48c1d94df481980"
+}

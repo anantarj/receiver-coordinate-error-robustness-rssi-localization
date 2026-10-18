@@ -1,0 +1,50 @@
+{
+  "status": "PASS_FINAL_SCIENTIFIC_AND_DOCUMENT_GATES",
+  "original_bound_files_unchanged": 65,
+  "original_arrays_unchanged": 18,
+  "candidate_recovery": "119045 inputs; all original outputs reproduced exactly",
+  "targeted_audit": "398 complete;104 escalations;141 final gaps met;257 unresolved and disclosed",
+  "calibration": "54000finite states;0exceptions;nonconvergence and wide candidates disclosed",
+  "consequence": "740rank classifications invariant across all three primary/enhanced bands; separate small calibration-effect exception retained",
+  "proof_review": "No remaining material mathematical defect identified; explicit residual/objective/distance definitions restored",
+  "editorial_review": "No remaining material scientific or structural correction identified; final grammar and cohort qualifiers corrected",
+  "visual_review": "All main and supplement pages and historical archive pages reviewed; final changed main14/supp30 checked at full size; no clipping or overlap",
+  "archive_integrity": "50historical pages preserve text/image/vector content apart from navigation; original source byte-identical",
+  "pdfs": {
+    "PAPERB_MAIN.pdf": {
+      "pages": 24,
+      "bytes": 540265,
+      "sha256": "2516fdfef645d58670b9811522506cf41ac44a7cee6841baf050aee28968c4ab",
+      "links": {
+        "internal": 37,
+        "remote": 11,
+        "external": 3
+      }
+    },
+    "PAPERB_ARCHIVAL_RECORD.pdf": {
+      "pages": 51,
+      "bytes": 553702,
+      "sha256": "b74af65eda20a2c2ab6b1d6a44a457793a4a5476f214efe4db174454775eadba",
+      "links": {
+        "internal": 28,
+        "remote": 65,
+        "external": 5
+      }
+    },
+    "PAPERB_SUPPLEMENT.pdf": {
+      "pages": 34,
+      "bytes": 372945,
+      "sha256": "46c6abb28c4677f727987e1f453cbcf3b140e8c8ca7138d12d9be9bbdbedc7e1",
+      "links": {
+        "internal": 18,
+        "remote": 39,
+        "external": 3
+      }
+    }
+  },
+  "remote_links_resolved": 115,
+  "broken_links": 0,
+  "text_outside_page": 0,
+  "publication_gate": "PENDING_UPLOAD_AND_DOWNLOAD_VERIFICATION; GitHub connector has no push permission",
+  "journal_submission_performed": false
+}

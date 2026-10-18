@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "pass": 1,
+      "manifest_entries": 54,
+      "npz_count": 25,
+      "status": "PASS"
+    },
+    {
+      "pass": 2,
+      "manifest_entries": 54,
+      "npz_count": 25,
+      "status": "PASS"
+    }
+  ],
+  "ne_all_original_expected_hash_restored": "f675cdd563192bb764e853445420ebeac36fafd1ebaa31f863d9fc4bd4a78ff2",
+  "prior_corrupt_npz_preserved": "receipts/NE_ALL_INPUT_PRELOCK_CORRUPTION.npz",
+  "prior_corrupt_sha256": "f8b4645df9ed4172289429a3fa7714734a9244edf29383933423c1c6893c4c35",
+  "prior_sessions": {
+    "92007": "reported exit0; repoll Unknown process id",
+    "45552": "reported exit0; repoll Unknown process id",
+    "14391": "single atomic-write rerun reported exit0"
+  },
+  "cause": "Earlier NE_all archive was truncated; exact cause unconfirmed. Intended original bytes restored exactly; final writer now validates closed temporary ZIP CRCs before atomic replacement.",
+  "registry_sha256": "47b93aa92d2ef05566daec3159e4f83bb8df34543905c06188cd3227d65a6198",
+  "scientific_outcomes_started": false
+}

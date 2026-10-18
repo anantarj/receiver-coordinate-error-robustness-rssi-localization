@@ -1,0 +1,83 @@
+{
+  "purpose": "Synthetic finite-algorithm and numerical-bound verification only; no calibration-effect experiment",
+  "status": "PASS",
+  "algorithm_id": "RSS_NLLS_FIXED_3X3_PLUS_ANCHORS_200_V1",
+  "checks": [
+    "noiseless_position_and_all_fixed_starts",
+    "identical_inputs_repeat_deterministically",
+    "translation_covariance_unique_synthetic_solution",
+    "collinear_mirror_ambiguity_retained",
+    "all_solver_exceptions_explicit_and_finite_start_retained",
+    "invalid_and_nonfinite_inputs_rejected",
+    "jacobian_matches_central_difference_away_from_nonsmooth_points",
+    "stronger_audit_independent_preserves_primary_and_exposes_unresolved_gap",
+    "fixed_split_audit_reports_actual_gap_and_retains_primary",
+    "10000_sampled_rectangle_bound_checks",
+    "400_sampled_exterior_bound_checks",
+    "coincident_receiver_geometry_explicit_finite_algorithm_output",
+    "interface_has_no_query_reference_WCL_or_wallclock_stop_input"
+  ],
+  "check_count": 13,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "source_sha256": "e108a75d7ad59db7f5f41eb5b1944fb002d80a71ef5e502f3ffdaad9351fd458",
+  "test_sha256": "72e9875532735c55be97a11bc31186bd4cd62133a74ad39e6693219598238243",
+  "noiseless_error_m": 3.754463709135196e-13,
+  "translation_covariance_error_m": 0.0,
+  "jacobian_max_absolute_error": 1.2570187946092659e-11,
+  "mirror_competitive_diameter_m": 79.99999999999991,
+  "worst_sampled_rectangle_bound_minus_sample_min_db2": -13.981399056684495,
+  "noisy_audit_30000": {
+    "audit_id": "RSS_NLLS_5X5_PLUS_ANCHORS_1000_AND_RECTANGLE_BOUNDS_V1",
+    "primary_position_m": [
+      21.62629226277553,
+      -172.29126026087886
+    ],
+    "primary_objective_recomputed_db2": 34.35125086222508,
+    "strong_local_objective_db2": 34.35125086222508,
+    "audit_position_m": [
+      21.62629226277553,
+      -172.29126026087886
+    ],
+    "audit_objective_db2": 34.35125086222508,
+    "objective_improvement_db2": 0.0,
+    "position_shift_m": 0.0,
+    "global_lower_bound_db2": 34.34116451657971,
+    "objective_gap_db2": 0.010086345645369477,
+    "objective_tolerance_db2": 0.01,
+    "objective_gap_met_numerically": false,
+    "status": "uncertified",
+    "splits": 30000,
+    "max_splits": 30000,
+    "outer_radius_m": 2209.135074588645,
+    "outer_lower_bound_db2": 439.63836907533215,
+    "outer_doublings": 1,
+    "local_runs": 31,
+    "local_runs_converged": 31,
+    "competitive_local_solution_count": 1,
+    "competitive_local_positions_m": [
+      [
+        21.626307216497082,
+        -172.2912693154737
+      ]
+    ],
+    "competitive_diameter_m": 0.00017950641594880487,
+    "primary_result_changed": false,
+    "exact_global_optimum_claimed": false,
+    "position_uniqueness_certified": false,
+    "elapsed_seconds": 2.3833028730005026,
+    "certificate_scope": "Numerically guarded objective bound; not directed-rounding proof, positional uniqueness, or localization accuracy"
+  },
+  "mathematical_audit": {
+    "rectangle": "For each receiver, distance lies between exact rectangle nearest/farthest distances. Positive n makes residual monotone in distance. Squared-residual interval minimum is zero if residual straddles zero, otherwise nearer endpoint squared. Sum is a valid mathematical lower bound even when individual minima cannot occur together.",
+    "exterior": "Reverse triangle inequality gives distance >= R-||a_i|| for ||x||>=R. Positive residual lower bounds alone contribute squared lower bounds; negative lower residual permits zero. For n>0 all residual lower bounds diverge with R; doubling eventually excludes an improving exterior in exact arithmetic.",
+    "square": "The square [-R,R]^2 covers the ball. Every point outside the square is outside the ball, whose objective already exceeds the incumbent. A numerical lower bound over the square therefore supports a whole-plane objective gap under the stated floating-point caveat.",
+    "precision": "nextafter and explicit guards are conservative checks, not formal directed-rounding interval arithmetic. Bound sampling is a regression check, not a proof of floating-point correctness.",
+    "solver_scope": "Fixed finite algorithm; endpoints include nonconverged finite results, and finite starting points survive failures. Minimum objective is not positional accuracy or uniqueness.",
+    "scaling": "Production uses M+9 local starts and at most 200 residual evaluations per start; analytic Jacobians cost O(M). Stronger audit uses M+25 starts at 1000 evaluations, then at most B splits, each with two O(M) bounds/objectives and heap O(log B); retained rectangle storage O(B)."
+  },
+  "elapsed_seconds": 2.6771379609999713
+}

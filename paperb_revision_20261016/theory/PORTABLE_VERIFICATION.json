@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "original_protocol_unchanged": true,
+  "original_locked_producer_sha256": "9850a62e518bc6225b6b530182b9bc3574e90b11e1c515ae36d17cc69b75861e",
+  "exact_inverse_transform_matches_original": true,
+  "allowed_changes": [
+    "Explicit two-prefix path preflight",
+    "Portable execution provenance",
+    "Verify-only CLI"
+  ],
+  "separate_relocation_original_bindings_verified": 6,
+  "unrecognized_and_traversing_paths_rejected": true,
+  "scientific_reductions_rerun": false,
+  "files": {
+    "portable_paths.py": "fdba3d0644c632a8e270d3c37eb4b824676e0a7ecfffbf7f556389437c3a28da",
+    "run_finite_diagnostics_portable.py": "0d8e90545797f6c607977cf0e8a033ee0c2896fa0342860ca76c411fef0307eb",
+    "verify_portability.py": "c37177b6706bcd6f54ce8095d9e72579dbbbdaf1b787996586f10cb3957f8c89"
+  }
+}

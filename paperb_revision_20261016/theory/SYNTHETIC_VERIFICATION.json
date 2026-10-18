@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "gradient_finite_difference_max_error_db2_per_m": 5.5119215858212556e-09,
+  "interval_bounds_contain_10000_random_points": true,
+  "functional_translation_max_error": 8.881784197001252e-16,
+  "functional_lipschitz_excess": 0.0,
+  "finite_lemma_quadratic_check_min_slack": 7.1304,
+  "undefined_derivative_preserved": true,
+  "scope": "Synthetic implementation checks; mathematical proofs reside in THEORY_EXTENSION.tex."
+}

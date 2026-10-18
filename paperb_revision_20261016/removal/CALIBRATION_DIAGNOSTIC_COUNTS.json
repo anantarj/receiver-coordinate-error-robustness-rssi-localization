@@ -1,0 +1,46 @@
+{
+  "states": 54000,
+  "any_local_unconverged": {
+    "stored_states": 84,
+    "distinct_numerical_inputs": 24,
+    "distinct_source_rows": 21,
+    "by_policy": {
+      "frozen": 34,
+      "refit": 26,
+      "selected": 24
+    }
+  },
+  "diameter_gt_1m": {
+    "stored_states": 9,
+    "distinct_numerical_inputs": 7,
+    "distinct_source_rows": 6,
+    "by_policy": {
+      "frozen": 4,
+      "refit": 3,
+      "selected": 2
+    }
+  },
+  "diameter_gt_1000m": {
+    "stored_states": 4,
+    "distinct_numerical_inputs": 2,
+    "distinct_source_rows": 2,
+    "by_policy": {
+      "frozen": 0,
+      "refit": 2,
+      "selected": 2
+    }
+  },
+  "any_flag": {
+    "stored_states": 88,
+    "distinct_numerical_inputs": 26,
+    "distinct_source_rows": 23,
+    "by_policy": {
+      "frozen": 34,
+      "refit": 28,
+      "selected": 26
+    }
+  },
+  "max_found_competitive_diameter_m": 2593.7521493779896,
+  "scope": "Full captured candidate pools at0.01dB\u00b2; stored states include exact-input duplicates; finite-output integrity PASS does not imply local convergence, uniqueness or global optimality.",
+  "flag_csv_sha256": "cdb295d59a4eae590cf93cc4652f9a3b1b606d45a1d1353bf5ec90b74a869e76"
+}

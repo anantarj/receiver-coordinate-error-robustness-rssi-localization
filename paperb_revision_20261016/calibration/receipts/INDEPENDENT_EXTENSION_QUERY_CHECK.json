@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "stored_states": 54000,
+  "checkpoint_unique_inputs": 26542,
+  "all_prescribed_initials_endpoints_incumbents_retained": true,
+  "exceptions": 0,
+  "maximum_candidate_objective_difference_db2": 1.4551915228366852e-11,
+  "maximum_selected_position_difference_m": 0.0,
+  "maximum_wcl_direct_reconstruction_difference_m": 2.8157109912596232e-09,
+  "producer_sha256": "1087ac4df030c402b469c55be61211f602eed5215d39e609b9742497e28f92c0",
+  "interpretation": "Saved-output and candidate reconstruction, not independent numerical optimization or physical validation."
+}

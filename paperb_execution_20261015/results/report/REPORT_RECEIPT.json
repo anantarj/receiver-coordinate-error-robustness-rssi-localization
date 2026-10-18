@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE",
+  "report_code_sha256": "6af885466c0126f0ddd4bf6705b161cc8136eb9871db273cc75f169a4eb3ee35",
+  "analysis_summary_sha256": "2cd98b31e6f402080b0406c892dbbbf69285bd5f2a736d63e9551ab281fc727b",
+  "numerical_interpretation_sha256": "c294bc611579fa81f204d66265497ff86acee3832f7e89132fe12c1e2e42500b",
+  "files": {
+    "BUDGET_FOLD_TABLE.csv": "dc4b5fbd7049feb72ea39f4cbf4d61295e7fbdb8946b5e06d3afc8499c234a0e",
+    "COMPUTED_INTERPRETATION.json": "e45fe87ca7959185cc94f043277f680dcf51ef4207745201e9e4f37673490d2e",
+    "MAIN_NEW_RESULTS.tex": "60ee39e95404fa804365f367a48f3f93282d872b08eb660c48b38c5c406daa92",
+    "RESULTS_INTERPRETATION.md": "2f756e9d2f6a02fe582b965fe8e2d527eeac875cbdaa79a807bbb7720a32b39e",
+    "STUDY1_BASELINES.csv": "667ccc02babd133d5378c2c077ea8298688102090a40aa57d108c82fb11c256f",
+    "STUDY2_BASELINES.csv": "867df4825a947cd6e8ac5856ecd87cd6545182d2d23151ed4a2a9dba12d63fce",
+    "SUPPLEMENT_NEW_RESULTS.tex": "84ce28a6b6237ce2c9d603e73979d2d6e2cbe9072880b8aea8a07ce6082e9148",
+    "TRANSFER_FIGURE_DATA.csv": "40451f82321ecb8525920ff52d9d5b0659e555a2cf14bbd55a580931d0ad91b0",
+    "calibration_transfer_results.pdf": "9793ddd214edfc9d52773f2ad5a6259fed504239bbe8c9f5b6febf6ee6bc9cf6",
+    "calibration_transfer_results.png": "8475f0ee8e4f27af2810b7eaa45fb9b04fc92e7d29cacfa80640ffde48a8c42e"
+  },
+  "scope": "Reporting artifacts only. Primary predictions and locked source files unchanged."
+}

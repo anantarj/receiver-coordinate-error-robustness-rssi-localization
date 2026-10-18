@@ -1,0 +1,93 @@
+{
+  "status": "COMPLETE",
+  "original_blocks": 18,
+  "primary_unique_inputs": 119045,
+  "original_estimator_ranking_rows_reconstructed_exactly": 192,
+  "paired_field_population_metric_comparisons_per_band": 740,
+  "bands_db2": [
+    0.01,
+    0.001,
+    0.0001
+  ],
+  "ranking_classifications_primary": {
+    "0.01": {
+      "invariant_no_strict_reversal_over_found_pools": 580,
+      "invariant_strict_reversal_over_found_pools": 160
+    },
+    "0.001": {
+      "invariant_no_strict_reversal_over_found_pools": 580,
+      "invariant_strict_reversal_over_found_pools": 160
+    },
+    "0.0001": {
+      "invariant_no_strict_reversal_over_found_pools": 580,
+      "invariant_strict_reversal_over_found_pools": 160
+    }
+  },
+  "ranking_classifications_enhanced": {
+    "0.01": {
+      "invariant_no_strict_reversal_over_found_pools": 580,
+      "invariant_strict_reversal_over_found_pools": 160
+    },
+    "0.001": {
+      "invariant_no_strict_reversal_over_found_pools": 580,
+      "invariant_strict_reversal_over_found_pools": 160
+    },
+    "0.0001": {
+      "invariant_no_strict_reversal_over_found_pools": 580,
+      "invariant_strict_reversal_over_found_pools": 160
+    }
+  },
+  "enhanced_unique_inputs": 398,
+  "enhanced_stage_archives": 502,
+  "enhanced_scheduled_coverage_exact": true,
+  "original_incumbents_outside_enhanced_band_unique_inputs": {
+    "0.01": 0,
+    "0.001": 1,
+    "0.0001": 3
+  },
+  "original_outputs_modified": false,
+  "figure_entry_count": 244,
+  "figure_baseline_entry_count": 20,
+  "tests": {
+    "status": "PASS",
+    "checks": [
+      {
+        "check": "exhaustive_independent_candidate_assignments",
+        "quantile": 0.5,
+        "assignments": 384,
+        "pass": true
+      },
+      {
+        "check": "exhaustive_independent_candidate_assignments",
+        "quantile": 0.95,
+        "assignments": 384,
+        "pass": true
+      },
+      {
+        "check": "repeated_input_consistency_subset",
+        "pass": true
+      },
+      {
+        "check": "transfer_bounds_bruteforce_and_identical_inputs",
+        "pass": true
+      },
+      {
+        "check": "fixed_prediction_reference_geometry_bound",
+        "trials": 200,
+        "maximum_bound_fraction": 0.8812648144619999,
+        "pass": true
+      },
+      {
+        "check": "unresolved_and_numerical_tie_distinguished",
+        "pass": true
+      }
+    ]
+  },
+  "source_reverification": {
+    "all_original_bound_files_unchanged": true,
+    "bound_files_checked": 65,
+    "failures": [],
+    "lock_sha256": "4e1a047b1c3427f4455d6b96982c1c2451e99903449eff9fa2f577d3364c2ed9"
+  },
+  "scope": "Descriptive consequences, found-pool sensitivity, exact paired cohorts; no truth-selected production branch; no deployment-independent inference."
+}

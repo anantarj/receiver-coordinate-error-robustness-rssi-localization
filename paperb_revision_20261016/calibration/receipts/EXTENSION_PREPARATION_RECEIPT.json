@@ -1,0 +1,90 @@
+{
+  "status": "COMPLETE_INPUTS_PREPARED_NO_QUERY_LOCALIZATION",
+  "partition_salt": 0,
+  "blocks": [
+    {
+      "block_id": "study2_SW_fitval_all",
+      "npz": "inputs/blocks/study2_SW_fitval_all.npz",
+      "sha256": "c76839a23e12a07b445730ebc46ce508714d35c99b0453f96b5a989fda283d64",
+      "metadata_sha256": "55510efa631df6797a4bba5c7bad6f6d2efb11d95946f627dac226f06e3d14cd"
+    },
+    {
+      "block_id": "study2_SE_fitval_all",
+      "npz": "inputs/blocks/study2_SE_fitval_all.npz",
+      "sha256": "c580fad72dbe48343c3ed1cd2c622f4baf4aadce4bd5def31c9bab9f532ee5b1",
+      "metadata_sha256": "f1f6ee0d67146ecef2ac83ce57776a716135cb9389993ef984a48d8f400fd3a5"
+    },
+    {
+      "block_id": "study2_NW_fitval_all",
+      "npz": "inputs/blocks/study2_NW_fitval_all.npz",
+      "sha256": "864c9e6e65209ae13e23bcac4d50a88e42197bf715325236b9a833641aa9f763",
+      "metadata_sha256": "8c2462ff931588f8f3de7bccbe2e73013cc371381dcf3031e0b6da72f3af4fb0"
+    },
+    {
+      "block_id": "study2_NE_fitval_all",
+      "npz": "inputs/blocks/study2_NE_fitval_all.npz",
+      "sha256": "05df144cf54c14cea6eda399ced6952c8a228a263124ffd6b99022dad2e388d9",
+      "metadata_sha256": "d6f501fe59f1fa750d3552870e557d3e28e7fbd19085620657b716594d98d15f"
+    }
+  ],
+  "support": [
+    {
+      "fold": "SW",
+      "fit_distinct_source_rows": 35881,
+      "validation_distinct_source_rows": 6298,
+      "fit_receptions": 161964,
+      "validation_receptions": 34843,
+      "min_fit_receptions": 65,
+      "min_validation_receptions": 17,
+      "validation_unsupported_receivers": []
+    },
+    {
+      "fold": "SE",
+      "fit_distinct_source_rows": 28533,
+      "validation_distinct_source_rows": 6945,
+      "fit_receptions": 135376,
+      "validation_receptions": 36164,
+      "min_fit_receptions": 17,
+      "min_validation_receptions": 10,
+      "validation_unsupported_receivers": []
+    },
+    {
+      "fold": "NW",
+      "fit_distinct_source_rows": 31102,
+      "validation_distinct_source_rows": 4188,
+      "fit_receptions": 127055,
+      "validation_receptions": 18228,
+      "min_fit_receptions": 66,
+      "min_validation_receptions": 18,
+      "validation_unsupported_receivers": []
+    },
+    {
+      "fold": "NE",
+      "fit_distinct_source_rows": 35858,
+      "validation_distinct_source_rows": 4478,
+      "fit_receptions": 149547,
+      "validation_receptions": 21183,
+      "min_fit_receptions": 65,
+      "min_validation_receptions": 15,
+      "validation_unsupported_receivers": []
+    }
+  ],
+  "outputs": {
+    "inputs/study2_SW_fitval_all_validation.npz": "59cbfad31b7745359c6e39ac754cd43e3dcb235235a1c4d7b758c37a47855700",
+    "results/extension_query_residual_arrays/study2_SW_fitval_all.npz": "8dde9a673eddc77343139ef1a1d9193763fd3549fa7d51a45cff890b456d5f70",
+    "inputs/study2_SE_fitval_all_validation.npz": "f4d05c06cf4991be1c41b1e4b6623177f652dc0f87c3ae0aa9c66909bd0d93f2",
+    "results/extension_query_residual_arrays/study2_SE_fitval_all.npz": "ce290c0f17ccff4c8bf442d746908c0ac8dfe12b3483ca8b8b2f08d6cd458beb",
+    "inputs/study2_NW_fitval_all_validation.npz": "1e1ac9d37b9c4d8ac78d8cb88a5c546f7a0bb0741fd5c1fc3253d40e47417b2d",
+    "results/extension_query_residual_arrays/study2_NW_fitval_all.npz": "55373f52f8c806517bdbc03354f19beb5828cad400232bff9b77bbeac01e08c4",
+    "inputs/study2_NE_fitval_all_validation.npz": "e6fee3f962c29077607693f4cdf479336eb08fa2307e5e59c17a04911e68b415",
+    "results/extension_query_residual_arrays/study2_NE_fitval_all.npz": "2db4a5838bf973e80633df3b0c2c3efaf653635380bdfda49c1ecc04e592024c",
+    "results/LAMBDA_SELECTION_GRID.csv": "3906c473c912b8dfb2ea0b7ea1bffe600ecc011a7388e2a8fb1f7bbc9ad4e6cf",
+    "results/EXTENSION_VALIDATION_RECEIVER_RESIDUALS.csv": "55663f50c5ffe51ef13cccf582cb9ca8c3eead65f3346de46932d003edca46f0",
+    "results/EXTENSION_VALIDATION_QUALITY.csv": "c2df16d7ad8501236ba16a01ab4e14a2987ffc30a246ebb099023470e75f1207",
+    "results/EXTENSION_QUERY_RECEIVER_RESIDUALS.csv": "687fbb7161f0c5762b553602c95b01577ad55c56974b9c497eb7d0a1bf357eac",
+    "results/EXTENSION_QUERY_GROUP_RESIDUALS.csv": "321d6cc7ab74d41e0e15db04cfa70d8cec3a517492bd32ffdab7be938a5fb358",
+    "results/EXTENSION_QUERY_SPATIAL_RESIDUALS.csv": "5714bb9ba489bb35b25f8dc2dd5acf91d5ea8b70835689240d010bab8241a4fd"
+  },
+  "protocol_sha256": "43148f873ceeb760df5a7bd8a6816d7dbd59fcea0dcbe0fda10284286c0f1c0a",
+  "inference": "Relative calibration quality only; no absolute acceptance threshold. Validation chooses lambda; query RSS is separate assessment on a previously examined evaluation cohort."
+}

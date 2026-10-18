@@ -1,0 +1,232 @@
+{
+  "status": "READ_ONLY_DIAGNOSTIC_COMPLETE",
+  "case_selection": "Three already identified block-extreme candidate diameters; not representative sampling.",
+  "cases": [
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "source_row": 82906,
+      "field_index": 10,
+      "draw": 1,
+      "D_m": 5000,
+      "policy": "refit",
+      "input_id": 13534,
+      "candidate_archive": "shard_013440_013568.npz",
+      "candidate_archive_sha256": "3ef731d3c34b3cfd1c641252b1e54468eb3cdcb22dd582bd0d0e89f3ce41ecda",
+      "selection": "Previously identified maximum-diameter state in each of three blocks; pair is maximum separation in recovered0.01dB2 pool.",
+      "selected_receiver_ids": [
+        5,
+        14,
+        4
+      ],
+      "selected_target_ids": [
+        14
+      ],
+      "unchanged_receiver_ids": [
+        5,
+        4
+      ],
+      "selected_receiver_count": 3,
+      "pair_positions_m": [
+        [
+          595760.681749238,
+          5676404.888494147
+        ],
+        [
+          595739.1025523295,
+          5683733.048970464
+        ]
+      ],
+      "pair_objectives_db2": [
+        0.09497798169584906,
+        0.08561876678837939
+      ],
+      "diameter_m": 7328.192248323551,
+      "reflection_discrepancy_m": 494.9401805742311,
+      "signed_distances_from_unchanged_anchor_line_m": [
+        -3565.9016126933784,
+        3747.8204429247744
+      ],
+      "opposite_sides_of_unchanged_anchor_line": true,
+      "unchanged_link_distance_differences_m": [
+        -38.591655437278405,
+        100.44587322247298
+      ],
+      "pair_residuals_db": [
+        [
+          -0.11003019722059548,
+          -0.1541216651227728,
+          0.2431416248511198
+        ],
+        [
+          0.09539708005002012,
+          0.16132437904892072,
+          -0.22470560435999687
+        ]
+      ],
+      "pair_unchanged_objective_db2": [
+        0.0712244940356458,
+        0.059593211512861385
+      ],
+      "pair_target_objective_db2": [
+        0.023753487660216125,
+        0.02602555527551985
+      ],
+      "pair_reference_relative_error_m": [
+        2830.3053341924647,
+        7927.550700531175
+      ],
+      "interpretation": "Observed near-reflection geometry if discrepancies are small; no assertion of exact global optima, physical identifiability, or causal prevalence."
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "source_row": 72127,
+      "field_index": 23,
+      "draw": 2,
+      "D_m": 5000,
+      "policy": "refit",
+      "input_id": 9612,
+      "candidate_archive": "shard_009600_009728.npz",
+      "candidate_archive_sha256": "bddc2a72ad63387409be463ddac268bf165b2596d50564d34480138b3ab0e829",
+      "selection": "Previously identified maximum-diameter state in each of three blocks; pair is maximum separation in recovered0.01dB2 pool.",
+      "selected_receiver_ids": [
+        27,
+        18,
+        69
+      ],
+      "selected_target_ids": [
+        69
+      ],
+      "unchanged_receiver_ids": [
+        27,
+        18
+      ],
+      "selected_receiver_count": 3,
+      "pair_positions_m": [
+        [
+          596894.091476267,
+          5674173.588969268
+        ],
+        [
+          598619.0935016877,
+          5673400.422519268
+        ]
+      ],
+      "pair_objectives_db2": [
+        0.028793290817793103,
+        0.030361448047223325
+      ],
+      "diameter_m": 1890.3487369033144,
+      "reflection_discrepancy_m": 27.647940199295487,
+      "signed_distances_from_unchanged_anchor_line_m": [
+        -949.3982597730817,
+        940.7679816499234
+      ],
+      "opposite_sides_of_unchanged_anchor_line": true,
+      "unchanged_link_distance_differences_m": [
+        4.114877037981842,
+        -7.629615546982222
+      ],
+      "pair_residuals_db": [
+        [
+          0.04110741530942619,
+          -0.0655875231299774,
+          0.151002476913618
+        ],
+        [
+          -0.04641334127001073,
+          0.07055983622430517,
+          -0.15240918381573465
+        ]
+      ],
+      "pair_unchanged_objective_db2": [
+        0.0059915427837469665,
+        0.00713288873584725
+      ],
+      "pair_target_objective_db2": [
+        0.02280174803404774,
+        0.02322855931137839
+      ],
+      "pair_reference_relative_error_m": [
+        1451.711966520076,
+        535.0320383317542
+      ],
+      "interpretation": "Observed near-reflection geometry if discrepancies are small; no assertion of exact global optima, physical identifiability, or causal prevalence."
+    },
+    {
+      "block": "study2_NW_all",
+      "source_row": 95661,
+      "field_index": 7,
+      "draw": 2,
+      "D_m": 5000,
+      "policy": "refit",
+      "input_id": 47194,
+      "candidate_archive": "shard_047104_047232.npz",
+      "candidate_archive_sha256": "d41ad5f4e8f89f63cc4593b85c2d3cbd1ddcd438589cead5a6d878ae2aac68ab",
+      "selection": "Previously identified maximum-diameter state in each of three blocks; pair is maximum separation in recovered0.01dB2 pool.",
+      "selected_receiver_ids": [
+        14,
+        5,
+        32
+      ],
+      "selected_target_ids": [
+        14
+      ],
+      "unchanged_receiver_ids": [
+        5,
+        32
+      ],
+      "selected_receiver_count": 3,
+      "pair_positions_m": [
+        [
+          596645.2349927693,
+          5674423.493898786
+        ],
+        [
+          599127.5771072009,
+          5675395.268305231
+        ]
+      ],
+      "pair_objectives_db2": [
+        0.00576982554751962,
+        0.005489234572388103
+      ],
+      "diameter_m": 2665.7771606236047,
+      "reflection_discrepancy_m": 0.2316477535668528,
+      "signed_distances_from_unchanged_anchor_line_m": [
+        -1332.869241425452,
+        1332.9079094138633
+      ],
+      "opposite_sides_of_unchanged_anchor_line": true,
+      "unchanged_link_distance_differences_m": [
+        0.19751611797073565,
+        -0.017205791072456122
+      ],
+      "pair_residuals_db": [
+        [
+          0.059693300774569025,
+          0.04580011631844627,
+          -0.010434784874462366
+        ],
+        [
+          0.05822452625494634,
+          0.0446727716832811,
+          -0.010172639033527275
+        ]
+      ],
+      "pair_unchanged_objective_db2": [
+        0.002206535390159517,
+        0.0020991391147730043
+      ],
+      "pair_target_objective_db2": [
+        0.003563290157363163,
+        0.003390095457612936
+      ],
+      "pair_reference_relative_error_m": [
+        2334.4742606345603,
+        1013.7211625692789
+      ],
+      "interpretation": "Observed near-reflection geometry if discrepancies are small; no assertion of exact global optima, physical identifiability, or causal prevalence."
+    }
+  ],
+  "script_sha256": "7acb707a59a2ff6904f6890754115f69ba7b4a5b49953910b0277e077925e5a2"
+}

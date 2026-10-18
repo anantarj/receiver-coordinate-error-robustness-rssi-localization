@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE",
+  "mapped_objectives": 1024,
+  "unique_numerical_inputs": 696,
+  "new_solves": 696,
+  "comparison_rows_including_two_zero_policies": 26624,
+  "candidate_records": 18440,
+  "unique_input_local_runs_with_nonconvergence": 0,
+  "inputs_with_any_nonconvergence": 0,
+  "signed_difference_min_db2": 0.0,
+  "negative_below_minus_1e8_rows": 0,
+  "seconds": 30.04619915299554,
+  "inputs_unchanged": true,
+  "protocol_sha256": "375c70e3b88dabd3deede48cfc04b606e408296d8c45366c5216914cc6493369",
+  "files": {
+    "REMOVAL_COMPARISONS.csv": "17aec50267daacb678337c3a512c904f7c8cd2a602cb8209e79fdeb1c39dffad",
+    "REMOVAL_DIRECTION_MEDIAN_RANGES.csv": "d68313c3557a7c5f92bf05c50782925f13104d82dc788942c160a6c513573896",
+    "REMOVAL_FIELD_SUMMARIES.csv": "f133fb4107353a70d8e1f70f881df3ff3c34fd47aedfcd20cf4de1dc5f45e746",
+    "REMOVAL_INPUT_MAPPING.csv": "658074206734036f23024d9ec670ec22fe37a826aba260561c14c21bee27389a",
+    "REMOVAL_RECEIVER_COUNTS.csv": "214b508d6beeb7b2e56946b6e4888f6257b777680e3ebe68086d7669436c7bb0"
+  },
+  "limitations": [
+    "Found finite candidate pools only; no exact global minimum or full minimizer-region certification",
+    "One/two remaining receivers are a mathematical diagnostic, not an operational output",
+    "No stronger-search extension executed; signed differences retained and unresolved search limitations disclosed",
+    "Primary full estimates stay frozen; any candidate-branch sensitivity elsewhere must also qualify comparisons"
+  ]
+}

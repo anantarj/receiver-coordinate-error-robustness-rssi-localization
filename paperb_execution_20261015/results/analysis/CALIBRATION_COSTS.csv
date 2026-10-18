@@ -1,0 +1,19 @@
+block,study,map,fold,budget,replicate,total_receiver_receptions,distinct_labeled_source_rows,distinct_reference_coordinate_pairs,interpretation,calibrated_receiver_count
+study1_official32_minus71_all,study1,official32_minus71,,all,,74787,16612,16009,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",32
+study1_recovered29_sensitivity_all,study1,recovered29_sensitivity,,all,,70084,16612,16009,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",29
+study2_NE_all,study2,official32_minus71,NE,all,,170730,40336,36250,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",32
+study2_NE_b10_r0,study2,official32_minus71,NE,10,0,320,318,314,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",32
+study2_NE_b10_r1,study2,official32_minus71,NE,10,1,320,317,317,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",32
+study2_NE_b10_r2,study2,official32_minus71,NE,10,2,320,316,315,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",32
+study2_NW_all,study2,official32_minus71,NW,all,,145283,35290,31515,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",30
+study2_NW_b10_r0,study2,official32_minus71,NW,10,0,300,298,297,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",30
+study2_NW_b10_r1,study2,official32_minus71,NW,10,1,300,297,297,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",30
+study2_NW_b10_r2,study2,official32_minus71,NW,10,2,300,298,297,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",30
+study2_SE_all,study2,official32_minus71,SE,all,,171540,35478,34556,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",32
+study2_SE_b10_r0,study2,official32_minus71,SE,10,0,320,318,316,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",32
+study2_SE_b10_r1,study2,official32_minus71,SE,10,1,320,317,317,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",32
+study2_SE_b10_r2,study2,official32_minus71,SE,10,2,320,317,315,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",32
+study2_SW_all,study2,official32_minus71,SW,all,,196807,42179,37948,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",32
+study2_SW_b10_r0,study2,official32_minus71,SW,10,0,320,317,313,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",32
+study2_SW_b10_r1,study2,official32_minus71,SW,10,1,320,318,317,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",32
+study2_SW_b10_r2,study2,official32_minus71,SW,10,2,320,319,317,"Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers.",32

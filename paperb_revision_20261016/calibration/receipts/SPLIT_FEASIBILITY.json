@@ -1,0 +1,43 @@
+{
+  "status": "FEASIBLE",
+  "chosen_salt": 0,
+  "tried": [
+    {
+      "salt": 0,
+      "feasible": true,
+      "folds": [
+        {
+          "fold": "SW",
+          "fit_unsupported_receivers": 0,
+          "target_validation_unsupported_receivers": 0,
+          "validation_reception_fraction": 0.1770414670209901,
+          "training_distinct_source_rows": 42179
+        },
+        {
+          "fold": "SE",
+          "fit_unsupported_receivers": 0,
+          "target_validation_unsupported_receivers": 0,
+          "validation_reception_fraction": 0.21081963390462866,
+          "training_distinct_source_rows": 35478
+        },
+        {
+          "fold": "NW",
+          "fit_unsupported_receivers": 0,
+          "target_validation_unsupported_receivers": 0,
+          "validation_reception_fraction": 0.12546547083967155,
+          "training_distinct_source_rows": 35290
+        },
+        {
+          "fold": "NE",
+          "fit_unsupported_receivers": 0,
+          "target_validation_unsupported_receivers": 0,
+          "validation_reception_fraction": 0.12407309787383589,
+          "training_distinct_source_rows": 40336
+        }
+      ]
+    }
+  ],
+  "protocol_sha256": "43148f873ceeb760df5a7bd8a6816d7dbd59fcea0dcbe0fda10284286c0f1c0a",
+  "outcomes_evaluated": false,
+  "support_counts_sha256": "82849179372e4518584661e3445fa0fe810880bf521eafb2a5a4f5d00996e4ce"
+}

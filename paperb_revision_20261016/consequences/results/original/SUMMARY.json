@@ -1,0 +1,45 @@
+{
+  "status": "COMPLETE_ORIGINAL_OUTPUT_DESCRIPTIVE_ANALYSIS",
+  "source": {
+    "primary_receipt_sha256": "6eb0af1847ef012d4681b5c99147f810e77ade147637bf276f498776c23885dd",
+    "original_lock_sha256": "4e1a047b1c3427f4455d6b96982c1c2451e99903449eff9fa2f577d3364c2ed9",
+    "blocks": 18
+  },
+  "protocol_sha256": "f94bdbef6785edea65a30b8a5652fbd244fc1a781aa81b8cc2619d9cd2fb17c0",
+  "code_sha256": {
+    "paper_fragments.py": "6e6c54a1c766f23211b1c2194a5bffdd1719550aa16888e9a11c24db5b16b1a7",
+    "candidate_consequences.py": "00b3ab329c343ffa5b5fc42cc8bdffccb3cb7b1937d656788edd220d3e82a2e1",
+    "common.py": "32a3dff53d25b167cb041af333ccdf822eee191d43af4b0889b0bebf7e005828",
+    "plot_transfer.py": "54a55ec2d8be1270d0b82760683d664fdc7202489ccfb98a2da20f2783b21266",
+    "original_consequences.py": "99f5ec07239c0a8ba428296082c3fd2670ff0592ad31899a02e594e337c414c7"
+  },
+  "original_ranking_reconstruction": {
+    "rows_checked": 192,
+    "maximum_absolute_difference_m": 0.0
+  },
+  "rows": {
+    "rankings": 740,
+    "transfer": 1480,
+    "contrasts": 2960,
+    "curves": 740,
+    "intervals": 559832
+  },
+  "branch_sensitivity_status": "pending recovered candidate pools; original-output findings are provisional with respect to that sensitivity",
+  "interpretation": [
+    "Transfer penalty is descriptive choice-and-score on the same cohort, not out-of-sample regret.",
+    "Nonnegative penalties retain zeros; underlying signed contrasts retain negative and null effects.",
+    "Threshold widths are lengths on the error-tolerance axis, not application probabilities or justified operating requirements.",
+    "Exact raw threshold curves do not align cross-arm numerical ties; equality at a threshold is success.",
+    "abs(quantile contrast)/2 marks loss of the sufficient reference-uncertainty sign certificate, not an attained reversal. Predictions and calibration are held fixed."
+  ],
+  "files": {
+    "EXCEEDANCE_INTERVAL_SUMMARY.csv": "ebafe5a700ab7f9c21220abf6296c0d98d3859201b34e3a20571a3449798ed10",
+    "EXCEEDANCE_INTERVALS.csv": "830fbd348d2f2b92d2736fd5aa882320f7160f397c5b7023d6095a1bcd591f6c",
+    "QUANTILE_CONTRAST_REFERENCE_BOUNDS.csv": "f29089907429834fcc46692dc2cb9936dd46959b106558e8a9f86ca097c5e44a",
+    "METHOD_CHOICE_TRANSFER.csv": "9d7774aa13136bbb7557aecf815e21692c2659cb1fda75bc51c1b78904f74d68",
+    "ALL_FIELD_RANKINGS.csv": "7bd7f9f78ac370f77f172462ca82f92e822d791295ffc7a98a814cca208c73a2",
+    "PAIRED_COHORTS.csv": "fa4f0454a7beabdb2bf078a144b6ccf1e7986c6330e9298ce1f097289312f57e",
+    "TRANSFER_DIRECTION_SUMMARY.csv": "3a25c4019143ad60c1541144490655643db6b668b2f2c890052e633593dce2b9",
+    "BASELINE_MOVEMENT.csv": "e4ade023ed6db4cfc92069cd8bb4a548954e8d01abe6ef46dcc05b23c0b725c6"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "mode": "run",
+  "seconds": 233.84272690999933,
+  "shards": 128,
+  "stored_states": 54000,
+  "unique_solves_within_shards": 26542,
+  "exceptions": 0,
+  "lock_sha256": "19fa9c860b3ba62d255b7d27172100bfed3ac6001aedd57b7f851ca13e11323a",
+  "output_arrays": {
+    "study2_NE_fitval_all.npz": "41760e866029629e54c9bc0b0a59bd13a04bbe8eed837005326c7da30e78a05e",
+    "study2_NW_fitval_all.npz": "908592d8a89566761b83a1d65495e6491e9b0a202f1c97d1c3c5e695a3b46a20",
+    "study2_SE_fitval_all.npz": "6fc07b441998f01f90eff42d42c6da09f7e4f417fe4cd7fdaf391d108e406ee7",
+    "study2_SW_fitval_all.npz": "2c69fb433296fcc754f1dd6c32d6e0a74fe3a261198cafe949f65e6b0dea8460"
+  }
+}

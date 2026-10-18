@@ -1,0 +1,17 @@
+claim_or_check,relative_artifact,interpretation
+Local execution specification,protocol/EXECUTION_LOCK.json,65 bound files; not external preregistration
+Prepared data and cohorts,inputs/INPUT_REGISTRY.json,"One Antwerp campaign; maps, folds, filters and fixed inputs"
+Complete finite primary run,receipts/PRIMARY_RUN_RECEIPT.json,18 arrays; 195200 stored entries;122336 unique solves
+Independent primary-output verification,receipts/INDEPENDENT_PRIMARY_OUTPUT_AUDIT.json,All primary states recomputed; no solver rerun
+Full-cohort and affected rankings,results/analysis/RANKINGS.csv,Do not exchange populations or WCL variant comparison
+Absolute errors and own baselines,results/analysis/ARMS.csv,Field-specific finite-arm quantiles
+Within-field calibration effects,results/analysis/EFFECTS.csv,Quantile differences and paired-message differences distinct
+Calibration budget and labelled messages,results/analysis/CALIBRATION_COSTS.csv,"Observed fitting-message unions, not acquisition minimum"
+Population eligibility,results/analysis/POPULATION_AVAILABILITY.csv,Full held-out denominators differ from sampled prediction availability
+Numerical audit results,receipts/NUMERICAL_AUDIT_RECEIPT.json,376 selected cells;360 unresolved gap tolerances
+Numerical audit interpretation,receipts/INDEPENDENT_NUMERICAL_AUDIT_INTERPRETATION.json,"0.0200444m maximum shift on audited rows, not full-population bound"
+Conditional RSS-NLS proposition,manuscript_fragments/NLLS_THEOREM_SUPPLEMENT.tex,"Global minimizer-set statement, not finite-algorithm certificate"
+New main figure,results/report/calibration_transfer_results.pdf,Discrete directions and field-quantile aggregation
+Complete checked reductions,results/analysis/SUMMARY.json,1304 analysis checks
+Printed new-study numbers verified,receipts/SUPPLEMENT_NEW_TABLE_NUMERICAL_QA.json,1480 printed quantiles checked against predictions
+Author evaluation and remaining release steps,SUBMISSION_HANDOFF.txt,No public release or journal submission performed

@@ -1,0 +1,85 @@
+{
+  "status": "COMPLETE_DESCRIPTIVE_REPORT",
+  "audits": 398,
+  "escalation_reason_counts": {
+    "primary_local_unconverged": 104,
+    "incumbent_shift": 6
+  },
+  "best_stage_not_last_stage": 103,
+  "shift_above_m": {
+    "0.001": 60,
+    "0.01": 24,
+    "0.1": 12,
+    "1.0": 6,
+    "10.0": 1,
+    "100.0": 0
+  },
+  "objective_improvement_above_db2": {
+    "1e-06": 8,
+    "0.0001": 3,
+    "0.001": 1,
+    "0.01": 0
+  },
+  "last_gap_met": 141,
+  "last_gap_quantiles_db2": {
+    "0": 0.0005630241329837789,
+    "0.5": 0.02727322268507848,
+    "0.9": 0.2185816702368584,
+    "0.95": 0.2907232945583246,
+    "1": 1.1710102988249673
+  },
+  "max_shift": {
+    "input_id": 33320,
+    "stages": 2,
+    "best_stage": 0,
+    "best_audit_objective_db2": 2923.5832865121224,
+    "best_objective_improvement_db2": 0.0028874305003228073,
+    "max_incumbent_shift_m": 24.001975248649035,
+    "last_objective_gap_db2": 1.1710102988249673,
+    "last_objective_gap_met_numerically": false,
+    "total_splits": 130000,
+    "primary_objective_db2": 2923.5861739426236,
+    "primary_status": "finite_no_local_run_converged",
+    "receiver_count": 7,
+    "escalation_reasons": "primary_local_unconverged|incumbent_shift",
+    "contexts": "[{\"block\":\"study2_NE_b10_r1\",\"field_index\":5,\"policy\":\"frozen\",\"query_index\":101,\"source_row\":99378,\"D_m\":5000.0,\"draw\":0,\"target_count\":2}]"
+  },
+  "max_improvement": {
+    "input_id": 33320,
+    "stages": 2,
+    "best_stage": 0,
+    "best_audit_objective_db2": 2923.5832865121224,
+    "best_objective_improvement_db2": 0.0028874305003228073,
+    "max_incumbent_shift_m": 24.001975248649035,
+    "last_objective_gap_db2": 1.1710102988249673,
+    "last_objective_gap_met_numerically": false,
+    "total_splits": 130000,
+    "primary_objective_db2": 2923.5861739426236,
+    "primary_status": "finite_no_local_run_converged",
+    "receiver_count": 7,
+    "escalation_reasons": "primary_local_unconverged|incumbent_shift",
+    "contexts": "[{\"block\":\"study2_NE_b10_r1\",\"field_index\":5,\"policy\":\"frozen\",\"query_index\":101,\"source_row\":99378,\"D_m\":5000.0,\"draw\":0,\"target_count\":2}]"
+  },
+  "max_last_gap": {
+    "input_id": 33320,
+    "stages": 2,
+    "best_stage": 0,
+    "best_audit_objective_db2": 2923.5832865121224,
+    "best_objective_improvement_db2": 0.0028874305003228073,
+    "max_incumbent_shift_m": 24.001975248649035,
+    "last_objective_gap_db2": 1.1710102988249673,
+    "last_objective_gap_met_numerically": false,
+    "total_splits": 130000,
+    "primary_objective_db2": 2923.5861739426236,
+    "primary_status": "finite_no_local_run_converged",
+    "receiver_count": 7,
+    "escalation_reasons": "primary_local_unconverged|incumbent_shift",
+    "contexts": "[{\"block\":\"study2_NE_b10_r1\",\"field_index\":5,\"policy\":\"frozen\",\"query_index\":101,\"source_row\":99378,\"D_m\":5000.0,\"draw\":0,\"target_count\":2}]"
+  },
+  "maximum_absolute_coordinate_objective_recompute_difference_db2": 1.1736847227439284e-07,
+  "global_formula": "sum_i (RSS_i-A_i+47log10(norm(absolute_position-absolute_anchor)+1))^2",
+  "absolute_coordinate_note": "Local-objective formula is independently verified separately; absolute UTM addition rounds coordinates and is reported, not substituted.",
+  "original_outputs_replaced": false,
+  "script_sha256": "f3124a802337c49ade5bf7627f952fbd13231cf71208b755c6566e10e2f5bce1",
+  "csv_sha256": "e51d8ef75130baf423dfcb9c1decd10bb5011674a098c2a51be51d2227a880f2"
+}

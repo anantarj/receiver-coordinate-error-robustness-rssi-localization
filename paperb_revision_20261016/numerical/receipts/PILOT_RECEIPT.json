@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE",
+  "mode": "pilot",
+  "seconds": 0.9657985660014674,
+  "workers": 4,
+  "completed_inputs": 64,
+  "shards": 4,
+  "max_position_discrepancy_m": 0.0,
+  "max_objective_discrepancy_db2": 0.0,
+  "max_candidate_recompute_difference_db2": 0.0,
+  "candidate_count": 1774,
+  "lock_sha256": "85e9b493291f5e2f005f3a87cbe3abbcfa12bec9c4801fbbd4ff1e0a8b309fc2",
+  "outputs": {
+    "pilot_000.npz": "45524517cd3c3b8d7ea9861cb21b341d5f5723fb475ccee6641d75ce09371990",
+    "pilot_016.npz": "fb3955782cbad73499098d3629818bd800927125e70d659ba20a1b7fca76173a",
+    "pilot_032.npz": "c15672eb0cd24a7f601bae4f213de42cc5ab1465e6a4e79e5bc718d7d0f7ea14",
+    "pilot_048.npz": "ad1b9c0d51a9be1cf7400687ba4c0a458673457c20521e35709bcf01adcda481"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "status": "FIXED_BEFORE_STRONG_AUDIT_OUTPUTS",
+  "source": "Bounded diagnostic follow-up; selection uses recorded primary/candidate difficulties.",
+  "original_solver_unmodified": true,
+  "primary_outputs_replaced": false,
+  "selected_input_count": 398,
+  "first_budget": 30000,
+  "one_escalation_budget": 100000,
+  "objective_gap_db2": 0.01,
+  "escalation": "Primary any-local-unconverged OR objective improvement>max(1e-4,1e-6*(1+Jprimary))dB2 OR position shift>1m. One repeated100000-split audit only.",
+  "candidate_retention": "Every strong-search prescribed initial and recorded endpoint/fallback; primary incumbent; every strict improving objective evaluation observed during search; final audit incumbent. Superseded candidates retained. Not all evaluated box centres are retained.",
+  "candidate_kind": {
+    "0": "strong_initial",
+    "1": "strong_endpoint_or_fallback",
+    "2": "primary_incumbent",
+    "3": "strict_improving_objective_evaluation",
+    "4": "final_audit_incumbent"
+  },
+  "scope": "Finite found-candidate pools and numerically guarded objective bounds; no complete near-optimal set, directed-rounding proof, physical accuracy or uniqueness claim.",
+  "maximum_distinct_inputs": 900,
+  "unresolved_gap_action": "Stop and retain unresolved status; no automatic additional study.",
+  "objective_input": "Only coordinates,RSS,intercepts,n,d0; no query reference coordinates or WCL prediction.",
+  "workers": "Execution resource only; no wall-time stopping rule."
+}

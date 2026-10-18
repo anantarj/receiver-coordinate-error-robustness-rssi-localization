@@ -1,0 +1,81 @@
+{
+  "identity": {
+    "study": "study1",
+    "map": "recovered29_sensitivity",
+    "fold": null
+  },
+  "population": {
+    "working_n": 55375,
+    "training_n": 16612,
+    "test_denominator_n": 38763,
+    "eligible_before_duplicate_filter_n": 37713,
+    "excluded_train_content_overlap_n": 65,
+    "eligible_n": 37648,
+    "sample_n": 512,
+    "fixed_roster_n": 29,
+    "full_eligible_duplicate_content": {
+      "unique_content_groups": 37601,
+      "duplicate_content_groups": 41,
+      "duplicate_extra_rows": 47
+    },
+    "sample_duplicate_content": {
+      "unique_content_groups": 512,
+      "duplicate_content_groups": 0,
+      "duplicate_extra_rows": 0
+    },
+    "full_eligible_selected_target_exposure": {
+      "14": {
+        "0": 21431,
+        "1": 16217
+      },
+      "14,69": {
+        "0": 9516,
+        "1": 25651,
+        "2": 2481
+      }
+    },
+    "sample_selected_target_exposure": {
+      "14": {
+        "0": 306,
+        "1": 206
+      },
+      "14,69": {
+        "0": 141,
+        "1": 336,
+        "2": 35
+      }
+    }
+  },
+  "fixed_roster_receiver_ids": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    17,
+    18,
+    19,
+    20,
+    23,
+    25,
+    27,
+    32,
+    33,
+    34,
+    35,
+    37,
+    41,
+    50,
+    69,
+    70,
+    71
+  ],
+  "population_npz_sha256": "ca20a026f7a9158f0267c502f4144d065caa973e81ab2733d16aaa27b6154142"
+}

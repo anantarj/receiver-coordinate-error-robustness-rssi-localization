@@ -1,0 +1,379 @@
+{
+  "status": "FIXED_BEFORE_PRIMARY_OUTCOMES",
+  "expected_cells": 376,
+  "query_hash": "SHA256 UTF8(paperb_numerical_audit_v1:<zero-based-source-row>)",
+  "exposed_rule": "Prefer first hash-ordered sampled row selecting both14and69; if absent, study1requires14,study2anytarget.",
+  "zero_policy": "One zero state only; no artificial frozen/refit replication.",
+  "initial_splits": 30000,
+  "escalated_splits": 100000,
+  "objective_gap_tolerance_db2": 0.01,
+  "escalation_rule": "Any primary local start unconverged OR objective improvement>max(1e-4,1e-6*(1+J_primary)) dB^2 OR position shift>1m.",
+  "retention": "Both audit stages retained; never replace primary outputs. Unresolved numerical gap remains unresolved.",
+  "selections": [
+    {
+      "block": "study1_official32_minus71_all",
+      "query_index": 265,
+      "source_row": 11756,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        14,
+        9,
+        17,
+        18,
+        69,
+        11,
+        32,
+        2,
+        27,
+        12
+      ]
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "query_index": 253,
+      "source_row": 80603,
+      "kind": "unexposed_control",
+      "exposure_rule": "neither14nor69",
+      "selected_receiver_ids": [
+        17,
+        70,
+        1
+      ]
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "query_index": 261,
+      "source_row": 11756,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        14,
+        9,
+        17,
+        18,
+        69,
+        11,
+        32,
+        2,
+        27,
+        12
+      ]
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "query_index": 249,
+      "source_row": 80603,
+      "kind": "unexposed_control",
+      "exposure_rule": "neither14nor69",
+      "selected_receiver_ids": [
+        17,
+        70,
+        1
+      ]
+    },
+    {
+      "block": "study2_SW_all",
+      "query_index": 246,
+      "source_row": 112182,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        27,
+        19,
+        14,
+        69
+      ]
+    },
+    {
+      "block": "study2_SW_all",
+      "query_index": 289,
+      "source_row": 64753,
+      "kind": "unexposed_control",
+      "exposure_rule": "neither14nor69",
+      "selected_receiver_ids": [
+        27,
+        19,
+        15,
+        32,
+        25
+      ]
+    },
+    {
+      "block": "study2_SW_b10_r0",
+      "query_index": 246,
+      "source_row": 112182,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        27,
+        19,
+        14,
+        69
+      ]
+    },
+    {
+      "block": "study2_SW_b10_r1",
+      "query_index": 246,
+      "source_row": 112182,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        27,
+        19,
+        14,
+        69
+      ]
+    },
+    {
+      "block": "study2_SW_b10_r2",
+      "query_index": 246,
+      "source_row": 112182,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        27,
+        19,
+        14,
+        69
+      ]
+    },
+    {
+      "block": "study2_SE_all",
+      "query_index": 250,
+      "source_row": 96312,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        10,
+        2,
+        14,
+        69,
+        1,
+        27
+      ]
+    },
+    {
+      "block": "study2_SE_all",
+      "query_index": 314,
+      "source_row": 12706,
+      "kind": "unexposed_control",
+      "exposure_rule": "neither14nor69",
+      "selected_receiver_ids": [
+        10,
+        2,
+        1
+      ]
+    },
+    {
+      "block": "study2_SE_b10_r0",
+      "query_index": 250,
+      "source_row": 96312,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        10,
+        2,
+        14,
+        69,
+        1,
+        27
+      ]
+    },
+    {
+      "block": "study2_SE_b10_r1",
+      "query_index": 250,
+      "source_row": 96312,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        10,
+        2,
+        14,
+        69,
+        1,
+        27
+      ]
+    },
+    {
+      "block": "study2_SE_b10_r2",
+      "query_index": 250,
+      "source_row": 96312,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        10,
+        2,
+        14,
+        69,
+        1,
+        27
+      ]
+    },
+    {
+      "block": "study2_NW_all",
+      "query_index": 229,
+      "source_row": 28197,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        14,
+        18,
+        32,
+        27,
+        69,
+        19
+      ]
+    },
+    {
+      "block": "study2_NW_all",
+      "query_index": 100,
+      "source_row": 117278,
+      "kind": "unexposed_control",
+      "exposure_rule": "neither14nor69",
+      "selected_receiver_ids": [
+        5,
+        11,
+        4,
+        20
+      ]
+    },
+    {
+      "block": "study2_NW_b10_r0",
+      "query_index": 229,
+      "source_row": 28197,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        14,
+        18,
+        32,
+        27,
+        69,
+        19
+      ]
+    },
+    {
+      "block": "study2_NW_b10_r1",
+      "query_index": 229,
+      "source_row": 28197,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        14,
+        18,
+        32,
+        27,
+        69,
+        19
+      ]
+    },
+    {
+      "block": "study2_NW_b10_r2",
+      "query_index": 229,
+      "source_row": 28197,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        14,
+        18,
+        32,
+        27,
+        69,
+        19
+      ]
+    },
+    {
+      "block": "study2_NE_all",
+      "query_index": 66,
+      "source_row": 11756,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        14,
+        9,
+        17,
+        18,
+        69,
+        11,
+        32,
+        2,
+        27,
+        12
+      ]
+    },
+    {
+      "block": "study2_NE_all",
+      "query_index": 491,
+      "source_row": 93500,
+      "kind": "unexposed_control",
+      "exposure_rule": "neither14nor69",
+      "selected_receiver_ids": [
+        32,
+        9,
+        17,
+        11,
+        4,
+        31,
+        7
+      ]
+    },
+    {
+      "block": "study2_NE_b10_r0",
+      "query_index": 66,
+      "source_row": 11756,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        14,
+        9,
+        17,
+        18,
+        69,
+        11,
+        32,
+        2,
+        27,
+        12
+      ]
+    },
+    {
+      "block": "study2_NE_b10_r1",
+      "query_index": 66,
+      "source_row": 11756,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        14,
+        9,
+        17,
+        18,
+        69,
+        11,
+        32,
+        2,
+        27,
+        12
+      ]
+    },
+    {
+      "block": "study2_NE_b10_r2",
+      "query_index": 66,
+      "source_row": 11756,
+      "kind": "exposed",
+      "exposure_rule": "both14and69",
+      "selected_receiver_ids": [
+        14,
+        9,
+        17,
+        18,
+        69,
+        11,
+        32,
+        2,
+        27,
+        12
+      ]
+    }
+  ]
+}

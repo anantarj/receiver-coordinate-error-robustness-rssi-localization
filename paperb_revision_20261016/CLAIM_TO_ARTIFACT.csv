@@ -1,0 +1,15 @@
+claim,artifact,coverage_or_result,interpretation_limit
+Exact recovery of original predictions,numerical/receipts/INDEPENDENT_RECOVERY_CHECK.json,119045 distinct inputs; all195200 mapped states unchanged,"Reproducibility of finite algorithm, not global optimality"
+Recovered competitive-position spread,numerical/results/RECOVERED_DIAGNOSTIC_DISTRIBUTION.csv,"Three objective bands, all stored states and distinct-source counts",Finite found pools; repeated states are not independent failures
+Targeted stronger audit,numerical/receipts/TARGETED_AUDIT_RECEIPT.json,398 inputs;104 escalated;141 gaps met;257 unresolved;max movement24.002m,"Numerically guarded finite-budget bounds, not positional uniqueness"
+Targeted audit contexts,numerical/results/TARGETED_AUDIT_STATE_REGISTER.csv,All scheduled inputs with original context,"Targeted difficulty sample, not prevalence sample"
+Ranking robustness and branch-sensitive exception,consequences/CONSEQUENCE_CLOSEOUT.json,740 comparisons invariant over primary/enhanced pools at three bands,Ranking stability does not establish unique positions or all calibration-effect signs
+Absolute choice-transfer penalty,consequences/results/original/METHOD_CHOICE_TRANSFER.csv,1480 bidirectional comparisons including zeros,"Same-cohort descriptive choice/evaluation, not prospective regret"
+Complete threshold consequences,consequences/results/original/EXCEEDANCE_INTERVAL_SUMMARY.csv,All scheduled fields; signed adverse/favorable widths,Tolerance-axis width is not an application probability
+Fit/validation support and tuning,calibration/results/SPLIT_SUPPORT_COUNTS.csv,Original rosters and cohorts; fit-only endpoints; validation-selected lambda,Previously used query cohorts; cells are not independent deployments
+Radio-fit versus positioning response,calibration/results/CALIBRATION_LOCALIZATION_LINK.csv,All32 positive fields; both estimators; three policies,Improved RSS fit does not guarantee improved positioning
+Calibration numerical verification,removal/CALIBRATION_FINAL_INDEPENDENT_VERIFICATION.json,54000 finite states;745922 candidates; zero exceptions,84states include local nonconvergence; competitive alternatives retained
+General mechanism and finite-region lemma,manuscript/source/REVISION_THEORY_SUPPLEMENT.tex,Residual identity; translation-equivariant Lipschitz fits; conditional finite bound,No general statement for jointly learned parameters or every calibration architecture
+Finite local versus regional diagnostic,theory/FINITE_FIELD_SUMMARIES.csv,All25 fields and both policies on512queries,Sampled regional range is not a supremum certificate; no known solver eta
+Removal versus baseline preservation,theory/REVISION_FINITE_SUPPLEMENT.tex,All-exposed and at-least3-remaining cohorts separated,Found removal pool is not the full global-minimizer set
+Archive preservation,manuscript/source/supporting_record.tex,Exact original supporting source,Historical context; live adverse evidence remains in scientific supplement

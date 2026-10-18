@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "exhaustive_independent_candidate_assignments",
+      "quantile": 0.5,
+      "assignments": 384,
+      "pass": true
+    },
+    {
+      "check": "exhaustive_independent_candidate_assignments",
+      "quantile": 0.95,
+      "assignments": 384,
+      "pass": true
+    },
+    {
+      "check": "repeated_input_consistency_subset",
+      "pass": true
+    },
+    {
+      "check": "transfer_bounds_bruteforce_and_identical_inputs",
+      "pass": true
+    },
+    {
+      "check": "fixed_prediction_reference_geometry_bound",
+      "trials": 200,
+      "maximum_bound_fraction": 0.8812648144619999,
+      "pass": true
+    },
+    {
+      "check": "unresolved_and_numerical_tie_distinguished",
+      "pass": true
+    }
+  ]
+}

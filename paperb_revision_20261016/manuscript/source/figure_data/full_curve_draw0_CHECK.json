@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "messages": 2498,
+  "distinct_thresholds_including_zero": 6188,
+  "eligible_after_removal": 1649,
+  "unavailable_fraction": 0.3398718975180144,
+  "maximum_error_m": 25296.22768569926,
+  "right_continuous": true,
+  "endpoint_rule": "error <= tolerance succeeds; unavailable outputs fail every finite tolerance",
+  "basis_csv_sha256": "1bf709422300f90e76eb7a3305c3c478cb4df694bd8074f358461a73964e4129",
+  "source_npz_sha256": "268cec3ba910998a513afe0e37d0f47c42ff770eeb7adf9ae550b0b5a4082dc6"
+}

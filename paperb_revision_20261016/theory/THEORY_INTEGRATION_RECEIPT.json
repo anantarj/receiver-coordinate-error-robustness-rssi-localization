@@ -1,0 +1,21 @@
+{
+  "status": "prepared",
+  "main_words_whitespace": 331,
+  "main_aliases_identical": true,
+  "replacement_checks": {
+    "S4.5_heading": true,
+    "preserved_anchor": true,
+    "coercivity_proof": true,
+    "common_compact_sublevel_argument": true,
+    "one_sided_set_and_minimum_convergence": true,
+    "no_unchanged_receiver_counterexample": true,
+    "singleton_qualification": true,
+    "active_proof_v2_preserved": true
+  },
+  "changes_from_v2": "Section heading S4.5 and stable anchor restored; other headings demoted to paragraphs; original no-unchanged-support circle counterexample and one-receiver/accuracy qualifications restored. Mathematical statements and proofs otherwise retained.",
+  "output_hashes": {
+    "THEORY_MAIN_FRAGMENT.tex": "3feb0ea99b11deaf87502bed4952dc374bbbb604729115dbe44d4f870acb3759",
+    "REVISION_THEORY_MAIN.tex": "3feb0ea99b11deaf87502bed4952dc374bbbb604729115dbe44d4f870acb3759",
+    "REVISION_THEORY_SUPPLEMENT.tex": "083865dea9f391a3abe6bcacc462fec30e476da092ea57fd62213387582cd2fc"
+  }
+}

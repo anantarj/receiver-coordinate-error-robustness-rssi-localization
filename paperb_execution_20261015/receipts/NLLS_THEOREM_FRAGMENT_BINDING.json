@@ -1,0 +1,20 @@
+{
+  "status": "DRAFTED_FROM_INDEPENDENTLY_REVIEWED_PROOF",
+  "scope": "Conditional ideal-objective asymptotic result; no experimental or finite-solver guarantee; no literature-first claim.",
+  "proof_review": "receipts/NLLS_ASYMPTOTIC_REVIEW.txt",
+  "proof_review_sha256": "4f898180b84f4b106b9f36aa563a814ea53a39f1eb77527d951783432dd15c4c",
+  "files": {
+    "manuscript_fragments/NLLS_THEOREM_MAIN.tex": "196b4ff84b695922693f5c6d9763f8981d15bd939bb88e11bd956edec0aa3a7c",
+    "manuscript_fragments/NLLS_THEOREM_SUPPLEMENT.tex": "1d0ddc8c765d0f855e008c2987056038d3b8f6590749d9026af15bbcccf5f887"
+  },
+  "conditions": [
+    "finite fixed calibration and query inputs",
+    "independent unrestricted receiver median fit",
+    "same fixed positive propagation exponent and offset in fit and objective",
+    "fixed selected receiver set",
+    "nonempty targeted and unchanged sets",
+    "fixed unit displacement directions"
+  ],
+  "conclusion": "Compact-uniform objective convergence to J_U plus constant; all global minimizers uniformly bounded; one-sided distance from full-objective argmin set to removal argmin set tends to zero; singleton limit gives position convergence.",
+  "pending": "Parent integration and final rendering; final fragment scope check requested from proof reviewer."
+}

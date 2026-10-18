@@ -1,0 +1,4 @@
+block,source_row,input_id,selected_receiver_count,diameter_m,reflection_discrepancy_m,opposite_sides_of_unchanged_anchor_line
+study1_recovered29_sensitivity_all,82906,13534,3,7328.192248323551,494.9401805742311,True
+study1_official32_minus71_all,72127,9612,3,1890.3487369033144,27.647940199295487,True
+study2_NW_all,95661,47194,3,2665.7771606236047,0.2316477535668528,True

@@ -1,0 +1,4768 @@
+{
+  "status": "COMPLETE",
+  "analysis_code_sha256": "5280feefcb179bf099f9107ce878f06669874bee540476b2a02e0c072f5a3a75",
+  "primary_receipt_sha256": "6eb0af1847ef012d4681b5c99147f810e77ade147637bf276f498776c23885dd",
+  "execution_lock_sha256": "4e1a047b1c3427f4455d6b96982c1c2451e99903449eff9fa2f577d3364c2ed9",
+  "block_metadata_sha256": {
+    "inputs/blocks/study1_official32_minus71_all.json": "fd41bb2dc5ad412c63f4de12261e9cd630192c6c861d97c2816d253a917d834c",
+    "inputs/blocks/study1_recovered29_sensitivity_all.json": "ccc8d8e069c1d4741d9e94a80a3f15f7e6379b2c75c311740448686405bd7ed1",
+    "inputs/blocks/study2_NE_all.json": "a8c8df4ebe7437899624eb91358a976f896943bbfbe5d7dda9eafabfa438109c",
+    "inputs/blocks/study2_NE_b10_r0.json": "24e91f80bac942fb85f1ad694632d145f484102d389aa1a150fc470e267f19c4",
+    "inputs/blocks/study2_NE_b10_r1.json": "dec8b77d80180ddc16ca9436cf99315a62219b06e75d2742a4b371aecc8a0781",
+    "inputs/blocks/study2_NE_b10_r2.json": "6efafe14864b37fc14399b04580302fcc35454d62c18bc46a76cf9ab9f5776e3",
+    "inputs/blocks/study2_NW_all.json": "bea0fd80edeb537874d41c7702cffee0e003ee836e316c8ade297e62ab471496",
+    "inputs/blocks/study2_NW_b10_r0.json": "966a4b4a19d26e197eaab40513b46016ef82575c8e99e27796a47d94afa3df64",
+    "inputs/blocks/study2_NW_b10_r1.json": "27f9bc76fa91785bbb02e1bd9297d5702a1946334cb1a02075daf2cafcfed42f",
+    "inputs/blocks/study2_NW_b10_r2.json": "2a6564c6d100bfcb81cd9f391ce4c1b50be92c594611cee9a6a2cace85698868",
+    "inputs/blocks/study2_SE_all.json": "7b4fe31c04c6155945511e519a535030c5541219f82880b7d75ea4f29e2a4d17",
+    "inputs/blocks/study2_SE_b10_r0.json": "ba14f2dc37ca92a6d39b5205d64ccef7594c7fc064abc73cba614bfbc0f48245",
+    "inputs/blocks/study2_SE_b10_r1.json": "3ab521dcc4ef21669ee5094f2b522f95c9eea1e6ba754746e4ff894970cccf89",
+    "inputs/blocks/study2_SE_b10_r2.json": "265a983e00138e0b58cc88cd6d2e3bf3a9b94487ec744c0fbe4df4d397f343ae",
+    "inputs/blocks/study2_SW_all.json": "64155a76c6af5f18eac302578396ded3d077b1778aecb1d5d26b75d90035182f",
+    "inputs/blocks/study2_SW_b10_r0.json": "79ded2ca52b596d0a610d217718e2b9990918072f4a62d7f1c96db2f7bcf6b3d",
+    "inputs/blocks/study2_SW_b10_r1.json": "4f966f1d0c79f67ea9d9a3984ae6bdb02c17073980b14a32ef6b46d464a3adc3",
+    "inputs/blocks/study2_SW_b10_r2.json": "608a333f0cb44bca090e32764fdf20ca461320ef9fff10647e4529c2fb44495a"
+  },
+  "quantile_method": "numpy.quantile linear interpolation",
+  "numerical_tie_tolerance": {
+    "absolute_m": 1e-06,
+    "relative": 1e-12,
+    "formula": "1e-6 + 1e-12 * max(abs(a),abs(b))"
+  },
+  "estimands": {
+    "absolute_error": "Euclidean distance from prediction to recorded query reference; finite-arm conditional distribution.",
+    "refit_error_benefit": "e_frozen - e_refit on finite paired predictions. Positive means lower error under refit.",
+    "quantile_difference": "Q(e_frozen) - Q(e_refit) on the identical finite paired population.",
+    "median_paired_difference": "median(e_frozen - e_refit), separately calculated; generally differs from the difference of medians.",
+    "direct_geometry": "norm(x_frozen - x_own_zero)",
+    "additional_refit": "norm(x_refit - x_frozen)",
+    "net_refit": "norm(x_refit - x_own_zero); these magnitudes are not additive.",
+    "affected_population": "Selected receiver list intersects field target set; fixed from input identities, never fitted weights or results.",
+    "all_budget_error_benefit": "e_10 - e_all on matched source rows and finite budget pairs.",
+    "own_zero_penalty": "e_condition - e_own_zero within each budget; positive means worse error than its own zero-map baseline."
+  },
+  "inference_limits": [
+    "All reported field, direction, fold and calibration-realization ranges are descriptive.",
+    "Repeated messages, directions, overlapping calibration pools, and limited-budget realizations are not independent deployments.",
+    "All-budget fits are retained once per fold; pairwise contrasts against three limited fits do not create three independent all-budget experiments.",
+    "Full held-out population eligibility is distinct from sampled-cohort numerical delivery and error distributions.",
+    "Every finite-mask exclusion is accompanied by the scheduled/finite count; failures remain in original arrays and exception records.",
+    "Primary finite-algorithm outputs are not replaced with numerical audit results; no global optimality claim is made."
+  ],
+  "blocks": [
+    {
+      "block": "study1_official32_minus71_all",
+      "study": "study1",
+      "map": "official32_minus71",
+      "fold": null,
+      "budget": "all",
+      "replicate": null,
+      "sampled_queries": 512,
+      "fields_including_baseline": 25,
+      "scheduled_method_policy_entries": 51200,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 25584,
+        "finite_some_local_runs_unconverged": 16
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 65,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 16612,
+        "test_denominator_n": 38763,
+        "eligible_before_duplicate_filter_n": 38667,
+        "excluded_train_content_overlap_n": 65,
+        "eligible_n": 38602,
+        "sample_n": 512,
+        "fixed_roster_n": 32,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 38554,
+          "duplicate_content_groups": 42,
+          "duplicate_extra_rows": 48
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 512,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 22215,
+            "1": 16387
+          },
+          "14,69": {
+            "0": 10220,
+            "1": 25899,
+            "2": 2483
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 305,
+            "1": 207
+          },
+          "14,69": {
+            "0": 141,
+            "1": 336,
+            "2": 35
+          }
+        }
+      },
+      "all_block_metadata": {
+        "block_id": "study1_official32_minus71_all",
+        "identity": {
+          "study": "study1",
+          "map": "official32_minus71",
+          "fold": null,
+          "budget": "all",
+          "replicate": null
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 100.0,
+            "draw": 0,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 100.0,
+            "draw": 1,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 100.0,
+            "draw": 2,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 100.0,
+            "draw": 3,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 9,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 10,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 11,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 12,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 13,
+            "D_m": 100.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 14,
+            "D_m": 100.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 15,
+            "D_m": 100.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 16,
+            "D_m": 100.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 17,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 18,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 19,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 20,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 21,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 22,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 23,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 24,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 16612,
+          "test_denominator_n": 38763,
+          "eligible_before_duplicate_filter_n": 38667,
+          "excluded_train_content_overlap_n": 65,
+          "eligible_n": 38602,
+          "sample_n": 512,
+          "fixed_roster_n": 32,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 38554,
+            "duplicate_content_groups": 42,
+            "duplicate_extra_rows": 48
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 512,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 22215,
+              "1": 16387
+            },
+            "14,69": {
+              "0": 10220,
+              "1": 25899,
+              "2": 2483
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 305,
+              "1": 207
+            },
+            "14,69": {
+              "0": 141,
+              "1": 336,
+              "2": 35
+            }
+          }
+        },
+        "population_path": "inputs/populations/study1_official32_minus71.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 74787,
+          "distinct_labeled_source_rows": 16612,
+          "distinct_reference_coordinate_pairs": 16009,
+          "receiver_reception_counts": {
+            "1": 2781,
+            "2": 4657,
+            "3": 1065,
+            "4": 3191,
+            "5": 3548,
+            "6": 1725,
+            "7": 1597,
+            "9": 5024,
+            "10": 4027,
+            "11": 3572,
+            "12": 1631,
+            "14": 7013,
+            "15": 607,
+            "16": 361,
+            "17": 1505,
+            "18": 3219,
+            "19": 1708,
+            "20": 3120,
+            "22": 1749,
+            "23": 336,
+            "25": 1209,
+            "27": 5680,
+            "31": 1545,
+            "32": 5177,
+            "33": 69,
+            "34": 922,
+            "37": 366,
+            "44": 46,
+            "48": 91,
+            "50": 90,
+            "69": 6211,
+            "70": 945
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "10ebcfec46343494e67bca0f20e2083799d4f10e37181fb3d685f1be97deea73",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "study": "study1",
+      "map": "recovered29_sensitivity",
+      "fold": null,
+      "budget": "all",
+      "replicate": null,
+      "sampled_queries": 512,
+      "fields_including_baseline": 25,
+      "scheduled_method_policy_entries": 51200,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 25577,
+        "finite_some_local_runs_unconverged": 21,
+        "finite_no_local_run_converged": 2
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 105,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 16612,
+        "test_denominator_n": 38763,
+        "eligible_before_duplicate_filter_n": 37713,
+        "excluded_train_content_overlap_n": 65,
+        "eligible_n": 37648,
+        "sample_n": 512,
+        "fixed_roster_n": 29,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 37601,
+          "duplicate_content_groups": 41,
+          "duplicate_extra_rows": 47
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 512,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 21431,
+            "1": 16217
+          },
+          "14,69": {
+            "0": 9516,
+            "1": 25651,
+            "2": 2481
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 306,
+            "1": 206
+          },
+          "14,69": {
+            "0": 141,
+            "1": 336,
+            "2": 35
+          }
+        }
+      },
+      "all_block_metadata": {
+        "block_id": "study1_recovered29_sensitivity_all",
+        "identity": {
+          "study": "study1",
+          "map": "recovered29_sensitivity",
+          "fold": null,
+          "budget": "all",
+          "replicate": null
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 100.0,
+            "draw": 0,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 100.0,
+            "draw": 1,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 100.0,
+            "draw": 2,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 100.0,
+            "draw": 3,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 9,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 10,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 11,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 12,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14
+            ]
+          },
+          {
+            "field_index": 13,
+            "D_m": 100.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 14,
+            "D_m": 100.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 15,
+            "D_m": 100.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 16,
+            "D_m": 100.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 17,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 18,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 19,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 20,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 21,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 22,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 23,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 24,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 16612,
+          "test_denominator_n": 38763,
+          "eligible_before_duplicate_filter_n": 37713,
+          "excluded_train_content_overlap_n": 65,
+          "eligible_n": 37648,
+          "sample_n": 512,
+          "fixed_roster_n": 29,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 37601,
+            "duplicate_content_groups": 41,
+            "duplicate_extra_rows": 47
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 512,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 21431,
+              "1": 16217
+            },
+            "14,69": {
+              "0": 9516,
+              "1": 25651,
+              "2": 2481
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 306,
+              "1": 206
+            },
+            "14,69": {
+              "0": 141,
+              "1": 336,
+              "2": 35
+            }
+          }
+        },
+        "population_path": "inputs/populations/study1_recovered29_sensitivity.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 70084,
+          "distinct_labeled_source_rows": 16612,
+          "distinct_reference_coordinate_pairs": 16009,
+          "receiver_reception_counts": {
+            "1": 2781,
+            "2": 4657,
+            "4": 3191,
+            "5": 3548,
+            "6": 1725,
+            "7": 1597,
+            "9": 5024,
+            "10": 4027,
+            "11": 3572,
+            "12": 1631,
+            "14": 7013,
+            "15": 607,
+            "17": 1505,
+            "18": 3219,
+            "19": 1708,
+            "20": 3120,
+            "23": 336,
+            "25": 1209,
+            "27": 5680,
+            "32": 5177,
+            "33": 69,
+            "34": 922,
+            "35": 66,
+            "37": 366,
+            "41": 30,
+            "50": 90,
+            "69": 6211,
+            "70": 945,
+            "71": 58
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "cfddca4fc5a0ad51fb4d8717be807454c891ba3c4872ff1a4e6b9aec3f5ae2da",
+        "input_npz_sha256": "5f58b14df7cf927dd53c4d1ca1e4aa48f45bf812bd0c4048d8fb319d474b40bd",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_NE_all",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "NE",
+      "budget": "all",
+      "replicate": null,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 8992,
+        "finite_some_local_runs_unconverged": 8
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 31,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 40336,
+        "test_denominator_n": 10514,
+        "eligible_before_duplicate_filter_n": 10514,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 10514,
+        "sample_n": 500,
+        "fixed_roster_n": 32,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 10514,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 3721,
+            "1": 6793
+          },
+          "14,69": {
+            "0": 3669,
+            "1": 6311,
+            "2": 534
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 171,
+            "1": 329
+          },
+          "14,69": {
+            "0": 168,
+            "1": 304,
+            "2": 28
+          }
+        },
+        "buffer_excluded_n": 4525,
+        "minimum_training_distance_to_test_quadrant_m": 250.00242838356644
+      },
+      "all_block_metadata": {
+        "block_id": "study2_NE_all",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "NE",
+          "budget": "all",
+          "replicate": null
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 40336,
+          "test_denominator_n": 10514,
+          "eligible_before_duplicate_filter_n": 10514,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 10514,
+          "sample_n": 500,
+          "fixed_roster_n": 32,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 10514,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 3721,
+              "1": 6793
+            },
+            "14,69": {
+              "0": 3669,
+              "1": 6311,
+              "2": 534
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 171,
+              "1": 329
+            },
+            "14,69": {
+              "0": 168,
+              "1": 304,
+              "2": 28
+            }
+          },
+          "buffer_excluded_n": 4525,
+          "minimum_training_distance_to_test_quadrant_m": 250.00242838356644
+        },
+        "population_path": "inputs/populations/study2_NE.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 170730,
+          "distinct_labeled_source_rows": 40336,
+          "distinct_reference_coordinate_pairs": 36250,
+          "receiver_reception_counts": {
+            "1": 8112,
+            "2": 14150,
+            "3": 2906,
+            "4": 4601,
+            "5": 7385,
+            "6": 3557,
+            "7": 1532,
+            "9": 5536,
+            "10": 13190,
+            "11": 4321,
+            "12": 1422,
+            "14": 13561,
+            "15": 2098,
+            "16": 1106,
+            "17": 2696,
+            "18": 9791,
+            "19": 5058,
+            "20": 7299,
+            "22": 3383,
+            "23": 1067,
+            "25": 3816,
+            "27": 15377,
+            "31": 1124,
+            "32": 12778,
+            "33": 229,
+            "34": 2241,
+            "37": 181,
+            "44": 144,
+            "48": 120,
+            "50": 339,
+            "69": 19845,
+            "70": 1765
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "f675cdd563192bb764e853445420ebeac36fafd1ebaa31f863d9fc4bd4a78ff2",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_NE_b10_r0",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "NE",
+      "budget": 10,
+      "replicate": 0,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 8992,
+        "finite_some_local_runs_unconverged": 8
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 17,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 40336,
+        "test_denominator_n": 10514,
+        "eligible_before_duplicate_filter_n": 10514,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 10514,
+        "sample_n": 500,
+        "fixed_roster_n": 32,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 10514,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 3721,
+            "1": 6793
+          },
+          "14,69": {
+            "0": 3669,
+            "1": 6311,
+            "2": 534
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 171,
+            "1": 329
+          },
+          "14,69": {
+            "0": 168,
+            "1": 304,
+            "2": 28
+          }
+        },
+        "buffer_excluded_n": 4525,
+        "minimum_training_distance_to_test_quadrant_m": 250.00242838356644
+      },
+      "all_block_metadata": {
+        "block_id": "study2_NE_b10_r0",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "NE",
+          "budget": 10,
+          "replicate": 0
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 40336,
+          "test_denominator_n": 10514,
+          "eligible_before_duplicate_filter_n": 10514,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 10514,
+          "sample_n": 500,
+          "fixed_roster_n": 32,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 10514,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 3721,
+              "1": 6793
+            },
+            "14,69": {
+              "0": 3669,
+              "1": 6311,
+              "2": 534
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 171,
+              "1": 329
+            },
+            "14,69": {
+              "0": 168,
+              "1": 304,
+              "2": 28
+            }
+          },
+          "buffer_excluded_n": 4525,
+          "minimum_training_distance_to_test_quadrant_m": 250.00242838356644
+        },
+        "population_path": "inputs/populations/study2_NE.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 320,
+          "distinct_labeled_source_rows": 318,
+          "distinct_reference_coordinate_pairs": 314,
+          "receiver_reception_counts": {
+            "1": 10,
+            "2": 10,
+            "3": 10,
+            "4": 10,
+            "5": 10,
+            "6": 10,
+            "7": 10,
+            "9": 10,
+            "10": 10,
+            "11": 10,
+            "12": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10,
+            "17": 10,
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "22": 10,
+            "23": 10,
+            "25": 10,
+            "27": 10,
+            "31": 10,
+            "32": 10,
+            "33": 10,
+            "34": 10,
+            "37": 10,
+            "44": 10,
+            "48": 10,
+            "50": 10,
+            "69": 10,
+            "70": 10
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "ed089991000645c7973aa201707b6f6de41a978ea63554df9135c260c3ace033",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_NE_b10_r1",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "NE",
+      "budget": 10,
+      "replicate": 1,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 8994,
+        "finite_some_local_runs_unconverged": 5,
+        "finite_no_local_run_converged": 1
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 26,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 40336,
+        "test_denominator_n": 10514,
+        "eligible_before_duplicate_filter_n": 10514,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 10514,
+        "sample_n": 500,
+        "fixed_roster_n": 32,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 10514,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 3721,
+            "1": 6793
+          },
+          "14,69": {
+            "0": 3669,
+            "1": 6311,
+            "2": 534
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 171,
+            "1": 329
+          },
+          "14,69": {
+            "0": 168,
+            "1": 304,
+            "2": 28
+          }
+        },
+        "buffer_excluded_n": 4525,
+        "minimum_training_distance_to_test_quadrant_m": 250.00242838356644
+      },
+      "all_block_metadata": {
+        "block_id": "study2_NE_b10_r1",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "NE",
+          "budget": 10,
+          "replicate": 1
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 40336,
+          "test_denominator_n": 10514,
+          "eligible_before_duplicate_filter_n": 10514,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 10514,
+          "sample_n": 500,
+          "fixed_roster_n": 32,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 10514,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 3721,
+              "1": 6793
+            },
+            "14,69": {
+              "0": 3669,
+              "1": 6311,
+              "2": 534
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 171,
+              "1": 329
+            },
+            "14,69": {
+              "0": 168,
+              "1": 304,
+              "2": 28
+            }
+          },
+          "buffer_excluded_n": 4525,
+          "minimum_training_distance_to_test_quadrant_m": 250.00242838356644
+        },
+        "population_path": "inputs/populations/study2_NE.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 320,
+          "distinct_labeled_source_rows": 317,
+          "distinct_reference_coordinate_pairs": 317,
+          "receiver_reception_counts": {
+            "1": 10,
+            "2": 10,
+            "3": 10,
+            "4": 10,
+            "5": 10,
+            "6": 10,
+            "7": 10,
+            "9": 10,
+            "10": 10,
+            "11": 10,
+            "12": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10,
+            "17": 10,
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "22": 10,
+            "23": 10,
+            "25": 10,
+            "27": 10,
+            "31": 10,
+            "32": 10,
+            "33": 10,
+            "34": 10,
+            "37": 10,
+            "44": 10,
+            "48": 10,
+            "50": 10,
+            "69": 10,
+            "70": 10
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "e30ec95ca66eba000e2b6917f4df4dfd531b686b4b39c08d53e00990e4cea625",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_NE_b10_r2",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "NE",
+      "budget": 10,
+      "replicate": 2,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 8996,
+        "finite_some_local_runs_unconverged": 2,
+        "finite_no_local_run_converged": 2
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 33,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 40336,
+        "test_denominator_n": 10514,
+        "eligible_before_duplicate_filter_n": 10514,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 10514,
+        "sample_n": 500,
+        "fixed_roster_n": 32,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 10514,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 3721,
+            "1": 6793
+          },
+          "14,69": {
+            "0": 3669,
+            "1": 6311,
+            "2": 534
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 171,
+            "1": 329
+          },
+          "14,69": {
+            "0": 168,
+            "1": 304,
+            "2": 28
+          }
+        },
+        "buffer_excluded_n": 4525,
+        "minimum_training_distance_to_test_quadrant_m": 250.00242838356644
+      },
+      "all_block_metadata": {
+        "block_id": "study2_NE_b10_r2",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "NE",
+          "budget": 10,
+          "replicate": 2
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 40336,
+          "test_denominator_n": 10514,
+          "eligible_before_duplicate_filter_n": 10514,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 10514,
+          "sample_n": 500,
+          "fixed_roster_n": 32,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 10514,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 3721,
+              "1": 6793
+            },
+            "14,69": {
+              "0": 3669,
+              "1": 6311,
+              "2": 534
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 171,
+              "1": 329
+            },
+            "14,69": {
+              "0": 168,
+              "1": 304,
+              "2": 28
+            }
+          },
+          "buffer_excluded_n": 4525,
+          "minimum_training_distance_to_test_quadrant_m": 250.00242838356644
+        },
+        "population_path": "inputs/populations/study2_NE.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 320,
+          "distinct_labeled_source_rows": 316,
+          "distinct_reference_coordinate_pairs": 315,
+          "receiver_reception_counts": {
+            "1": 10,
+            "2": 10,
+            "3": 10,
+            "4": 10,
+            "5": 10,
+            "6": 10,
+            "7": 10,
+            "9": 10,
+            "10": 10,
+            "11": 10,
+            "12": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10,
+            "17": 10,
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "22": 10,
+            "23": 10,
+            "25": 10,
+            "27": 10,
+            "31": 10,
+            "32": 10,
+            "33": 10,
+            "34": 10,
+            "37": 10,
+            "44": 10,
+            "48": 10,
+            "50": 10,
+            "69": 10,
+            "70": 10
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "bd02cc85fa3a5d89af1dc99276e7e7d48204e48c2766029df8f26c5ee14757bc",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_NW_all",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "NW",
+      "budget": "all",
+      "replicate": null,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 8994,
+        "finite_some_local_runs_unconverged": 6
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 13,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 35290,
+        "test_denominator_n": 17174,
+        "eligible_before_duplicate_filter_n": 17092,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 17092,
+        "sample_n": 500,
+        "fixed_roster_n": 30,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 16988,
+          "duplicate_content_groups": 79,
+          "duplicate_extra_rows": 104
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 4670,
+            "1": 12422
+          },
+          "14,69": {
+            "0": 4395,
+            "1": 11764,
+            "2": 933
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 138,
+            "1": 362
+          },
+          "14,69": {
+            "0": 132,
+            "1": 345,
+            "2": 23
+          }
+        },
+        "buffer_excluded_n": 2911,
+        "minimum_training_distance_to_test_quadrant_m": 250.07890826074174
+      },
+      "all_block_metadata": {
+        "block_id": "study2_NW_all",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "NW",
+          "budget": "all",
+          "replicate": null
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 35290,
+          "test_denominator_n": 17174,
+          "eligible_before_duplicate_filter_n": 17092,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 17092,
+          "sample_n": 500,
+          "fixed_roster_n": 30,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 16988,
+            "duplicate_content_groups": 79,
+            "duplicate_extra_rows": 104
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 4670,
+              "1": 12422
+            },
+            "14,69": {
+              "0": 4395,
+              "1": 11764,
+              "2": 933
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 138,
+              "1": 362
+            },
+            "14,69": {
+              "0": 132,
+              "1": 345,
+              "2": 23
+            }
+          },
+          "buffer_excluded_n": 2911,
+          "minimum_training_distance_to_test_quadrant_m": 250.07890826074174
+        },
+        "population_path": "inputs/populations/study2_NW.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 145283,
+          "distinct_labeled_source_rows": 35290,
+          "distinct_reference_coordinate_pairs": 31515,
+          "receiver_reception_counts": {
+            "1": 8541,
+            "2": 14816,
+            "3": 3050,
+            "4": 3548,
+            "5": 2246,
+            "6": 1604,
+            "7": 5143,
+            "9": 7545,
+            "10": 13196,
+            "11": 6538,
+            "12": 4349,
+            "14": 8491,
+            "15": 1129,
+            "16": 84,
+            "17": 4571,
+            "18": 8562,
+            "19": 2455,
+            "20": 186,
+            "22": 1584,
+            "23": 506,
+            "25": 2664,
+            "27": 12720,
+            "31": 2772,
+            "32": 5297,
+            "34": 391,
+            "37": 973,
+            "48": 264,
+            "50": 210,
+            "69": 18953,
+            "70": 2895
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "c331c7007f2a796ceb666b7fc7a9bf9114b54f7e1f7c7c6a00b1a640835c3fca",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_NW_b10_r0",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "NW",
+      "budget": 10,
+      "replicate": 0,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 8991,
+        "finite_some_local_runs_unconverged": 9
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 32,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 35290,
+        "test_denominator_n": 17174,
+        "eligible_before_duplicate_filter_n": 17092,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 17092,
+        "sample_n": 500,
+        "fixed_roster_n": 30,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 16988,
+          "duplicate_content_groups": 79,
+          "duplicate_extra_rows": 104
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 4670,
+            "1": 12422
+          },
+          "14,69": {
+            "0": 4395,
+            "1": 11764,
+            "2": 933
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 138,
+            "1": 362
+          },
+          "14,69": {
+            "0": 132,
+            "1": 345,
+            "2": 23
+          }
+        },
+        "buffer_excluded_n": 2911,
+        "minimum_training_distance_to_test_quadrant_m": 250.07890826074174
+      },
+      "all_block_metadata": {
+        "block_id": "study2_NW_b10_r0",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "NW",
+          "budget": 10,
+          "replicate": 0
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 35290,
+          "test_denominator_n": 17174,
+          "eligible_before_duplicate_filter_n": 17092,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 17092,
+          "sample_n": 500,
+          "fixed_roster_n": 30,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 16988,
+            "duplicate_content_groups": 79,
+            "duplicate_extra_rows": 104
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 4670,
+              "1": 12422
+            },
+            "14,69": {
+              "0": 4395,
+              "1": 11764,
+              "2": 933
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 138,
+              "1": 362
+            },
+            "14,69": {
+              "0": 132,
+              "1": 345,
+              "2": 23
+            }
+          },
+          "buffer_excluded_n": 2911,
+          "minimum_training_distance_to_test_quadrant_m": 250.07890826074174
+        },
+        "population_path": "inputs/populations/study2_NW.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 300,
+          "distinct_labeled_source_rows": 298,
+          "distinct_reference_coordinate_pairs": 297,
+          "receiver_reception_counts": {
+            "1": 10,
+            "2": 10,
+            "3": 10,
+            "4": 10,
+            "5": 10,
+            "6": 10,
+            "7": 10,
+            "9": 10,
+            "10": 10,
+            "11": 10,
+            "12": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10,
+            "17": 10,
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "22": 10,
+            "23": 10,
+            "25": 10,
+            "27": 10,
+            "31": 10,
+            "32": 10,
+            "34": 10,
+            "37": 10,
+            "48": 10,
+            "50": 10,
+            "69": 10,
+            "70": 10
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "464b9a7c18dd6eec4483a86f25fca64cb57afb241dfd5803de87b1bd44d9a57f",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_NW_b10_r1",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "NW",
+      "budget": 10,
+      "replicate": 1,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 8989,
+        "finite_some_local_runs_unconverged": 11
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 57,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 35290,
+        "test_denominator_n": 17174,
+        "eligible_before_duplicate_filter_n": 17092,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 17092,
+        "sample_n": 500,
+        "fixed_roster_n": 30,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 16988,
+          "duplicate_content_groups": 79,
+          "duplicate_extra_rows": 104
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 4670,
+            "1": 12422
+          },
+          "14,69": {
+            "0": 4395,
+            "1": 11764,
+            "2": 933
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 138,
+            "1": 362
+          },
+          "14,69": {
+            "0": 132,
+            "1": 345,
+            "2": 23
+          }
+        },
+        "buffer_excluded_n": 2911,
+        "minimum_training_distance_to_test_quadrant_m": 250.07890826074174
+      },
+      "all_block_metadata": {
+        "block_id": "study2_NW_b10_r1",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "NW",
+          "budget": 10,
+          "replicate": 1
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 35290,
+          "test_denominator_n": 17174,
+          "eligible_before_duplicate_filter_n": 17092,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 17092,
+          "sample_n": 500,
+          "fixed_roster_n": 30,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 16988,
+            "duplicate_content_groups": 79,
+            "duplicate_extra_rows": 104
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 4670,
+              "1": 12422
+            },
+            "14,69": {
+              "0": 4395,
+              "1": 11764,
+              "2": 933
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 138,
+              "1": 362
+            },
+            "14,69": {
+              "0": 132,
+              "1": 345,
+              "2": 23
+            }
+          },
+          "buffer_excluded_n": 2911,
+          "minimum_training_distance_to_test_quadrant_m": 250.07890826074174
+        },
+        "population_path": "inputs/populations/study2_NW.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 300,
+          "distinct_labeled_source_rows": 297,
+          "distinct_reference_coordinate_pairs": 297,
+          "receiver_reception_counts": {
+            "1": 10,
+            "2": 10,
+            "3": 10,
+            "4": 10,
+            "5": 10,
+            "6": 10,
+            "7": 10,
+            "9": 10,
+            "10": 10,
+            "11": 10,
+            "12": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10,
+            "17": 10,
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "22": 10,
+            "23": 10,
+            "25": 10,
+            "27": 10,
+            "31": 10,
+            "32": 10,
+            "34": 10,
+            "37": 10,
+            "48": 10,
+            "50": 10,
+            "69": 10,
+            "70": 10
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "94793384ea19be6bd10cf69b1ea7cc0203e61c6c61ee5beebce3180b444b2729",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_NW_b10_r2",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "NW",
+      "budget": 10,
+      "replicate": 2,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 8995,
+        "finite_some_local_runs_unconverged": 5
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 6,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 35290,
+        "test_denominator_n": 17174,
+        "eligible_before_duplicate_filter_n": 17092,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 17092,
+        "sample_n": 500,
+        "fixed_roster_n": 30,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 16988,
+          "duplicate_content_groups": 79,
+          "duplicate_extra_rows": 104
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 4670,
+            "1": 12422
+          },
+          "14,69": {
+            "0": 4395,
+            "1": 11764,
+            "2": 933
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 138,
+            "1": 362
+          },
+          "14,69": {
+            "0": 132,
+            "1": 345,
+            "2": 23
+          }
+        },
+        "buffer_excluded_n": 2911,
+        "minimum_training_distance_to_test_quadrant_m": 250.07890826074174
+      },
+      "all_block_metadata": {
+        "block_id": "study2_NW_b10_r2",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "NW",
+          "budget": 10,
+          "replicate": 2
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 35290,
+          "test_denominator_n": 17174,
+          "eligible_before_duplicate_filter_n": 17092,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 17092,
+          "sample_n": 500,
+          "fixed_roster_n": 30,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 16988,
+            "duplicate_content_groups": 79,
+            "duplicate_extra_rows": 104
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 4670,
+              "1": 12422
+            },
+            "14,69": {
+              "0": 4395,
+              "1": 11764,
+              "2": 933
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 138,
+              "1": 362
+            },
+            "14,69": {
+              "0": 132,
+              "1": 345,
+              "2": 23
+            }
+          },
+          "buffer_excluded_n": 2911,
+          "minimum_training_distance_to_test_quadrant_m": 250.07890826074174
+        },
+        "population_path": "inputs/populations/study2_NW.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 300,
+          "distinct_labeled_source_rows": 298,
+          "distinct_reference_coordinate_pairs": 297,
+          "receiver_reception_counts": {
+            "1": 10,
+            "2": 10,
+            "3": 10,
+            "4": 10,
+            "5": 10,
+            "6": 10,
+            "7": 10,
+            "9": 10,
+            "10": 10,
+            "11": 10,
+            "12": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10,
+            "17": 10,
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "22": 10,
+            "23": 10,
+            "25": 10,
+            "27": 10,
+            "31": 10,
+            "32": 10,
+            "34": 10,
+            "37": 10,
+            "48": 10,
+            "50": 10,
+            "69": 10,
+            "70": 10
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "4ca8f657ea4fb92148354dcecc4998de39fda09ceaec80cdd9bc96716b2d22d0",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_SE_all",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "SE",
+      "budget": "all",
+      "replicate": null,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 8999,
+        "finite_some_local_runs_unconverged": 1
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 5,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 35478,
+        "test_denominator_n": 17174,
+        "eligible_before_duplicate_filter_n": 17142,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 17142,
+        "sample_n": 500,
+        "fixed_roster_n": 32,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 17138,
+          "duplicate_content_groups": 4,
+          "duplicate_extra_rows": 4
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 16023,
+            "1": 1119
+          },
+          "14,69": {
+            "0": 3735,
+            "1": 12942,
+            "2": 465
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 470,
+            "1": 30
+          },
+          "14,69": {
+            "0": 96,
+            "1": 390,
+            "2": 14
+          }
+        },
+        "buffer_excluded_n": 2723,
+        "minimum_training_distance_to_test_quadrant_m": 250.004189684405
+      },
+      "all_block_metadata": {
+        "block_id": "study2_SE_all",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "SE",
+          "budget": "all",
+          "replicate": null
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 35478,
+          "test_denominator_n": 17174,
+          "eligible_before_duplicate_filter_n": 17142,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 17142,
+          "sample_n": 500,
+          "fixed_roster_n": 32,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 17138,
+            "duplicate_content_groups": 4,
+            "duplicate_extra_rows": 4
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 16023,
+              "1": 1119
+            },
+            "14,69": {
+              "0": 3735,
+              "1": 12942,
+              "2": 465
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 470,
+              "1": 30
+            },
+            "14,69": {
+              "0": 96,
+              "1": 390,
+              "2": 14
+            }
+          },
+          "buffer_excluded_n": 2723,
+          "minimum_training_distance_to_test_quadrant_m": 250.004189684405
+        },
+        "population_path": "inputs/populations/study2_SE.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 171540,
+          "distinct_labeled_source_rows": 35478,
+          "distinct_reference_coordinate_pairs": 34556,
+          "receiver_reception_counts": {
+            "1": 2449,
+            "2": 1123,
+            "3": 753,
+            "4": 10061,
+            "5": 11792,
+            "6": 5856,
+            "7": 3330,
+            "9": 14121,
+            "10": 27,
+            "11": 9860,
+            "12": 2637,
+            "14": 20698,
+            "15": 2027,
+            "16": 1274,
+            "17": 1808,
+            "18": 8786,
+            "19": 5363,
+            "20": 10220,
+            "22": 5776,
+            "23": 1118,
+            "25": 3789,
+            "27": 14771,
+            "31": 4784,
+            "32": 16089,
+            "33": 244,
+            "34": 3040,
+            "37": 927,
+            "44": 144,
+            "48": 185,
+            "50": 342,
+            "69": 6903,
+            "70": 1243
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "5f72b8f7725790960ca9e5a8c49cfaac1bb3b73e60d125ed3a6782439a93a921",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_SE_b10_r0",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "SE",
+      "budget": 10,
+      "replicate": 0,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 9000
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 0,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 35478,
+        "test_denominator_n": 17174,
+        "eligible_before_duplicate_filter_n": 17142,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 17142,
+        "sample_n": 500,
+        "fixed_roster_n": 32,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 17138,
+          "duplicate_content_groups": 4,
+          "duplicate_extra_rows": 4
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 16023,
+            "1": 1119
+          },
+          "14,69": {
+            "0": 3735,
+            "1": 12942,
+            "2": 465
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 470,
+            "1": 30
+          },
+          "14,69": {
+            "0": 96,
+            "1": 390,
+            "2": 14
+          }
+        },
+        "buffer_excluded_n": 2723,
+        "minimum_training_distance_to_test_quadrant_m": 250.004189684405
+      },
+      "all_block_metadata": {
+        "block_id": "study2_SE_b10_r0",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "SE",
+          "budget": 10,
+          "replicate": 0
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 35478,
+          "test_denominator_n": 17174,
+          "eligible_before_duplicate_filter_n": 17142,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 17142,
+          "sample_n": 500,
+          "fixed_roster_n": 32,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 17138,
+            "duplicate_content_groups": 4,
+            "duplicate_extra_rows": 4
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 16023,
+              "1": 1119
+            },
+            "14,69": {
+              "0": 3735,
+              "1": 12942,
+              "2": 465
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 470,
+              "1": 30
+            },
+            "14,69": {
+              "0": 96,
+              "1": 390,
+              "2": 14
+            }
+          },
+          "buffer_excluded_n": 2723,
+          "minimum_training_distance_to_test_quadrant_m": 250.004189684405
+        },
+        "population_path": "inputs/populations/study2_SE.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 320,
+          "distinct_labeled_source_rows": 318,
+          "distinct_reference_coordinate_pairs": 316,
+          "receiver_reception_counts": {
+            "1": 10,
+            "2": 10,
+            "3": 10,
+            "4": 10,
+            "5": 10,
+            "6": 10,
+            "7": 10,
+            "9": 10,
+            "10": 10,
+            "11": 10,
+            "12": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10,
+            "17": 10,
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "22": 10,
+            "23": 10,
+            "25": 10,
+            "27": 10,
+            "31": 10,
+            "32": 10,
+            "33": 10,
+            "34": 10,
+            "37": 10,
+            "44": 10,
+            "48": 10,
+            "50": 10,
+            "69": 10,
+            "70": 10
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "9d57b778a63d0f0424f1d7c1c98f1645f6f5d9532d5902a983a75c781eddcd90",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_SE_b10_r1",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "SE",
+      "budget": 10,
+      "replicate": 1,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 8996,
+        "finite_some_local_runs_unconverged": 4
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 14,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 35478,
+        "test_denominator_n": 17174,
+        "eligible_before_duplicate_filter_n": 17142,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 17142,
+        "sample_n": 500,
+        "fixed_roster_n": 32,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 17138,
+          "duplicate_content_groups": 4,
+          "duplicate_extra_rows": 4
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 16023,
+            "1": 1119
+          },
+          "14,69": {
+            "0": 3735,
+            "1": 12942,
+            "2": 465
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 470,
+            "1": 30
+          },
+          "14,69": {
+            "0": 96,
+            "1": 390,
+            "2": 14
+          }
+        },
+        "buffer_excluded_n": 2723,
+        "minimum_training_distance_to_test_quadrant_m": 250.004189684405
+      },
+      "all_block_metadata": {
+        "block_id": "study2_SE_b10_r1",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "SE",
+          "budget": 10,
+          "replicate": 1
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 35478,
+          "test_denominator_n": 17174,
+          "eligible_before_duplicate_filter_n": 17142,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 17142,
+          "sample_n": 500,
+          "fixed_roster_n": 32,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 17138,
+            "duplicate_content_groups": 4,
+            "duplicate_extra_rows": 4
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 16023,
+              "1": 1119
+            },
+            "14,69": {
+              "0": 3735,
+              "1": 12942,
+              "2": 465
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 470,
+              "1": 30
+            },
+            "14,69": {
+              "0": 96,
+              "1": 390,
+              "2": 14
+            }
+          },
+          "buffer_excluded_n": 2723,
+          "minimum_training_distance_to_test_quadrant_m": 250.004189684405
+        },
+        "population_path": "inputs/populations/study2_SE.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 320,
+          "distinct_labeled_source_rows": 317,
+          "distinct_reference_coordinate_pairs": 317,
+          "receiver_reception_counts": {
+            "1": 10,
+            "2": 10,
+            "3": 10,
+            "4": 10,
+            "5": 10,
+            "6": 10,
+            "7": 10,
+            "9": 10,
+            "10": 10,
+            "11": 10,
+            "12": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10,
+            "17": 10,
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "22": 10,
+            "23": 10,
+            "25": 10,
+            "27": 10,
+            "31": 10,
+            "32": 10,
+            "33": 10,
+            "34": 10,
+            "37": 10,
+            "44": 10,
+            "48": 10,
+            "50": 10,
+            "69": 10,
+            "70": 10
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "533eaf3d829c4ff955673692bbe7be7e8af1c760c66f409de27d7fd32ac9cb99",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_SE_b10_r2",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "SE",
+      "budget": 10,
+      "replicate": 2,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 8998,
+        "finite_some_local_runs_unconverged": 2
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 5,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 35478,
+        "test_denominator_n": 17174,
+        "eligible_before_duplicate_filter_n": 17142,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 17142,
+        "sample_n": 500,
+        "fixed_roster_n": 32,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 17138,
+          "duplicate_content_groups": 4,
+          "duplicate_extra_rows": 4
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 16023,
+            "1": 1119
+          },
+          "14,69": {
+            "0": 3735,
+            "1": 12942,
+            "2": 465
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 470,
+            "1": 30
+          },
+          "14,69": {
+            "0": 96,
+            "1": 390,
+            "2": 14
+          }
+        },
+        "buffer_excluded_n": 2723,
+        "minimum_training_distance_to_test_quadrant_m": 250.004189684405
+      },
+      "all_block_metadata": {
+        "block_id": "study2_SE_b10_r2",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "SE",
+          "budget": 10,
+          "replicate": 2
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 35478,
+          "test_denominator_n": 17174,
+          "eligible_before_duplicate_filter_n": 17142,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 17142,
+          "sample_n": 500,
+          "fixed_roster_n": 32,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 17138,
+            "duplicate_content_groups": 4,
+            "duplicate_extra_rows": 4
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 16023,
+              "1": 1119
+            },
+            "14,69": {
+              "0": 3735,
+              "1": 12942,
+              "2": 465
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 470,
+              "1": 30
+            },
+            "14,69": {
+              "0": 96,
+              "1": 390,
+              "2": 14
+            }
+          },
+          "buffer_excluded_n": 2723,
+          "minimum_training_distance_to_test_quadrant_m": 250.004189684405
+        },
+        "population_path": "inputs/populations/study2_SE.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 320,
+          "distinct_labeled_source_rows": 317,
+          "distinct_reference_coordinate_pairs": 315,
+          "receiver_reception_counts": {
+            "1": 10,
+            "2": 10,
+            "3": 10,
+            "4": 10,
+            "5": 10,
+            "6": 10,
+            "7": 10,
+            "9": 10,
+            "10": 10,
+            "11": 10,
+            "12": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10,
+            "17": 10,
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "22": 10,
+            "23": 10,
+            "25": 10,
+            "27": 10,
+            "31": 10,
+            "32": 10,
+            "33": 10,
+            "34": 10,
+            "37": 10,
+            "44": 10,
+            "48": 10,
+            "50": 10,
+            "69": 10,
+            "70": 10
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "7333e2dc23132f800a7af17063601dcdbbcaf7690db22162632111f4daa66acc",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_SW_all",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "SW",
+      "budget": "all",
+      "replicate": null,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 8996,
+        "finite_some_local_runs_unconverged": 4
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 7,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 42179,
+        "test_denominator_n": 10513,
+        "eligible_before_duplicate_filter_n": 10447,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 10447,
+        "sample_n": 500,
+        "fixed_roster_n": 32,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 10428,
+          "duplicate_content_groups": 19,
+          "duplicate_extra_rows": 19
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 7345,
+            "1": 3102
+          },
+          "14,69": {
+            "0": 2778,
+            "1": 6091,
+            "2": 1578
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 374,
+            "1": 126
+          },
+          "14,69": {
+            "0": 138,
+            "1": 292,
+            "2": 70
+          }
+        },
+        "buffer_excluded_n": 2683,
+        "minimum_training_distance_to_test_quadrant_m": 250.00336480233818
+      },
+      "all_block_metadata": {
+        "block_id": "study2_SW_all",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "SW",
+          "budget": "all",
+          "replicate": null
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 42179,
+          "test_denominator_n": 10513,
+          "eligible_before_duplicate_filter_n": 10447,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 10447,
+          "sample_n": 500,
+          "fixed_roster_n": 32,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 10428,
+            "duplicate_content_groups": 19,
+            "duplicate_extra_rows": 19
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 7345,
+              "1": 3102
+            },
+            "14,69": {
+              "0": 2778,
+              "1": 6091,
+              "2": 1578
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 374,
+              "1": 126
+            },
+            "14,69": {
+              "0": 138,
+              "1": 292,
+              "2": 70
+            }
+          },
+          "buffer_excluded_n": 2683,
+          "minimum_training_distance_to_test_quadrant_m": 250.00336480233818
+        },
+        "population_path": "inputs/populations/study2_SW.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 196807,
+          "distinct_labeled_source_rows": 42179,
+          "distinct_reference_coordinate_pairs": 37948,
+          "receiver_reception_counts": {
+            "1": 7717,
+            "2": 13672,
+            "3": 2600,
+            "4": 10496,
+            "5": 11744,
+            "6": 5840,
+            "7": 5190,
+            "9": 15961,
+            "10": 12815,
+            "11": 11420,
+            "12": 5178,
+            "14": 18247,
+            "15": 888,
+            "16": 1250,
+            "17": 4828,
+            "18": 2467,
+            "19": 2991,
+            "20": 10148,
+            "22": 5756,
+            "23": 508,
+            "25": 1249,
+            "27": 7977,
+            "31": 4933,
+            "32": 11124,
+            "33": 245,
+            "34": 2928,
+            "37": 1102,
+            "44": 144,
+            "48": 309,
+            "50": 96,
+            "69": 13827,
+            "70": 3157
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "03294d3b59e0346b4279c02c863c400f9a0dfe6b96b89d49f808ec18d95c6490",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_SW_b10_r0",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "SW",
+      "budget": 10,
+      "replicate": 0,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 8995,
+        "finite_some_local_runs_unconverged": 3,
+        "finite_no_local_run_converged": 2
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 42,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 42179,
+        "test_denominator_n": 10513,
+        "eligible_before_duplicate_filter_n": 10447,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 10447,
+        "sample_n": 500,
+        "fixed_roster_n": 32,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 10428,
+          "duplicate_content_groups": 19,
+          "duplicate_extra_rows": 19
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 7345,
+            "1": 3102
+          },
+          "14,69": {
+            "0": 2778,
+            "1": 6091,
+            "2": 1578
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 374,
+            "1": 126
+          },
+          "14,69": {
+            "0": 138,
+            "1": 292,
+            "2": 70
+          }
+        },
+        "buffer_excluded_n": 2683,
+        "minimum_training_distance_to_test_quadrant_m": 250.00336480233818
+      },
+      "all_block_metadata": {
+        "block_id": "study2_SW_b10_r0",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "SW",
+          "budget": 10,
+          "replicate": 0
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 42179,
+          "test_denominator_n": 10513,
+          "eligible_before_duplicate_filter_n": 10447,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 10447,
+          "sample_n": 500,
+          "fixed_roster_n": 32,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 10428,
+            "duplicate_content_groups": 19,
+            "duplicate_extra_rows": 19
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 7345,
+              "1": 3102
+            },
+            "14,69": {
+              "0": 2778,
+              "1": 6091,
+              "2": 1578
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 374,
+              "1": 126
+            },
+            "14,69": {
+              "0": 138,
+              "1": 292,
+              "2": 70
+            }
+          },
+          "buffer_excluded_n": 2683,
+          "minimum_training_distance_to_test_quadrant_m": 250.00336480233818
+        },
+        "population_path": "inputs/populations/study2_SW.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 320,
+          "distinct_labeled_source_rows": 317,
+          "distinct_reference_coordinate_pairs": 313,
+          "receiver_reception_counts": {
+            "1": 10,
+            "2": 10,
+            "3": 10,
+            "4": 10,
+            "5": 10,
+            "6": 10,
+            "7": 10,
+            "9": 10,
+            "10": 10,
+            "11": 10,
+            "12": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10,
+            "17": 10,
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "22": 10,
+            "23": 10,
+            "25": 10,
+            "27": 10,
+            "31": 10,
+            "32": 10,
+            "33": 10,
+            "34": 10,
+            "37": 10,
+            "44": 10,
+            "48": 10,
+            "50": 10,
+            "69": 10,
+            "70": 10
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "2aa71833aff67ac78f55ff3d7f45742ad4a05c642653ce21295cadfd4e38d312",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_SW_b10_r1",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "SW",
+      "budget": 10,
+      "replicate": 1,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 8991,
+        "finite_some_local_runs_unconverged": 7,
+        "finite_no_local_run_converged": 2
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 59,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 42179,
+        "test_denominator_n": 10513,
+        "eligible_before_duplicate_filter_n": 10447,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 10447,
+        "sample_n": 500,
+        "fixed_roster_n": 32,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 10428,
+          "duplicate_content_groups": 19,
+          "duplicate_extra_rows": 19
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 7345,
+            "1": 3102
+          },
+          "14,69": {
+            "0": 2778,
+            "1": 6091,
+            "2": 1578
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 374,
+            "1": 126
+          },
+          "14,69": {
+            "0": 138,
+            "1": 292,
+            "2": 70
+          }
+        },
+        "buffer_excluded_n": 2683,
+        "minimum_training_distance_to_test_quadrant_m": 250.00336480233818
+      },
+      "all_block_metadata": {
+        "block_id": "study2_SW_b10_r1",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "SW",
+          "budget": 10,
+          "replicate": 1
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 42179,
+          "test_denominator_n": 10513,
+          "eligible_before_duplicate_filter_n": 10447,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 10447,
+          "sample_n": 500,
+          "fixed_roster_n": 32,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 10428,
+            "duplicate_content_groups": 19,
+            "duplicate_extra_rows": 19
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 7345,
+              "1": 3102
+            },
+            "14,69": {
+              "0": 2778,
+              "1": 6091,
+              "2": 1578
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 374,
+              "1": 126
+            },
+            "14,69": {
+              "0": 138,
+              "1": 292,
+              "2": 70
+            }
+          },
+          "buffer_excluded_n": 2683,
+          "minimum_training_distance_to_test_quadrant_m": 250.00336480233818
+        },
+        "population_path": "inputs/populations/study2_SW.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 320,
+          "distinct_labeled_source_rows": 318,
+          "distinct_reference_coordinate_pairs": 317,
+          "receiver_reception_counts": {
+            "1": 10,
+            "2": 10,
+            "3": 10,
+            "4": 10,
+            "5": 10,
+            "6": 10,
+            "7": 10,
+            "9": 10,
+            "10": 10,
+            "11": 10,
+            "12": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10,
+            "17": 10,
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "22": 10,
+            "23": 10,
+            "25": 10,
+            "27": 10,
+            "31": 10,
+            "32": 10,
+            "33": 10,
+            "34": 10,
+            "37": 10,
+            "44": 10,
+            "48": 10,
+            "50": 10,
+            "69": 10,
+            "70": 10
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "9a1decb37bc0e91e5d232599754bf0ef1bee0fc6417a1c3e7e8a50ce52cf03c7",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    },
+    {
+      "block": "study2_SW_b10_r2",
+      "study": "study2",
+      "map": "official32_minus71",
+      "fold": "SW",
+      "budget": 10,
+      "replicate": 2,
+      "sampled_queries": 500,
+      "fields_including_baseline": 9,
+      "scheduled_method_policy_entries": 18000,
+      "nlls_status_counts": {
+        "finite_all_local_runs_converged": 8994,
+        "finite_some_local_runs_unconverged": 6
+      },
+      "nlls_local_start_failed_total": 0,
+      "nlls_local_start_budget_exhausted_total": 28,
+      "full_population_metadata": {
+        "working_n": 55375,
+        "training_n": 42179,
+        "test_denominator_n": 10513,
+        "eligible_before_duplicate_filter_n": 10447,
+        "excluded_train_content_overlap_n": 0,
+        "eligible_n": 10447,
+        "sample_n": 500,
+        "fixed_roster_n": 32,
+        "full_eligible_duplicate_content": {
+          "unique_content_groups": 10428,
+          "duplicate_content_groups": 19,
+          "duplicate_extra_rows": 19
+        },
+        "sample_duplicate_content": {
+          "unique_content_groups": 500,
+          "duplicate_content_groups": 0,
+          "duplicate_extra_rows": 0
+        },
+        "full_eligible_selected_target_exposure": {
+          "14": {
+            "0": 7345,
+            "1": 3102
+          },
+          "14,69": {
+            "0": 2778,
+            "1": 6091,
+            "2": 1578
+          }
+        },
+        "sample_selected_target_exposure": {
+          "14": {
+            "0": 374,
+            "1": 126
+          },
+          "14,69": {
+            "0": 138,
+            "1": 292,
+            "2": 70
+          }
+        },
+        "buffer_excluded_n": 2683,
+        "minimum_training_distance_to_test_quadrant_m": 250.00336480233818
+      },
+      "all_block_metadata": {
+        "block_id": "study2_SW_b10_r2",
+        "identity": {
+          "study": "study2",
+          "map": "official32_minus71",
+          "fold": "SW",
+          "budget": 10,
+          "replicate": 2
+        },
+        "fields": [
+          {
+            "field_index": 0,
+            "D_m": 0.0,
+            "draw": -1,
+            "target_ids": []
+          },
+          {
+            "field_index": 1,
+            "D_m": 1000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 2,
+            "D_m": 1000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 3,
+            "D_m": 1000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 4,
+            "D_m": 1000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 5,
+            "D_m": 5000.0,
+            "draw": 0,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 6,
+            "D_m": 5000.0,
+            "draw": 1,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 7,
+            "D_m": 5000.0,
+            "draw": 2,
+            "target_ids": [
+              14,
+              69
+            ]
+          },
+          {
+            "field_index": 8,
+            "D_m": 5000.0,
+            "draw": 3,
+            "target_ids": [
+              14,
+              69
+            ]
+          }
+        ],
+        "population": {
+          "working_n": 55375,
+          "training_n": 42179,
+          "test_denominator_n": 10513,
+          "eligible_before_duplicate_filter_n": 10447,
+          "excluded_train_content_overlap_n": 0,
+          "eligible_n": 10447,
+          "sample_n": 500,
+          "fixed_roster_n": 32,
+          "full_eligible_duplicate_content": {
+            "unique_content_groups": 10428,
+            "duplicate_content_groups": 19,
+            "duplicate_extra_rows": 19
+          },
+          "sample_duplicate_content": {
+            "unique_content_groups": 500,
+            "duplicate_content_groups": 0,
+            "duplicate_extra_rows": 0
+          },
+          "full_eligible_selected_target_exposure": {
+            "14": {
+              "0": 7345,
+              "1": 3102
+            },
+            "14,69": {
+              "0": 2778,
+              "1": 6091,
+              "2": 1578
+            }
+          },
+          "sample_selected_target_exposure": {
+            "14": {
+              "0": 374,
+              "1": 126
+            },
+            "14,69": {
+              "0": 138,
+              "1": 292,
+              "2": 70
+            }
+          },
+          "buffer_excluded_n": 2683,
+          "minimum_training_distance_to_test_quadrant_m": 250.00336480233818
+        },
+        "population_path": "inputs/populations/study2_SW.npz",
+        "calibration_cost": {
+          "total_receiver_receptions": 320,
+          "distinct_labeled_source_rows": 319,
+          "distinct_reference_coordinate_pairs": 317,
+          "receiver_reception_counts": {
+            "1": 10,
+            "2": 10,
+            "3": 10,
+            "4": 10,
+            "5": 10,
+            "6": 10,
+            "7": 10,
+            "9": 10,
+            "10": 10,
+            "11": 10,
+            "12": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10,
+            "17": 10,
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "22": 10,
+            "23": 10,
+            "25": 10,
+            "27": 10,
+            "31": 10,
+            "32": 10,
+            "33": 10,
+            "34": 10,
+            "37": 10,
+            "44": 10,
+            "48": 10,
+            "50": 10,
+            "69": 10,
+            "70": 10
+          },
+          "interpretation": "Budget10 means10 receptions for each receiver, not10 labeled transmissions overall; source records can support multiple receivers."
+        },
+        "map_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+        "input_npz_sha256": "d024140ad6de72bcab36390e875c94e5fc116d295ff517747ceebe437bc22c36",
+        "field_zero_semantics": "Unique reference input; frozen/refit coincide exactly."
+      }
+    }
+  ],
+  "checks": {
+    "total": 1304,
+    "failed": []
+  },
+  "exceptions": [],
+  "exception_count_matches_primary_receipt": true,
+  "ranking_summary": [
+    {
+      "map": "official32_minus71",
+      "population": "full_sample",
+      "quantile": "p50",
+      "specified_fields": 24,
+      "strict_reversals": 11,
+      "ordering_changes_including_tie": 11,
+      "unestimable_fields": 0
+    },
+    {
+      "map": "official32_minus71",
+      "population": "full_sample",
+      "quantile": "p95",
+      "specified_fields": 24,
+      "strict_reversals": 0,
+      "ordering_changes_including_tie": 0,
+      "unestimable_fields": 0
+    },
+    {
+      "map": "official32_minus71",
+      "population": "selected_target_affected",
+      "quantile": "p50",
+      "specified_fields": 24,
+      "strict_reversals": 6,
+      "ordering_changes_including_tie": 6,
+      "unestimable_fields": 0
+    },
+    {
+      "map": "official32_minus71",
+      "population": "selected_target_affected",
+      "quantile": "p95",
+      "specified_fields": 24,
+      "strict_reversals": 2,
+      "ordering_changes_including_tie": 2,
+      "unestimable_fields": 0
+    },
+    {
+      "map": "recovered29_sensitivity",
+      "population": "full_sample",
+      "quantile": "p50",
+      "specified_fields": 24,
+      "strict_reversals": 1,
+      "ordering_changes_including_tie": 1,
+      "unestimable_fields": 0
+    },
+    {
+      "map": "recovered29_sensitivity",
+      "population": "full_sample",
+      "quantile": "p95",
+      "specified_fields": 24,
+      "strict_reversals": 0,
+      "ordering_changes_including_tie": 0,
+      "unestimable_fields": 0
+    },
+    {
+      "map": "recovered29_sensitivity",
+      "population": "selected_target_affected",
+      "quantile": "p50",
+      "specified_fields": 24,
+      "strict_reversals": 5,
+      "ordering_changes_including_tie": 5,
+      "unestimable_fields": 0
+    },
+    {
+      "map": "recovered29_sensitivity",
+      "population": "selected_target_affected",
+      "quantile": "p95",
+      "specified_fields": 24,
+      "strict_reversals": 2,
+      "ordering_changes_including_tie": 2,
+      "unestimable_fields": 0
+    }
+  ],
+  "tables": {
+    "arms": {
+      "rows": 1480,
+      "filename": "ARMS.csv",
+      "sha256": "ac6383a2098854dd20728d5e92f4cc16643bffd31d3a273512a99e3c5c8ba319"
+    },
+    "effects": {
+      "rows": 704,
+      "filename": "EFFECTS.csv",
+      "sha256": "dc2f8f579d00a47e567aeb4452fec83b6f78bc0b25d638504b2ab6900762e243"
+    },
+    "rankings": {
+      "rows": 192,
+      "filename": "RANKINGS.csv",
+      "sha256": "faafe616236a751ce9dde81f880b67d5fa8dec32b4d98409cbd0331af0b3f2f9"
+    },
+    "controls": {
+      "rows": 704,
+      "filename": "CONTROLS.csv",
+      "sha256": "554b6087c4e80463d7875d38d9c37f34a971e8fe575f2a7dcc0878dd1212787a"
+    },
+    "wcl_diagnostics": {
+      "rows": 740,
+      "filename": "WCL_DIAGNOSTICS.csv",
+      "sha256": "4a4b0866dca44c713fc5d8770d1590bc7f4a4eb5f4adf23a3d8d7fc2e1942f95"
+    },
+    "checks": {
+      "rows": 1304,
+      "filename": "CHECKS.csv",
+      "sha256": "6dbe724caa2880b798e1e99108eb118009c6ccfd9e62d1bcdb738b49509d7556"
+    },
+    "exposure": {
+      "rows": 522,
+      "filename": "EXPOSURE.csv",
+      "sha256": "e511ec39f9e9fa8a56c21db4774e0bdf9ff8838d3c843b5795b8d7b2878bd1fb"
+    },
+    "budget_comparisons": {
+      "rows": 816,
+      "filename": "BUDGET_COMPARISONS.csv",
+      "sha256": "5902a042ca753a9b39184adafeaa0803a7baf3db83d804321c2982247057fd9a"
+    },
+    "budget_calibration_effects": {
+      "rows": 384,
+      "filename": "BUDGET_CALIBRATION_EFFECTS.csv",
+      "sha256": "809ffca20192dd34baca78ddfb595b1c6d61da659e05ff3e78b94f2b3ab2747a"
+    },
+    "population_availability": {
+      "rows": 6,
+      "filename": "POPULATION_AVAILABILITY.csv",
+      "sha256": "fb3b8724ee69d76638acd92b2fa91c5b99bdbec49e61bd4c895622b24ef98c17"
+    },
+    "population_exposure": {
+      "rows": 60,
+      "filename": "POPULATION_EXPOSURE.csv",
+      "sha256": "78280be9480561a93327056174f8097e087359f10ed9e326246851beb27b8f91"
+    },
+    "calibration_costs": {
+      "rows": 18,
+      "filename": "CALIBRATION_COSTS.csv",
+      "sha256": "261483e2b35ab59be3f0c9e8c08c143f13e5a0bc0ca434c00ba2ac537c1695ad"
+    },
+    "effect_direction_ranges": {
+      "rows": 176,
+      "filename": "EFFECT_DIRECTION_RANGES.csv",
+      "sha256": "041038976958e9c86675ba7d29d16c0bf6646c61826a67ad35292c3921227374"
+    },
+    "arm_direction_ranges": {
+      "rows": 352,
+      "filename": "ARM_DIRECTION_RANGES.csv",
+      "sha256": "542efd2eed83868467c2a14c95253a1a8b96ac1b2ad47badb3ff69762e3fcd63"
+    },
+    "budget_direction_ranges": {
+      "rows": 192,
+      "filename": "BUDGET_DIRECTION_RANGES.csv",
+      "sha256": "b952827ec0db303c8477a31ab5eb4eb84e3f3d854c08721eaf384e1ac317274b"
+    }
+  },
+  "ecdf_reconstruction": "Every empirical error/exceedance curve is reconstructable from retained prediction arrays and input reference positions. No independent pooled ECDF is asserted.",
+  "figure_proposals": [
+    "Matched frozen/refit error and displacement panels by estimator, magnitude and target set; display the four specified directions.",
+    "Spatial-fold calibration-budget panels displaying each limited-budget realization, the one all-budget fit, and each own-zero baseline.",
+    "WCL target-weight mass versus prediction movement as mechanism evidence; label as descriptive, not causal regression."
+  ]
+}

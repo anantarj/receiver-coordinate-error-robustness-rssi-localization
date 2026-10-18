@@ -1,0 +1,139 @@
+{
+  "primary_map": "official32_minus71",
+  "R29_scope": "Historical sensitivity only; not independent map validation.",
+  "estimators": [
+    "WCL_kappa4.7",
+    "fixed_multistart_RSS_NLLS"
+  ],
+  "comparison": [
+    "within-row frozen/refit on identical field",
+    "each state vs own budget-specific unperturbed baseline",
+    "WCL vs NLLS ordering on all-four-state common finite rows",
+    "10vsall on samefold/query/geometry"
+  ],
+  "reporting_populations": [
+    "full fixed query sample including unexposed",
+    "field-specific selected-target subset"
+  ],
+  "quantiles": {
+    "probabilities": [
+      0.5,
+      0.9,
+      0.95
+    ],
+    "method": "linear",
+    "quantile_difference": "within field before descriptive direction aggregation"
+  },
+  "metrics": [
+    "absolute P50/P90/P95,mean,max",
+    "difference of error quantiles",
+    "median and mean paired message difference",
+    "help/harm/tie with counts and denominators",
+    "direct frozen prediction displacement from own zero baseline",
+    "additional refit displacement from frozen",
+    "net refitted displacement from own zero baseline",
+    "fraction with refitted displacement smaller than frozen displacement",
+    "input and finite-output availability",
+    "local convergence/exhaustion/failure and competitive endpoint diagnostics"
+  ],
+  "numeric_tie": "1e-6m +1e-12*max(abs(left),abs(right))",
+  "finite_policy": "Arm metrics explicit finite denominator; paired metrics on common finite rows with missing counts. No failed row silent omission.",
+  "population_coverage": "Full heldout-region eligible counts separately from sampled-query performance; no imputation to unsampled messages.",
+  "aggregation": "Descriptive medians/min/max over four coupled directions. Calibration repetitions reported separately; all-budget calculated once.",
+  "inference": "No pooled independent-message p-values or confidence claims. Repeated message-condition entries are not sample size.",
+  "thresholds": "Complete empirical curves reconstructable from retained error arrays; no outcome-selected application threshold.",
+  "completion": "All planned conditions accounted for with negative/null/failed outcomes; no required favorable sign or reversal.",
+  "block_counts": {
+    "study1_official32_minus71_all": {
+      "query_count": 512,
+      "unique_field_policy_states": 49,
+      "scheduled_estimates_per_estimator": 25088
+    },
+    "study1_recovered29_sensitivity_all": {
+      "query_count": 512,
+      "unique_field_policy_states": 49,
+      "scheduled_estimates_per_estimator": 25088
+    },
+    "study2_SW_all": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    },
+    "study2_SW_b10_r0": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    },
+    "study2_SW_b10_r1": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    },
+    "study2_SW_b10_r2": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    },
+    "study2_SE_all": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    },
+    "study2_SE_b10_r0": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    },
+    "study2_SE_b10_r1": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    },
+    "study2_SE_b10_r2": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    },
+    "study2_NW_all": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    },
+    "study2_NW_b10_r0": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    },
+    "study2_NW_b10_r1": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    },
+    "study2_NW_b10_r2": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    },
+    "study2_NE_all": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    },
+    "study2_NE_b10_r0": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    },
+    "study2_NE_b10_r1": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    },
+    "study2_NE_b10_r2": {
+      "query_count": 500,
+      "unique_field_policy_states": 17,
+      "scheduled_estimates_per_estimator": 8500
+    }
+  },
+  "total_estimates_per_estimator": 186176
+}

@@ -1,0 +1,13 @@
+{
+  "archive_name": "PAPERB_SENSORS_EVIDENCE_v1.1.0_S8_300926.zip",
+  "archive_sha256": "01827be8265047edcdd159ab6fc96b954171cb25c03263292dbecda2f4f24268",
+  "member": "receiver-coordinate-error-robustness-rssi-localization-v1.1.0/calibration_extension/reproduction_inputs/maps/recovered29.json",
+  "map_sha256": "cfddca4fc5a0ad51fb4d8717be807454c891ba3c4872ff1a4e6b9aec3f5ae2da",
+  "identical_coordinate_values_to_root_map": true,
+  "official32_map_coordinate_values_identical_to_pinned_repository_input": true,
+  "official32_map_bytes_identical": false,
+  "official32_archive_sha256": "445ec184e1ba7f46208896e88ed6ca79fcb59d7cc4a45a93ae420c5c8baeb854",
+  "official32_pinned_input_sha256": "487b4853a364921c36c624485be4831f96d2c4db8bd2082529bc9136fb58172f",
+  "scope": "Exact protected v1.1.0 baseline map, also preserved in frozen v1.2.0 baseline; not a new map selection or physical validation",
+  "receiver_count": 29
+}

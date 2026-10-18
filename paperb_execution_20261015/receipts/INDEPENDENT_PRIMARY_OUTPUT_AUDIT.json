@@ -1,0 +1,210 @@
+{
+  "status": "PASS",
+  "purpose": "Independent read-only verification of all primary outputs; no solver rerun or localization-error analysis",
+  "script_sha256": "1d6b96481238c20bb2baf3e2147c7efcb0895fec8696ac5af1d5fbbb68e16e0a",
+  "lock_sha256": "4e1a047b1c3427f4455d6b96982c1c2451e99903449eff9fa2f577d3364c2ed9",
+  "primary_receipt_sha256": "6eb0af1847ef012d4681b5c99147f810e77ade147637bf276f498776c23885dd",
+  "blocks": 18,
+  "scheduled_entries": 195200,
+  "unique_solver_inputs": 122336,
+  "cached_entries": 72864,
+  "finite_entries": 195200,
+  "unique_global_exceptions": 0,
+  "entries_with_any_local_exception": 0,
+  "entries_with_any_local_nonconvergence": 127,
+  "exact_unexposed_prediction_equalities": 55608,
+  "maximum_WCL_prediction_discrepancy_m": 3.741625389081472e-09,
+  "maximum_target_weight_mass_discrepancy": 2.4424906541753444e-15,
+  "maximum_effective_weight_count_discrepancy": 1.4654943925052066e-14,
+  "maximum_NLLS_objective_discrepancy_db2": 5.4569682106375694e-12,
+  "maximum_NLLS_objective_discrepancy_fraction_of_tolerance": 2.588591867383798e-06,
+  "objective_tolerance_definition": "5e-7 + 1e-9*abs(stored_objective) dB^2; covers restoration of local coordinates to UTM before independent direct subtraction",
+  "zero_map_policies_identical": true,
+  "exact_input_cache_verified": true,
+  "input_lock_and_primary_arrays_verified_unchanged": true,
+  "query_reference_coordinates_read": false,
+  "solver_invoked": false,
+  "blocks_verified": [
+    {
+      "block": "study1_official32_minus71_all",
+      "scheduled_entries": 25600,
+      "unique_inputs": 10256,
+      "cached_entries": 15344,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 10704,
+      "maximum_WCL_discrepancy_m": 2.8157109912596232e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 5.4569682106375694e-12
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "scheduled_entries": 25600,
+      "unique_inputs": 10256,
+      "cached_entries": 15344,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 10728,
+      "maximum_WCL_discrepancy_m": 2.8157109912596232e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 4.092726157978177e-12
+    },
+    {
+      "block": "study2_SW_all",
+      "scheduled_entries": 9000,
+      "unique_inputs": 6292,
+      "cached_entries": 2708,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 2208,
+      "maximum_WCL_discrepancy_m": 2.8036522163991574e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 3.637978807091713e-12
+    },
+    {
+      "block": "study2_SW_b10_r0",
+      "scheduled_entries": 9000,
+      "unique_inputs": 6292,
+      "cached_entries": 2708,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 2208,
+      "maximum_WCL_discrepancy_m": 2.8036522163991574e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 3.637978807091713e-12
+    },
+    {
+      "block": "study2_SW_b10_r1",
+      "scheduled_entries": 9000,
+      "unique_inputs": 6292,
+      "cached_entries": 2708,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 2208,
+      "maximum_WCL_discrepancy_m": 2.796391991308032e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 4.092726157978177e-12
+    },
+    {
+      "block": "study2_SW_b10_r2",
+      "scheduled_entries": 9000,
+      "unique_inputs": 6292,
+      "cached_entries": 2708,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 2208,
+      "maximum_WCL_discrepancy_m": 2.8036522163991574e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 4.092726157978177e-12
+    },
+    {
+      "block": "study2_SE_all",
+      "scheduled_entries": 9000,
+      "unique_inputs": 6964,
+      "cached_entries": 2036,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 1536,
+      "maximum_WCL_discrepancy_m": 1.877140660839749e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 3.183231456205249e-12
+    },
+    {
+      "block": "study2_SE_b10_r0",
+      "scheduled_entries": 9000,
+      "unique_inputs": 6964,
+      "cached_entries": 2036,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 1536,
+      "maximum_WCL_discrepancy_m": 2.8036522163991574e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 2.9558577807620168e-12
+    },
+    {
+      "block": "study2_SE_b10_r1",
+      "scheduled_entries": 9000,
+      "unique_inputs": 6964,
+      "cached_entries": 2036,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 1536,
+      "maximum_WCL_discrepancy_m": 2.8036522163991574e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 3.410605131648481e-12
+    },
+    {
+      "block": "study2_SE_b10_r2",
+      "scheduled_entries": 9000,
+      "unique_inputs": 6964,
+      "cached_entries": 2036,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 1536,
+      "maximum_WCL_discrepancy_m": 2.8036522163991574e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 3.410605131648481e-12
+    },
+    {
+      "block": "study2_NW_all",
+      "scheduled_entries": 9000,
+      "unique_inputs": 6388,
+      "cached_entries": 2612,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 2112,
+      "maximum_WCL_discrepancy_m": 2.8036522163991574e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 3.183231456205249e-12
+    },
+    {
+      "block": "study2_NW_b10_r0",
+      "scheduled_entries": 9000,
+      "unique_inputs": 6388,
+      "cached_entries": 2612,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 2112,
+      "maximum_WCL_discrepancy_m": 2.8036522163991574e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 3.637978807091713e-12
+    },
+    {
+      "block": "study2_NW_b10_r1",
+      "scheduled_entries": 9000,
+      "unique_inputs": 6388,
+      "cached_entries": 2612,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 2112,
+      "maximum_WCL_discrepancy_m": 3.741625389081472e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 3.410605131648481e-12
+    },
+    {
+      "block": "study2_NW_b10_r2",
+      "scheduled_entries": 9000,
+      "unique_inputs": 6388,
+      "cached_entries": 2612,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 2112,
+      "maximum_WCL_discrepancy_m": 2.8157109912596232e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 3.637978807091713e-12
+    },
+    {
+      "block": "study2_NE_all",
+      "scheduled_entries": 9000,
+      "unique_inputs": 5812,
+      "cached_entries": 3188,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 2688,
+      "maximum_WCL_discrepancy_m": 2.8036522163991574e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 3.865352482534945e-12
+    },
+    {
+      "block": "study2_NE_b10_r0",
+      "scheduled_entries": 9000,
+      "unique_inputs": 5812,
+      "cached_entries": 3188,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 2688,
+      "maximum_WCL_discrepancy_m": 2.8036522163991574e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 3.410605131648481e-12
+    },
+    {
+      "block": "study2_NE_b10_r1",
+      "scheduled_entries": 9000,
+      "unique_inputs": 5812,
+      "cached_entries": 3188,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 2688,
+      "maximum_WCL_discrepancy_m": 2.8036522163991574e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 4.547473508864641e-12
+    },
+    {
+      "block": "study2_NE_b10_r2",
+      "scheduled_entries": 9000,
+      "unique_inputs": 5812,
+      "cached_entries": 3188,
+      "nonfinite_entries": 0,
+      "unexposed_arm_equalities": 2688,
+      "maximum_WCL_discrepancy_m": 3.732559164492739e-09,
+      "maximum_NLLS_objective_discrepancy_db2": 3.183231456205249e-12
+    }
+  ],
+  "elapsed_seconds": 19.539450341999327
+}

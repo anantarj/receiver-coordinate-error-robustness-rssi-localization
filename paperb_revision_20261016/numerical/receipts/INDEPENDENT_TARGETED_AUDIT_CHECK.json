@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE_INDEPENDENT_CHECK_PASS",
+  "scheduled_and_completed": 398,
+  "escalated": 104,
+  "gap_met_numerically": 141,
+  "retained_candidate_entries": 33555,
+  "max_formula_objective_difference_db2": 1.4551915228366852e-11,
+  "max_recorded_vs_recomputed_difference_db2": 2.2737367544323206e-12,
+  "max_objective_improvement_db2": 0.0028874305003228073,
+  "max_incumbent_shift_m": 24.001975248649035,
+  "primary_outputs_unchanged": true,
+  "formula": "sum_i (RSS_i-A_i+47log10(distance_m+1))^2, independently vectorized; no optimizer called.",
+  "audit_lock_sha256": "cc91666271c6946401bca5d0320095a1eba259ef52aa371df2c22bf192047dc5",
+  "verification_script_sha256": "edcc01c97add42028216eaacab9fefffbd1751097fd4c2eeb8b9da94eab4eaf5"
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "synthetic audit-runner I/O and escalation only; no study observations or scientific contrasts",
+  "checks": {
+    "complete": true,
+    "escalated_on_unconverged_status": true,
+    "both_audits_retained": true,
+    "primary_unchanged": true,
+    "checkpoint_resume_exact": true,
+    "changed_checkpoint_rejected": true,
+    "unbound_runner_rejected": true
+  },
+  "all_passed": true,
+  "runner_sha256": "d7218901614e02ec1ba53db8aa3053c015ce63db5872b54ce53e8595bbbe5a4b",
+  "solver_sha256": "e108a75d7ad59db7f5f41eb5b1944fb002d80a71ef5e502f3ffdaad9351fd458"
+}

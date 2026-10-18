@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Cite this version-specific research software and results package when using its computational evidence."
 type: software
-title: "Calibration-Induced Receiver Suppression and Its Limits in Weighted-Centroid Localization: reproducibility resources"
+title: "Calibration-Dependent Robustness to Receiver-Coordinate Errors in RSSI Localization: reproducibility resources"
 version: "1.2.0"
 doi: "10.5281/zenodo.23255545"
 authors:
@@ -19,7 +19,11 @@ keywords:
   - RSSI localization
   - receiver-coordinate uncertainty
   - weighted-centroid localization
+  - RSS-residual least squares
+  - numerical sensitivity
   - calibration
   - LoRaWAN
   - reproducible research
-license: MIT
+license:
+  - MIT
+  - CC-BY-4.0

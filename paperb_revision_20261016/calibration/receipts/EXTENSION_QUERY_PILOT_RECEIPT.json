@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "mode": "pilot",
+  "seconds": 32.15788121500373,
+  "shards": 4,
+  "stored_states": 1728,
+  "unique_solves_within_shards": 897,
+  "exceptions": 0,
+  "lock_sha256": "19fa9c860b3ba62d255b7d27172100bfed3ac6001aedd57b7f851ca13e11323a",
+  "output_arrays": {}
+}

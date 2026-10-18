@@ -1,0 +1,4389 @@
+{
+  "status": "FIXED_BASE_SELECTION_BEFORE_STRONGER_AUDITS",
+  "original_flagged_stored_states": 202,
+  "original_flagged_states": [
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 2,
+      "policy": 0,
+      "query": 251,
+      "source_row": 46881,
+      "input_id": 1025,
+      "counterpart_input_id": 1232,
+      "zero_input_id": 250,
+      "diameter_m": 0.0002425719488618197,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 3,
+      "policy": 1,
+      "query": 15,
+      "source_row": 109628,
+      "input_id": 1548,
+      "counterpart_input_id": 1341,
+      "zero_input_id": 15,
+      "diameter_m": 0.8881881410014367,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 4,
+      "policy": 0,
+      "query": 426,
+      "source_row": 108379,
+      "input_id": 1925,
+      "counterpart_input_id": 2132,
+      "zero_input_id": 423,
+      "diameter_m": 0.00017516771385495098,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 9,
+      "policy": 0,
+      "query": 85,
+      "source_row": 26124,
+      "input_id": 3851,
+      "counterpart_input_id": 4058,
+      "zero_input_id": 85,
+      "diameter_m": 0.27662395219984365,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 9,
+      "policy": 0,
+      "query": 366,
+      "source_row": 84737,
+      "input_id": 3974,
+      "counterpart_input_id": 4181,
+      "zero_input_id": 365,
+      "diameter_m": 0.12771236900945832,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 11,
+      "policy": 0,
+      "query": 366,
+      "source_row": 84737,
+      "input_id": 4802,
+      "counterpart_input_id": 5009,
+      "zero_input_id": 365,
+      "diameter_m": 0.32487123600096324,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 13,
+      "policy": 1,
+      "query": 110,
+      "source_row": 67298,
+      "input_id": 5717,
+      "counterpart_input_id": 5522,
+      "zero_input_id": 110,
+      "diameter_m": 106.7337483061812,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 13,
+      "policy": 1,
+      "query": 232,
+      "source_row": 29621,
+      "input_id": 5717,
+      "counterpart_input_id": 5522,
+      "zero_input_id": 110,
+      "diameter_m": 106.7337483061812,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 14,
+      "policy": 0,
+      "query": 180,
+      "source_row": 87449,
+      "input_id": 5938,
+      "counterpart_input_id": 6133,
+      "zero_input_id": 180,
+      "diameter_m": 0.0001712276811380027,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 15,
+      "policy": 1,
+      "query": 15,
+      "source_row": 109628,
+      "input_id": 1548,
+      "counterpart_input_id": 1341,
+      "zero_input_id": 15,
+      "diameter_m": 0.8881881410014367,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 16,
+      "policy": 0,
+      "query": 9,
+      "source_row": 118691,
+      "input_id": 6650,
+      "counterpart_input_id": 6845,
+      "zero_input_id": 9,
+      "diameter_m": 180.1682208425139,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 16,
+      "policy": 0,
+      "query": 426,
+      "source_row": 108379,
+      "input_id": 1925,
+      "counterpart_input_id": 2132,
+      "zero_input_id": 423,
+      "diameter_m": 0.00017516771385495098,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 18,
+      "policy": 0,
+      "query": 384,
+      "source_row": 102063,
+      "input_id": 7572,
+      "counterpart_input_id": 7767,
+      "zero_input_id": 382,
+      "diameter_m": 0.00016176230979815645,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 21,
+      "policy": 0,
+      "query": 85,
+      "source_row": 26124,
+      "input_id": 3851,
+      "counterpart_input_id": 4058,
+      "zero_input_id": 85,
+      "diameter_m": 0.27662395219984365,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 21,
+      "policy": 0,
+      "query": 366,
+      "source_row": 84737,
+      "input_id": 3974,
+      "counterpart_input_id": 4181,
+      "zero_input_id": 365,
+      "diameter_m": 0.12771236900945832,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 23,
+      "policy": 0,
+      "query": 289,
+      "source_row": 114110,
+      "input_id": 9484,
+      "counterpart_input_id": 9679,
+      "zero_input_id": 288,
+      "diameter_m": 0.16408165868171098,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 23,
+      "policy": 0,
+      "query": 366,
+      "source_row": 84737,
+      "input_id": 4802,
+      "counterpart_input_id": 5009,
+      "zero_input_id": 365,
+      "diameter_m": 0.32487123600096324,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 23,
+      "policy": 1,
+      "query": 3,
+      "source_row": 110166,
+      "input_id": 9571,
+      "counterpart_input_id": 9376,
+      "zero_input_id": 3,
+      "diameter_m": 47.59610891270776,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 23,
+      "policy": 1,
+      "query": 97,
+      "source_row": 72127,
+      "input_id": 9612,
+      "counterpart_input_id": 9417,
+      "zero_input_id": 97,
+      "diameter_m": 1890.3487369034133,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 23,
+      "policy": 1,
+      "query": 218,
+      "source_row": 72142,
+      "input_id": 9654,
+      "counterpart_input_id": 9459,
+      "zero_input_id": 218,
+      "diameter_m": 301.56175780367437,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 24,
+      "policy": 0,
+      "query": 289,
+      "source_row": 114110,
+      "input_id": 9874,
+      "counterpart_input_id": 10069,
+      "zero_input_id": 288,
+      "diameter_m": 0.555145333476649,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_official32_minus71_all",
+      "field": 24,
+      "policy": 0,
+      "query": 318,
+      "source_row": 17863,
+      "input_id": 9886,
+      "counterpart_input_id": 10081,
+      "zero_input_id": 317,
+      "diameter_m": 0.039420735874867496,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 0,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 0,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 1,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 1,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 1,
+      "policy": 1,
+      "query": 369,
+      "source_row": 102803,
+      "input_id": 10859,
+      "counterpart_input_id": 10705,
+      "zero_input_id": 10468,
+      "diameter_m": 0.00015971455373440412,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 1,
+      "policy": 1,
+      "query": 508,
+      "source_row": 89862,
+      "input_id": 10903,
+      "counterpart_input_id": 10749,
+      "zero_input_id": 10593,
+      "diameter_m": 0.0017192821306510045,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 2,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 2,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 3,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 3,
+      "policy": 0,
+      "query": 363,
+      "source_row": 94521,
+      "input_id": 11320,
+      "counterpart_input_id": 11474,
+      "zero_input_id": 10463,
+      "diameter_m": 2.776116880381422,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 3,
+      "policy": 1,
+      "query": 15,
+      "source_row": 109628,
+      "input_id": 1548,
+      "counterpart_input_id": 1341,
+      "zero_input_id": 15,
+      "diameter_m": 0.8881881410014367,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 3,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 4,
+      "policy": 0,
+      "query": 184,
+      "source_row": 9989,
+      "input_id": 11577,
+      "counterpart_input_id": 11731,
+      "zero_input_id": 10316,
+      "diameter_m": 688.6305687247254,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 4,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 4,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 5,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 5,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 6,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 6,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 7,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 7,
+      "policy": 0,
+      "query": 267,
+      "source_row": 59772,
+      "input_id": 12531,
+      "counterpart_input_id": 12685,
+      "zero_input_id": 10388,
+      "diameter_m": 356.21249965265366,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 7,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 7,
+      "policy": 1,
+      "query": 437,
+      "source_row": 61416,
+      "input_id": 12724,
+      "counterpart_input_id": 12570,
+      "zero_input_id": 10528,
+      "diameter_m": 4.3877483244730954e-05,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 8,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 8,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 9,
+      "policy": 0,
+      "query": 85,
+      "source_row": 26124,
+      "input_id": 3851,
+      "counterpart_input_id": 4058,
+      "zero_input_id": 85,
+      "diameter_m": 0.27662395219984365,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 9,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 9,
+      "policy": 0,
+      "query": 360,
+      "source_row": 84737,
+      "input_id": 3974,
+      "counterpart_input_id": 4181,
+      "zero_input_id": 365,
+      "diameter_m": 0.12771236900945832,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 9,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 10,
+      "policy": 0,
+      "query": 13,
+      "source_row": 112354,
+      "input_id": 13372,
+      "counterpart_input_id": 13526,
+      "zero_input_id": 10168,
+      "diameter_m": 0.17522116244321428,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 10,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 10,
+      "policy": 1,
+      "query": 35,
+      "source_row": 82906,
+      "input_id": 13534,
+      "counterpart_input_id": 13380,
+      "zero_input_id": 10186,
+      "diameter_m": 7328.192248323353,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 10,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 11,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 11,
+      "policy": 0,
+      "query": 360,
+      "source_row": 84737,
+      "input_id": 4802,
+      "counterpart_input_id": 5009,
+      "zero_input_id": 365,
+      "diameter_m": 0.32487123600096324,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 11,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 12,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 12,
+      "policy": 0,
+      "query": 387,
+      "source_row": 46981,
+      "input_id": 14097,
+      "counterpart_input_id": 14251,
+      "zero_input_id": 10484,
+      "diameter_m": 4.432895047203496,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 12,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 13,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 13,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 13,
+      "policy": 1,
+      "query": 266,
+      "source_row": 72941,
+      "input_id": 14556,
+      "counterpart_input_id": 14380,
+      "zero_input_id": 10387,
+      "diameter_m": 1065.0406366845211,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 13,
+      "policy": 1,
+      "query": 369,
+      "source_row": 102803,
+      "input_id": 10859,
+      "counterpart_input_id": 10705,
+      "zero_input_id": 10468,
+      "diameter_m": 0.00015971455373440412,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 13,
+      "policy": 1,
+      "query": 508,
+      "source_row": 89862,
+      "input_id": 10903,
+      "counterpart_input_id": 10749,
+      "zero_input_id": 10593,
+      "diameter_m": 0.0017192821306510045,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 14,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 14,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 15,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 15,
+      "policy": 1,
+      "query": 15,
+      "source_row": 109628,
+      "input_id": 1548,
+      "counterpart_input_id": 1341,
+      "zero_input_id": 15,
+      "diameter_m": 0.8881881410014367,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 15,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 16,
+      "policy": 0,
+      "query": 184,
+      "source_row": 9989,
+      "input_id": 11577,
+      "counterpart_input_id": 11731,
+      "zero_input_id": 10316,
+      "diameter_m": 688.6305687247254,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 16,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 16,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 17,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 17,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 18,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 18,
+      "policy": 0,
+      "query": 280,
+      "source_row": 97922,
+      "input_id": 16145,
+      "counterpart_input_id": 16321,
+      "zero_input_id": 10397,
+      "diameter_m": 193.8326358814068,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 18,
+      "policy": 0,
+      "query": 379,
+      "source_row": 102063,
+      "input_id": 7572,
+      "counterpart_input_id": 7767,
+      "zero_input_id": 382,
+      "diameter_m": 0.00016176230979815645,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 18,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 19,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 19,
+      "policy": 0,
+      "query": 267,
+      "source_row": 59772,
+      "input_id": 12531,
+      "counterpart_input_id": 12685,
+      "zero_input_id": 10388,
+      "diameter_m": 356.21249965265366,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 19,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 20,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 20,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 21,
+      "policy": 0,
+      "query": 85,
+      "source_row": 26124,
+      "input_id": 3851,
+      "counterpart_input_id": 4058,
+      "zero_input_id": 85,
+      "diameter_m": 0.27662395219984365,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 21,
+      "policy": 0,
+      "query": 95,
+      "source_row": 49413,
+      "input_id": 17143,
+      "counterpart_input_id": 17319,
+      "zero_input_id": 10239,
+      "diameter_m": 0.5010952094963919,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 21,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 21,
+      "policy": 0,
+      "query": 262,
+      "source_row": 109387,
+      "input_id": 17194,
+      "counterpart_input_id": 17370,
+      "zero_input_id": 10383,
+      "diameter_m": 0.21103280993678464,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 21,
+      "policy": 0,
+      "query": 360,
+      "source_row": 84737,
+      "input_id": 3974,
+      "counterpart_input_id": 4181,
+      "zero_input_id": 365,
+      "diameter_m": 0.12771236900945832,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 21,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 22,
+      "policy": 0,
+      "query": 13,
+      "source_row": 112354,
+      "input_id": 13372,
+      "counterpart_input_id": 13526,
+      "zero_input_id": 10168,
+      "diameter_m": 0.17522116244321428,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 22,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 22,
+      "policy": 1,
+      "query": 35,
+      "source_row": 82906,
+      "input_id": 13534,
+      "counterpart_input_id": 13380,
+      "zero_input_id": 10186,
+      "diameter_m": 7328.192248323353,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 22,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 23,
+      "policy": 0,
+      "query": 98,
+      "source_row": 49884,
+      "input_id": 17849,
+      "counterpart_input_id": 18025,
+      "zero_input_id": 10242,
+      "diameter_m": 0.10116931642418107,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 23,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 23,
+      "policy": 0,
+      "query": 360,
+      "source_row": 84737,
+      "input_id": 4802,
+      "counterpart_input_id": 5009,
+      "zero_input_id": 365,
+      "diameter_m": 0.32487123600096324,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 23,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 23,
+      "policy": 1,
+      "query": 299,
+      "source_row": 27025,
+      "input_id": 18087,
+      "counterpart_input_id": 17911,
+      "zero_input_id": 10410,
+      "diameter_m": 0.0007448604473309531,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 24,
+      "policy": 0,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 24,
+      "policy": 0,
+      "query": 387,
+      "source_row": 46981,
+      "input_id": 14097,
+      "counterpart_input_id": 14251,
+      "zero_input_id": 10484,
+      "diameter_m": 4.432895047203496,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study1_recovered29_sensitivity_all",
+      "field": 24,
+      "policy": 1,
+      "query": 200,
+      "source_row": 93955,
+      "input_id": 10331,
+      "counterpart_input_id": 10331,
+      "zero_input_id": 10331,
+      "diameter_m": 1924.813467925687,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study2_NE_all",
+      "field": 0,
+      "policy": 0,
+      "query": 249,
+      "source_row": 62590,
+      "input_id": 18766,
+      "counterpart_input_id": 18766,
+      "zero_input_id": 18766,
+      "diameter_m": 0.0016856830267385266,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_all",
+      "field": 0,
+      "policy": 1,
+      "query": 249,
+      "source_row": 62590,
+      "input_id": 18766,
+      "counterpart_input_id": 18766,
+      "zero_input_id": 18766,
+      "diameter_m": 0.0016856830267385266,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_all",
+      "field": 1,
+      "policy": 1,
+      "query": 222,
+      "source_row": 126168,
+      "input_id": 19497,
+      "counterpart_input_id": 19166,
+      "zero_input_id": 18739,
+      "diameter_m": 1.1385310604272227e-05,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_all",
+      "field": 1,
+      "policy": 1,
+      "query": 459,
+      "source_row": 64924,
+      "input_id": 19650,
+      "counterpart_input_id": 19319,
+      "zero_input_id": 18975,
+      "diameter_m": 0.0013050399850192472,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_all",
+      "field": 3,
+      "policy": 0,
+      "query": 408,
+      "source_row": 32435,
+      "input_id": 20606,
+      "counterpart_input_id": 20937,
+      "zero_input_id": 18925,
+      "diameter_m": 0.0014370259646721475,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_all",
+      "field": 4,
+      "policy": 0,
+      "query": 63,
+      "source_row": 101450,
+      "input_id": 21046,
+      "counterpart_input_id": 21377,
+      "zero_input_id": 18580,
+      "diameter_m": 0.00023089907154345325,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_all",
+      "field": 4,
+      "policy": 0,
+      "query": 451,
+      "source_row": 7091,
+      "input_id": 21299,
+      "counterpart_input_id": 21630,
+      "zero_input_id": 18967,
+      "diameter_m": 5.297696316944716e-05,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_all",
+      "field": 7,
+      "policy": 0,
+      "query": 191,
+      "source_row": 89756,
+      "input_id": 23114,
+      "counterpart_input_id": 23445,
+      "zero_input_id": 18708,
+      "diameter_m": 0.18659095955623872,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_all",
+      "field": 7,
+      "policy": 1,
+      "query": 240,
+      "source_row": 35888,
+      "input_id": 23476,
+      "counterpart_input_id": 23145,
+      "zero_input_id": 18757,
+      "diameter_m": 1791.2591386819452,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study2_NE_b10_r0",
+      "field": 1,
+      "policy": 0,
+      "query": 78,
+      "source_row": 76827,
+      "input_id": 24863,
+      "counterpart_input_id": 25194,
+      "zero_input_id": 24390,
+      "diameter_m": 0.0001171102075911589,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r0",
+      "field": 1,
+      "policy": 1,
+      "query": 14,
+      "source_row": 15931,
+      "input_id": 25152,
+      "counterpart_input_id": 24821,
+      "zero_input_id": 24326,
+      "diameter_m": 0.0008462597863431463,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r0",
+      "field": 1,
+      "policy": 1,
+      "query": 370,
+      "source_row": 116759,
+      "input_id": 25385,
+      "counterpart_input_id": 25054,
+      "zero_input_id": 24682,
+      "diameter_m": 0.001739001414227344,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r0",
+      "field": 6,
+      "policy": 0,
+      "query": 251,
+      "source_row": 70927,
+      "input_id": 28286,
+      "counterpart_input_id": 28617,
+      "zero_input_id": 24563,
+      "diameter_m": 0.00960551688650012,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r0",
+      "field": 6,
+      "policy": 0,
+      "query": 302,
+      "source_row": 66347,
+      "input_id": 28317,
+      "counterpart_input_id": 28648,
+      "zero_input_id": 24614,
+      "diameter_m": 0.005879102116096537,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r0",
+      "field": 7,
+      "policy": 0,
+      "query": 327,
+      "source_row": 95968,
+      "input_id": 28994,
+      "counterpart_input_id": 29325,
+      "zero_input_id": 24639,
+      "diameter_m": 0.09467581789598631,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r0",
+      "field": 7,
+      "policy": 1,
+      "query": 240,
+      "source_row": 35888,
+      "input_id": 29271,
+      "counterpart_input_id": 28940,
+      "zero_input_id": 24552,
+      "diameter_m": 1757.4287612809255,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study2_NE_b10_r0",
+      "field": 8,
+      "policy": 0,
+      "query": 4,
+      "source_row": 1514,
+      "input_id": 29447,
+      "counterpart_input_id": 29778,
+      "zero_input_id": 24316,
+      "diameter_m": 0.34581948304732935,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r0",
+      "field": 8,
+      "policy": 0,
+      "query": 140,
+      "source_row": 40473,
+      "input_id": 29539,
+      "counterpart_input_id": 29870,
+      "zero_input_id": 24452,
+      "diameter_m": 0.12368890950687143,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r1",
+      "field": 4,
+      "policy": 0,
+      "query": 79,
+      "source_row": 50225,
+      "input_id": 32645,
+      "counterpart_input_id": 32976,
+      "zero_input_id": 30186,
+      "diameter_m": 0.0004480791677929213,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r1",
+      "field": 4,
+      "policy": 1,
+      "query": 224,
+      "source_row": 14470,
+      "input_id": 33074,
+      "counterpart_input_id": 32743,
+      "zero_input_id": 30331,
+      "diameter_m": 0.0014875368321910858,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r1",
+      "field": 5,
+      "policy": 0,
+      "query": 101,
+      "source_row": 99378,
+      "input_id": 33320,
+      "counterpart_input_id": 33651,
+      "zero_input_id": 30208,
+      "diameter_m": 12.064447037096274,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r1",
+      "field": 6,
+      "policy": 0,
+      "query": 385,
+      "source_row": 119963,
+      "input_id": 34168,
+      "counterpart_input_id": 34499,
+      "zero_input_id": 30492,
+      "diameter_m": 0.05249364443029377,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r1",
+      "field": 6,
+      "policy": 1,
+      "query": 44,
+      "source_row": 122484,
+      "input_id": 34279,
+      "counterpart_input_id": 33948,
+      "zero_input_id": 30151,
+      "diameter_m": 0.011856837888165276,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r1",
+      "field": 6,
+      "policy": 1,
+      "query": 302,
+      "source_row": 66347,
+      "input_id": 34443,
+      "counterpart_input_id": 34112,
+      "zero_input_id": 30409,
+      "diameter_m": 1.2539023422769602,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r2",
+      "field": 4,
+      "policy": 0,
+      "query": 243,
+      "source_row": 94431,
+      "input_id": 38547,
+      "counterpart_input_id": 38878,
+      "zero_input_id": 36145,
+      "diameter_m": 6.0069419905701436,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r2",
+      "field": 5,
+      "policy": 0,
+      "query": 191,
+      "source_row": 89756,
+      "input_id": 39175,
+      "counterpart_input_id": 39506,
+      "zero_input_id": 36093,
+      "diameter_m": 27.61714581660053,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r2",
+      "field": 6,
+      "policy": 0,
+      "query": 191,
+      "source_row": 89756,
+      "input_id": 39837,
+      "counterpart_input_id": 40168,
+      "zero_input_id": 36093,
+      "diameter_m": 25.012342626450177,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r2",
+      "field": 7,
+      "policy": 0,
+      "query": 330,
+      "source_row": 75131,
+      "input_id": 40585,
+      "counterpart_input_id": 40916,
+      "zero_input_id": 36232,
+      "diameter_m": 0.013351925021363077,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NE_b10_r2",
+      "field": 7,
+      "policy": 1,
+      "query": 240,
+      "source_row": 35888,
+      "input_id": 40861,
+      "counterpart_input_id": 40530,
+      "zero_input_id": 36142,
+      "diameter_m": 591.8728566667708,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study2_NW_all",
+      "field": 2,
+      "policy": 1,
+      "query": 116,
+      "source_row": 70162,
+      "input_id": 43389,
+      "counterpart_input_id": 43021,
+      "zero_input_id": 41813,
+      "diameter_m": 0.5137027699109246,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_all",
+      "field": 2,
+      "policy": 1,
+      "query": 326,
+      "source_row": 75804,
+      "input_id": 43532,
+      "counterpart_input_id": 43164,
+      "zero_input_id": 42023,
+      "diameter_m": 0.003999080601858436,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_all",
+      "field": 3,
+      "policy": 1,
+      "query": 341,
+      "source_row": 61969,
+      "input_id": 44281,
+      "counterpart_input_id": 43913,
+      "zero_input_id": 42038,
+      "diameter_m": 0.0001091431128003309,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_all",
+      "field": 4,
+      "policy": 0,
+      "query": 206,
+      "source_row": 88015,
+      "input_id": 44553,
+      "counterpart_input_id": 44921,
+      "zero_input_id": 41903,
+      "diameter_m": 0.026883943253956037,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_all",
+      "field": 5,
+      "policy": 1,
+      "query": 97,
+      "source_row": 93804,
+      "input_id": 45583,
+      "counterpart_input_id": 45215,
+      "zero_input_id": 41794,
+      "diameter_m": 2092.0228309594877,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study2_NW_all",
+      "field": 7,
+      "policy": 1,
+      "query": 259,
+      "source_row": 14272,
+      "input_id": 47165,
+      "counterpart_input_id": 46797,
+      "zero_input_id": 41956,
+      "diameter_m": 0.0030134186289584295,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_all",
+      "field": 7,
+      "policy": 1,
+      "query": 295,
+      "source_row": 95661,
+      "input_id": 47194,
+      "counterpart_input_id": 46826,
+      "zero_input_id": 41992,
+      "diameter_m": 2665.777160623429,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study2_NW_all",
+      "field": 8,
+      "policy": 0,
+      "query": 479,
+      "source_row": 37094,
+      "input_id": 47703,
+      "counterpart_input_id": 48071,
+      "zero_input_id": 42176,
+      "diameter_m": 1.6712362924030915,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r0",
+      "field": 0,
+      "policy": 0,
+      "query": 108,
+      "source_row": 97100,
+      "input_id": 48193,
+      "counterpart_input_id": 48193,
+      "zero_input_id": 48193,
+      "diameter_m": 0.01765509176636165,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r0",
+      "field": 0,
+      "policy": 1,
+      "query": 108,
+      "source_row": 97100,
+      "input_id": 48193,
+      "counterpart_input_id": 48193,
+      "zero_input_id": 48193,
+      "diameter_m": 0.01765509176636165,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r0",
+      "field": 1,
+      "policy": 0,
+      "query": 481,
+      "source_row": 15134,
+      "input_id": 48940,
+      "counterpart_input_id": 49308,
+      "zero_input_id": 48566,
+      "diameter_m": 0.001823099141557134,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r0",
+      "field": 1,
+      "policy": 1,
+      "query": 234,
+      "source_row": 36024,
+      "input_id": 49120,
+      "counterpart_input_id": 48752,
+      "zero_input_id": 48319,
+      "diameter_m": 0.003462866934872291,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r0",
+      "field": 1,
+      "policy": 1,
+      "query": 302,
+      "source_row": 66265,
+      "input_id": 49172,
+      "counterpart_input_id": 48804,
+      "zero_input_id": 48387,
+      "diameter_m": 0.00701443250636412,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r0",
+      "field": 2,
+      "policy": 1,
+      "query": 359,
+      "source_row": 120427,
+      "input_id": 49947,
+      "counterpart_input_id": 49579,
+      "zero_input_id": 48444,
+      "diameter_m": 9.542419354935986e-05,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r0",
+      "field": 3,
+      "policy": 1,
+      "query": 66,
+      "source_row": 104093,
+      "input_id": 50473,
+      "counterpart_input_id": 50105,
+      "zero_input_id": 48151,
+      "diameter_m": 0.0013004580190271095,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r0",
+      "field": 4,
+      "policy": 0,
+      "query": 122,
+      "source_row": 22231,
+      "input_id": 50887,
+      "counterpart_input_id": 51255,
+      "zero_input_id": 48207,
+      "diameter_m": 0.00028120178922278507,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r0",
+      "field": 4,
+      "policy": 1,
+      "query": 328,
+      "source_row": 59551,
+      "input_id": 51394,
+      "counterpart_input_id": 51026,
+      "zero_input_id": 48413,
+      "diameter_m": 1859.801162423733,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study2_NW_b10_r0",
+      "field": 8,
+      "policy": 1,
+      "query": 221,
+      "source_row": 72833,
+      "input_id": 54263,
+      "counterpart_input_id": 53895,
+      "zero_input_id": 48306,
+      "diameter_m": 0.0016152197343963074,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r1",
+      "field": 1,
+      "policy": 1,
+      "query": 336,
+      "source_row": 29027,
+      "input_id": 55581,
+      "counterpart_input_id": 55213,
+      "zero_input_id": 54809,
+      "diameter_m": 0.0011127404519583872,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r1",
+      "field": 2,
+      "policy": 1,
+      "query": 96,
+      "source_row": 467,
+      "input_id": 56150,
+      "counterpart_input_id": 55782,
+      "zero_input_id": 54569,
+      "diameter_m": 0.06254840401350903,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r1",
+      "field": 3,
+      "policy": 1,
+      "query": 196,
+      "source_row": 38176,
+      "input_id": 56954,
+      "counterpart_input_id": 56586,
+      "zero_input_id": 54669,
+      "diameter_m": 0.01021226036270905,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r1",
+      "field": 5,
+      "policy": 0,
+      "query": 252,
+      "source_row": 12971,
+      "input_id": 58098,
+      "counterpart_input_id": 58466,
+      "zero_input_id": 54725,
+      "diameter_m": 0.02552264348407116,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r1",
+      "field": 6,
+      "policy": 1,
+      "query": 331,
+      "source_row": 36729,
+      "input_id": 59257,
+      "counterpart_input_id": 58889,
+      "zero_input_id": 54804,
+      "diameter_m": 0.02479591244879146,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r1",
+      "field": 6,
+      "policy": 1,
+      "query": 471,
+      "source_row": 76670,
+      "input_id": 59369,
+      "counterpart_input_id": 59001,
+      "zero_input_id": 54944,
+      "diameter_m": 1.1306939586018398e-05,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r1",
+      "field": 7,
+      "policy": 0,
+      "query": 45,
+      "source_row": 49884,
+      "input_id": 59422,
+      "counterpart_input_id": 59790,
+      "zero_input_id": 54518,
+      "diameter_m": 0.0,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r1",
+      "field": 7,
+      "policy": 0,
+      "query": 72,
+      "source_row": 114958,
+      "input_id": 59442,
+      "counterpart_input_id": 59810,
+      "zero_input_id": 54545,
+      "diameter_m": 0.7388851724280813,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r1",
+      "field": 7,
+      "policy": 0,
+      "query": 325,
+      "source_row": 20491,
+      "input_id": 59619,
+      "counterpart_input_id": 59987,
+      "zero_input_id": 54798,
+      "diameter_m": 0.005130129145292268,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r1",
+      "field": 7,
+      "policy": 1,
+      "query": 331,
+      "source_row": 36729,
+      "input_id": 59993,
+      "counterpart_input_id": 59625,
+      "zero_input_id": 54804,
+      "diameter_m": 0.0009833846694125544,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r1",
+      "field": 8,
+      "policy": 0,
+      "query": 347,
+      "source_row": 50259,
+      "input_id": 60374,
+      "counterpart_input_id": 60742,
+      "zero_input_id": 54820,
+      "diameter_m": 0.006475070626916229,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r2",
+      "field": 2,
+      "policy": 0,
+      "query": 340,
+      "source_row": 89026,
+      "input_id": 62340,
+      "counterpart_input_id": 62708,
+      "zero_input_id": 61201,
+      "diameter_m": 0.005943265352447004,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r2",
+      "field": 2,
+      "policy": 0,
+      "query": 445,
+      "source_row": 31787,
+      "input_id": 62424,
+      "counterpart_input_id": 62792,
+      "zero_input_id": 61306,
+      "diameter_m": 0.0009370504049790056,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r2",
+      "field": 2,
+      "policy": 1,
+      "query": 340,
+      "source_row": 89026,
+      "input_id": 62708,
+      "counterpart_input_id": 62340,
+      "zero_input_id": 61201,
+      "diameter_m": 0.005917558309810651,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r2",
+      "field": 3,
+      "policy": 0,
+      "query": 361,
+      "source_row": 51332,
+      "input_id": 63092,
+      "counterpart_input_id": 63460,
+      "zero_input_id": 61222,
+      "diameter_m": 0.00021415665592265938,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_NW_b10_r2",
+      "field": 4,
+      "policy": 1,
+      "query": 475,
+      "source_row": 98108,
+      "input_id": 64289,
+      "counterpart_input_id": 63921,
+      "zero_input_id": 61336,
+      "diameter_m": 1417.9543466759128,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study2_NW_b10_r2",
+      "field": 6,
+      "policy": 0,
+      "query": 117,
+      "source_row": 45665,
+      "input_id": 65130,
+      "counterpart_input_id": 65498,
+      "zero_input_id": 60978,
+      "diameter_m": 0.0033217385961783943,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SE_all",
+      "field": 3,
+      "policy": 1,
+      "query": 429,
+      "source_row": 70445,
+      "input_id": 70004,
+      "counterpart_input_id": 69616,
+      "zero_input_id": 67665,
+      "diameter_m": 0.4627372867765971,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SE_b10_r1",
+      "field": 0,
+      "policy": 0,
+      "query": 258,
+      "source_row": 31343,
+      "input_id": 80883,
+      "counterpart_input_id": 80883,
+      "zero_input_id": 80883,
+      "diameter_m": 0.002992935232073459,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SE_b10_r1",
+      "field": 0,
+      "policy": 1,
+      "query": 258,
+      "source_row": 31343,
+      "input_id": 80883,
+      "counterpart_input_id": 80883,
+      "zero_input_id": 80883,
+      "diameter_m": 0.002992935232073459,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SE_b10_r1",
+      "field": 2,
+      "policy": 1,
+      "query": 213,
+      "source_row": 29811,
+      "input_id": 82448,
+      "counterpart_input_id": 82060,
+      "zero_input_id": 80839,
+      "diameter_m": 0.002126208972967132,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SE_b10_r1",
+      "field": 2,
+      "policy": 1,
+      "query": 324,
+      "source_row": 114219,
+      "input_id": 82448,
+      "counterpart_input_id": 82060,
+      "zero_input_id": 80839,
+      "diameter_m": 0.002126208972967132,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SE_b10_r2",
+      "field": 2,
+      "policy": 0,
+      "query": 120,
+      "source_row": 23852,
+      "input_id": 88675,
+      "counterpart_input_id": 89063,
+      "zero_input_id": 87441,
+      "diameter_m": 0.0791772242841868,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SE_b10_r2",
+      "field": 2,
+      "policy": 1,
+      "query": 331,
+      "source_row": 76135,
+      "input_id": 89229,
+      "counterpart_input_id": 88841,
+      "zero_input_id": 87642,
+      "diameter_m": 0.005394521215760318,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_all",
+      "field": 0,
+      "policy": 0,
+      "query": 307,
+      "source_row": 53144,
+      "input_id": 94319,
+      "counterpart_input_id": 94319,
+      "zero_input_id": 94319,
+      "diameter_m": 0.0037889283888846706,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_all",
+      "field": 0,
+      "policy": 1,
+      "query": 307,
+      "source_row": 53144,
+      "input_id": 94319,
+      "counterpart_input_id": 94319,
+      "zero_input_id": 94319,
+      "diameter_m": 0.0037889283888846706,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_all",
+      "field": 2,
+      "policy": 0,
+      "query": 59,
+      "source_row": 72142,
+      "input_id": 95270,
+      "counterpart_input_id": 95630,
+      "zero_input_id": 94072,
+      "diameter_m": 0.0006315888293309738,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_all",
+      "field": 6,
+      "policy": 0,
+      "query": 495,
+      "source_row": 125483,
+      "input_id": 98466,
+      "counterpart_input_id": 98826,
+      "zero_input_id": 94506,
+      "diameter_m": 0.30935140246385723,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_all",
+      "field": 6,
+      "policy": 1,
+      "query": 99,
+      "source_row": 8268,
+      "input_id": 98538,
+      "counterpart_input_id": 98178,
+      "zero_input_id": 94112,
+      "diameter_m": 1576.132758633861,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study2_SW_b10_r0",
+      "field": 2,
+      "policy": 1,
+      "query": 428,
+      "source_row": 99016,
+      "input_id": 102157,
+      "counterpart_input_id": 101797,
+      "zero_input_id": 100697,
+      "diameter_m": 744.4987900048055,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study2_SW_b10_r0",
+      "field": 3,
+      "policy": 0,
+      "query": 295,
+      "source_row": 66952,
+      "input_id": 102416,
+      "counterpart_input_id": 102776,
+      "zero_input_id": 100565,
+      "diameter_m": 0.0002354540295273295,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r0",
+      "field": 3,
+      "policy": 1,
+      "query": 167,
+      "source_row": 13197,
+      "input_id": 102680,
+      "counterpart_input_id": 102320,
+      "zero_input_id": 100438,
+      "diameter_m": 0.0003940476327994393,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r0",
+      "field": 5,
+      "policy": 0,
+      "query": 241,
+      "source_row": 9780,
+      "input_id": 103820,
+      "counterpart_input_id": 104180,
+      "zero_input_id": 100512,
+      "diameter_m": 2.956099775585127,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r0",
+      "field": 7,
+      "policy": 0,
+      "query": 159,
+      "source_row": 76141,
+      "input_id": 105194,
+      "counterpart_input_id": 105554,
+      "zero_input_id": 100430,
+      "diameter_m": 2.205885078048102,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r0",
+      "field": 7,
+      "policy": 0,
+      "query": 304,
+      "source_row": 50994,
+      "input_id": 105304,
+      "counterpart_input_id": 105664,
+      "zero_input_id": 100574,
+      "diameter_m": 10.178779007542897,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r1",
+      "field": 2,
+      "policy": 0,
+      "query": 191,
+      "source_row": 79807,
+      "input_id": 107875,
+      "counterpart_input_id": 108235,
+      "zero_input_id": 106720,
+      "diameter_m": 0.0036604777108724877,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r1",
+      "field": 3,
+      "policy": 0,
+      "query": 495,
+      "source_row": 125483,
+      "input_id": 108822,
+      "counterpart_input_id": 109182,
+      "zero_input_id": 107022,
+      "diameter_m": 0.00012507675216522882,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r1",
+      "field": 3,
+      "policy": 1,
+      "query": 135,
+      "source_row": 45616,
+      "input_id": 108917,
+      "counterpart_input_id": 108557,
+      "zero_input_id": 106664,
+      "diameter_m": 2019.1738263382344,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study2_SW_b10_r1",
+      "field": 3,
+      "policy": 1,
+      "query": 411,
+      "source_row": 126733,
+      "input_id": 109122,
+      "counterpart_input_id": 108762,
+      "zero_input_id": 106938,
+      "diameter_m": 0.016818313662298065,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r1",
+      "field": 5,
+      "policy": 0,
+      "query": 241,
+      "source_row": 9780,
+      "input_id": 110078,
+      "counterpart_input_id": 110438,
+      "zero_input_id": 106770,
+      "diameter_m": 2.8805647826991247,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r1",
+      "field": 5,
+      "policy": 0,
+      "query": 290,
+      "source_row": 27806,
+      "input_id": 110109,
+      "counterpart_input_id": 110469,
+      "zero_input_id": 106818,
+      "diameter_m": 2.7195930758788784,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r1",
+      "field": 6,
+      "policy": 0,
+      "query": 170,
+      "source_row": 108865,
+      "input_id": 110741,
+      "counterpart_input_id": 111101,
+      "zero_input_id": 106699,
+      "diameter_m": 6.757217386787656,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r1",
+      "field": 6,
+      "policy": 0,
+      "query": 361,
+      "source_row": 93476,
+      "input_id": 110885,
+      "counterpart_input_id": 111245,
+      "zero_input_id": 106889,
+      "diameter_m": 0.04073364313836913,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r1",
+      "field": 7,
+      "policy": 0,
+      "query": 56,
+      "source_row": 805,
+      "input_id": 111383,
+      "counterpart_input_id": 111743,
+      "zero_input_id": 106585,
+      "diameter_m": 0.09575585215085067,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r1",
+      "field": 8,
+      "policy": 0,
+      "query": 484,
+      "source_row": 110255,
+      "input_id": 112414,
+      "counterpart_input_id": 112774,
+      "zero_input_id": 107011,
+      "diameter_m": 0.5910316369212931,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r2",
+      "field": 1,
+      "policy": 1,
+      "query": 331,
+      "source_row": 64404,
+      "input_id": 113880,
+      "counterpart_input_id": 113520,
+      "zero_input_id": 113117,
+      "diameter_m": 0.009086679753249692,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r2",
+      "field": 1,
+      "policy": 1,
+      "query": 458,
+      "source_row": 108471,
+      "input_id": 113972,
+      "counterpart_input_id": 113612,
+      "zero_input_id": 113243,
+      "diameter_m": 133.55505984271545,
+      "some_local_unconverged": false
+    },
+    {
+      "block": "study2_SW_b10_r2",
+      "field": 2,
+      "policy": 0,
+      "query": 272,
+      "source_row": 76797,
+      "input_id": 114197,
+      "counterpart_input_id": 114557,
+      "zero_input_id": 113058,
+      "diameter_m": 0.0004114057682397861,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r2",
+      "field": 3,
+      "policy": 0,
+      "query": 298,
+      "source_row": 10287,
+      "input_id": 114935,
+      "counterpart_input_id": 115295,
+      "zero_input_id": 113084,
+      "diameter_m": 0.012023939676178333,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r2",
+      "field": 5,
+      "policy": 0,
+      "query": 223,
+      "source_row": 77793,
+      "input_id": 116319,
+      "counterpart_input_id": 116679,
+      "zero_input_id": 113010,
+      "diameter_m": 0.2991470660846421,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r2",
+      "field": 7,
+      "policy": 0,
+      "query": 56,
+      "source_row": 805,
+      "input_id": 117641,
+      "counterpart_input_id": 118001,
+      "zero_input_id": 112843,
+      "diameter_m": 33.291300011724374,
+      "some_local_unconverged": true
+    },
+    {
+      "block": "study2_SW_b10_r2",
+      "field": 8,
+      "policy": 0,
+      "query": 361,
+      "source_row": 93476,
+      "input_id": 118583,
+      "counterpart_input_id": 118943,
+      "zero_input_id": 113147,
+      "diameter_m": 0.024030060647642557,
+      "some_local_unconverged": true
+    }
+  ],
+  "mandatory_input_ids": [
+    3,
+    9,
+    15,
+    85,
+    97,
+    110,
+    180,
+    218,
+    250,
+    288,
+    317,
+    365,
+    382,
+    423,
+    1025,
+    1232,
+    1341,
+    1548,
+    1925,
+    2132,
+    3851,
+    3974,
+    4058,
+    4181,
+    4802,
+    5009,
+    5522,
+    5717,
+    5938,
+    6133,
+    6650,
+    6845,
+    7572,
+    7767,
+    9376,
+    9417,
+    9459,
+    9484,
+    9571,
+    9612,
+    9654,
+    9679,
+    9874,
+    9886,
+    10069,
+    10081,
+    10168,
+    10186,
+    10239,
+    10242,
+    10316,
+    10331,
+    10383,
+    10387,
+    10388,
+    10397,
+    10410,
+    10463,
+    10468,
+    10484,
+    10528,
+    10593,
+    10705,
+    10749,
+    10859,
+    10903,
+    11320,
+    11474,
+    11577,
+    11731,
+    12531,
+    12570,
+    12685,
+    12724,
+    13372,
+    13380,
+    13526,
+    13534,
+    14097,
+    14251,
+    14380,
+    14556,
+    16145,
+    16321,
+    17143,
+    17194,
+    17319,
+    17370,
+    17849,
+    17911,
+    18025,
+    18087,
+    18580,
+    18708,
+    18739,
+    18757,
+    18766,
+    18925,
+    18967,
+    18975,
+    19166,
+    19319,
+    19497,
+    19650,
+    20606,
+    20937,
+    21046,
+    21299,
+    21377,
+    21630,
+    23114,
+    23145,
+    23445,
+    23476,
+    24316,
+    24326,
+    24390,
+    24452,
+    24552,
+    24563,
+    24614,
+    24639,
+    24682,
+    24821,
+    24863,
+    25054,
+    25152,
+    25194,
+    25385,
+    28286,
+    28317,
+    28617,
+    28648,
+    28940,
+    28994,
+    29271,
+    29325,
+    29447,
+    29539,
+    29778,
+    29870,
+    30151,
+    30186,
+    30208,
+    30331,
+    30409,
+    30492,
+    32645,
+    32743,
+    32976,
+    33074,
+    33320,
+    33651,
+    33948,
+    34112,
+    34168,
+    34279,
+    34443,
+    34499,
+    36093,
+    36142,
+    36145,
+    36232,
+    38547,
+    38878,
+    39175,
+    39506,
+    39837,
+    40168,
+    40530,
+    40585,
+    40861,
+    40916,
+    41794,
+    41813,
+    41903,
+    41956,
+    41992,
+    42023,
+    42038,
+    42176,
+    43021,
+    43164,
+    43389,
+    43532,
+    43913,
+    44281,
+    44553,
+    44921,
+    45215,
+    45583,
+    46797,
+    46826,
+    47165,
+    47194,
+    47703,
+    48071,
+    48151,
+    48193,
+    48207,
+    48306,
+    48319,
+    48387,
+    48413,
+    48444,
+    48566,
+    48752,
+    48804,
+    48940,
+    49120,
+    49172,
+    49308,
+    49579,
+    49947,
+    50105,
+    50473,
+    50887,
+    51026,
+    51255,
+    51394,
+    53895,
+    54263,
+    54518,
+    54545,
+    54569,
+    54669,
+    54725,
+    54798,
+    54804,
+    54809,
+    54820,
+    54944,
+    55213,
+    55581,
+    55782,
+    56150,
+    56586,
+    56954,
+    58098,
+    58466,
+    58889,
+    59001,
+    59257,
+    59369,
+    59422,
+    59442,
+    59619,
+    59625,
+    59790,
+    59810,
+    59987,
+    59993,
+    60374,
+    60742,
+    60978,
+    61201,
+    61222,
+    61306,
+    61336,
+    62340,
+    62424,
+    62708,
+    62792,
+    63092,
+    63460,
+    63921,
+    64289,
+    65130,
+    65498,
+    67665,
+    69616,
+    70004,
+    80839,
+    80883,
+    82060,
+    82448,
+    87441,
+    87642,
+    88675,
+    88841,
+    89063,
+    89229,
+    94072,
+    94112,
+    94319,
+    94506,
+    95270,
+    95630,
+    98178,
+    98466,
+    98538,
+    98826,
+    100430,
+    100438,
+    100512,
+    100565,
+    100574,
+    100697,
+    101797,
+    102157,
+    102320,
+    102416,
+    102680,
+    102776,
+    103820,
+    104180,
+    105194,
+    105304,
+    105554,
+    105664,
+    106585,
+    106664,
+    106699,
+    106720,
+    106770,
+    106818,
+    106889,
+    106938,
+    107011,
+    107022,
+    107875,
+    108235,
+    108557,
+    108762,
+    108822,
+    108917,
+    109122,
+    109182,
+    110078,
+    110109,
+    110438,
+    110469,
+    110741,
+    110885,
+    111101,
+    111245,
+    111383,
+    111743,
+    112414,
+    112774,
+    112843,
+    113010,
+    113058,
+    113084,
+    113117,
+    113147,
+    113243,
+    113520,
+    113612,
+    113880,
+    113972,
+    114197,
+    114557,
+    114935,
+    115295,
+    116319,
+    116679,
+    117641,
+    118001,
+    118583,
+    118943
+  ],
+  "mandatory_tags": {
+    "1025": [
+      "original_flag"
+    ],
+    "1232": [
+      "paired_policy"
+    ],
+    "250": [
+      "own_zero"
+    ],
+    "1548": [
+      "original_flag"
+    ],
+    "1341": [
+      "paired_policy"
+    ],
+    "15": [
+      "own_zero"
+    ],
+    "1925": [
+      "original_flag"
+    ],
+    "2132": [
+      "paired_policy"
+    ],
+    "423": [
+      "own_zero"
+    ],
+    "3851": [
+      "original_flag"
+    ],
+    "4058": [
+      "paired_policy"
+    ],
+    "85": [
+      "own_zero"
+    ],
+    "3974": [
+      "original_flag"
+    ],
+    "4181": [
+      "paired_policy"
+    ],
+    "365": [
+      "own_zero"
+    ],
+    "4802": [
+      "original_flag"
+    ],
+    "5009": [
+      "paired_policy"
+    ],
+    "5717": [
+      "original_flag"
+    ],
+    "5522": [
+      "paired_policy"
+    ],
+    "110": [
+      "own_zero"
+    ],
+    "5938": [
+      "original_flag"
+    ],
+    "6133": [
+      "paired_policy"
+    ],
+    "180": [
+      "own_zero"
+    ],
+    "6650": [
+      "original_flag"
+    ],
+    "6845": [
+      "paired_policy"
+    ],
+    "9": [
+      "own_zero"
+    ],
+    "7572": [
+      "original_flag"
+    ],
+    "7767": [
+      "paired_policy"
+    ],
+    "382": [
+      "own_zero"
+    ],
+    "9484": [
+      "original_flag"
+    ],
+    "9679": [
+      "paired_policy"
+    ],
+    "288": [
+      "own_zero"
+    ],
+    "9571": [
+      "original_flag"
+    ],
+    "9376": [
+      "paired_policy"
+    ],
+    "3": [
+      "own_zero"
+    ],
+    "9612": [
+      "original_flag"
+    ],
+    "9417": [
+      "paired_policy"
+    ],
+    "97": [
+      "own_zero"
+    ],
+    "9654": [
+      "original_flag"
+    ],
+    "9459": [
+      "paired_policy"
+    ],
+    "218": [
+      "own_zero"
+    ],
+    "9874": [
+      "original_flag"
+    ],
+    "10069": [
+      "paired_policy"
+    ],
+    "9886": [
+      "original_flag"
+    ],
+    "10081": [
+      "paired_policy"
+    ],
+    "317": [
+      "own_zero"
+    ],
+    "10331": [
+      "original_flag",
+      "own_zero",
+      "paired_policy"
+    ],
+    "10859": [
+      "original_flag"
+    ],
+    "10705": [
+      "paired_policy"
+    ],
+    "10468": [
+      "own_zero"
+    ],
+    "10903": [
+      "original_flag"
+    ],
+    "10749": [
+      "paired_policy"
+    ],
+    "10593": [
+      "own_zero"
+    ],
+    "11320": [
+      "original_flag"
+    ],
+    "11474": [
+      "paired_policy"
+    ],
+    "10463": [
+      "own_zero"
+    ],
+    "11577": [
+      "original_flag"
+    ],
+    "11731": [
+      "paired_policy"
+    ],
+    "10316": [
+      "own_zero"
+    ],
+    "12531": [
+      "original_flag"
+    ],
+    "12685": [
+      "paired_policy"
+    ],
+    "10388": [
+      "own_zero"
+    ],
+    "12724": [
+      "original_flag"
+    ],
+    "12570": [
+      "paired_policy"
+    ],
+    "10528": [
+      "own_zero"
+    ],
+    "13372": [
+      "original_flag"
+    ],
+    "13526": [
+      "paired_policy"
+    ],
+    "10168": [
+      "own_zero"
+    ],
+    "13534": [
+      "original_flag"
+    ],
+    "13380": [
+      "paired_policy"
+    ],
+    "10186": [
+      "own_zero"
+    ],
+    "14097": [
+      "original_flag"
+    ],
+    "14251": [
+      "paired_policy"
+    ],
+    "10484": [
+      "own_zero"
+    ],
+    "14556": [
+      "original_flag"
+    ],
+    "14380": [
+      "paired_policy"
+    ],
+    "10387": [
+      "own_zero"
+    ],
+    "16145": [
+      "original_flag"
+    ],
+    "16321": [
+      "paired_policy"
+    ],
+    "10397": [
+      "own_zero"
+    ],
+    "17143": [
+      "original_flag"
+    ],
+    "17319": [
+      "paired_policy"
+    ],
+    "10239": [
+      "own_zero"
+    ],
+    "17194": [
+      "original_flag"
+    ],
+    "17370": [
+      "paired_policy"
+    ],
+    "10383": [
+      "own_zero"
+    ],
+    "17849": [
+      "original_flag"
+    ],
+    "18025": [
+      "paired_policy"
+    ],
+    "10242": [
+      "own_zero"
+    ],
+    "18087": [
+      "original_flag"
+    ],
+    "17911": [
+      "paired_policy"
+    ],
+    "10410": [
+      "own_zero"
+    ],
+    "18766": [
+      "original_flag",
+      "own_zero",
+      "paired_policy"
+    ],
+    "19497": [
+      "original_flag"
+    ],
+    "19166": [
+      "paired_policy"
+    ],
+    "18739": [
+      "own_zero"
+    ],
+    "19650": [
+      "original_flag"
+    ],
+    "19319": [
+      "paired_policy"
+    ],
+    "18975": [
+      "own_zero"
+    ],
+    "20606": [
+      "original_flag"
+    ],
+    "20937": [
+      "paired_policy"
+    ],
+    "18925": [
+      "own_zero"
+    ],
+    "21046": [
+      "original_flag"
+    ],
+    "21377": [
+      "paired_policy"
+    ],
+    "18580": [
+      "own_zero"
+    ],
+    "21299": [
+      "original_flag"
+    ],
+    "21630": [
+      "paired_policy"
+    ],
+    "18967": [
+      "own_zero"
+    ],
+    "23114": [
+      "original_flag"
+    ],
+    "23445": [
+      "paired_policy"
+    ],
+    "18708": [
+      "own_zero"
+    ],
+    "23476": [
+      "original_flag"
+    ],
+    "23145": [
+      "paired_policy"
+    ],
+    "18757": [
+      "own_zero"
+    ],
+    "24863": [
+      "original_flag"
+    ],
+    "25194": [
+      "paired_policy"
+    ],
+    "24390": [
+      "own_zero"
+    ],
+    "25152": [
+      "original_flag"
+    ],
+    "24821": [
+      "paired_policy"
+    ],
+    "24326": [
+      "own_zero"
+    ],
+    "25385": [
+      "original_flag"
+    ],
+    "25054": [
+      "paired_policy"
+    ],
+    "24682": [
+      "own_zero"
+    ],
+    "28286": [
+      "original_flag"
+    ],
+    "28617": [
+      "paired_policy"
+    ],
+    "24563": [
+      "own_zero"
+    ],
+    "28317": [
+      "original_flag"
+    ],
+    "28648": [
+      "paired_policy"
+    ],
+    "24614": [
+      "own_zero"
+    ],
+    "28994": [
+      "original_flag"
+    ],
+    "29325": [
+      "paired_policy"
+    ],
+    "24639": [
+      "own_zero"
+    ],
+    "29271": [
+      "original_flag"
+    ],
+    "28940": [
+      "paired_policy"
+    ],
+    "24552": [
+      "own_zero"
+    ],
+    "29447": [
+      "original_flag"
+    ],
+    "29778": [
+      "paired_policy"
+    ],
+    "24316": [
+      "own_zero"
+    ],
+    "29539": [
+      "original_flag"
+    ],
+    "29870": [
+      "paired_policy"
+    ],
+    "24452": [
+      "own_zero"
+    ],
+    "32645": [
+      "original_flag"
+    ],
+    "32976": [
+      "paired_policy"
+    ],
+    "30186": [
+      "own_zero"
+    ],
+    "33074": [
+      "original_flag"
+    ],
+    "32743": [
+      "paired_policy"
+    ],
+    "30331": [
+      "own_zero"
+    ],
+    "33320": [
+      "original_flag"
+    ],
+    "33651": [
+      "paired_policy"
+    ],
+    "30208": [
+      "own_zero"
+    ],
+    "34168": [
+      "original_flag"
+    ],
+    "34499": [
+      "paired_policy"
+    ],
+    "30492": [
+      "own_zero"
+    ],
+    "34279": [
+      "original_flag"
+    ],
+    "33948": [
+      "paired_policy"
+    ],
+    "30151": [
+      "own_zero"
+    ],
+    "34443": [
+      "original_flag"
+    ],
+    "34112": [
+      "paired_policy"
+    ],
+    "30409": [
+      "own_zero"
+    ],
+    "38547": [
+      "original_flag"
+    ],
+    "38878": [
+      "paired_policy"
+    ],
+    "36145": [
+      "own_zero"
+    ],
+    "39175": [
+      "original_flag"
+    ],
+    "39506": [
+      "paired_policy"
+    ],
+    "36093": [
+      "own_zero"
+    ],
+    "39837": [
+      "original_flag"
+    ],
+    "40168": [
+      "paired_policy"
+    ],
+    "40585": [
+      "original_flag"
+    ],
+    "40916": [
+      "paired_policy"
+    ],
+    "36232": [
+      "own_zero"
+    ],
+    "40861": [
+      "original_flag"
+    ],
+    "40530": [
+      "paired_policy"
+    ],
+    "36142": [
+      "own_zero"
+    ],
+    "43389": [
+      "original_flag"
+    ],
+    "43021": [
+      "paired_policy"
+    ],
+    "41813": [
+      "own_zero"
+    ],
+    "43532": [
+      "original_flag"
+    ],
+    "43164": [
+      "paired_policy"
+    ],
+    "42023": [
+      "own_zero"
+    ],
+    "44281": [
+      "original_flag"
+    ],
+    "43913": [
+      "paired_policy"
+    ],
+    "42038": [
+      "own_zero"
+    ],
+    "44553": [
+      "original_flag"
+    ],
+    "44921": [
+      "paired_policy"
+    ],
+    "41903": [
+      "own_zero"
+    ],
+    "45583": [
+      "original_flag"
+    ],
+    "45215": [
+      "paired_policy"
+    ],
+    "41794": [
+      "own_zero"
+    ],
+    "47165": [
+      "original_flag"
+    ],
+    "46797": [
+      "paired_policy"
+    ],
+    "41956": [
+      "own_zero"
+    ],
+    "47194": [
+      "original_flag"
+    ],
+    "46826": [
+      "paired_policy"
+    ],
+    "41992": [
+      "own_zero"
+    ],
+    "47703": [
+      "original_flag"
+    ],
+    "48071": [
+      "paired_policy"
+    ],
+    "42176": [
+      "own_zero"
+    ],
+    "48193": [
+      "original_flag",
+      "own_zero",
+      "paired_policy"
+    ],
+    "48940": [
+      "original_flag"
+    ],
+    "49308": [
+      "paired_policy"
+    ],
+    "48566": [
+      "own_zero"
+    ],
+    "49120": [
+      "original_flag"
+    ],
+    "48752": [
+      "paired_policy"
+    ],
+    "48319": [
+      "own_zero"
+    ],
+    "49172": [
+      "original_flag"
+    ],
+    "48804": [
+      "paired_policy"
+    ],
+    "48387": [
+      "own_zero"
+    ],
+    "49947": [
+      "original_flag"
+    ],
+    "49579": [
+      "paired_policy"
+    ],
+    "48444": [
+      "own_zero"
+    ],
+    "50473": [
+      "original_flag"
+    ],
+    "50105": [
+      "paired_policy"
+    ],
+    "48151": [
+      "own_zero"
+    ],
+    "50887": [
+      "original_flag"
+    ],
+    "51255": [
+      "paired_policy"
+    ],
+    "48207": [
+      "own_zero"
+    ],
+    "51394": [
+      "original_flag"
+    ],
+    "51026": [
+      "paired_policy"
+    ],
+    "48413": [
+      "own_zero"
+    ],
+    "54263": [
+      "original_flag"
+    ],
+    "53895": [
+      "paired_policy"
+    ],
+    "48306": [
+      "own_zero"
+    ],
+    "55581": [
+      "original_flag"
+    ],
+    "55213": [
+      "paired_policy"
+    ],
+    "54809": [
+      "own_zero"
+    ],
+    "56150": [
+      "original_flag"
+    ],
+    "55782": [
+      "paired_policy"
+    ],
+    "54569": [
+      "own_zero"
+    ],
+    "56954": [
+      "original_flag"
+    ],
+    "56586": [
+      "paired_policy"
+    ],
+    "54669": [
+      "own_zero"
+    ],
+    "58098": [
+      "original_flag"
+    ],
+    "58466": [
+      "paired_policy"
+    ],
+    "54725": [
+      "own_zero"
+    ],
+    "59257": [
+      "original_flag"
+    ],
+    "58889": [
+      "paired_policy"
+    ],
+    "54804": [
+      "own_zero"
+    ],
+    "59369": [
+      "original_flag"
+    ],
+    "59001": [
+      "paired_policy"
+    ],
+    "54944": [
+      "own_zero"
+    ],
+    "59422": [
+      "original_flag"
+    ],
+    "59790": [
+      "paired_policy"
+    ],
+    "54518": [
+      "own_zero"
+    ],
+    "59442": [
+      "original_flag"
+    ],
+    "59810": [
+      "paired_policy"
+    ],
+    "54545": [
+      "own_zero"
+    ],
+    "59619": [
+      "original_flag"
+    ],
+    "59987": [
+      "paired_policy"
+    ],
+    "54798": [
+      "own_zero"
+    ],
+    "59993": [
+      "original_flag"
+    ],
+    "59625": [
+      "paired_policy"
+    ],
+    "60374": [
+      "original_flag"
+    ],
+    "60742": [
+      "paired_policy"
+    ],
+    "54820": [
+      "own_zero"
+    ],
+    "62340": [
+      "original_flag",
+      "paired_policy"
+    ],
+    "62708": [
+      "original_flag",
+      "paired_policy"
+    ],
+    "61201": [
+      "own_zero"
+    ],
+    "62424": [
+      "original_flag"
+    ],
+    "62792": [
+      "paired_policy"
+    ],
+    "61306": [
+      "own_zero"
+    ],
+    "63092": [
+      "original_flag"
+    ],
+    "63460": [
+      "paired_policy"
+    ],
+    "61222": [
+      "own_zero"
+    ],
+    "64289": [
+      "original_flag"
+    ],
+    "63921": [
+      "paired_policy"
+    ],
+    "61336": [
+      "own_zero"
+    ],
+    "65130": [
+      "original_flag"
+    ],
+    "65498": [
+      "paired_policy"
+    ],
+    "60978": [
+      "own_zero"
+    ],
+    "70004": [
+      "original_flag"
+    ],
+    "69616": [
+      "paired_policy"
+    ],
+    "67665": [
+      "own_zero"
+    ],
+    "80883": [
+      "original_flag",
+      "own_zero",
+      "paired_policy"
+    ],
+    "82448": [
+      "original_flag"
+    ],
+    "82060": [
+      "paired_policy"
+    ],
+    "80839": [
+      "own_zero"
+    ],
+    "88675": [
+      "original_flag"
+    ],
+    "89063": [
+      "paired_policy"
+    ],
+    "87441": [
+      "own_zero"
+    ],
+    "89229": [
+      "original_flag"
+    ],
+    "88841": [
+      "paired_policy"
+    ],
+    "87642": [
+      "own_zero"
+    ],
+    "94319": [
+      "original_flag",
+      "own_zero",
+      "paired_policy"
+    ],
+    "95270": [
+      "original_flag"
+    ],
+    "95630": [
+      "paired_policy"
+    ],
+    "94072": [
+      "own_zero"
+    ],
+    "98466": [
+      "original_flag"
+    ],
+    "98826": [
+      "paired_policy"
+    ],
+    "94506": [
+      "own_zero"
+    ],
+    "98538": [
+      "original_flag"
+    ],
+    "98178": [
+      "paired_policy"
+    ],
+    "94112": [
+      "own_zero"
+    ],
+    "102157": [
+      "original_flag"
+    ],
+    "101797": [
+      "paired_policy"
+    ],
+    "100697": [
+      "own_zero"
+    ],
+    "102416": [
+      "original_flag"
+    ],
+    "102776": [
+      "paired_policy"
+    ],
+    "100565": [
+      "own_zero"
+    ],
+    "102680": [
+      "original_flag"
+    ],
+    "102320": [
+      "paired_policy"
+    ],
+    "100438": [
+      "own_zero"
+    ],
+    "103820": [
+      "original_flag"
+    ],
+    "104180": [
+      "paired_policy"
+    ],
+    "100512": [
+      "own_zero"
+    ],
+    "105194": [
+      "original_flag"
+    ],
+    "105554": [
+      "paired_policy"
+    ],
+    "100430": [
+      "own_zero"
+    ],
+    "105304": [
+      "original_flag"
+    ],
+    "105664": [
+      "paired_policy"
+    ],
+    "100574": [
+      "own_zero"
+    ],
+    "107875": [
+      "original_flag"
+    ],
+    "108235": [
+      "paired_policy"
+    ],
+    "106720": [
+      "own_zero"
+    ],
+    "108822": [
+      "original_flag"
+    ],
+    "109182": [
+      "paired_policy"
+    ],
+    "107022": [
+      "own_zero"
+    ],
+    "108917": [
+      "original_flag"
+    ],
+    "108557": [
+      "paired_policy"
+    ],
+    "106664": [
+      "own_zero"
+    ],
+    "109122": [
+      "original_flag"
+    ],
+    "108762": [
+      "paired_policy"
+    ],
+    "106938": [
+      "own_zero"
+    ],
+    "110078": [
+      "original_flag"
+    ],
+    "110438": [
+      "paired_policy"
+    ],
+    "106770": [
+      "own_zero"
+    ],
+    "110109": [
+      "original_flag"
+    ],
+    "110469": [
+      "paired_policy"
+    ],
+    "106818": [
+      "own_zero"
+    ],
+    "110741": [
+      "original_flag"
+    ],
+    "111101": [
+      "paired_policy"
+    ],
+    "106699": [
+      "own_zero"
+    ],
+    "110885": [
+      "original_flag"
+    ],
+    "111245": [
+      "paired_policy"
+    ],
+    "106889": [
+      "own_zero"
+    ],
+    "111383": [
+      "original_flag"
+    ],
+    "111743": [
+      "paired_policy"
+    ],
+    "106585": [
+      "own_zero"
+    ],
+    "112414": [
+      "original_flag"
+    ],
+    "112774": [
+      "paired_policy"
+    ],
+    "107011": [
+      "own_zero"
+    ],
+    "113880": [
+      "original_flag"
+    ],
+    "113520": [
+      "paired_policy"
+    ],
+    "113117": [
+      "own_zero"
+    ],
+    "113972": [
+      "original_flag"
+    ],
+    "113612": [
+      "paired_policy"
+    ],
+    "113243": [
+      "own_zero"
+    ],
+    "114197": [
+      "original_flag"
+    ],
+    "114557": [
+      "paired_policy"
+    ],
+    "113058": [
+      "own_zero"
+    ],
+    "114935": [
+      "original_flag"
+    ],
+    "115295": [
+      "paired_policy"
+    ],
+    "113084": [
+      "own_zero"
+    ],
+    "116319": [
+      "original_flag"
+    ],
+    "116679": [
+      "paired_policy"
+    ],
+    "113010": [
+      "own_zero"
+    ],
+    "117641": [
+      "original_flag"
+    ],
+    "118001": [
+      "paired_policy"
+    ],
+    "112843": [
+      "own_zero"
+    ],
+    "118583": [
+      "original_flag"
+    ],
+    "118943": [
+      "paired_policy"
+    ],
+    "113147": [
+      "own_zero"
+    ]
+  },
+  "coverage_rule": "Two smallest SHA256(paperb_revision_audit_coverage_v1:<numerical input digest>) per receiver-count/policy stratum; independent of outputs, may overlap targeted cases.",
+  "coverage_strata": {
+    "receivers3_policy0": [
+      107811,
+      98924
+    ],
+    "receivers3_policy1": [
+      15176,
+      30078
+    ],
+    "receivers4_policy0": [
+      99011,
+      599
+    ],
+    "receivers4_policy1": [
+      93727,
+      81025
+    ],
+    "receivers5_policy0": [
+      98118,
+      113267
+    ],
+    "receivers5_policy1": [
+      113267,
+      52646
+    ],
+    "receivers6_policy0": [
+      92659,
+      24381
+    ],
+    "receivers6_policy1": [
+      31265,
+      5042
+    ],
+    "receivers7_policy0": [
+      62364,
+      117910
+    ],
+    "receivers7_policy1": [
+      55528,
+      55476
+    ],
+    "receivers8_policy0": [
+      47610,
+      42299
+    ],
+    "receivers8_policy1": [
+      62637,
+      33178
+    ],
+    "receivers9_policy0": [
+      1421,
+      43880
+    ],
+    "receivers9_policy1": [
+      47732,
+      21486
+    ],
+    "receivers10_policy0": [
+      55086,
+      37934
+    ],
+    "receivers10_policy1": [
+      40122,
+      51425
+    ]
+  },
+  "coverage_input_ids": [
+    599,
+    1421,
+    5042,
+    15176,
+    21486,
+    24381,
+    30078,
+    31265,
+    33178,
+    37934,
+    40122,
+    42299,
+    43880,
+    47610,
+    47732,
+    51425,
+    52646,
+    55086,
+    55476,
+    55528,
+    62364,
+    62637,
+    81025,
+    92659,
+    93727,
+    98118,
+    98924,
+    99011,
+    107811,
+    113267,
+    117910
+  ],
+  "fixed_union_input_ids": [
+    3,
+    9,
+    15,
+    85,
+    97,
+    110,
+    180,
+    218,
+    250,
+    288,
+    317,
+    365,
+    382,
+    423,
+    599,
+    1025,
+    1232,
+    1341,
+    1421,
+    1548,
+    1925,
+    2132,
+    3851,
+    3974,
+    4058,
+    4181,
+    4802,
+    5009,
+    5042,
+    5522,
+    5717,
+    5938,
+    6133,
+    6650,
+    6845,
+    7572,
+    7767,
+    9376,
+    9417,
+    9459,
+    9484,
+    9571,
+    9612,
+    9654,
+    9679,
+    9874,
+    9886,
+    10069,
+    10081,
+    10168,
+    10186,
+    10239,
+    10242,
+    10316,
+    10331,
+    10383,
+    10387,
+    10388,
+    10397,
+    10410,
+    10463,
+    10468,
+    10484,
+    10528,
+    10593,
+    10705,
+    10749,
+    10859,
+    10903,
+    11320,
+    11474,
+    11577,
+    11731,
+    12531,
+    12570,
+    12685,
+    12724,
+    13372,
+    13380,
+    13526,
+    13534,
+    14097,
+    14251,
+    14380,
+    14556,
+    15176,
+    16145,
+    16321,
+    17143,
+    17194,
+    17319,
+    17370,
+    17849,
+    17911,
+    18025,
+    18087,
+    18580,
+    18708,
+    18739,
+    18757,
+    18766,
+    18925,
+    18967,
+    18975,
+    19166,
+    19319,
+    19497,
+    19650,
+    20606,
+    20937,
+    21046,
+    21299,
+    21377,
+    21486,
+    21630,
+    23114,
+    23145,
+    23445,
+    23476,
+    24316,
+    24326,
+    24381,
+    24390,
+    24452,
+    24552,
+    24563,
+    24614,
+    24639,
+    24682,
+    24821,
+    24863,
+    25054,
+    25152,
+    25194,
+    25385,
+    28286,
+    28317,
+    28617,
+    28648,
+    28940,
+    28994,
+    29271,
+    29325,
+    29447,
+    29539,
+    29778,
+    29870,
+    30078,
+    30151,
+    30186,
+    30208,
+    30331,
+    30409,
+    30492,
+    31265,
+    32645,
+    32743,
+    32976,
+    33074,
+    33178,
+    33320,
+    33651,
+    33948,
+    34112,
+    34168,
+    34279,
+    34443,
+    34499,
+    36093,
+    36142,
+    36145,
+    36232,
+    37934,
+    38547,
+    38878,
+    39175,
+    39506,
+    39837,
+    40122,
+    40168,
+    40530,
+    40585,
+    40861,
+    40916,
+    41794,
+    41813,
+    41903,
+    41956,
+    41992,
+    42023,
+    42038,
+    42176,
+    42299,
+    43021,
+    43164,
+    43389,
+    43532,
+    43880,
+    43913,
+    44281,
+    44553,
+    44921,
+    45215,
+    45583,
+    46797,
+    46826,
+    47165,
+    47194,
+    47610,
+    47703,
+    47732,
+    48071,
+    48151,
+    48193,
+    48207,
+    48306,
+    48319,
+    48387,
+    48413,
+    48444,
+    48566,
+    48752,
+    48804,
+    48940,
+    49120,
+    49172,
+    49308,
+    49579,
+    49947,
+    50105,
+    50473,
+    50887,
+    51026,
+    51255,
+    51394,
+    51425,
+    52646,
+    53895,
+    54263,
+    54518,
+    54545,
+    54569,
+    54669,
+    54725,
+    54798,
+    54804,
+    54809,
+    54820,
+    54944,
+    55086,
+    55213,
+    55476,
+    55528,
+    55581,
+    55782,
+    56150,
+    56586,
+    56954,
+    58098,
+    58466,
+    58889,
+    59001,
+    59257,
+    59369,
+    59422,
+    59442,
+    59619,
+    59625,
+    59790,
+    59810,
+    59987,
+    59993,
+    60374,
+    60742,
+    60978,
+    61201,
+    61222,
+    61306,
+    61336,
+    62340,
+    62364,
+    62424,
+    62637,
+    62708,
+    62792,
+    63092,
+    63460,
+    63921,
+    64289,
+    65130,
+    65498,
+    67665,
+    69616,
+    70004,
+    80839,
+    80883,
+    81025,
+    82060,
+    82448,
+    87441,
+    87642,
+    88675,
+    88841,
+    89063,
+    89229,
+    92659,
+    93727,
+    94072,
+    94112,
+    94319,
+    94506,
+    95270,
+    95630,
+    98118,
+    98178,
+    98466,
+    98538,
+    98826,
+    98924,
+    99011,
+    100430,
+    100438,
+    100512,
+    100565,
+    100574,
+    100697,
+    101797,
+    102157,
+    102320,
+    102416,
+    102680,
+    102776,
+    103820,
+    104180,
+    105194,
+    105304,
+    105554,
+    105664,
+    106585,
+    106664,
+    106699,
+    106720,
+    106770,
+    106818,
+    106889,
+    106938,
+    107011,
+    107022,
+    107811,
+    107875,
+    108235,
+    108557,
+    108762,
+    108822,
+    108917,
+    109122,
+    109182,
+    110078,
+    110109,
+    110438,
+    110469,
+    110741,
+    110885,
+    111101,
+    111245,
+    111383,
+    111743,
+    112414,
+    112774,
+    112843,
+    113010,
+    113058,
+    113084,
+    113117,
+    113147,
+    113243,
+    113267,
+    113520,
+    113612,
+    113880,
+    113972,
+    114197,
+    114557,
+    114935,
+    115295,
+    116319,
+    116679,
+    117641,
+    117910,
+    118001,
+    118583,
+    118943
+  ],
+  "maximum_unique_audits": 900,
+  "remaining_capacity": 508,
+  "new_flag_rule": "Full recovered valid-candidate diameter>1m at0.01dB2 band; descending diameter, then input digest; add only within remaining capacity. Retain overflow explicitly.",
+  "primary_predictions_unchanged": true,
+  "recovery_lock_sha256": "85e9b493291f5e2f005f3a87cbe3abbcfa12bec9c4801fbbd4ff1e0a8b309fc2"
+}

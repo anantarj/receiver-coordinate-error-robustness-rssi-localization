@@ -1,0 +1,48 @@
+{
+  "status": "PASS_CURRENT_SNAPSHOT_WITH_CONDITIONAL_WORKFLOW_FINDINGS",
+  "review_time_utc": "2026-10-16T00:17:26Z",
+  "source_sha256": {
+    "numerical/recover_candidates.py": "ee999f64cb17996f5637b9c684fcb6e20358da5ebe88f3217d7367a018679b28",
+    "calibration/src/run_extension_queries.py": "7a09f94df852df8dc7ef2181daacbf51bd848d5ed0a52d7f3cb8df5810605764"
+  },
+  "recovery_registry_unique_inputs_verified": 119045,
+  "recovery_state_mappings_reconstructed_independently": 195200,
+  "recovery_blocks_checked": 18,
+  "recovery_problem_receipts_current_snapshot": [],
+  "calibration_query_shards_checked_current_snapshot": 4,
+  "calibration_stored_state_mappings_checked": 1728,
+  "calibration_candidate_records_checked": 25265,
+  "calibration_exceptions_current_snapshot": 0,
+  "static_review_findings": [
+    {
+      "severity": "PASS",
+      "finding": "Both observers call the original _local_search without changing arguments or returned result. Candidate capture includes all finite prescribed initials, all finite endpoints/fallbacks, explicit incumbent, exact local coordinates, recomputed and recorded objectives, source kind, start index, status and exception."
+    },
+    {
+      "severity": "PASS",
+      "finding": "Solver keys include ordered float64 anchors/RSS/intercepts, receiver count, n, d0. Fixed shapes are implied by receiver count and validated solver contract. No query-reference coordinates, WCL estimate or error enters the hash, solver, candidate ordering or incumbent selection."
+    },
+    {
+      "severity": "CONDITIONAL_RESUME_HAZARD",
+      "finding": "recover_candidates.recover_shard returns an existing hash-valid receipt without requiring status COMPLETE; an INVESTIGATION_REQUIRED receipt could be accepted by a later resume. No such receipt exists in this snapshot. Require a final independent check rejecting every non-COMPLETE shard, or version a repair before future resumes after failure; do not alter locked running source."
+    },
+    {
+      "severity": "AGGREGATION_REQUIREMENT",
+      "finding": "Original recovery run excludes 64 pilot inputs and its RUN_RECEIPT totals concern the remaining scheduled inputs. Full coverage requires union of pilot and regular candidate shards, exactly one occurrence for every registry input ID."
+    },
+    {
+      "severity": "COMPLETION_GATE",
+      "finding": "Calibration aggregate receipt status COMPLETE does not itself guarantee no exceptions; exception count and finite/candidate coverage must be checked explicitly. Current checked shards have no exceptions."
+    },
+    {
+      "severity": "MAPPING_REQUIREMENT",
+      "finding": "Calibration nlls_input_index is shard-local, including after full-array concatenation. Join via block plus query chunk to candidate shard, and validate input_sha256; never treat index as global."
+    },
+    {
+      "severity": "REPORTING_FOLLOWUP",
+      "finding": "Recovery stores absolute discrepancies. The plan also requested scale-relative discrepancy reporting; these can be derived additively from EXPECTED_PRIMARY and search scale without replay."
+    }
+  ],
+  "scope": "Complete locked original registry and 195,200-state mappings; static capture/selection interface review; calibration completed-shard snapshot only. No new solves, no source edits, no global-optimality or scientific-claim validation.",
+  "seconds": 3.6781112980024773
+}

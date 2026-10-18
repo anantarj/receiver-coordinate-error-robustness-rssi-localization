@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETE",
+  "pool_scope": "enhanced targeted overlay",
+  "effect_classification_by_band": {
+    "0.0001": {
+      "invariant_zero_by_identical_inputs": 36,
+      "invariant_sign_over_found_pools": 695,
+      "unresolved_with_unconstrained_sign_change_only": 9
+    },
+    "0.001": {
+      "invariant_zero_by_identical_inputs": 36,
+      "invariant_sign_over_found_pools": 695,
+      "unresolved_with_unconstrained_sign_change_only": 9
+    },
+    "0.01": {
+      "invariant_zero_by_identical_inputs": 36,
+      "invariant_sign_over_found_pools": 694,
+      "unresolved_with_unconstrained_sign_change_only": 9,
+      "branch_sensitive_demonstrated_truth_independent_rule": 1
+    }
+  },
+  "files": {
+    "CALIBRATION_EFFECT_CLASSIFICATIONS.csv": "fc5c7dab3a665952dbd2a536db17cf06b69155be608f50625a876a49135a0d75",
+    "MOVEMENT_REDUCTION_ENVELOPES.csv": "5d0f57a65c408dfdd9ca729b47ea8b149337e7e21e9a15ba15f557676d8878f3"
+  }
+}

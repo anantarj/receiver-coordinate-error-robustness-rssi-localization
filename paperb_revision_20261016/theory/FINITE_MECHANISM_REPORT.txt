@@ -1,0 +1,87 @@
+FINITE CALIBRATION-MECHANISM DIAGNOSTICS — 16 OCTOBER 2026
+
+Status: completed diagnostic follow-up; no original output or estimator changed.
+Scope: primary catalogue-map Study 1, 512 original held-out messages, all 24
+positive fields and the zero reference, frozen/refit. There are 25,600 stored
+field/policy/query rows, including the two identical zero-policy arms. New
+optimization calls: zero. Positive one-target fields expose 207 queries;
+two-target fields expose 371. Unexposed rows remain explicit controls.
+
+The candidate region K is the bounding rectangle of calibration-reference
+positions, expanded by 1 km on every side. It was fixed before diagnostic
+computation and does not use localization outcomes or query-reference positions.
+Its sides span 11269.621 by 7641.640 m.
+The grid is 21 by 21, with endpoints included. Its objective range is a sampled
+range, not the exact supremum. Receiver-distance interval formulas give a
+separate analytical upper bound, evaluated in float64 without directed-rounding
+certification. Wide bounds are retained; neither the region nor grid was tuned.
+
+RESULTS
+
+At the same original zero-map NLLS candidate positions, refitting reduces the
+field median targeted-gradient norm in 22 of the 24 positive fields. In the
+two-target 5-km conditions, the median across four field medians changes from
+0.27896 to 0.02223 dB^2/m.
+The corresponding targeted squared-residual contribution changes from
+1057.22 to 7.01 dB^2.
+These comparisons evaluate both policies at exactly the same candidate points;
+they do not attribute a changed point's geometric Jacobian to intercept fitting.
+
+The broad-region result is different. Refitting lowers the field median sampled
+target-objective variation in only 6/24 positive fields. In the two-target
+5-km case, the direction-median sampled variation is
+2670.02 dB^2 frozen and 4525.80 dB^2 refitted.
+These sampled values do not establish the ordering of the exact suprema.
+They do demonstrate that the target penalty still varies substantially on
+this declared finite region: the observed location-specific gradient reduction
+is not evidence of a uniformly constant target objective throughout K.
+
+At 1 km with two targets, direction-median gradient norms are
+0.26766 and 0.22926 dB^2/m.
+All four direction outcomes and all rows are retained rather than interpreting
+one aggregate as a monotone finite-displacement law.
+
+There are 44 frozen and 4 refitted field/query primary positions outside K;
+all original zero-map positions lie inside. These are repeated field/query
+counts, not independent messages or an optimized-algorithm failure rate. The
+finite K proposition cannot be applied to an outside position. The three
+candidate positions have no receiver-coordinate derivative singularities.
+
+INTERPRETATION
+
+The diagnostics support a finite local residual-weighted-force reduction at
+the tested candidate positions, particularly in the severe two-target fields.
+They do not establish global positional confinement at 5 km, a small objective
+variation over the entire geographic region, a unique solution, or small
+absolute localization error. Objective variation and receiver interval bounds
+are independent of the selected optimizer branch. Pointwise gradient summaries
+remain specific to the retained baseline/frozen/refitted candidate positions
+and must accompany the separate candidate-pool sensitivity analysis.
+
+The finite objective lemma requires a known optimization-error bound eta and,
+for a positional conclusion, a valid objective-separation/growth condition.
+Neither is supplied by these reductions. Independent removal-objective solves
+are owned by the baseline/numerical workstream. Distances to a found competitive
+removal pool must not be described as distances to all true global minimizers.
+
+ARTIFACTS AND VERIFICATION
+
+FINITE_DIAGNOSTIC_PROTOCOL.json and FINITE_DIAGNOSTIC_LOCK.json bind the inputs,
+code, region and schedule before this new reduction. The receipt records zero
+optimizer calls, exact control behavior, maximum residual-identity discrepancy
+4.62e-14 dB, and recomputed selected-objective discrepancy 5.01e-12 dB^2.
+Synthetic derivative, interval-bound and fitting-functional checks are separate
+from the mathematical proof. They do not numerically prove its conclusions.
+
+Active full proof: THEORY_EXTENSION_v2.tex. The original THEORY_EXTENSION.tex
+is retained because it was protocol-bound; v2 corrects only a units sentence.
+ROOT_THEORY_REVIEW.json records an independent root-agent proof read, not
+external human peer review. THEORY_MAIN_FRAGMENT.tex provides compact prose
+for integration; no manuscript/source file was edited here.
+
+Tables: FINITE_FIELD_QUERY_DIAGNOSTICS.csv, FINITE_FIELD_SUMMARIES.csv,
+FINITE_DIRECTION_SUMMARIES.csv. FINITE_POINT_DIAGNOSTICS.npz stores gradients,
+target/unchanged objectives, candidate coordinates, region flags and metadata.
+All reported direction medians summarize within-field exposed-row medians;
+they are descriptive and are not confidence limits or independent-deployment
+replications.

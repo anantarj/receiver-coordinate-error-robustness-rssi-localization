@@ -1,0 +1,15 @@
+This is the additive 16 October 2026 scientific revision for Paper B.
+The original finite estimator outputs and earlier immutable v1.2.0 archive
+are preserved. New candidate pools and stronger-search outputs are diagnostics,
+not replacements for the original production estimator.
+
+The public availability of this exact complete revision has not been verified.
+An existing DOI or repository page must not be used to imply that these newer
+binary artifacts have already been deposited. Upload this version, verify its
+downloaded bytes, and identify the resulting version/DOI before changing that
+statement. Preserve earlier published version identifiers and assets.
+
+This package includes the preceding matched-study evidence as unchanged
+extracted members, plus the new revision directory. The earlier expanded WCL
+simulation/control archive remains a separately identified dependency. Its
+filename, fingerprint and scientific locators remain in the supplement.

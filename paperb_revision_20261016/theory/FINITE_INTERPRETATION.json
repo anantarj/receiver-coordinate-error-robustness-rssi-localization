@@ -1,0 +1,22 @@
+{
+  "aggregation": "Within each field: median over target-exposed rows. Then median and range over the four fields; no pooling as independent replications.",
+  "refit_lowers_field_median_count_of_24": {
+    "target_grid_variation_db2_p50": 6,
+    "target_variation_upper_bound_db2_p50": 7,
+    "original_zero_map_nlls_target_gradient_norm_db2_per_m_p50": 22,
+    "original_zero_map_nlls_target_penalty_db2_p50": 19
+  },
+  "outside_K_field_query_positions": {
+    "original_zero_map_nlls": 0,
+    "frozen_primary_nlls": 44,
+    "refitted_primary_nlls": 4
+  },
+  "undefined_target_derivative_states": 0,
+  "undefined_unchanged_derivative_states": 0,
+  "region_span_m": [
+    11269.620955651975,
+    7641.640460820869
+  ],
+  "global_optimum_or_position_certificate": false,
+  "new_optimizer_calls": 0
+}

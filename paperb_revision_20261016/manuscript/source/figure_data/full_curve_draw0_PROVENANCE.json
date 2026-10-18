@@ -1,0 +1,19 @@
+{
+  "source_npz": "results/core_restored/arrays/recovered29_top2.npz",
+  "source_sha256": "268cec3ba910998a513afe0e37d0f47c42ff770eeb7adf9ae550b0b5a4082dc6",
+  "historical_step4_manifest_match": true,
+  "map": "recovered29",
+  "targets": [
+    "BS14",
+    "BS69"
+  ],
+  "D_m": 5000,
+  "draw": 0,
+  "kappa": 4.7,
+  "population": "full",
+  "messages": 2498,
+  "eligible_after_removal": 1649,
+  "selection": "Fixed draw-zero original-weighting severe two-target core setting; structural illustrative choice, not selected as typical, maximum harm, or favorable outcome.",
+  "csv_sha256": "1bf709422300f90e76eb7a3305c3c478cb4df694bd8074f358461a73964e4129",
+  "csv": "full_curve_draw0_errors.csv"
+}

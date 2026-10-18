@@ -1,0 +1,23 @@
+{
+  "version": "20261016-v1",
+  "status_at_lock": "Declared before follow-up consequence outcomes were calculated; original study and its diagnosed ambiguity were known.",
+  "scope": "Every original study1 primary catalogue-map and historical R29 sensitivity block, and every study2 spatial fold and calibration-budget block; all zero and positive displacement fields. No original output is modified.",
+  "populations": ["full fixed sample", "selected-target affected subset for nonzero fields"],
+  "pairing": "WCL and RSS-NLS comparison uses the same finite intersection of both methods and both policies, with scheduled/retained/missing counts. Movement uses the same intersection including its own zero baseline.",
+  "quantiles": {"levels": [0.5, 0.95], "method": "linear"},
+  "method_choice_transfer": "Descriptive same-cohort diagnostic: choose the raw lower error-quantile method at source policy, with exact ties resolved WCL first, then report its destination quantile minus the raw lower destination quantile. Repeat frozen-to-refit and refit-to-frozen. It is nonnegative by construction; all zeros and signed underlying contrasts are retained. It is not out-of-sample regret or a deployable choice validation.",
+  "numerical_ties": "Classification only: 1e-6 m + 1e-12*max(abs(a),abs(b)); raw values and deterministic choice are not rounded or canonicalized.",
+  "reference_uncertainty": "With predictions and calibration fixed, per-reference positional uncertainty bounded by delta gives error-quantile contrast uncertainty <=2delta. Report abs(contrast)/2 as the boundary of this sufficient sign certificate, not as an achievable reversal or measured GNSS precision. Calibration-reference uncertainty is outside this calculation.",
+  "ecdf": "Retain exact intervals [a,b) between the union of finite error values and zero. Equality at threshold is success. Sum widths of strictly favorable/adverse intervals and probability-gap area on the finite combined error range; neither picks an application threshold.",
+  "candidate_pools": {
+    "primary_bands_db2": [0.01, 0.001, 0.0001],
+    "definition": "Finite retained candidates with objective <= pool minimum + band; preserve raw candidates. The primary selected incumbent is included by the recovery producer.",
+    "error_envelopes": "Per-query min/max reference-relative errors; linear quantiles are monotone, producing conservative contrast intervals on exactly the original common finite cohort. Missing pools prevent a complete-population claim; never impute singleton primary candidates.",
+    "movement_envelopes": "Per-query min/max pairwise candidate distances from own baseline to frozen/refit, and frozen-to-refit. Identical numerical-input IDs must select the same candidate, so their implementable movement is zero. Also report unconstrained pool-pair upper distances separately when input IDs coincide.",
+    "ranking": "Invariant strict reversal only if frozen and refitted WCL-minus-NLS contrast intervals have opposite definite numerical signs. Same definite signs establish invariant nonreversal. Otherwise envelope-unresolved unless explicit alternative assignments demonstrate branch sensitivity. Numerical ties reported separately.",
+    "witnesses": "Reference-scored per-query min/max choices are sensitivity assignments only, never production policies. Keep their consistency across exact repeated input IDs explicit. Additionally evaluate two truth-independent deterministic alternative rules: earliest retained candidate within band and lexicographically smallest (x,y,index) candidate within band. Each exact numerical input shares its chosen candidate across all occurrences. They are secondary diagnostic rules and never replace production outputs.",
+    "transfer_envelopes": "For the original source winner, propagate destination quantile interval into excess error. Also give a conservative envelope over every source winner allowed by its quantile interval; lack of joint input consistency is explicitly qualified. Source=destination numerical states have exact zero choice-transfer penalty."
+  },
+  "aggregation": "All direction distributions retained, with min/median/max and zeros. Maps, folds, budgets, replicates, target sets and metrics remain separated; no independent-deployment interpretation.",
+  "tests": "Enumerate tiny candidate assignments to test quantile-contrast inclusion and achieved unconstrained extremes, include repeated-input constraints and a reversal/tie counterexample; reconstruct original field rankings from frozen prediction arrays and compare to original ranking CSV."
+}

@@ -1,0 +1,12 @@
+{
+  "purpose": "Additive portable path handling; original protocol and producer unchanged",
+  "files": {
+    "portable_paths.py": "fdba3d0644c632a8e270d3c37eb4b824676e0a7ecfffbf7f556389437c3a28da",
+    "run_finite_diagnostics_portable.py": "0d8e90545797f6c607977cf0e8a033ee0c2896fa0342860ca76c411fef0307eb",
+    "verify_portability.py": "c37177b6706bcd6f54ce8095d9e72579dbbbdaf1b787996586f10cb3957f8c89",
+    "README_PORTABLE.txt": "d0631ddfd1616b4bbce9f6c1507e9cc61ecc81de96f298ad512dc30dd2d16a44",
+    "PORTABLE_VERIFICATION.json": "715c2bff94839d8f89a77668a81443698e771f39bf0a25c686529b966a4e6e28"
+  },
+  "original_protocol_sha256": "432321eb9a148ac095ce85216899703213f515316fd45401f693a4fd0c8e2886",
+  "original_producer_sha256": "9850a62e518bc6225b6b530182b9bc3574e90b11e1c515ae36d17cc69b75861e"
+}

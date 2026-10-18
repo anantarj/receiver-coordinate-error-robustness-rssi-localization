@@ -1,0 +1,26 @@
+[
+  {
+    "block_id": "study2_SW_fitval_all",
+    "npz": "inputs/blocks/study2_SW_fitval_all.npz",
+    "sha256": "c76839a23e12a07b445730ebc46ce508714d35c99b0453f96b5a989fda283d64",
+    "metadata_sha256": "55510efa631df6797a4bba5c7bad6f6d2efb11d95946f627dac226f06e3d14cd"
+  },
+  {
+    "block_id": "study2_SE_fitval_all",
+    "npz": "inputs/blocks/study2_SE_fitval_all.npz",
+    "sha256": "c580fad72dbe48343c3ed1cd2c622f4baf4aadce4bd5def31c9bab9f532ee5b1",
+    "metadata_sha256": "f1f6ee0d67146ecef2ac83ce57776a716135cb9389993ef984a48d8f400fd3a5"
+  },
+  {
+    "block_id": "study2_NW_fitval_all",
+    "npz": "inputs/blocks/study2_NW_fitval_all.npz",
+    "sha256": "864c9e6e65209ae13e23bcac4d50a88e42197bf715325236b9a833641aa9f763",
+    "metadata_sha256": "8c2462ff931588f8f3de7bccbe2e73013cc371381dcf3031e0b6da72f3af4fb0"
+  },
+  {
+    "block_id": "study2_NE_fitval_all",
+    "npz": "inputs/blocks/study2_NE_fitval_all.npz",
+    "sha256": "05df144cf54c14cea6eda399ced6952c8a228a263124ffd6b99022dad2e388d9",
+    "metadata_sha256": "d6f501fe59f1fa750d3552870e557d3e28e7fbd19085620657b716594d98d15f"
+  }
+]

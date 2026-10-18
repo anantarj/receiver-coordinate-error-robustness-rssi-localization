@@ -1,0 +1,7 @@
+# Recorded numerical environment for the October 2026 revision; Python 3.12.
+numpy==2.3.5
+scipy==1.17.0
+pandas==2.2.3
+matplotlib==3.10.8
+# Required for raw coordinate preparation; recorded auxiliary environment.
+pyproj==3.8.0

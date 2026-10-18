@@ -1,0 +1,9 @@
+{
+  "status": "CALIBRATION_REPORTS_COMPLETE",
+  "original_effect_rows": 152,
+  "policy_selection_rows": 36,
+  "files": {
+    "ORIGINAL_RESIDUAL_EFFECTS.csv": "976074c70e1c16740dd1ff86e7a7216e30f1ac7a98a4ef13604143562ac8eeeb",
+    "CALIBRATION_POLICY_SELECTION.csv": "f21dafc9fcc205f6fe522543519f712666beacae54af65d07f44fce0f2b7f34b"
+  }
+}

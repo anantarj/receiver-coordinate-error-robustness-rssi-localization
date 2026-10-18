@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "locked_files_verified": 65,
+  "legacy_supporting_text_only_display_section_numbers_updated": true,
+  "legacy_figures": [
+    {
+      "path": "figures/figure_01_paired.pdf",
+      "matches": true
+    },
+    {
+      "path": "figures/figure_02_load.pdf",
+      "matches": true
+    },
+    {
+      "path": "figures/figure_s01_ranked_receivers.pdf",
+      "matches": true
+    },
+    {
+      "path": "figures/figure_s02_exposure_matching.pdf",
+      "matches": true
+    },
+    {
+      "path": "figures/figure_s03_exhaustion.pdf",
+      "matches": true
+    },
+    {
+      "path": "figures/figure_s04_spatial_families.pdf",
+      "matches": true
+    },
+    {
+      "path": "figures/figure_s05_scale.pdf",
+      "matches": true
+    },
+    {
+      "path": "figures/figure_s06_mixed_errors.pdf",
+      "matches": true
+    },
+    {
+      "path": "figures/figure_s07_rotation.pdf",
+      "matches": true
+    },
+    {
+      "path": "figures/figure_s08_historical_ablation.pdf",
+      "matches": true
+    },
+    {
+      "path": "figures/figure_s09_percentiles.pdf",
+      "matches": true
+    }
+  ]
+}

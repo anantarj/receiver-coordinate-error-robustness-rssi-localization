@@ -1,0 +1,36 @@
+{
+  "status": "METHODS_FRAGMENTS_DRAFTED_AND_IMPLEMENTATION_RECONCILED",
+  "scientific_results_claimed": false,
+  "source_root_modified": false,
+  "fragment_files": {
+    "manuscript_fragments/NEW_METHODS_MAIN.tex": {
+      "sha256": "11cf68b1518c8810b37c40d16d05e56664b06eb2610c86cc24337fe79d559860",
+      "whitespace_words_including_tex": 436
+    },
+    "manuscript_fragments/NEW_METHODS_SUPPLEMENT.tex": {
+      "sha256": "9d47f04ac444ab2b3d48bddd7de40479380f01b72cf8db0488f8eacb124d1a27",
+      "whitespace_words_including_tex": 1967
+    },
+    "manuscript_fragments/NARRATIVE_INTEGRATION_BRIEF.txt": {
+      "sha256": "0b4f12255df2660f472a76810adabe3ed8379324577d9f06a499f464d0334f00",
+      "whitespace_words_including_tex": 471
+    }
+  },
+  "reviewed_implementation_snapshot": {
+    "src/prepare_studies.py": "876b5a32f95abd332658695d5a1d40412c4d5ce625d35788cc52054ce3847bfa",
+    "src/rss_nlls_production.py": "e108a75d7ad59db7f5f41eb5b1944fb002d80a71ef5e502f3ffdaad9351fd458",
+    "src/run_studies.py": "31ab591182fcd7b8bff380913a31782488b9e63c34f93d2840ba364363be3347",
+    "src/run_numerical_audits.py": "d7218901614e02ec1ba53db8aa3053c015ce63db5872b54ce53e8595bbbe5a4b",
+    "src/analyze_studies.py": "5280feefcb179bf099f9107ce878f06669874bee540476b2a02e0c072f5a3a75",
+    "receipts/protocol_audit.txt": "f8cdf7048a38117e9bc05af4fbda487cdf33461885d14dd4db384b521d9b9943",
+    "receipts/NLLS_ASYMPTOTIC_REVIEW.txt": "4f898180b84f4b106b9f36aa563a814ea53a39f1eb77527d951783432dd15c4c"
+  },
+  "integration_notes": [
+    "Regenerate numbered section/equation/cross-file references when inserted into main/supplement.",
+    "Bind final execution registry and final source hashes after all workers finish editing.",
+    "These fragments specify the fixed finite numerical algorithm; no global-optimum assertion.",
+    "Every method statement was checked against current preparation and execution implementation; exact audit identities belong to the frozen registry.",
+    "Input references query_xy_m versus query_reference_m mismatch was reported to parent; only one canonical key should remain before lock.",
+    "The independently reviewed RSS-NLS asymptotic proposition is not inserted into these methods fragments."
+  ]
+}

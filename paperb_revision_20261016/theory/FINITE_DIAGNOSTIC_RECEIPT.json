@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "protocol_sha256": "432321eb9a148ac095ce85216899703213f515316fd45401f693a4fd0c8e2886",
+  "source_sha256": "9850a62e518bc6225b6b530182b9bc3574e90b11e1c515ae36d17cc69b75861e",
+  "input_sha256": "10ebcfec46343494e67bca0f20e2083799d4f10e37181fb3d685f1be97deea73",
+  "primary_array_sha256": "243f35bb9ee9bdf956524e01d5bfa3850f34cfd7e4bd877954f1406e1229e962",
+  "field_query_policy_rows": 25600,
+  "candidate_points_per_state": 3,
+  "checks": {
+    "identity_max_error_db": 4.618527782440651e-14,
+    "own_output_objective_max_error_db2": 5.002220859751105e-12,
+    "interval_enclosure_max_violation_db2": 0.0,
+    "unexposed_target_nonzero_count": 0
+  },
+  "elapsed_seconds": 103.29663887900097,
+  "optimization_calls": 0,
+  "global_certificates_claimed": false,
+  "region_calibration_defined": true,
+  "floating_point_bound_scope": "Analytical interval formula evaluated in float64, not directed-rounding certificate",
+  "output_hashes": {
+    "FINITE_FIELD_QUERY_DIAGNOSTICS.csv": "e4a7817e00222fad49689499a2ef93f7e06c91e656cfa1a7adfd38415182c429",
+    "FINITE_FIELD_SUMMARIES.csv": "cf24edf73dccd16d06d60c20682161d44356d21f65b25d6974fd735ccc4e2740",
+    "FINITE_POINT_DIAGNOSTICS.npz": "ecfa41144d9e7b0aee22b9e26364d803a991e88038e24422805ec5bb3549b5af"
+  }
+}

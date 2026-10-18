@@ -1,0 +1,112 @@
+{
+  "status": "FIXED_BEFORE_CANDIDATE_RECOVERY",
+  "scope": "Diagnostic follow-up after the observed competitive-diameter omission; not a new primary study.",
+  "algorithm": "Unchanged original solve(); a read-only observer captures the return of its unchanged _local_search.",
+  "solver_inputs": "Ordered numerical anchors, RSS, intercepts, n,d0 only. No query reference coordinates or WCL output.",
+  "input_order": "Sorted original block names, field index, policy index, query index; first occurrence assigns input_id.",
+  "input_hash": "SHA256 of version prefix + little-endian uint32 receiver count,float64 n,d0 + little-endian float64 anchor,RSS,intercept arrays in selected order.",
+  "candidate_order": "For each start: initial then finite recorded endpoint/fallback; final slot explicitly repeats the selected incumbent.",
+  "max_candidates": 39,
+  "candidate_kind": {
+    "0": "initial",
+    "1": "endpoint_or_recorded_fallback",
+    "2": "selected_incumbent"
+  },
+  "candidate_objective": "Recomputed at the exact captured local coordinate using the original objective; original recorded value retained and compared.",
+  "candidate_bands_db2": [
+    0.01,
+    0.001,
+    0.0001
+  ],
+  "interpretation": "Found finite candidates only, not true near-global-optimal sets; objective bands are not statistical confidence.",
+  "reproduction_trigger_m": 1e-06,
+  "reproduction_trigger_db2": 1e-08,
+  "reproduction_action": "Checkpoint discrepancies and stop; diagnose before continuing. Never overwrite original predictions.",
+  "chunk_unique_inputs": 128,
+  "pilot": "64 input IDs selected by increasing SHA256(input digest) ordering; same checkpoints reused by full run.",
+  "full_workload_max": 122336,
+  "global_unique_inputs": 119045,
+  "stored_state_count": 195200,
+  "stronger_audits": "Not run by this recovery. Separate predetermined schedule and lock required, max900 distinct inputs.",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "blocks": {
+    "study1_official32_minus71_all": {
+      "stored_states": 25600,
+      "unique_inputs_in_block": 10156
+    },
+    "study1_recovered29_sensitivity_all": {
+      "stored_states": 25600,
+      "unique_inputs_in_block": 10131
+    },
+    "study2_NE_all": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 5795
+    },
+    "study2_NE_b10_r0": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 5795
+    },
+    "study2_NE_b10_r1": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 5795
+    },
+    "study2_NE_b10_r2": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 5795
+    },
+    "study2_NW_all": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 6388
+    },
+    "study2_NW_b10_r0": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 6388
+    },
+    "study2_NW_b10_r1": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 6388
+    },
+    "study2_NW_b10_r2": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 6388
+    },
+    "study2_SE_all": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 6691
+    },
+    "study2_SE_b10_r0": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 6691
+    },
+    "study2_SE_b10_r1": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 6691
+    },
+    "study2_SE_b10_r2": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 6691
+    },
+    "study2_SW_all": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 6258
+    },
+    "study2_SW_b10_r0": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 6258
+    },
+    "study2_SW_b10_r1": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 6258
+    },
+    "study2_SW_b10_r2": {
+      "stored_states": 9000,
+      "unique_inputs_in_block": 6258
+    }
+  },
+  "original_identical_input_max_position_difference_m": 0.0,
+  "original_identical_input_max_objective_difference_db2": 0.0
+}

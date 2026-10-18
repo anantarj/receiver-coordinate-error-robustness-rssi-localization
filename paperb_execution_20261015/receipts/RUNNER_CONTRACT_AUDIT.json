@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "purpose": "Synthetic orchestration contract only; no scientific outputs",
+  "checks": [
+    "NPZ_writer_byte_determinism_independent_of_mapping_order",
+    "exact_input_cache_distinguishes_coordinates_and_calibration_and_retains_failures",
+    "WCL_matches_independent_power_formula_with_one_based_IDs_and_padding",
+    "unchanged_completed_shard_resumes_without_recomputation",
+    "complete_18block_real_solver_synthetic_run_and_all_shard_merge_axes",
+    "full_resume_preserves_merged_array_bytes",
+    "changed_input_rejected_by_execution_lock"
+  ],
+  "check_count": 7,
+  "runner_source_sha256_at_import": "31ab591182fcd7b8bff380913a31782488b9e63c34f93d2840ba364363be3347",
+  "solver_source_sha256": "e108a75d7ad59db7f5f41eb5b1944fb002d80a71ef5e502f3ffdaad9351fd458",
+  "test_source_sha256": "9f055167e75a6a17c00353f9d281f734d657542da8e25fe51cee7d6b4e19e3c2",
+  "synthetic_end_to_end": {
+    "blocks": 18,
+    "shards": 36,
+    "scheduled_entries": 324,
+    "unique_solves": 198
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "distinct_input_cells_verified": 696,
+  "mapping_rows_verified": 1024,
+  "max_candidate_objective_difference_direct_local_formula_vs_stored_db2": 1.4551915228366852e-11,
+  "objective_absolute_tolerance_db2": 1e-08,
+  "objective_relative_tolerance": 1e-12,
+  "all_recorded_CSV_hashes_verified": true,
+  "global_coordinate_roundtrip_check": {
+    "initial_1e8_absolute_check_exceedances": 23,
+    "maximum_absolute_objective_difference_db2": 1.1699921742547303e-07,
+    "resolution": "Direct evaluation in original centered arithmetic passes; 23 prescribed initial grid candidates lose sub-nanometre relative precision when rounded into global northings and recentered. Original outputs unchanged. Exact evaluation coordinates retained in additive CANDIDATE_LOCAL_COORDINATES.npz."
+  },
+  "scope": "Read-back direct residual formula, candidate retention/counts, receiver-count accounting, mapping uniqueness and file integrity; no global optimality or completeness certification"
+}

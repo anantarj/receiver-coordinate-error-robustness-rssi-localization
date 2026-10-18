@@ -1,0 +1,57 @@
+{
+  "protocol_id": "PAPERB_FINITE_THEORY_DIAGNOSTICS_20261016_V1",
+  "created_utc": "2026-10-16T00:09:49.956363+00:00",
+  "chronology": "Diagnostic follow-up after prior study outcomes and numerical ambiguity were known; fixed before new finite diagnostic reductions. Not preregistration.",
+  "input_path": "/workspace/scratch/c3111535193a/paperb_execution_20261015/inputs/blocks/study1_official32_minus71_all.npz",
+  "primary_array_path": "/workspace/scratch/c3111535193a/paperb_execution_20261015/results/arrays/study1_official32_minus71_all.npz",
+  "bindings": [
+    {
+      "path": "/workspace/scratch/c3111535193a/paperb_execution_20261015/inputs/blocks/study1_official32_minus71_all.npz",
+      "sha256": "10ebcfec46343494e67bca0f20e2083799d4f10e37181fb3d685f1be97deea73"
+    },
+    {
+      "path": "/workspace/scratch/c3111535193a/paperb_execution_20261015/results/arrays/study1_official32_minus71_all.npz",
+      "sha256": "243f35bb9ee9bdf956524e01d5bfa3850f34cfd7e4bd877954f1406e1229e962"
+    },
+    {
+      "path": "/workspace/scratch/c3111535193a/paperb_revision_20261016/theory/run_finite_diagnostics.py",
+      "sha256": "9850a62e518bc6225b6b530182b9bc3574e90b11e1c515ae36d17cc69b75861e"
+    },
+    {
+      "path": "/workspace/scratch/c3111535193a/paperb_revision_20261016/theory/verify_theory_diagnostics.py",
+      "sha256": "043f383b7b6fdbabea4ad3608dfa6702321c355c3ef87f6292c45dd25ba09b1b"
+    },
+    {
+      "path": "/workspace/scratch/c3111535193a/paperb_revision_20261016/theory/SYNTHETIC_VERIFICATION.json",
+      "sha256": "592a40f804e7314fd589fc432d5b06427e895caab8e24ddfd769cd19062f9a74"
+    },
+    {
+      "path": "/workspace/scratch/c3111535193a/paperb_revision_20261016/theory/THEORY_EXTENSION.tex",
+      "sha256": "a5e4a56e94415a1759c14b11e65435de8be4b8b595dfe88e8b2e5e71c76e7dfd"
+    }
+  ],
+  "scope": "All25fields includingzero,512queries,two policies of originalStudy1primaryofficial32_minus71; no new optimizations, no queryreferenceposition used to choose region or candidate positions.",
+  "region": {
+    "definition": "Axis-aligned bounding rectangle of all fit-side calibration reference coordinates expandedby1000m on each side",
+    "lower_m": [
+      591559.2238088003,
+      5670393.25164725
+    ],
+    "upper_m": [
+      602828.8447644523,
+      5678034.892108071
+    ],
+    "out_of_region_handling": "Retain flag, do not enlarge region or apply finite lemma to outside outputs."
+  },
+  "grid_side": 21,
+  "candidate_positions": [
+    "original zero-map NLLS primary",
+    "samefield frozen NLLS primary",
+    "samefield refitted NLLS primary"
+  ],
+  "reporting": "Exact same three positions evaluated underbothcalibrationpolicies; affectedsubset p50/p95 byfield; unexposed controls retained.",
+  "bounds": "Analytical distance-interval variation bound evaluated infloat64; sampledgridrange is not supremum certificate. No certifiedoptimizationerror eta is available.",
+  "derivative": "Undefined at receiver coordinate: NaN with flag, no zero derivative convention.",
+  "stopping": "One deterministic sweep, one process; no outcome-based extra grid or region.",
+  "expected_rows": 25600
+}

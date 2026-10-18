@@ -1,0 +1,30 @@
+PAPER B FINITE REMOVAL DIAGNOSTIC — 16 OCTOBER 2026
+
+Status: complete additive follow-up. Original inputs, solver and primary outputs are unchanged.
+
+Protocol: REMOVAL_PROTOCOL.json, SHA256
+375c70e3b88dabd3deede48cfc04b606e408296d8c45366c5216914cc6493369.
+
+Execution
+The 1024 query/target-set objectives deduplicated to 696 distinct ordered numerical inputs. The unchanged production solver ran on one worker. Its 18,440 retained candidate records include all prescribed starts, returned endpoints/fallbacks and explicit incumbents. All local searches converged. Only the primary finite search was executed; convergence does not certify complete candidate discovery or global optimality. Query truth was not used by the solver or by candidate selection.
+
+Primary result at 5 km
+* Target {14}, all 207 exposed queries: the four directional medians of distance to the found competitive U pool were 621.9–823.7 m frozen versus 48.7–59.0 m refitted. The signed JU difference medians were 59.29–75.58 versus 0.574–0.816 dB². Refitted output still moved 190.6–244.8 m from its own zero-map output.
+* Targets {14,69}, all 371 exposed queries: corresponding distances were 413.2–493.4 m versus 30.7–38.0 m; signed JU differences were 44.35–53.64 versus 0.177–0.283 dB²; refitted movement was 169.3–184.9 m.
+* Restricting to operationally eligible remaining counts (152 and 196 exposed queries) preserves the separation. Precise values and a manuscript table are in REMOVAL_METHODS_AND_RESULTS.tex.
+* At 100 m, frozen/refitted median pool distances are broadly similar; at 1 km the contrast is weaker than at 5 km. These data do not establish a universal or monotone operational benefit.
+
+Support and scope
+* Target {14}: 305 unexposed and 207 exposed queries; 55 exposed queries have only two receivers remaining. Targets {14,69}: 141 unexposed, 336 one-target-exposed, and 35 two-target-exposed queries; 175 exposed queries have fewer than three remaining receivers, including three one-receiver cases.
+* Of 696 unique inputs, three have one remaining receiver and 164 have two. Found competitive diameter exceeds 1 m for all three and for 102 of the 164, respectively; the maximum is 5087.417658 m. For inputs with at least three remaining receivers, the largest found diameter is 0.034068 m. These are finite-search observations, not uniqueness certificates.
+* No negative signed JU comparison occurred (minimum zero); differences were not clipped. Every unexposed full estimate exactly coincides with a retained removal candidate. Its largest objective roundoff is 7.67e-13 dB² and movement is zero.
+* Competitive bands 0.01, 0.001 and 0.0001 dB² yield identical point-to-pool distances here. All candidate records are retained.
+* The comparison contains 26,624 rows, including duplicate zero policies and target-set baselines. Forty-eight full-estimate rows are outside calibration-defined K, all at 5 km (44 frozen, four refitted), spanning 20 source rows. Outside-K removal incumbents concern three source rows and 156 repeated comparison entries. These flags prevent automatic application of the compact-K lemma.
+* The unconstrained removal candidates are not min_K JU or a certified global minimizer set. The experiment does not supply a full-objective suboptimality bound eta. The signed JU difference must not be labelled a certified gap. Distance to a finite found pool can overstate distance to a complete minimizer set, especially for one or two receivers.
+* These comparisons use original full-estimator incumbents. Integration must carry the separate candidate-branch sensitivity qualification. Near-removal does not imply preservation of the zero-map position or localization accuracy.
+
+Verification
+The direct residual-formula read-back passes for all 696 cells and 1024 mappings; the maximum difference in original centered arithmetic is 1.46e-11 dB². An initial global-coordinate check found 23 prescribed initial-grid points with up to 1.17e-7 dB² objective roundoff from converting local coordinates to large global northings. Centered calculations pass, and exact evaluation coordinates are supplied in the additive CANDIDATE_LOCAL_COORDINATES.npz. Neither numerical outcomes nor original files changed. REMOVAL_VERIFICATION.json records this diagnostic transparently.
+
+Files
+run_removal.py and verify_removal.py; protocol and hash; candidates/*.json; exact local-coordinate sidecar; input mapping; full comparisons; field summaries; ranges of directional medians; receiver counts; run receipt; verification receipt; methods/results TeX. Candidate JSONs retain original solver diagnostics and full returned endpoint records as well as the evaluation pool.

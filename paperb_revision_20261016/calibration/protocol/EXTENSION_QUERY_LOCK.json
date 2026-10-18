@@ -1,0 +1,46 @@
+{
+  "status": "FIXED_BEFORE_SECONDARY_QUERY_LOCALIZATION",
+  "created_utc": "2026-10-16T00:14:37Z",
+  "chronology": "Follow-up after original outcomes. Fit/validation partition and lambda selection already executed under separately frozen protocol; no query-localization outcomes yet.",
+  "policies": [
+    "frozen",
+    "refit",
+    "selected"
+  ],
+  "input_blocks": [
+    "inputs/blocks/study2_NE_fitval_all.npz",
+    "inputs/blocks/study2_NW_fitval_all.npz",
+    "inputs/blocks/study2_SE_fitval_all.npz",
+    "inputs/blocks/study2_SW_fitval_all.npz"
+  ],
+  "solver": "Unchanged original solve; 3x3 plus selected anchors, 200 residual evaluations/start, original tolerances and strict tie order.",
+  "candidate_capture": "Read-only observer returns original _local_search result unchanged. Retain all finite initials, finite endpoints/fallbacks, explicit chosen incumbent, exact local coordinates and recomputed/recorded objectives.",
+  "candidate_bands_db2": [
+    0.01,
+    0.001,
+    0.0001
+  ],
+  "candidate_kind": {
+    "0": "initial",
+    "1": "endpoint_or_fallback",
+    "2": "selected_incumbent"
+  },
+  "candidate_scope": "Found finite candidates, not complete near-optimal regions, uniqueness proofs or confidence regions.",
+  "input_hash": "Same PAPERB_CANDIDATE_INPUT_V1 ordered binary hash as original candidate recovery; exact input bytes checked on cache hit.",
+  "cache": "Exact ordered coordinates/RSS/intercepts,n,d0 within each query chunk; repeated states retain separate state-to-input mappings.",
+  "chunk_queries": 16,
+  "pilot": "First chunk of each of four predetermined blocks; no outcome-dependent case selection.",
+  "controls": "Zero policies equal; unchanged receivers/metadata untouched; frozen/refit endpoints recomputed from fit-only observations; selected lambda fixed before query evaluation.",
+  "aggregation": "Do not replace original estimates. Secondary finite selected-output results and found-candidate sensitivity must both be reported.",
+  "source_bindings": {
+    "inputs/blocks/study2_NE_fitval_all.npz": "05df144cf54c14cea6eda399ced6952c8a228a263124ffd6b99022dad2e388d9",
+    "inputs/blocks/study2_NW_fitval_all.npz": "864c9e6e65209ae13e23bcac4d50a88e42197bf715325236b9a833641aa9f763",
+    "inputs/blocks/study2_SE_fitval_all.npz": "c580fad72dbe48343c3ed1cd2c622f4baf4aadce4bd5def31c9bab9f532ee5b1",
+    "inputs/blocks/study2_SW_fitval_all.npz": "c76839a23e12a07b445730ebc46ce508714d35c99b0453f96b5a989fda283d64",
+    "src/run_extension_queries.py": "7a09f94df852df8dc7ef2181daacbf51bd848d5ed0a52d7f3cb8df5810605764",
+    "src/calibration_quality.py": "d9c65e8436f4f11c5d1d9472505ffae05e5129873846d916018a47e18f0a46ee",
+    "protocol/CALIBRATION_PROTOCOL.json": "43148f873ceeb760df5a7bd8a6816d7dbd59fcea0dcbe0fda10284286c0f1c0a",
+    "receipts/EXTENSION_PREPARATION_RECEIPT.json": "eea3cf01c3c9ab195fbfb619f1d0805a0a3cd6bf8211966468113a29fe54a26a"
+  },
+  "original_solver_sha256": "e108a75d7ad59db7f5f41eb5b1944fb002d80a71ef5e502f3ffdaad9351fd458"
+}

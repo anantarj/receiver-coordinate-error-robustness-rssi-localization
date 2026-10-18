@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "reviewer": "theory agent independent code and direct-formula review",
+  "all_removal_candidate_cells": 696,
+  "all_mapping_rows": 1024,
+  "all_comparison_rows": 26624,
+  "max_candidate_objective_readback_difference_db2": 1.4551915228366852e-11,
+  "max_distance_readback_difference_m": 4.547473508864641e-13,
+  "max_signed_objective_readback_difference_db2": 4.547473508864641e-13,
+  "max_movement_readback_difference_m": 9.094947017729282e-13,
+  "support_counts": {
+    "14": {
+      "exposed": 207,
+      "exposed_U_ge3": 152,
+      "exposed_U_lt3": 55
+    },
+    "14,69": {
+      "exposed": 371,
+      "exposed_U_ge3": 196,
+      "exposed_U_lt3": 175
+    }
+  },
+  "found_diameters_by_remaining_receivers": {
+    "1": {
+      "unique_inputs": 3,
+      "max_found_diameter_m": 2442.296160697937,
+      "above_1m": 3
+    },
+    "2": {
+      "unique_inputs": 164,
+      "max_found_diameter_m": 5087.417658117516,
+      "above_1m": 102
+    },
+    "3": {
+      "unique_inputs": 254,
+      "max_found_diameter_m": 0.008231233766870806,
+      "above_1m": 0
+    },
+    "4": {
+      "unique_inputs": 115,
+      "max_found_diameter_m": 0.025855165657477613,
+      "above_1m": 0
+    },
+    "5": {
+      "unique_inputs": 61,
+      "max_found_diameter_m": 0.03406788639849964,
+      "above_1m": 0
+    },
+    "6": {
+      "unique_inputs": 27,
+      "max_found_diameter_m": 0.012457732809550903,
+      "above_1m": 0
+    },
+    "7": {
+      "unique_inputs": 18,
+      "max_found_diameter_m": 0.015687265678584823,
+      "above_1m": 0
+    },
+    "8": {
+      "unique_inputs": 27,
+      "max_found_diameter_m": 0.01045563803255108,
+      "above_1m": 0
+    },
+    "9": {
+      "unique_inputs": 24,
+      "max_found_diameter_m": 0.013985770448211839,
+      "above_1m": 0
+    },
+    "10": {
+      "unique_inputs": 3,
+      "max_found_diameter_m": 0.0027774689860017307,
+      "above_1m": 0
+    }
+  },
+  "max_found_diameter_U_ge3_m": 0.03406788639849964,
+  "positive_outside_K_by_policy": {
+    "frozen": 44,
+    "refitted": 4
+  },
+  "limitations": [
+    "Found pools are not exact global minimizer sets or complete near-optimal regions.",
+    "Original full incumbent positions are retained; separate branch sensitivity still applies.",
+    "No certified eta or curvature/separation constant is supplied.",
+    "No new localization solves were run by this verification."
+  ]
+}

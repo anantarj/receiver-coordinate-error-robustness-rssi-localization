@@ -1,0 +1,618 @@
+{
+  "schema": "paperb.public_document_exclusion.v1",
+  "version": "1.2.0",
+  "source_archive": "PAPERB_ADDITIONAL_EVIDENCE_20261016.zip",
+  "source_archive_sha256": "318c952cec8d2a3456ce74de4198172499015e96a31fa9894d9c67c244d677d3",
+  "current_submission_documents_public": false,
+  "earlier_v1_1_document_sources_still_in_historical_dependency": true,
+  "original_scientific_locks_modified": false,
+  "experiments_rerun": false,
+  "omitted_files": [
+    {
+      "path": "paperb_execution_20261015/delivery/PAPERB_MAIN.pdf",
+      "bytes": 539167,
+      "sha256": "82419f088666a50265ebfd3ca5dd1ba6e8c83d4a823118b4c5beda10004eaccf",
+      "reason": "submission text or superseded author delivery"
+    },
+    {
+      "path": "paperb_execution_20261015/delivery/PAPERB_SUPPLEMENT.pdf",
+      "bytes": 677992,
+      "sha256": "38582512dc38428a35f71037451beb6bf87489acf585f59fe604d97cbd562dd5",
+      "reason": "submission text or superseded author delivery"
+    },
+    {
+      "path": "paperb_execution_20261015/manuscript_fragments/NARRATIVE_INTEGRATION_BRIEF.txt",
+      "bytes": 3994,
+      "sha256": "63ab116526f287be9ad8cf2c74be0f3b63c46c539fff730f966c02d3fe379e4a",
+      "reason": "submission text or superseded author delivery"
+    },
+    {
+      "path": "paperb_execution_20261015/manuscript_fragments/NEW_METHODS_MAIN.tex",
+      "bytes": 3493,
+      "sha256": "11cf68b1518c8810b37c40d16d05e56664b06eb2610c86cc24337fe79d559860",
+      "reason": "submission text or superseded author delivery"
+    },
+    {
+      "path": "paperb_execution_20261015/manuscript_fragments/NEW_METHODS_SUPPLEMENT.tex",
+      "bytes": 14602,
+      "sha256": "9d47f04ac444ab2b3d48bddd7de40479380f01b72cf8db0488f8eacb124d1a27",
+      "reason": "submission text or superseded author delivery"
+    },
+    {
+      "path": "paperb_execution_20261015/manuscript_fragments/NLLS_THEOREM_MAIN.tex",
+      "bytes": 1310,
+      "sha256": "196b4ff84b695922693f5c6d9763f8981d15bd939bb88e11bd956edec0aa3a7c",
+      "reason": "submission text or superseded author delivery"
+    },
+    {
+      "path": "paperb_execution_20261015/manuscript_fragments/NLLS_THEOREM_SUPPLEMENT.tex",
+      "bytes": 5210,
+      "sha256": "1d0ddc8c765d0f855e008c2987056038d3b8f6590749d9026af15bbcccf5f887",
+      "reason": "submission text or superseded author delivery"
+    },
+    {
+      "path": "paperb_execution_20261015/manuscript_fragments/README.txt",
+      "bytes": 458,
+      "sha256": "c41cdcdccab145a18f699a3597f483642e9daa7026e3d019d1e31a8359cb1818",
+      "reason": "submission text or superseded author delivery"
+    },
+    {
+      "path": "paperb_execution_20261015/manuscript_fragments/REVISED_ABSTRACT.txt",
+      "bytes": 1573,
+      "sha256": "c9f7437820c2a752f782e3c047d35606f284375bf8caf8393ddea4272f83d632",
+      "reason": "submission text or superseded author delivery"
+    },
+    {
+      "path": "paperb_execution_20261015/manuscript_fragments/REVISED_DISCUSSION.tex",
+      "bytes": 6087,
+      "sha256": "c56bc7c1cd88a93f621841991c0d24bb9ffd82bea5e6665fafd60aefd33fba38",
+      "reason": "submission text or superseded author delivery"
+    },
+    {
+      "path": "paperb_execution_20261015/receipts/audit_final_pair.py",
+      "bytes": 10157,
+      "sha256": "9153f7ae9d4433ca7ad6c173cb6d95f865b85e7db0275afd470baaf3d0df3fb8",
+      "reason": "document-specific audit or author-delivery packager"
+    },
+    {
+      "path": "paperb_execution_20261015/receipts/package_final_delivery.py",
+      "bytes": 9705,
+      "sha256": "7f1ec9fb3aa97a41242f6a02fbf7b8bf06f5fb2e5d8cf8cf79cceb6ecff133eb",
+      "reason": "document-specific audit or author-delivery packager"
+    },
+    {
+      "path": "paperb_execution_20261015/repository_update_kit/README.txt",
+      "bytes": 6554,
+      "sha256": "4846ab1e195f382f391f9dd7209f655db080b8bf41549bb00cafe19157aedcad",
+      "reason": "submission text or superseded author delivery"
+    },
+    {
+      "path": "paperb_execution_20261015/repository_update_kit/RELEASE_NOTES.txt",
+      "bytes": 3522,
+      "sha256": "052a29f682fc399e245ae9f35a915ba78a3cf57f9970422817433a3108807a13",
+      "reason": "submission text or superseded author delivery"
+    },
+    {
+      "path": "paperb_execution_20261015/results/report/MAIN_NEW_RESULTS.tex",
+      "bytes": 5773,
+      "sha256": "60ee39e95404fa804365f367a48f3f93282d872b08eb660c48b38c5c406daa92",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_execution_20261015/results/report/SUPPLEMENT_NEW_RESULTS.tex",
+      "bytes": 26085,
+      "sha256": "84ce28a6b6237ce2c9d603e73979d2d6e2cbe9072880b8aea8a07ce6082e9148",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_execution_20261015/src/report_completed_studies.py",
+      "bytes": 31632,
+      "sha256": "6af885466c0126f0ddd4bf6705b161cc8136eb9871db273cc75f169a4eb3ee35",
+      "reason": "generator containing submission prose; numerical producers retained"
+    },
+    {
+      "path": "paperb_revision_20261016/calibration/report/CALIBRATION_MAIN_BASE.tex",
+      "bytes": 2031,
+      "sha256": "81e4be1797e87ffe41c15130d733e00282d2e06e3b6423ed49bd5778ce89c263",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/calibration/report/CALIBRATION_SUPPLEMENT_BASE.tex",
+      "bytes": 5796,
+      "sha256": "2e25a251c66b34cb20e67c2c71d3afaac45806b3ef92c5749c3ea04f494bd808",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/calibration/report/REVISION_CALIBRATION_MAIN.tex",
+      "bytes": 3136,
+      "sha256": "4c411429f1350be60f38b0fa26335971e97b3fc6a921bc478c72d3d27079631b",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/calibration/report/REVISION_CALIBRATION_METHODS.tex",
+      "bytes": 1941,
+      "sha256": "29a49d6a80ee259926bc80b284ec50092ea5b6bd64aaacb851efacd8ba24ed29",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/calibration/report/REVISION_CALIBRATION_SUPPLEMENT.tex",
+      "bytes": 9554,
+      "sha256": "551cfee392615cda88a930d9cb512c29bff513a333bdc2740bef6e255504e9ce",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/calibration/src/build_calibration_fragments.py",
+      "bytes": 14168,
+      "sha256": "3d4ba8d7633ee4a9b0dc8d8dff45dc22d2c142fbbf19d313ea9ab1814dd6d2ca",
+      "reason": "generator containing submission prose; numerical producers retained"
+    },
+    {
+      "path": "paperb_revision_20261016/consequences/results/presentation/ENHANCED_POOL_CONSEQUENCES.tex",
+      "bytes": 2919,
+      "sha256": "5b47ab8725d5427f3e2ea25e32e6ee06aba23a21e4d3060a246131e1b582a9f0",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/consequences/results/presentation/MAIN_CONSEQUENCES_FRAGMENT.tex",
+      "bytes": 3345,
+      "sha256": "420c82673b1a60fba33a56178803644345395aff9d336cf4158ed060b68160de",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/consequences/results/presentation/STUDY1_TRANSFER_TABLE.tex",
+      "bytes": 1986,
+      "sha256": "0e7678c40c81a05cd33833943f7a5b26ebb640d7284f78e8b58e512f0cb02144",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/consequences/results/presentation/STUDY2_TRANSFER_TABLE.tex",
+      "bytes": 2267,
+      "sha256": "42d36e3df31245e44b4f2bfa37ffd04f9f42660396dee1a418644c4b241b6828",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/consequences/results/presentation/SUPPLEMENT_CONSEQUENCES_METHODS.tex",
+      "bytes": 2767,
+      "sha256": "e012cbf429b582dc75bea33fe2a1ed77aa84c90facb93ab7b41b0f2a19909483",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/consequences/src/paper_fragments.py",
+      "bytes": 12154,
+      "sha256": "bc32b7dcfae2acc380f785ab65f5f026b373bf8e45983583726303299127012f",
+      "reason": "generator containing submission prose; numerical producers retained"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/ARCHIVE_BOUNDARY.tex",
+      "bytes": 2121,
+      "sha256": "3592e43e5d192008f98fc2d219e1bdd03dbf355b977ad82fe6df5d9a1b68f03d",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/CORRECTED_PRIMARY_DIAGNOSTICS.tex",
+      "bytes": 2014,
+      "sha256": "0950398423d282bf15dd41556fecbf301d50407c66dc7af8adef1628b89ef61a",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/DECISION_CONSEQUENCE_METHOD.tex",
+      "bytes": 1030,
+      "sha256": "af08eba0774a11991b182d0b8a234bb87ffff82564bd40740f5f0bcbe686b7fe",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/DOCUMENT_ARTIFACT_BINDINGS.json",
+      "bytes": 10922,
+      "sha256": "518b4f83189fe5a5fa85e7fdd53095f5def9ab8e110e64c958b34fafe1243f17",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/ELECTRONICS_PREPARATION_CHECK.json",
+      "bytes": 1061,
+      "sha256": "cd8798ba93de9559af379fa31179e9792d6ae8b370a242823dfbcfd97ab1e368",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/FILE_SHA256.json",
+      "bytes": 6292,
+      "sha256": "8b9ba5dfc6cdb22d9f7b86c0cf9827f0c37f46dc05a2c092fd95dd6734923358",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/MATCHED_STUDY_RESULTS_MAIN.tex",
+      "bytes": 5878,
+      "sha256": "49d02e8d21bd898268c07d3277f391f94958f2ea748be5c3b93991a3bc6df757",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/MATCHED_STUDY_RESULTS_SUPPLEMENT.tex",
+      "bytes": 28133,
+      "sha256": "02559970d43b90e7e1a5f8930ffce3c7737799a7de84c6c08094f4b5548ac18c",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/NEW_SUMMARY_TABLES.tex",
+      "bytes": 8089,
+      "sha256": "91fd3f50c2657a9542ad1c13fe5c58571fc18d5637da26e996911f6582bdaa3f",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/PAGE_MAP.json",
+      "bytes": 2046,
+      "sha256": "f3614de62e73ad555a2b2309f1e9c9eae6932dc95250ccd30c133fef633a0e18",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/PAPERB_ARCHIVAL_RECORD.pdf",
+      "bytes": 553702,
+      "sha256": "b74af65eda20a2c2ab6b1d6a44a457793a4a5476f214efe4db174454775eadba",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/PAPERB_ARCHIVAL_RECORD.tex",
+      "bytes": 1485,
+      "sha256": "106f22bcaf4a977e164657b2ef05611ed3347d8f3d2c59b0f74a49914bc4c062",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/PAPERB_MAIN.pdf",
+      "bytes": 540265,
+      "sha256": "2516fdfef645d58670b9811522506cf41ac44a7cee6841baf050aee28968c4ab",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/PAPERB_MAIN.tex",
+      "bytes": 2733,
+      "sha256": "39f22972079b1ee7af8fda44457dbe43375182e8d8322811cb446d1813f15547",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/PAPERB_SUPPLEMENT.pdf",
+      "bytes": 372945,
+      "sha256": "46c6abb28c4677f727987e1f453cbcf3b140e8c8ca7138d12d9be9bbdbedc7e1",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/PAPERB_SUPPLEMENT.tex",
+      "bytes": 590,
+      "sha256": "25a2a66c9593e8ec516b7b0bbe07d7ceb1f6fa65c43b9288ccb5920bcaeb4aa7",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/PRESENTATION_AGGREGATION_CORRECTION.json",
+      "bytes": 3902,
+      "sha256": "f83257c62679211aed08600d09f31855b6284ba8ad77cb1cb1d4fe5d33ad85aa",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/PRESENTATION_AGGREGATION_CORRECTION.md",
+      "bytes": 1971,
+      "sha256": "e1004cc3965cd51d9cfa6c9e21909dcbface27ff2e44658740bf76c38f8de6a2",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/PRIMARY_DIAGNOSTIC_TABLE.tex",
+      "bytes": 754,
+      "sha256": "95a83b395e480c3a80ebba6bc03043b4889d360f5e1b124a4cde1f152e219aff",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/PRIMARY_MATCHED_RESULTS_MAIN.tex",
+      "bytes": 5756,
+      "sha256": "8a64d9d34cf5b590c6e276757db3b23cb92edca8286c603c4dd4d0f986124181",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/PROBLEM_AND_THREE_PROPERTIES.tex",
+      "bytes": 1820,
+      "sha256": "c4c8edc4cc13c1b77c76799bf8df952ad090b1c1dc58a17828cc2333c477c910",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/READING_GUIDE.md",
+      "bytes": 1404,
+      "sha256": "eb765fbb18595206fcf2b68143758f55a47b2e32df57151ae0434fd7d12f4d13",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/README_BUILD.md",
+      "bytes": 5699,
+      "sha256": "17eed261f5c1acc6d789765b23f71568740e7b128da1463aa63f316d8b063e68",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/REVISION_CALIBRATION_MAIN.tex",
+      "bytes": 4252,
+      "sha256": "6a728f242be2504d7c8abcefaf5390b3c770edb6159928076e9b7f02a75af54e",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/REVISION_CALIBRATION_SUPPLEMENT.tex",
+      "bytes": 9634,
+      "sha256": "715e0953a5a6e03649d95272305449ba166e4a32901e6206296658c8215f9b88",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/REVISION_CONSEQUENCES_MAIN.tex",
+      "bytes": 4520,
+      "sha256": "4749538fe4eb3b7f1fa0646917e7374093c7f1342d566765a582d323f10360c5",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/REVISION_CONSEQUENCES_SUPPLEMENT.tex",
+      "bytes": 10070,
+      "sha256": "65c57d6e119a717e607b40b07cf162f1996bbd17c607d1e00bb9e798edf839a0",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/REVISION_FINITE_MAIN.tex",
+      "bytes": 1193,
+      "sha256": "a5dee3cafb8db04f6822e99e775046520156fdf3dd0135657a517313d57ab5f4",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/REVISION_FINITE_SUPPLEMENT.tex",
+      "bytes": 6798,
+      "sha256": "fbc367a62ed534bff06366437b344682546d2cc980fa9b31b7bde6823e7da34a",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/REVISION_FOLLOWUP_METHODS.tex",
+      "bytes": 7306,
+      "sha256": "8323b6eb9765bb255fabb014931edb229d47c7d77fdc7cc9080e5fb45eeb8dd5",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/REVISION_FOLLOWUP_SUPPLEMENT_METHODS.tex",
+      "bytes": 8923,
+      "sha256": "7554adc02b6c1000833611149935f8e62ab521bf8819fa11606ee16e989101e0",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/REVISION_NUMERICAL_MAIN.tex",
+      "bytes": 3418,
+      "sha256": "701f42f4559959636b8f2ebfc1cac9d179fa2de4df24fb84186163c9e8eff7ba",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/REVISION_NUMERICAL_SUPPLEMENT.tex",
+      "bytes": 6257,
+      "sha256": "8f24212030b8dc69f9941d824c974a4837f5c06bde126bc98e077646636a389f",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/REVISION_THEORY_MAIN.tex",
+      "bytes": 2803,
+      "sha256": "b37d28d85aede21a6e94a27379b51f11ffde2f532c57403a72cde2e65456c3e6",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/REVISION_THEORY_SUPPLEMENT.tex",
+      "bytes": 11103,
+      "sha256": "811143aa9cc1e9707e432e64543e5b0800bd5f4edfab8785cde395ec9187f7d8",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/WCL_CONTROLS_COMPRESSED.tex",
+      "bytes": 6880,
+      "sha256": "2bb6620af61b5cb87ef648fb528d92979b54aec66d6b158137fc46f214a6ce1f",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/build_pair.py",
+      "bytes": 1739,
+      "sha256": "7607cc1ad0e0b5648abb8550c8d8d1d1262801a593116d6fd0eddc06d7db2190",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/main_body.tex",
+      "bytes": 49597,
+      "sha256": "07126a82395b9079f6750f2a1979680a993a8bf4da5bb3125ffedb8d49e24df8",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/pages.tex",
+      "bytes": 4923,
+      "sha256": "0ec4268faebfb4449e98c0a5d7e9be2d58ec03a95c1fa1e628c60b4f377188b7",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/preamble.tex",
+      "bytes": 1846,
+      "sha256": "9d154901d0bb5c7fd417dc0becd58d6d3ab42d2bb24aac834434fe50f2b24129",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/rebuild_figures.py",
+      "bytes": 4362,
+      "sha256": "a1aa2212181d66dfa47e7d1082dd496dc145a0dbf969b8ea8ceea9b0e2acecf1",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/rebuild_full_curve.py",
+      "bytes": 3131,
+      "sha256": "15b356afac250a6c601c5ec1f462b3b561a8a39bb1349248f0d4effde11f4e6d",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/rebuild_summary_tables.py",
+      "bytes": 7062,
+      "sha256": "fda22837304faa42477244b6d8f07abf9f504c1f50c5af51b0ca35f39aa17597",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/references.tex",
+      "bytes": 6810,
+      "sha256": "e51a438f5bf67d810733103e65b01e9cfbe3750a947f0c714985ed2380d2b3c5",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/supplement_foreground.tex",
+      "bytes": 84650,
+      "sha256": "eaac7b94f71939dc4e7469faff2a40976c4750a4838c817ec24ac2ce63044e39",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/supplement_preamble.tex",
+      "bytes": 1879,
+      "sha256": "1ce337303528409b28c0b35586502b761be5612959c1a141d0a21a57d6c80a40",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/supporting_record.tex",
+      "bytes": 159105,
+      "sha256": "be2ee707fc5f712afd2f87963277b7c327ed64cfa135ad4c90358de5644460b2",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/supporting_record_navigation.tex",
+      "bytes": 159105,
+      "sha256": "38e3c0446ad8f87b2c9791820bf37ee0cac88e7341fcf8f730d4b55eb672fac5",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/table_data/BUDGET_FOLD_TABLE.csv",
+      "bytes": 19293,
+      "sha256": "dc4b5fbd7049feb72ea39f4cbf4d61295e7fbdb8946b5e06d3afc8499c234a0e",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/table_data/MANIFEST.json",
+      "bytes": 864,
+      "sha256": "38331f6fe84447f01a2b2bd69ef1b292b89d611eb4908e55a47a2400689cc2c2",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/table_data/STUDY1_BASELINES.csv",
+      "bytes": 788,
+      "sha256": "667ccc02babd133d5378c2c077ea8298688102090a40aa57d108c82fb11c256f",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/table_data/STUDY2_BASELINES.csv",
+      "bytes": 5096,
+      "sha256": "867df4825a947cd6e8ac5856ecd87cd6545182d2d23151ed4a2a9dba12d63fce",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/table_data/SYNTHETIC_DIAGNOSTIC_NINE_GROUPS_CORRECTED.csv",
+      "bytes": 1150,
+      "sha256": "931e7304cc59e3bbada7258f9ca4c47962112587ac8650cb440cb0033e63319c",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/table_data/real_core_unrestricted_fields.csv",
+      "bytes": 260161,
+      "sha256": "95ecc6456569682e870d125c95fed3802f78d2a7a1571041212c628cf25423af",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/table_data/real_policy_slice.csv",
+      "bytes": 3609,
+      "sha256": "160f6c93e8a8ec4bb218f15138f3c22172ab300a733edade278a8389459addc5",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/manuscript/source/table_data/synthetic_diagnostic_fields.csv",
+      "bytes": 55937,
+      "sha256": "c20a34e102ce9551b1c375acd0f0febbcaff6cadd785fd4af6d2fec943276623",
+      "reason": "current submission document or document-build asset"
+    },
+    {
+      "path": "paperb_revision_20261016/numerical/NUMERICAL_FOLLOWUP_RESULTS_MAIN.tex",
+      "bytes": 3342,
+      "sha256": "3053613a531e9753829ae03bd3096637498733f2cb22be29123bd7f788122276",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/numerical/NUMERICAL_FOLLOWUP_RESULTS_SUPPLEMENT.tex",
+      "bytes": 6110,
+      "sha256": "caf5b61beb9f9ed3ab798f881baac4e2f1900775ed76d639c0cbd15363e70945",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/numerical/NUMERICAL_FOLLOWUP_SUPPLEMENT_METHODS.tex",
+      "bytes": 6960,
+      "sha256": "cb0a6d83147a5e6bdc23b470a1c15aca60ceb6a61523f4ef2d45cbc4bd4d59d9",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/numerical/OLD_AUDIT_SCOPE_INSERT.tex",
+      "bytes": 677,
+      "sha256": "1af6eb361d563365c47868dec09add1d5542cf29784ac1f657edb31962b65962",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/removal/REMOVAL_METHODS_AND_RESULTS.tex",
+      "bytes": 4320,
+      "sha256": "1fc4ed48f14749e1f75d0c1a7f50fae02eae52701a22ee123e2f7c21ee17e72b",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/theory/REVISION_FINITE_MAIN.tex",
+      "bytes": 1068,
+      "sha256": "1585ef3e1bd5f2a43175adba16f56f631b4c282204a971607c24eafb0d278a8c",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/theory/REVISION_FINITE_SUPPLEMENT.tex",
+      "bytes": 6727,
+      "sha256": "d78f591b0d7324bc1b5260a362f09177617c67ed640ccb72f2bb7be6207d5f30",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/theory/REVISION_THEORY_MAIN.tex",
+      "bytes": 2684,
+      "sha256": "3feb0ea99b11deaf87502bed4952dc374bbbb604729115dbe44d4f870acb3759",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/theory/REVISION_THEORY_SUPPLEMENT.tex",
+      "bytes": 10567,
+      "sha256": "083865dea9f391a3abe6bcacc462fec30e476da092ea57fd62213387582cd2fc",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/theory/THEORY_EXTENSION.tex",
+      "bytes": 9836,
+      "sha256": "a5e4a56e94415a1759c14b11e65435de8be4b8b595dfe88e8b2e5e71c76e7dfd",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/theory/THEORY_EXTENSION_v2.tex",
+      "bytes": 9875,
+      "sha256": "d69bfa9a6b57999250d20ca396ae06ea0a4d534b6e8ea803d24834afe916027c",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    },
+    {
+      "path": "paperb_revision_20261016/theory/THEORY_MAIN_FRAGMENT.tex",
+      "bytes": 2684,
+      "sha256": "3feb0ea99b11deaf87502bed4952dc374bbbb604729115dbe44d4f870acb3759",
+      "reason": "manuscript text, fragment, or document-build artifact"
+    }
+  ],
+  "modified_wrapper_paths": [
+    "PUBLIC_DOCUMENT_EXCLUSIONS.json",
+    "paperb_revision_20261016/removal/verify_completed_calibration_public.py",
+    "paperb_revision_20261016/theory/portable_paths_public.py",
+    "paperb_revision_20261016/theory/run_finite_diagnostics_public.py",
+    "paperb_execution_20261015/src/report_completed_studies_public.py",
+    "README.md",
+    "paperb_execution_20261015/README_REPRODUCE.txt",
+    "paperb_revision_20261016/README_REPRODUCE.txt",
+    "release_provenance/pre_public_document_exclusion/BUNDLE_MANIFEST.json",
+    "release_provenance/pre_public_document_exclusion/paperb_execution_20261015__FILE_MANIFEST.json",
+    "release_provenance/pre_public_document_exclusion/paperb_revision_20261016__FILE_MANIFEST.json"
+  ],
+  "public_adapters": [
+    "paperb_revision_20261016/removal/verify_completed_calibration_public.py",
+    "paperb_revision_20261016/theory/portable_paths_public.py",
+    "paperb_revision_20261016/theory/run_finite_diagnostics_public.py",
+    "paperb_execution_20261015/src/report_completed_studies_public.py"
+  ],
+  "unchanged_npz_files": 2217,
+  "unchanged_csv_files": 87,
+  "unchanged_original_python_files": 45,
+  "original_primary_prediction_arrays": 18,
+  "verification_scope": "Byte preservation and packaging checks; scientific conclusions are not revalidated by packaging."
+}

@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "scope": "Synthetic estimand and failure-accounting tests only; no scientific outcomes loaded.",
+  "analysis_sha256": "5280feefcb179bf099f9107ce878f06669874bee540476b2a02e0c072f5a3a75",
+  "checks": [
+    {
+      "name": "difference_of_medians_is_distinct_from_median_paired_difference",
+      "pass": true
+    },
+    {
+      "name": "paired_help_harm_denominators",
+      "pass": true
+    },
+    {
+      "name": "numerical_ties",
+      "pass": true
+    },
+    {
+      "name": "empty_population_retained",
+      "pass": true
+    },
+    {
+      "name": "zero_and_unexposed_controls",
+      "pass": true
+    },
+    {
+      "name": "nonfinite_pair_explicitly_retained",
+      "pass": true
+    },
+    {
+      "name": "own_baseline_movement",
+      "pass": true
+    },
+    {
+      "name": "affected_population_is_selected_target_identity",
+      "pass": true
+    },
+    {
+      "name": "same_four_arm_population_ranking_reversal",
+      "pass": true
+    },
+    {
+      "name": "budget_own_baselines_not_reused_across_contexts",
+      "pass": true
+    },
+    {
+      "name": "directions_descriptive_not_pooled",
+      "pass": true
+    },
+    {
+      "name": "full_analysis_cli_synthetic_only",
+      "pass": true
+    },
+    {
+      "name": "complete_outputs_and_unique_population_context",
+      "pass": true
+    }
+  ]
+}

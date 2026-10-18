@@ -1,0 +1,19 @@
+{
+  "status": "LOCKED_BEFORE_STRONG_AUDIT_OUTPUTS",
+  "created_utc": "2026-10-16T00:23:58Z",
+  "bindings": {
+    "run_targeted_audits.py": "f10c9a4413e8f69e66dd7a1a495e21e273df599a89ce6475d804df5417f609ca",
+    "prepare_targeted_audit.py": "e5394f5e84cb794052bbf9211b4e018e348af6fbb5d01a3139488aaa4bef3c96",
+    "recover_candidates.py": "ee999f64cb17996f5637b9c684fcb6e20358da5ebe88f3217d7367a018679b28",
+    "protocol/TARGETED_AUDIT_PROTOCOL.json": "1175629f2d6b8551764b534a7f8e4ef6bc8637e41061d131e5dfd623b33984cb",
+    "protocol/TARGETED_AUDIT_SCHEDULE.json": "f8f67c9a1c27fbbb266a7c2e326ca020a8e78d7f50e3ba05c1242a7437577baa",
+    "protocol/AUDIT_BASE_SELECTION.json": "ee6c0e1ae6ea3799af80175506d8929a49bbc707c2e3b6b0823c1c0253aa89d5",
+    "protocol/RECOVERY_LOCK.json": "85e9b493291f5e2f005f3a87cbe3abbcfa12bec9c4801fbbd4ff1e0a8b309fc2",
+    "inputs/UNIQUE_INPUTS.npz": "21d61a306b73a663c2eeea9b98a3819d87554465e47d4aa2b8420a82cb5f234a",
+    "inputs/EXPECTED_PRIMARY.npz": "19b779d133bc83c2774998defd23d6192a44c472357f2c4e1eb61830e5e6d64b",
+    "receipts/PILOT_RECEIPT.json": "ae11a0ca0a8203540afe0afcad19a0054b172f2aad6be952fd394613888bdaf8",
+    "receipts/RUN_RECEIPT.json": "6a7967285af25a263b2ca0ec42acd79bf7266eea870851a8febec5d68d0bbb79",
+    "receipts/INDEPENDENT_RECOVERY_CHECK.json": "ec1f6c9145fc087496119a6e5a8eb6035c274e26c75cfdd275bd78144bd9fb44"
+  },
+  "original_solver_sha256": "e108a75d7ad59db7f5f41eb5b1944fb002d80a71ef5e502f3ffdaad9351fd458"
+}

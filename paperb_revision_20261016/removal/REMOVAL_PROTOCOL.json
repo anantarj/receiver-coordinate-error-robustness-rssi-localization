@@ -1,0 +1,60 @@
+{
+  "scope": "Post hoc diagnostic follow-up fixed before removal outcomes are computed",
+  "input_sha256": "10ebcfec46343494e67bca0f20e2083799d4f10e37181fb3d685f1be97deea73",
+  "original_results_sha256": "243f35bb9ee9bdf956524e01d5bfa3850f34cfd7e4bd877954f1406e1229e962",
+  "solver_sha256": "e108a75d7ad59db7f5f41eb5b1944fb002d80a71ef5e502f3ffdaad9351fd458",
+  "runner_sha256": "2683b553ebf1a56579c7dd3a6c32532e7711681400c8514c8c830b380bae86fe",
+  "query_indices": "All 512 fixed primary catalogue-map all-calibration queries; no resampling",
+  "target_sets": [
+    [
+      14
+    ],
+    [
+      14,
+      69
+    ]
+  ],
+  "parameters": {
+    "n": 4.7,
+    "d0_m": 1.0
+  },
+  "removal_input": "Selected receiver order retained; drop target IDs; original reference geometry and original A_U",
+  "global_deduplication": "SHA256 of labels,dtypes,shapes and ordered binary arrays including n,d0",
+  "solver": "Unchanged production 3x3 plus receiver starts, 200 local evaluations per start, same tolerances",
+  "retention": "Every prescribed start; every finite recorded endpoint or fallback; separate incumbent; recomputed local objective; local statuses",
+  "competitive_bands_db2": [
+    0.01,
+    0.001,
+    0.0001
+  ],
+  "outcomes": [
+    "distance from original full estimate to found competitive unchanged-receiver pool",
+    "signed J_U(original full estimate)-best found J_U",
+    "movement from original full zero-map estimate"
+  ],
+  "strata": [
+    "all queries",
+    "target-exposed queries",
+    "exposed queries with fewer than 3 remaining receivers",
+    "exposed queries with at least 3 remaining receivers"
+  ],
+  "aggregation": "Per field/policy/stratum median and P95; min/max of the four directional medians for each D,targetset,policy,stratum",
+  "negative_signed_differences": "Retained without clipping; not a certified optimality gap",
+  "calibration_region_K": {
+    "definition": "Reference calibration bounding rectangle expanded by 1000 m",
+    "lower_m": [
+      591559.2238088003,
+      5670393.25164725
+    ],
+    "upper_m": [
+      602828.8447644523,
+      5678034.892108071
+    ],
+    "usage": "Outside-K flags only; removal solver remains unconstrained"
+  },
+  "fewer_than_3_remaining": "Mathematical diagnostic only, not operationally eligible; one/two receiver objectives can have continuum or multiple minimizers",
+  "found_set_caution": "Finite found candidate sets, not complete near-optimal regions or true minimizer sets; distance to finite set does not establish distance to exact minimizers",
+  "no_truth_solver": "Query reference coordinates are not loaded into the solve function or used to select candidates",
+  "escalation": "None pre-authorized in this execution; primary found pools only; unresolved deficiencies remain explicit",
+  "workers": 1
+}

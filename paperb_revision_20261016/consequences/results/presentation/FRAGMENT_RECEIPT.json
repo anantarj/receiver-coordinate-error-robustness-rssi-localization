@@ -1,0 +1,30 @@
+{
+  "tables": [
+    {
+      "study": "study1",
+      "rows": 24
+    },
+    {
+      "study": "study2",
+      "rows": 32
+    }
+  ],
+  "all_primary_pool_classifications_invariant": true,
+  "main_fragment_words_approx": 456,
+  "source_candidate_summary_sha256": "6c217c67fb3ba359f5fe6d632c75c5b23fed4ed2937140ffab2ae53c466c8622",
+  "files": {
+    "ENHANCED_POOL_CONSEQUENCES.tex": "5b47ab8725d5427f3e2ea25e32e6ee06aba23a21e4d3060a246131e1b582a9f0",
+    "FIGURE_RECEIPT.json": "2316ca49a10b9b25b96f3d9116158ad10af7664afee05279d78b75fde3a75d17",
+    "TRANSFER_FIGURE_SOURCE.csv": "f26a6345224ae2c7ecea4d9e02b0403768f4a037af9e754736c2bbbdc139a689",
+    "STUDY1_COMPLETE_FULL_COHORT_TRANSFER.csv": "f2f841f54d5927140a78f48cb082229a7425ad70828ebd841b82236cfb0fbbf6",
+    "choice_transfer.pdf": "3fc0a4dcfd5d18640e6f57da49128b8db3f0a5ed348273251aaeceb86bd6eeb7",
+    "CHOICE_TRANSFER_CAPTION.txt": "f6d7d00307798e6afdc314346fa38267a1781a44b93ecc5836418f91648adc7c",
+    "MAIN_CONSEQUENCES_FRAGMENT.tex": "420c82673b1a60fba33a56178803644345395aff9d336cf4158ed060b68160de",
+    "STUDY1_TRANSFER_TABLE.tex": "0e7678c40c81a05cd33833943f7a5b26ebb640d7284f78e8b58e512f0cb02144",
+    "choice_transfer.png": "0a663498c788d71a41d97a150b54ae19d08d503c34cd7eedd2fe698074e96111",
+    "FRAGMENT_RECEIPT.json": "95e82312e83cbc4162935118c56ea4188a771595f9b829bd41c89a16cc594b31",
+    "STUDY2_COMPLETE_FULL_COHORT_TRANSFER.csv": "0e7dc6d7de73b204a819386363eeb52e6abf077645d3f1592f6370079472c1f4",
+    "STUDY2_TRANSFER_TABLE.tex": "42d36e3df31245e44b4f2bfa37ffd04f9f42660396dee1a418644c4b241b6828",
+    "SUPPLEMENT_CONSEQUENCES_METHODS.tex": "e012cbf429b582dc75bea33fe2a1ed77aa84c90facb93ab7b41b0f2a19909483"
+  }
+}
